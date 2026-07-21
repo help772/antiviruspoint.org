@@ -1,0 +1,6 @@
+#hw-header-wrapper,
+#rd-header-wrapper{
+	float:inline-start;
+	width:100%;
+	position:relative;
+}

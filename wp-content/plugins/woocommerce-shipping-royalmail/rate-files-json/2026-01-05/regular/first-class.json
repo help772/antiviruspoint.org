@@ -1,0 +1,63 @@
+{
+  "service": "first-class",
+  "taxed": false,
+  "packages": {
+    "letter": {
+      "100": 170
+    },
+    "large-letter": {
+      "100": 315,
+      "750": 360
+    },
+    "small-parcel": {
+      "2000": 509
+    },
+    "medium-parcel": {
+      "2000": 745,
+      "10000": 935,
+      "20000": 1425
+    },
+    "tube": {
+      "2000": 745,
+      "10000": 935,
+      "20000": 1425
+    }
+  },
+  "boxes": {
+    "letter": {
+      "length": 240,
+      "width": 165,
+      "height": 5,
+      "weight": 100
+    },
+    "large-letter": {
+      "length": 353,
+      "width": 250,
+      "height": 25,
+      "weight": 750
+    },
+    "small-parcel": {
+      "length": 450,
+      "width": 350,
+      "height": 160,
+      "weight": 2000
+    },
+    "medium-parcel": {
+      "length": 610,
+      "width": 460,
+      "height": 460,
+      "weight": 20000
+    },
+    "tube": {
+      "length": 900,
+      "width": 70,
+      "height": 70,
+      "weight": 2000
+    }
+  },
+  "addons": {
+    "compensation": {
+      "max": 2000
+    }
+  }
+}

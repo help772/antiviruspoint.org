@@ -1,0 +1,272 @@
+#vs_template *{
+		font-family: vs-rubik,rubik,vs-iransans,tahoma;  
+	transition: color 350ms,background 350ms,border-color 350ms,box-shadow 350ms;
+box-sizing:border-box;
+}
+.vs_template {
+	display: none;
+	position: fixed;
+	pointer-events: all;
+	background: rgba(0,0,0,0.70);
+	top: 0;
+	z-index: 150000;
+	cursor: initial;
+	height: 100%;
+	width: 100%;
+	font-family: vs-rubik,rubik,vs-iransans,tahoma;
+
+	right: 0;
+	display: table;
+	vertical-align: middle
+}
+.vs_template_middle {
+	margin: auto;
+	width: 600px;
+	height: auto;box-shadow: 0 0 50px 0px rgba(0, 0, 0, 1);
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	padding: 0 0;
+ 	overflow:none;background: #fff;
+ top:50%;right:50%;
+ border-radius: 7px;
+overflow: hidden;
+  transform:translate(50%,-50%)
+  }
+ 
+.vs_template_title {
+	padding: 00px;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: right;
+	position:relative;
+	background: #f2f5f8;
+	box-sizing: border-box;
+	float: right;
+	width: 100%;
+	z-index: 1;
+	height:50px;
+	top: 0;
+ }
+.vs_template_title h3{
+	margin:0px !important;
+	float: left;line-height: 50px !important;
+	color:rgb(48, 56, 63);
+	line-height:1 !important;
+	padding:0 20px !important;
+	line-height:50px !important;
+	font-size:18px !important;
+	
+}
+ 
+.vs_template_cancel {
+	cursor: pointer;
+	height:50px;
+	line-height:50px;
+	padding:0 20px;
+	background: rgb(240, 71, 71);
+ 	color:#ffffff;
+	float:right;
+ } 
+ .vs_template_cancel:hover{
+	 background: rgb(185, 25, 25);
+ }
+.vs_template_save,
+.vs_template_add{
+    cursor: pointer;
+    background: rgb(6, 208, 142);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    float: right;
+    padding: 0 20px;
+}
+.vs_template_save:hover,
+.vs_template_add:hover{
+	    background: rgb(0, 142, 96);
+}
+.vs_template_save:before,
+.vs_template_cancel:before,
+.vs_template_add:before{
+width: 20px;
+content:"";
+background-size:20px;
+height: 20px;
+margin-right: 10px;
+margin-top: 15px;
+float: left;
+}
+.vs_template_save:before{
+	background-image:url(../image/template_save.png);
+}
+.vs_template_cancel:before{
+	background-image:url(../image/template_cancel.png)
+}
+.vs_template_add:before{
+	background-image:url(../image/template_add.png);
+}
+#vs_template_name{
+	width:200px;
+}
+ 	
+.vs_template_content {
+	overflow-y: auto;
+	float: left;
+	background: #fff;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+ 	position:relative;
+	padding:40px 20px;
+	height:calc(100% - 50px);
+} 
+.vs_template .vs_options_name{
+	width:40%;
+}
+.vs_template .vs_options_setting{
+		width:60%;
+}
+.vs_template_item.selected{
+	box-shadow:0 0 0 3px rgb(34, 113, 177) ;
+	border-radius:7px;
+}
+.vs_template_massage{
+width: 100%;
+padding: 20px;
+background: RGB(252, 179, 180);
+border-radius: 7px;
+color: rgb(255, 255, 255);
+display: none;
+opacity: 0;
+ overflow: hidden;
+float: left;
+margin-bottom: 20px;
+}
+.vs_template_massage.vs_template_massage_active{
+display:inline-block;
+opacity: 1;	
+}
+.vs_template_options .vs_template_middle {
+	width:991px;
+}
+
+.vs_template_options .vs_template_content{
+	display: grid;
+grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+}
+.vs_template_options li{
+	list-style:none;
+     list-style: none;
+    box-shadow: 0 0 0 3px #f2f5f8;
+    margin: 10px;
+    width: auto;
+    border-radius: 7px; 
+width: auto;
+border-radius: 7px;
+}
+
+.vs_template_remove {
+background: rgb(200, 96, 96);
+color: rgb(255, 255, 255);
+width: auto;
+border-radius: 7px;
+font-size: 12px;
+padding: 5px 10px;
+}
+.vs_template_remove:hover{
+	background:rgb(153, 52, 52);
+	color:#ffffff !important;
+
+}
+.vs_template_name{
+    font-weight: 700 !important;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.vs_template_remove img {
+	display:inline-block;
+	width:15px;
+	display: inline-block;
+width: 15px;
+margin-right: 5px;
+vertical-align: top;
+
+}
+
+.vs_template_item {
+	padding:20px;
+	width:100%;cursor: pointer;
+	padding: 20px;
+width: 100%;
+float: left;
+}
+  .vs_template_demo .vs_template_content{
+	grid-template-columns: 25%25% 25% 25%;
+}
+ .vs_template_demo li{
+	 padding:0px;
+	 overflow: hidden;
+ }
+ .vs_template_demo li img{
+	 width:100%;
+	 height:auto;float: left;
+	 vertical-align:top;
+ }.vs_template_demo_link {
+background:rgba(2,221,129,1.00);
+color: rgb(255, 255, 255);
+width: auto;
+border-radius: 7px;
+font-size: 12px;
+text-decoration: none;
+font-size: 12px;
+padding: 5px 10px;
+text-decoration: none;
+width: 100%;
+float: left;
+border-radius: 00px;
+}
+.vs_template_demo_link:hover{
+	background:#10181f;
+	color:#ffffff !important;
+}
+.vs_template_export  .vs_template_content{
+grid-template-columns: 100%;
+}
+.vs_template_import  .vs_template_content{
+grid-template-columns: 100%;
+}
+.vs_template  textarea{
+	width:100%;
+	min-height:500px;
+}
+
+
+.rtl .vs_template_title h3,
+.rtl  .vs_template_save:before,
+.rtl  .vs_template_cancel:before,
+.rtl .vs_template_add:before,
+.rtl .vs_template_content ,
+.rtl  .vs_template_massage,
+.rtl .vs_template_item,
+.rtl  .vs_template_demo li img,
+.rtl .vs_template_demo_link{
+float:right;
+}
+
+
+.rtl .vs_template_cancel,
+.rtl .vs_template_save,
+.rtl  .vs_template_add{
+float:left;
+}
+.rtl .vs_template_save::before,
+.rtl .vs_template_cancel::before,
+.rtl .vs_template_add::before{
+margin-left: 10px;	
+margin-right: 00px;	
+}
+.rtl .vs_template_remove img{
+margin-left: 5px;	
+margin-right: 00px;		
+}

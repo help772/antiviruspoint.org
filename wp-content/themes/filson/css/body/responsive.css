@@ -1,0 +1,233 @@
+.hw-aw{
+	visibility:hidden!important
+}
+.hw-100{
+	visibility:visible!important;
+	--hw-fn-icn:30px;
+	--hw-fn-lg:11px;
+	--hw-fn-md:11px;
+	--hw-fn-sm:11px;
+	--hw-pd-lg:11px;
+ 	--hw-tm-img:70px;
+	--hw-fn-lg-li-ht:6px;
+	--hw-fn-md-li-ht:1.65em;
+	--hw-mg-tp:7px;
+	--hw-pd:15px;
+	--hw-dp-4:none;
+	--hw-dp:none;
+	--hw-dp-2:none;
+	--hw-dp-3:none;
+ }
+.hw-150{
+	visibility:visible!important;
+	--hw-fn-icn:30px;
+	--hw-fn-lg:11px;
+	--hw-fn-md:11px;
+	--hw-fn-sm:11px;
+	--hw-pd-lg:11px;
+ 	--hw-tm-img:70px;
+	--hw-fn-lg-li-ht:6px;
+	--hw-fn-md-li-ht:1.65em;
+	--hw-mg-tp:7px;
+	--hw-pd:16px;
+	--hw-dp-4:none;
+	--hw-dp:none;
+	--hw-dp-2:none;
+	--hw-dp-3:none;
+ }
+.hw-200{
+	visibility:visible!important;
+	--hw-fn-icn:45px;
+	--hw-fn-lg:13px;
+	--hw-fn-md:12px;
+	--hw-fn-sm:11px;
+	--hw-fn-lg-li-ht:7px;
+	--hw-fn-md-li-ht:1.65em;
+	--hw-mg-tp:8px;
+	--hw-pd:17px;
+ 	--hw-tm-img:70px;
+	--hw-dp:none;
+	--hw-dp-2:none;
+	--hw-dp-3:none;
+	--hw-dp-4:inline-block;
+ }
+ .hw-250{
+	visibility:visible!important;
+	--hw-fn-icn:50px;
+	--hw-fn-lg:13px;
+	--hw-fn-md:12px;
+	--hw-fn-sm:11px;
+	--hw-fn-lg-li-ht:7px;
+	--hw-fn-md-li-ht:1.65em;
+	--hw-mg-tp:8px;
+	--hw-pd:18px;
+ 	--hw-tm-img:70px;
+	--hw-dp:none;
+	--hw-dp-2:none;
+	--hw-dp-3:none;
+	--hw-dp-4:inline-block;
+ }
+.hw-300{
+	visibility:visible!important;
+	--hw-fn-icn:55px;
+	--hw-fn-lg:16px;
+	--hw-fn-md:13px;
+	--hw-fn-sm:11px;
+	--hw-fn-lg-li-ht:8px;
+	--hw-fn-md-li-ht:1.7em;
+	--hw-mg-tp:8px;
+	--hw-tm-img:80px;
+	--hw-pd:19px;
+ 	--hw-dp:none;
+	--hw-dp-2:none;
+	--hw-dp-3:inline-block;
+ }
+.hw-400{
+	visibility:visible!important;
+	--hw-fn-icn:65px;
+	--hw-fn-lg:18px;
+	--hw-fn-md:14px;
+	--hw-fn-sm:12px;
+	--hw-fn-lg-li-ht:8px;
+	--hw-fn-md-li-ht:1.7em;
+	--hw-mg-tp:9px;
+	--hw-tm-img:90px;
+	--hw-pd:22px;
+	--hw-dp:none;
+	--hw-dp-2:inline-block;
+	--hw-dp-3:inline-block;
+ }
+.hw-500{
+	visibility:visible!important;
+	--hw-fn-icn:75px;
+	--hw-fn-lg:20px;
+	--hw-fn-md:15px;
+	--hw-fn-sm:12px;
+	--hw-tm-img:100px;
+	--hw-fn-lg-li-ht:8px;
+	--hw-fn-md-li-ht:1.7em;
+	--hw-mg-tp:10px;
+	--hw-pd:25px;
+	--hw-dp:inline-block;
+	--hw-dp-4:inline-block;
+	--hw-dp-2:inline-block;
+	--hw-dp-3:inline-block;
+}
+.hw-700{
+	visibility:visible!important;
+	--hw-fn-icn:85px;
+	--hw-fn-lg:24px;
+	--hw-fn-md:16px;
+	--hw-fn-sm:13px;
+	--hw-tm-img:100px;
+	--hw-fn-lg-li-ht:9px;
+	--hw-fn-md-li-ht:1.75em;
+	--hw-mg-tp:10px;
+	--hw-pd:27px;
+	--hw-dp:inline-block;
+	--hw-dp-2:inline-block;
+	--hw-dp-3:inline-block;
+	--hw-dp-4:inline-block;
+}
+.hw-900{
+	visibility:visible!important;
+	--hw-fn-icn:95px;
+	--hw-fn-lg:28px;
+ 	--hw-fn-md:18px;
+	--hw-fn-sm:14px;
+	--hw-fn-lg-li-ht:10px;
+ 	--hw-fn-md-li-ht:1.8em;
+	--hw-mg-tp:10px;
+	--hw-pd:30px;
+	--hw-tm-img:100px;
+	--hw-dp:inline-block;
+	--hw-dp-2:inline-block;
+	--hw-dp-3:inline-block;
+	--hw-dp-4:inline-block;
+}
+.hw-1200{
+	visibility:visible!important;
+	--hw-fn-icn:105px;
+	--hw-fn-lg:38px;
+	--hw-mg-tp:10px;
+	--hw-fn-md:19px;
+	--hw-tm-img:120px;
+	--hw-fn-sm:15px;
+	--hw-fn-lg-li-ht:12px;
+	--hw-fn-md-li-ht:1.85em;
+	--hw-pd:30px;
+ 	--hw-dp:inline-block;
+	--hw-dp-2:inline-block;
+	--hw-dp-3:inline-block;
+	--hw-dp-4:inline-block;
+}
+:root{
+	visibility:visible!important;
+	--hw-fn-icn:75px;
+	--hw-fn-lg:20px;
+	--hw-fn-md:14px;
+	--hw-fn-sm:12px;
+	--hw-tm-img:100px;
+	--hw-fn-lg-li-ht:12px;
+	--hw-fn-md-li-ht:2em;
+	--hw-mg-tp:14px;
+	--hw-pd:22px;
+	--hw-dp:inline-block;
+	--hw-dp-4:inline-block;
+	--hw-dp-2:inline-block;
+	--hw-dp-3:inline-block;
+}
+@media (max-width: 1024px) and  (min-width: 768px) {
+	:root{
+		visibility:visible!important;
+		--hw-fn-icn:65px;
+		--hw-fn-lg:18px;
+		--hw-fn-md:13px;
+		--hw-fn-sm:12px;
+		--hw-fn-md-li-ht:2em;
+		--hw-mg-tp:13px;
+		--hw-tm-img:90px;
+		--hw-pd:20px;
+		--hw-dp:none;
+		--hw-dp-2:inline-block;
+		--hw-dp-3:inline-block;
+		--hw-fn-lg-li-ht:12px;
+	}
+}
+@media (max-width: 767px) and (min-width: 500px) {
+	:root{
+		visibility:visible!important;
+		--hw-fn-icn:55px;
+		--hw-fn-lg:16px;
+		--hw-fn-md:13px;
+		--hw-fn-sm:11px;
+		--hw-fn-md-li-ht:2em;
+		--hw-mg-tp:12px;
+		--hw-tm-img:80px;
+		--hw-pd:15px;
+		--hw-cd:3;
+		--hw-dp:none;
+		--hw-dp-2:none;
+		--hw-dp-3:inline-block;
+		--hw-fn-lg-li-ht:12px;
+	}
+}
+@media (max-width: 500px){
+	:root{
+		visibility:visible!important;
+		--hw-fn-icn:45px;
+		--hw-fn-lg:13px;
+		--hw-fn-md:12px;
+		--hw-fn-sm:11px;
+		--hw-fn-md-li-ht:2em;
+		--hw-mg-tp:10px;
+		--hw-pd:12px;
+		--hw-cd:2.7;
+		--hw-tm-img:70px;
+		--hw-dp:none;
+		--hw-dp-2:none;
+		--hw-dp-3:none;
+		--hw-dp-4:inline-block;
+		--hw-fn-lg-li-ht:12px;
+	}
+}

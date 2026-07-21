@@ -1,0 +1,20 @@
+{
+  "service": "parcelforce-express-48",
+  "taxed": true,
+  "compensation": {
+    "150": {
+      "5000": 1135,
+      "10000": 1355,
+      "20000": 1710,
+      "30000": 2040
+    }
+  },
+  "boxes": {
+    "packet": {
+      "length": 1500,
+      "width": 750,
+      "height": 750,
+      "weight": 30000
+    }
+  }
+}

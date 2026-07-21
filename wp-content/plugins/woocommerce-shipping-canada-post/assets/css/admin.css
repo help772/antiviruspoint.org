@@ -1,0 +1,53 @@
+/**
+ * Admin styles for Canada Post shipping method.
+ *
+ * @package woocommerce-shipping-canada-post
+ */
+
+#mainform .canada-post-settings-table td {
+    vertical-align: middle;
+    padding: 4px 7px;
+}
+#mainform .canada-post-settings-table td:has(input) {
+    white-space: nowrap;
+}
+#mainform .canada-post-settings-table tr:first-of-type td {
+    padding-block-start: 8px;
+}
+#mainform .canada-post-settings-table tr:last-of-type td {
+    padding-block-end: 8px;
+}
+#mainform .canada-post-settings-table th {
+    padding: 9px 7px;
+}
+#mainform .canada-post-settings-table th input {
+    margin-inline-start: 0;
+}
+#mainform .canada-post-settings-table td input {
+    vertical-align: middle;
+    margin-inline-end: 0.5ch;
+}
+#mainform .canada-post-settings-table td input[type="number"] {
+    padding-inline-end: 0;
+}
+
+#mainform .canada-post-settings-table input[disabled] {
+    background-color: #f8f8f8;
+    border-color: #ddd;
+    color: #555;
+    box-shadow: none;
+}
+#mainform .canada-post-settings-table .check-column {
+    vertical-align: middle;
+    text-align: left;
+    padding: 0 7px;
+}
+#mainform .canada-post-settings-table th.sort {
+    width: 16px;
+}
+#mainform .canada-post-settings-table td.sort {
+    cursor: move;
+    width: 16px;
+    padding: 0 16px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHUlEQVQYV2O8f//+fwY8gJGgAny6QXKETRgEVgAAXxAVsa5Xr3QAAAAASUVORK5CYII=) no-repeat center;
+}

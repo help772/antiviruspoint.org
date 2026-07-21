@@ -1,0 +1,46 @@
+{
+  "wp": {
+    "name": "Advanced Ads – Google Ad Manager Integration",
+    "description": "Google Ad Manager Integration for WordPress",
+    "version": "3.0.2",
+    "requireWP": "5.7",
+    "requirePHP": "7.4",
+    "textDomain": "advanced-ads-gam",
+    "glotpress": "google-tag-manager"
+  },
+  "paths": {
+    "php": "includes",
+    "views": "views",
+    "updates": "updates",
+    "javascript": "assets/src",
+    "css": "assets/css"
+  },
+  "misc": {
+    "package": "AdvancedAds\\GAM",
+    "prefix": "wp_advads_gam",
+    "constprefix": "AA_GAM"
+  },
+  "year": 2025,
+  "company": {
+    "name": "Advanced Ads",
+    "url": "https://wpadvancedads.com/"
+  },
+  "author": {
+    "name": "Advanced Ads",
+    "email": "info@wpadvancedads.com",
+    "url": "https://wpadvancedads.com/"
+  },
+  "package": {
+    "vendor": "advanced-ads",
+    "name": "advanced-ads-google-ad-manager-integration"
+  },
+  "glotpress": {
+    "project": "google-tag-manager",
+    "destination": "./languages/"
+  },
+  "wpPot": {
+    "output": "/languages/",
+    "file": "advanced-ads-gam.pot",
+    "domain": "advanced-ads-gam"
+  }
+}

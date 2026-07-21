@@ -1,0 +1,46 @@
+{
+  "wp": {
+    "name": "Advanced Ads – Selling Ads",
+    "description": "Let users purchase ads directly in the frontend of your site.",
+    "version": "2.0.3",
+    "requireWP": "5.7",
+    "requirePHP": "7.4",
+    "textDomain": "advanced-ads-selling",
+    "glotpress": "selling-ads"
+  },
+  "paths": {
+    "php": "includes",
+    "views": "views",
+    "updates": "updates",
+    "javascript": "assets/src",
+    "css": "assets/css"
+  },
+  "misc": {
+    "package": "AdvancedAds\\SellingAds",
+    "prefix": "wp_advads_sellingads",
+    "constprefix": "AA_SELLING"
+  },
+  "year": 2025,
+  "company": {
+    "name": "Advanced Ads",
+    "url": "https://wpadvancedads.com/"
+  },
+  "author": {
+    "name": "Advanced Ads",
+    "email": "info@wpadvancedads.com",
+    "url": "https://wpadvancedads.com/"
+  },
+  "package": {
+    "vendor": "advanced-ads",
+    "name": "advanced-ads-selling-ads"
+  },
+  "glotpress": {
+    "project": "selling-ads",
+    "destination": "./languages/"
+  },
+  "wpPot": {
+    "output": "/languages/",
+    "file": "advanced-ads-selling.pot",
+    "domain": "advanced-ads-selling"
+  }
+}

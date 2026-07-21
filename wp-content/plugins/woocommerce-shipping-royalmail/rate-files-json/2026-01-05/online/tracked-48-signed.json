@@ -1,0 +1,54 @@
+{
+  "service": "tracked-48-signed",
+  "taxed": true,
+  "packages": {
+    "large-letter": {
+      "1000": 465
+    },
+    "small-parcel": {
+      "2000": 505
+    },
+    "medium-parcel": {
+      "2000": 685,
+      "10000": 855,
+      "20000": 1280
+    },
+    "tube": {
+      "2000": 685,
+      "10000": 855,
+      "20000": 1280
+    }
+  },
+  "boxes": {
+    "large-letter": {
+      "length": 353,
+      "width": 250,
+      "height": 25,
+      "weight": 1000
+    },
+    "small-parcel": {
+      "length": 450,
+      "width": 350,
+      "height": 160,
+      "weight": 2000
+    },
+    "medium-parcel": {
+      "length": 610,
+      "width": 460,
+      "height": 460,
+      "weight": 20000
+    },
+    "tube": {
+      "length": 900,
+      "width": 70,
+      "height": 70,
+      "weight": 2000
+    }
+  },
+  "addons": {
+    "compensation": {
+      "included": 7500,
+      "max": 7500
+    }
+  }
+}

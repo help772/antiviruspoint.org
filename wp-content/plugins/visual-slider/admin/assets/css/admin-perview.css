@@ -1,0 +1,694 @@
+/***************************************************************************************************
+ 
+ 												Heading 
+ 
+ *************************************************************************************************/
+.vs_perview_heading{
+	width: 100%;position: relative;
+	background: #10181f;
+	height: 50px;
+ }
+ .vs_perview_heading .vs_perview_heading_item{
+	 padding:0 20px;
+transition: all 350ms;
+	 float:left;
+	 line-height:50px;
+	 cursor:pointer;
+	 z-index:3;
+	 position:relative;
+	 color:#ffffff;
+	 border-left:solid 1px #20282f;
+ }
+  
+ .vs_perview_heading_item select{
+background: rgb(32, 40, 47) url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 5px top 55%;
+color: rgb(192, 195, 198);
+border-radius: 7px;
+font-weight: 700;
+border: none !important;
+font-family: vs-rubik,rubik,vs-iransans,tahoma;
+box-shadow: none !important;
+line-height: 30px;
+ }
+ .vs_perview_heading_item select:focus {
+    border-color:  #606366;
+    color: #ffffff;
+    box-shadow:none;
+}
+  .vs_perview_heading_item select:hover{
+	  color:#ffffff;
+    border-color:  #606366;
+
+  }
+    .vs_perview_heading_item:hover{
+		background:rgb(42, 155, 216) !important;
+		
+	}
+	.vs-active-loading  .vs_perview_heading_change{
+		pointer-events: none;
+	}
+	
+	
+  .vs_perview_heading_change label::before{
+	    content: "";
+    background-image: url(../image/changes.png);
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-size: 25px;
+    margin-top: 14px;
+	
+    margin-right: 10px;
+	}
+	
+	
+	
+ .vs_perview_heading_desktop label::before {
+    content: "";
+    background-image: url(../image/desktop.png);
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-size: 25px;
+    margin-top: 14px;
+	
+    margin-right: 10px;
+}
+ .vs_perview_heading_tablet label::before {
+    content: "";
+    background-image: url(../image/tablet.png);
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-size: 25px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+ .vs_perview_heading_mobile label::before {
+    content: "";
+    background-image: url(../image/mobile.png);
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-size: 25px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+.vs_perview_mobile .vs_perview_heading_mobile,
+.vs_perview_desktop .vs_perview_heading_desktop,
+.vs_perview_tablet .vs_perview_heading_tablet{
+	background:rgb(42, 155, 216);
+}
+
+
+.vs_perview:not(.vs_perview_full_screen) .vs_perview_full_screen_close,
+.vs_perview_full_screen .vs_perview_full_screen_mode{
+	display:none;
+	
+}.vs_perview_heading_full_screen{
+	float:right !important;
+}
+.vs_perview_heading_full_screen a{
+	color:#ffffff;
+}
+
+ 
+.vs_perview_full_screen .vs_perview_full_screen_close{
+		display:inline-block;
+
+}
+.vs_perview_full_screen_close::before{
+ 
+    content: "";
+    background-image: url(../image/focus.png);
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-size: 25px;
+    margin-top: 14px;
+    margin-right: 10px;
+}.vs_perview_full_screen_mode::before{
+ 
+    content: "";
+    background-image: url(../image/full-screen.png);
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-size: 25px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+.vs_perview_heading_full_screen_show{
+	display:none !important;
+}
+.vs_perview_full_screen  .vs_perview_heading_full_screen_hide{
+	display:none !important;
+
+}
+.vs_perview_full_screen  .vs_perview_heading_full_screen_show {
+	display:inline-block !important;
+	
+}
+ .vs_perview_heading_animte{
+	 padding:0px !important;
+ }
+ .vs_perview_heading_animte span{
+	 float:left;
+	 padding:0 20px !important;
+	 height:50px;
+ }
+.vs_perview_slide.vs_perview_animte_active .vs_perview_heading_animte{
+	background:rgb(191, 3, 6);
+	
+}
+
+
+.vs_perview_slide.vs_perview_animte_active .vs_animte_play{
+	display:none !important;
+	
+}
+
+
+.vs_perview_slide.vs_perview_animte_active .vs_animte_stop{
+	display:inline-block !important;
+}
+.vs_animte_play::before{
+ 
+    content: "";
+    background-image: url(../image/play.png);
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-size: 25px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+.vs_animte_stop::before{
+ 
+    content: "";
+    background-image: url(../image/stop.png);
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-size: 25px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+.vs_perview_animte_active .vs_perview_slide_content,
+.vs_perview_full_screen .vs_perview_slide_content {
+	cursor:no-drop;
+}
+body .vs_perview_animte_active .vs_perview_slide_content *,
+body .vs_perview_full_screen .vs_perview_slide_content *{
+pointer-events: none  !important;
+}
+.vs_perview_slide:not(.vs_perview_animte_active) .vs_animte_stop{
+	display:none;
+}
+ 
+ /***************************************************************************************************
+ 
+ 												Global 
+ 
+ *************************************************************************************************/
+
+.vs_perview_global{ 
+     width: 100%;
+    background:#202326;
+}
+ 
+.vs_perview_global{
+	position:relative;
+	display:inline-block;
+ 	width:100%;border-radius: 7px;
+	overflow:hidden;
+}
+body .vs_perview_global .vs-visualslider{
+	margin:0px !important;
+}
+
+
+.vs-loading::before{
+	content:"";
+	position:absolute;
+	z-index:999;
+	height:100%;
+	left:0px;
+	top:0px;
+	width:100%;
+	background: url(../image/loading.svg) rgba(0,0,0,0.60) no-repeat center center;
+}
+ 	 
+
+ 
+.vs_perview_global  .vs-loading .vs_perview_global_config{
+	height:500px;
+}
+.vs_perview_global_config{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.vs_perview_global .vs-glider  .vs-slide-list-warp{
+	max-width: calc(var(--vs-wt,1240) * 1px) !important;
+	}
+  
+.vs_perview_global.vs_perview_full_screen {
+	position:fixed;
+overflow-y:auto;
+height:100%;
+right:0;
+top:0;
+width:100%;
+z-index: 99999;
+}
+.vs_perview_global_scroll{
+	overflow-x:auto;
+ 	width: 100%;	
+}
+ 
+.vs_perview_global_content{
+	position:relative;
+	margin:auto;
+	display:grid;
+	grid-template-columns: 100%;
+	width:var(--vs-prw-wt,100%);
+}
+.vs_perview_global:not(.vs-perview-show) .vs_perview_global_scroll,
+.vs_perview_global_content.vs-loading{
+	overflow:  hidden !important;
+  }
+    
+  .vs_perview_global:not(.vs-perview-show) .vs_perview_global_content,
+   .vs_perview_global:not(.vs-perview-show) .vs_perview_global_scroll{
+	  height:auto !important;
+	  
+  }
+    .vs_perview_global.vs-perview-show .vs_perview_global_content{
+	  height:auto !important;
+	  
+  }
+
+ 
+ .vs_perview_global .vs_perview_global_content{
+	width:calc(var(--vs-prw-wt,100%));
+ 
+}
+   .vs_perview_global .vs-slide-inner::before{
+	   content:"";
+	   position:absolute;
+	   width:100%;
+	   height:100%;
+	   left:0px;
+	   top:0px;
+	   box-shadow:0 0 0 0px  inset;
+	   z-index:11;
+	  pointer-events: all;
+ 	}
+	/*
+	 .vs_perview_global .vs-slide-inner:hover::before{
+	   box-shadow:0 0 0 2px rgba(66,255,0,1.00) inset;
+	 }*/
+  .vs_perview_global  .vs_module_slide_top { width: 100%;
+background: rgb(80, 96, 112);
+height: 30px;width: 150px;
+display:none !important;
+position: absolute;
+top: 0;
+margin:2px;
+z-index: 99;
+opacity: .9;
+pointer-events: all;
+
+}
+ .vs_perview_global .vs-slide-item:hover .vs_module_slide_top{
+display:inline-block;
+}
+ 
+ /***************************************************************************************************
+ 
+ 												Slide 
+ 
+ *************************************************************************************************/
+.vs_perview_slide{
+	background:#262626;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	border-radius: 7px;
+	float:left;
+	display:inline-block;
+	
+}
+
+
+ 
+ .vs_perview_slide_scroll{
+	overflow-x:auto;
+	float:left;
+	width: 100%;	
+}
+ 
+.vs_perview_slide_content {
+    position: relative;
+	background: url(../image/background.png);
+    display: inline-block;
+    width: 100%;
+	vertical-align:top;
+ } 
+ 
+.vs_perview_slide.vs_perview_full_screen{
+	position:fixed;
+overflow-y:auto;
+height:100%;
+left:0;
+top:0;
+width:100%;
+z-index: 99999;
+}
+ .vs_perview_slide_content{
+	position:relative;
+	margin:auto;
+	display:grid;
+	grid-template-columns: 100%;
+ min-width: var(--vs-prw-wt,1920px);
+width: calc(var(--vs-wt,1240) * 1px);	
+}
+ .vs-perview-not-width:not(.vs_perview_full_screen) .vs_perview_slide_content{
+ min-width:inherit !important;
+ }
+ 
+ .vs_perview_slide:not(.vs_perview_full_screen)  .vs-layer-list{
+	 left:0px!important;
+	 position:relative !important;
+	 top:0px!important;
+	 transform: scale(1) !important;
+	 
+ }
+ 
+.vs_perview_slide .vs-slide{
+ 	margin:auto;
+	overflow:hidden;
+}
+
+.vs_perview_slide .vs-layer-warp{
+ 
+     margin: auto;
+	z-index: 2;
+	pointer-events: none;
+     display: block;
+ }
+ .vs_perview_slide .vs-layer-list{
+ 	box-shadow:0 0 0 10000px rgba(19,19,19,0.5),0 0 0 5px rgba(255,0,0,0.7); 
+ }
+ 
+.vs_perview_slide .vs-slide{
+	     box-shadow:  0 0 0 1000px #262626   !important;
+}
+
+ .vs_perview_animte_active .vs-perview-slide{
+	 visibility:hidden;
+ }
+  .vs_perview_slide .vs-slide-item {
+	  position:absolute;
+	  width:100%;
+	  height:100%;
+	  left:0px;
+	  z-index:999;
+	  top:0px; 
+  }
+ 
+ 
+  
+  .vs_perview_slide.vs_perview_desktop. .vs_perview_slide_content {
+ 	width:calc(var(--vs-wt,1920) * 1px);
+	 	min-width:1920px;
+
+} 
+   .vs_perview_slide.vs_perview_tablet .vs_perview_slide_content {
+ 
+	width:calc(var(--vs-tab-wt,1024) * 1px);
+		min-width:1024px;
+
+	
+}
+  .vs_perview_slide.vs_perview_mobile. vs_perview_slide_content  {
+ 	
+	width:calc(var(--vs-mob-wt,767) * 1px);
+		min-width:767px;
+
+ } 
+ 
+ 
+ .vs_perview_slide .vs-has-scale  .vs-slide-list-warp{
+--vs-sc:calc(var(--vs-sc-wt) / var(--vs-wt));
+ }
+ .vs_perview_slide .vs-has-tablet.vs-in-tablet.vs-has-scale .vs-slide-list-warp{
+--vs-sc:calc(var(--vs-sc-wt) / var(--vs-tab-wt));
+ }
+ .vs_perview_slide  .vs-has-mobile.vs-in-mobile.vs-has-scale .vs-slide-list-warp{
+--vs-sc:calc(var(--vs-sc-wt) / var(--vs-mob-wt));
+ }
+ 
+  .vs_perview_slide.vs_perview_full_screen  .vs_perview_slide_content {
+	width:var(--vs-prw-wt)  !important;
+	
+}
+ .vs_perview_mobile .vs_perview_heading_mobile,
+.vs_perview_tablet .vs_perview_heading_tablet,
+.vs_perview_desktop .vs_perview_heading_desktop{
+pointer-events: none;
+}
+ 
+.vs_perview_mobile .vs_perview_heading_mobile select,
+.vs_perview_tablet .vs_perview_heading_tablet select,
+.vs_perview_desktop .vs_perview_heading_desktop select{
+pointer-events: all;
+}
+
+
+.vs_perview_slide .vs-slide {
+	width:100%;
+ height: 100%;
+position: absolute;
+}
+
+
+  
+
+  /***************************************************************************************************
+ 
+ 												draggable 
+ 
+ *************************************************************************************************/
+ 
+.vs_draggable {
+	pointer-events: all;
+	position:absolute;
+	z-index:33;
+}
+ .vs_draggable_active{
+	 z-index:9999!important
+ }
+ 
+  
+.vs_draggable{
+	cursor:pointer;
+}
+ 
+
+
+.vs_draggable_active::after {
+     border: dashed 1px rgba(255, 255, 255, 0.45) !important;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    right: 0;
+    box-sizing: border-box;
+
+}
+.vs_draggable_active::before {
+    border: dashed 1px rgba(0, 0, 0, 0.45) !important;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    right: 0;
+    box-sizing: content-box;
+    margin: -1px;
+}
+.vs_draggable:not(.vs_draggable_active):hover::after{
+border: dashed 2px rgb(59, 179, 255) !important;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    right: 0;
+    box-sizing: content-box;
+    margin: -2px;
+	
+  }
+ 
+ .vs_draggable .ui-resizable-handle{
+	 display:none !important;
+ }
+ .vs_draggable_active .ui-resizable-handle{
+	display:inline-block !important;
+	overflow: visible;
+ 
+	
+	 
+ }
+ 
+ 
+ .vs_draggable .ui-resizable-n {
+    cursor: n-resize;
+    height: 10px;
+    width: 100%;
+    top: -5px;
+    left: 0;
+}
+ .vs_draggable .ui-resizable-e {
+    cursor: e-resize;
+    width: 10px;
+    right: -5px;
+    top: 0;
+    height: 100%;
+}
+ .vs_draggable .ui-resizable-s {
+    cursor: s-resize;
+    height: 10px;
+    width: 100%;
+    bottom: -5px;
+    right: 0;
+}
+.vs_draggable .ui-resizable-w {
+    cursor: w-resize;
+    width: 10px;
+    left: -5px;
+    top: 0;
+    height: 100%;
+}
+.vs_draggable .ui-resizable-ne {
+    cursor: ne-resize;
+    width: 10px;
+    height: 10px;
+    right: -5px;
+    top: -5px;
+}
+.vs_draggable .ui-resizable-se {
+    cursor: se-resize;
+    width: 10px;
+    height: 10px;
+    right: -5px;
+    bottom: -5px;
+}
+.vs_draggable .ui-resizable-sw {
+    cursor: sw-resize;
+    width: 10px;
+    height: 10px;
+    left: -5px;
+    bottom: -5px;
+}
+.vs_draggable .ui-resizable-nw {
+    cursor: nw-resize;
+    width: 10px;
+    height: 10px;
+    left: -5px;
+    top: -5px;
+}
+.ui-resizable-handle::before {
+content: "";
+width: 10px; 
+float: right;
+height: 10px;
+box-sizing: border-box;
+position: relative;
+ box-shadow: 0 0 0 1px rgba(255,255,255,0.3) inset,0 0 0 1px rgba(0,0,0,0.3)  ;
+ }
+ 
+ .vs_draggable.vs_draggable_active .ui-resizable-n::before,
+.vs_draggable.vs_draggable_active .ui-resizable-s::before {
+	right: calc(50% - 5px);
+	top: 0px;
+ }
+ .vs_draggable.vs_draggable_active .ui-resizable-e::before,
+ .vs_draggable.vs_draggable_active .ui-resizable-w::before {
+     top: calc(50% - 5px);
+     right:0px;
+ }
+  
+ 
+   
+ 
+.vs_draggable  .ui-resizable-handle {
+    position: absolute;
+    font-size: .1px;
+     touch-action: none;
+	 pointer-events: all;
+}
+
+ 
+ 
+ .vs_draggable,
+  .vs-layer-perview-item{
+left: var(--vs-lr-rt,0%);
+top: var(--vs-lr-tp,0%);
+width: var(--vs-lr-wt,auto);
+height: var(--vs-lr-ht,auto);position: absolute!important;
+ }
+ 
+ 
+ /******************************************* vs_perview_animte_active**********************************/
+ 
+ 
+  .rtl .vs_perview_heading .vs_perview_heading_item,
+ .rtl  .vs_perview_heading_change label::before,
+ .rtl  .vs_perview_heading_desktop label::before,
+ .rtl  .vs_perview_heading_tablet label::before ,
+ .rtl  .vs_perview_heading_mobile label::before ,
+ .rtl   .vs_perview_full_screen_close::before,
+  .rtl .vs_perview_full_screen_mode::before,
+.rtl   .vs_perview_heading_animte span,
+.rtl  .vs_animte_play::before,
+.rtl  .vs_animte_stop::before,
+.rtl  .vs_perview_global_config,
+.rtl .vs_perview_slide{
+
+
+float:right;
+}
+ 
+.rtl .vs_perview_heading_full_screen    {
+	float: left !important;
+}
+
+ .rtl .vs_perview_heading_change label::before,
+.rtl .vs_perview_heading_desktop label::before,
+ .rtl .vs_perview_heading_tablet label::before,
+ .rtl .vs_perview_heading_mobile label::before,
+.rtl .vs_perview_full_screen_close::before,
+.rtl .vs_perview_full_screen_mode::before,
+.rtl .vs_animte_stop::before,
+.rtl .vs_animte_play::before{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+ .rtl .vs_perview_heading_item select{
+background: rgb(32, 40, 47) url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat left 5px top 55%;
+ }
+ 
+ .rtl .vs_perview_slide:not(.vs_perview_full_screen) .vs-layer-list {
+  left: auto !important;
+ 
+  right: 0px  !important;
+ }

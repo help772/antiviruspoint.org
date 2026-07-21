@@ -1,0 +1,162 @@
+<?php
+/*****************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+															Blog Layout
+																		
+*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////         
+$this->start_controls_section(
+	'layout_section',
+	[
+		'label' => __( 'Layout', 'hexwp' ),
+	]
+);
+
+ 
+
+$this->add_control(
+	'layout',
+	[
+		'label' 		=> __('Layout','hexwp'),
+		'type' 			=> \Elementor\Controls_Manager::SELECT,
+		'default' 		=> 'grid',
+		"options"		=>  array(
+		
+				"list"			=> __('List','hexwp'),
+				"grid"			=>  __('Grid','hexwp'), 
+ 				
+		),
+	]	 
+);
+	$column=__('Column','hexwp');
+$this->add_control(
+	'column',
+	[
+		'label' => __('Column Layout','hexwp'),
+		'type' => \Elementor\Controls_Manager::SELECT,
+		'default' => '6',
+  		"options"		=> array(
+		
+ 			"1"	=> "1 $column", 
+ 			"2"	=> "2 $column", 
+ 			"3"	=> "3 $column", 
+ 			"4"	=> "4 $column",  
+ 			"5"	=> "5 $column", 
+ 			"6"	=> "6 $column", 
+			"7"	=> "7 $column", 
+ 			"8"	=> "8 $column", 
+				
+ 			),
+	]	 
+);	  
+  $this->add_control(
+	'row',
+	[
+		'label'			=> __('Row','hexwp'),
+		'type'			=> \Elementor\Controls_Manager::SELECT,
+		'default' => '1',
+  		"options"		=> array(
+ 				"1"	=> 1, 
+ 				"2"	=> 2, 
+ 				"3"	=> 3,  
+				),
+	]	 
+);	  
+ 
+$this->add_control(
+	'responsive_column',
+	[
+		'label'			=> __('Column Width in Tablet and Mobile','hexwp'),
+		'type'			=> \Elementor\Controls_Manager::SELECT,
+  		"options"		=> array(
+		
+				''				=>	esc_html__('Default','hexwp'),
+				"150"			=> '150px',
+   				"200"			=> '200px',
+   				"250"			=> '250px',
+   				"300"			=> '300px',
+   				"350"			=> '350px',
+   				"400"			=> '400px',
+				),
+	]	 
+);	
+
+
+ 
+$this->add_control(
+	'between',
+	[
+		'label'			=> __('Space Between Item','hexwp'),
+		'type'			=> \Elementor\Controls_Manager::SELECT,
+ 		'options'		=> hexwp_array_options('between',true),
+	]
+);	
+	 
+
+$this->add_control(
+	'ratio',
+	[
+		'label'			=> __('Image Ratio','hexwp'),
+		'type' 			=> \Elementor\Controls_Manager::SELECT,
+		'options'		=> hexwp_array_options('ratio',true),
+ 	]
+);	
+	 	 
+$this->add_control(
+	'image_width',
+	[
+		'label'			=> __('Image Width','hexwp'),
+		'type'			=> \Elementor\Controls_Manager::SELECT,
+		'condition'		=> array('layout' => 'list'),
+ 		'options'		=> hexwp_array_options('image_width',true), 
+	]		
+					
+);	
+		 
+$this->add_control(
+	'image_size',
+	[
+		'label'			=> __('Image Size','hexwp'),
+		'type' 			=> \Elementor\Controls_Manager::SELECT,
+		"options" 		=>	hexwp_all_image_sizes(),
+   	]
+);	
+
+$this->add_control(
+	'second_image',
+	[
+		'label'			=> __('Second Image','hexwp'),
+		'type'			=> \Elementor\Controls_Manager::SWITCHER ,
+		"default"		=> 'yes' ,
+	]
+); 
+ 
+		  
+$this->add_control(
+	'alignment',
+	
+	[
+		'label'			=> __('Details Alignment','hexwp'),
+  		'type' 			=> \Elementor\Controls_Manager::SELECT,
+		'options'		=> hexwp_array_options('alignment_justify',true),			
+
+  	]
+);			
+	 				  
+  	  
+$this->add_control(
+	'box_layout',
+	[
+		'label'			=> __('Box Layout','hexwp'),
+		'type' 			=> \Elementor\Controls_Manager::SELECT,
+ 		"options" 		=> hexwp_array_options('box_layout',true), 
+
+		
+	]
+);	
+
+ 						
+	 	  
+	 
+ $this->end_controls_section(); 
+ 

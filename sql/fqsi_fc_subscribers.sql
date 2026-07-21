@@ -1,0 +1,40 @@
+/*M!999999\- enable the sandbox mode */ 
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8mb4 */;
+CREATE TABLE `fqsi_fc_subscribers` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(20) unsigned DEFAULT NULL,
+  `hash` varchar(90) DEFAULT NULL,
+  `contact_owner` bigint(20) unsigned DEFAULT NULL,
+  `company_id` bigint(20) unsigned DEFAULT NULL,
+  `prefix` varchar(192) DEFAULT NULL,
+  `first_name` varchar(192) DEFAULT NULL,
+  `last_name` varchar(192) DEFAULT NULL,
+  `email` varchar(190) NOT NULL,
+  `timezone` varchar(192) DEFAULT NULL,
+  `address_line_1` varchar(192) DEFAULT NULL,
+  `address_line_2` varchar(192) DEFAULT NULL,
+  `postal_code` varchar(192) DEFAULT NULL,
+  `city` varchar(192) DEFAULT NULL,
+  `state` varchar(192) DEFAULT NULL,
+  `country` varchar(192) DEFAULT NULL,
+  `ip` varchar(40) DEFAULT NULL,
+  `latitude` decimal(10,8) DEFAULT NULL,
+  `longitude` decimal(10,8) DEFAULT NULL,
+  `total_points` int(10) unsigned NOT NULL DEFAULT 0,
+  `life_time_value` int(10) unsigned NOT NULL DEFAULT 0,
+  `phone` varchar(50) DEFAULT NULL,
+  `status` varchar(50) NOT NULL DEFAULT 'subscribed',
+  `contact_type` varchar(50) DEFAULT 'lead',
+  `source` varchar(50) DEFAULT NULL,
+  `avatar` varchar(192) DEFAULT NULL,
+  `date_of_birth` date DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `last_activity` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `email` (`email`),
+  KEY `fqsi_fc_index__subscriber_user_id_idx` (`user_id`),
+  KEY `fqsi_fc_index__subscriber_status_idx` (`status`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;

@@ -1,0 +1,661 @@
+/***********************************layer/*/
+.vs_options *{
+	box-sizing:border-box;  
+ 
+	transition: color 350ms,background 350ms,border-color 350ms,box-shadow 350ms
+ 
+}
+
+.vs_options_warp {
+	float: left;
+	width:100%;
+	display:none;
+}
+.vs_options_warp.vs_layout_group_active{
+	
+	display:inline-block !important;
+} 
+ .vs_options_add {
+	float: left;
+	position: relative;
+}
+.vs_options_item {
+	float: left;
+	width: 100%;position: relative;
+	padding: 20px 0;
+	margin: 0;
+box-shadow: 0px 1px 0px 0px rgba(128,128,128,0.1) inset;
+}
+.vs_options_name label {
+	float: left;
+}
+ 
+.vs_options_bottom {
+	float: left;
+	padding: 15px;
+	position: sticky;
+bottom: 0;
+z-index: 9999;
+	background: #f8f8f8;
+	text-align: left;
+	width: 100%;
+}
+.vs_options_name {
+	width: 20%;
+	font-size: 14px;
+	font-weight: 700;
+	float: left;
+}
+.vs_options_setting {
+	width: 80%;
+	float: left;
+}
+ 
+ 
+ .vs_options_setting input{
+	 font-weight:400 !important;
+ }
+ 
+.vs-active-icon .vs-mouse-wait{
+	background:rgba(0,0,0,0.70);
+}
+.vs_options_setting .vs-input  {
+	height: 30px;
+	padding: 0 2px;
+	float: left;
+	margin: 0 2px;
+	width: 100%;
+}
+.vs_options_setting{
+	text-align:inherit !important;
+}
+	
+ 
+.vs_options_name label {
+	float: left;
+	width: 100%;
+	text-align: left;
+	line-height: 20px;
+}
+.vs_options_start li{
+	float:left;
+}
+.vs_options_start {
+	float:left;
+}
+.vs_options_description {
+	width: 100%;
+	float: left;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 3px;
+	padding-right: 15px;
+	color: #929598;
+}
+/**************************************************************************************************************************
+												 Text
+**************************************************************************************************************************/
+ .vs_form_text {
+width: 92px;
+float: left;
+ background:#e8ebee !important;
+ color:#80888f;
+box-shadow:3px 3px 3px 0 rgba(0, 8, 16, 0.1) inset !important;
+
+border-radius: 7px;
+border: none !important;
+}
+ 
+/**************************************************************************************************************************
+												 Textarea
+**************************************************************************************************************************/ 
+.vs_form_textarea {
+	width: 100%;
+	height: 100px;
+	 background:#e8ebee !important;
+ color:#80888f;
+box-shadow:3px 3px 3px 0 rgba(0, 8, 16, 0.1) inset !important;
+
+border-radius: 7px;
+border: none !important;
+}
+
+/**************************************************************************************************************************
+												 Select
+**************************************************************************************************************************/ 
+.vs_form_select {
+ 
+	float:left;
+	font-family:vs-rubik,rubik,vs-iransans,tahoma;
+	font-size:14px !important;
+	width:auto;
+	border-radius:7px;
+	background-color: #e8ebee !important;
+border: none !important;
+line-height: 30px;font-weight: 400 !important;
+color: rgb(128, 136, 143);
+box-shadow:3px 3px 3px 0 rgba(0, 8, 16, 0.1) inset !important;
+	max-width:none !important;
+	color: rgb(128, 136, 143) !important;
+ }
+ 
+ 
+ .vs_form_select option{
+	font-family: vs-rubik,rubik,vs-iransans,tahoma !important;
+	background:#ffffff !important;
+ }
+	 
+
+/**************************************************************************************************************************
+												 Number
+**************************************************************************************************************************/ 
+.vs_form_number{
+	float:left;
+	width:60px ;
+		    -moz-appearance:textfield; /* Firefox */
+
+float: left;
+ background:#e8ebee !important;
+ color:#80888f !important;
+box-shadow:3px 3px 3px 0 rgba(0, 8, 16, 0.1) inset !important;
+
+border-radius: 7px;
+border: none !important;
+}
+ 
+.vs_form_number::-webkit-outer-spin-button {
+    -webkit-appearance: none!important;
+ }
+
+body.wp-admin .vs_form_number.vs_bad{
+	background:#E00000 !important;
+	border-color:#C00000 !important;
+	color:#ffffff !important;
+}
+.vs_options_number span {
+    line-height: 30px;
+    margin: 0 20px 0px 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #828588;
+	float:left;
+}
+.vs_options_number  .vs_form_range{
+	width:250px !important;
+	margin-right:10px;
+	float:left;
+	height:30px;
+}
+
+/**************************************************************************************************************************
+												 Checkbox
+**************************************************************************************************************************/ 
+.vs_checkbox {
+	float: left;
+	position: relative;
+ 
+}
+.vs_checkbox label {
+	display: inline-block;
+	position: relative;
+	float: left;
+	padding-right: 0px;
+}
+.vs_checkbox input{
+	display:none;
+}
+.vs_checkbox li{
+	display:inline-block !important;
+}
+.vs_checkbox_primary{
+	border-radius:7px;
+	overflow:hidden;
+	    box-shadow:   0 0 0 3px #f5f8fa
+
+}
+.vs_checkbox label {
+    height: 30px;
+    padding: 0 15px;
+    color: #828588;
+    background: #ffffff;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.vs_checkbox .vs_label_checkbox_on label:hover,
+.vs_checkbox .vs_label_checkbox_on input[type="radio"]:checked + label{
+	background:rgb(42, 155, 216);
+	color:#ffffff;
+	
+}
+.vs_checkbox .vs_label_checkbox_off label:hover,
+.vs_checkbox .vs_label_checkbox_off input[type="radio"]:checked + label{
+	background:#80888f;
+	color:#ffffff;
+	
+}
+ 
+  
+.vs_label_checkbox_on,.vs_label_checkbox_off{
+	display:inline-block;
+	float:left;
+	vertical-align:top;
+}
+ 
+.vs_checkbox_primary input[type="checkbox"]:checked + label::before {
+background-color: rgb(30, 144, 228);
+border-color: rgb(11, 153, 230);
+}
+.vs_checkbox_primary input[type="checkbox"]:checked + label::after {
+	color: #fff;
+}
+.vs_checkbox_primary:hover input[type="checkbox"]:checked + label::before {
+background-color: rgb(43, 72, 173);
+}
+
+/**************************************************************************************************************************
+												 Hover
+**************************************************************************************************************************/ 
+.vs_options_hover .vs_options_name{
+	display:none !important;
+}
+.vs_options_hover .vs_options_setting{
+	width:100% !important;
+}
+.vs_hover_warp{
+	width:100%;
+ float: left;
+border-radius: 7px;
+overflow: hidden;
+box-shadow: 0 0 0 3px rgba(120,128,136,0.15);
+}
+.vs_hover_item{
+ 
+line-height: 30px;
+margin: 0px;
+width: 50%;
+float: left;
+}
+.vs_hover_item input{
+		float:left;
+		display:none;
+		height:20px;margin-top: 2px;
+
+margin-bottom: 0px;
+}
+ 
+ .vs_hover_warp{
+	width:100%;
+	overflow: hidden;
+border-radius: 7px;
+}
+.vs_hover_item label{
+	text-align: center;
+	margin:0px !important;
+ 	float:left;	height: 30px;
+width: 100%;
+background: #fff;
+
+
+}
+.vs_hover_item  .vs_hover_checked  span{
+background: #60686f;
+width: 100%;
+height: 100%;
+float: left;
+color: #fff;
+
+}
+/*********************** radio *****************/
+.vs_radio_warp{
+	float:left;
+	padding:0px !important;
+	margin: 0px !important;
+}
+.vs_radio_item{
+
+	line-height:20px;
+	margin-left:20px ;
+	float: left;
+}
+.vs_radio_item input{
+	float:left; margin-top: 2px;
+ margin-bottom: 0px;
+}
+.vs_radio_item input[type="radio"]{
+	border-color:#c2c5c8 !important;
+}
+.vs_radio_item label{
+	float:left;	height:20px;
+	font-size:13px;
+}
+/*********************** vs_multi_options *****************/
+
+.vs_multi_options{
+margin: 0px;
+display: inline-block;
+vertical-align: top;
+float:left;
+width:100%;
+}
+.vs_multi_options_item {
+	float: left;
+	width: auto;
+	padding-right:10px;
+}
+.vs_multi_options_item label{
+	    float: left;
+    line-height: 30px;
+    margin-right: 10px;
+    color: #30383f;
+
+}
+.vs_multi_options_item.vs_name_bottom{
+	display:grid;
+	grid-template-columns: 100%;
+}
+.vs_multi_options_item.vs_name_bottom label{
+color: #80888f;
+text-align: center;
+margin-right: 0px !important;
+font-size: 11px;
+}
+/*********************** radio img *****************/
+ .vs_radio_image_item  {
+float: left;
+width: 20%;
+padding-right: 10px;
+margin: 0px;
+padding-bottom: 10px;
+} 
+.vs_live_setting_glider_layout .vs_radio_image_item,
+.vs_live_setting_mobile_glider_layout .vs_radio_image_item,
+.vs_live_setting_tablet_glider_layout .vs_radio_image_item{
+	width:90px;
+}
+.vs_radio_image_item label{
+	position:relative;
+	padding:0px !important;
+	margin:0px !important;
+}
+ 
+.vs_radio_image_item label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+
+ .vs_radio_image_item label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+      box-shadow:0px 0px 0px 3px #dddddd;
+	  margin:0px !important;
+	  border-radius:7px;
+
+}
+.vs_radio_image_item  label input:checked  + img{ /* (RADIO CHECKED) IMAGE STYLES */
+    box-shadow:0px 0px 0px 3px #31C2FF;
+	background:#ffffff;
+
+}
+ 
+ .vs_radio_image_item    img{
+	width:100%;
+	height:auto;
+}
+.vs_multi_options_item .vs_radio_image_warp {
+    width: 100% !important;
+    float: left;
+    margin-top: 10px;
+}
+ /*********************** fold *****************/
+
+.vs_options_fold{
+	display:none;
+}
+.vs_options_item[data-active="show"],
+.vs_multi_options_item[data-active="show"]{
+	display:inline-block;
+}
+.vs_options_item[data-active="hide"],.vs_multi_options_item[data-active="hide"],.vs_list_options_item[data-active="hide"]{
+	display:none;
+}
+/*********************** icon *****************/
+.vs-menu-icon {
+	width: 100%;
+	padding-top: 10px;
+}
+.vs-menu-icon::before {
+	font-family: FontAwesome;
+	padding: 10px;
+	font-size: 50px;
+	color: #000;
+	border: solid 3px rgba(150,150,150,.3);
+	font-style: normal;
+}
+ 
+ 
+body.vs-active-icon .vs_icon {
+	position: fixed;
+	pointer-events: all;
+	background: rgba(0,0,0,0.70);
+	top: 0;
+	z-index: 100000 !important;
+	cursor: initial;
+	height: 100%;
+	width: 100%;
+	right: 0;
+}
+body.vs-active-icon .menu-item {
+	display: block;
+}
+ 
+.vs_options_icon .vs-menu-icon {
+	font-size: 50px;
+	height: auto;
+	padding: 10px;
+	position: relative;
+	width: auto;
+	float: left;
+	border: 1px solid rgba(150,150,150,.3);
+	line-height: 50px;
+	margin-left: 10px;
+} 
+.vs_options_icon .vs-menu-icon::before{
+	border:none !important;
+} 
+ 
+.vs_builder_remove_icon:hover{
+	opacity:.5;
+}
+.vs_builder_remove_icon::before{
+	font-family:dashicons;
+	content: "\f158";
+	color:#ff0000;
+	font-size: 25px;
+	font-style: normal;
+	line-height: 25px;
+	 float: left;
+}
+ 
+.vs_builder_remove_icon{
+	cursor:pointer;
+	position:absolute;
+	top:-12px;
+	left:-12px;
+}
+/*********************** image *****************/
+
+.vs_image_remove::before{
+	font-family:dashicons;
+	content: "\f158";
+	color:#ff0000;
+	font-size: 25px;
+	font-style: normal;
+	line-height: 25px;
+	 float: left;
+}
+.vs_image_remove{
+	cursor:pointer;
+	position:absolute;
+	top:-0px;
+	left:0px;
+}
+.vs_image_remove:hover::before{
+	opacity:.5;
+}
+.vs_image_upload {
+	float:left;
+}
+.vs_image_item{
+	float:left;
+	position:relative;
+		width:100%;
+
+	margin:  10px;
+}
+/*
+.vs_options_content li img {
+	max-width: 250px;
+	height: auto;border-radius: 7px;
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+}*/
+.vs_options_image  .vs_options_setting {
+    width: auto;
+    display: inline;
+    float: none;
+}
+
+.vs_image_item img{
+	box-shadow:0 0 0 3px #dddddd;
+	width:100%;
+	margin:0px 0px !important;max-width: 200px;
+float: left;
+border-radius: 7px;max-width: 200px;
+float: left;
+border-radius: 7px;
+max-height: 200px;
+height: auto;
+width: auto;
+}
+.vs_builder_choose_icon{
+	float: left;
+margin-left: 5px !important;
+}
+/*********************** heading *****************/
+.vs_options_heading {
+	padding:0px 10px !important;
+	background:#e0e3e6 !important;
+}
+.vs_options_heading span{
+ font-weight: 700;
+width: 100%;
+padding:  0px;
+position: relative;
+color: rgb(96, 104, 111);
+text-align: left;
+font-size: 13px;
+border-radius: 7px;
+ float: left;
+cursor: pointer;
+height: 40px;
+line-height: 40px;
+}
+
+[class*="vs_responsive_options_"]::before {
+    content: "";
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-image: url(../image/hide_item.png);
+    background-color: rgba(120, 128, 136, 0.4);
+    pointer-events: none;
+    opacity: 0.8;
+}
+.vs_panel.vs_panel_desktop  .vs_responsive_options_desktop::before,
+.vs_panel.vs_panel_tablet .vs_responsive_options_tablet::before ,
+.vs_panel.vs_panel_mobile .vs_responsive_options_mobile::before,
+.vs_module_setting.vs_global_desktop  .vs_responsive_options_desktop::before,
+.vs_module_setting.vs_global_tablet .vs_responsive_options_tablet::before ,
+.vs_module_setting.vs_global_mobile .vs_responsive_options_mobile::before 
+
+{
+	display:none !important;
+ 
+}
+
+
+ 
+ /* Perview */
+ 
+  .rtl .vs_options_warp,
+.rtl .vs_options_add,
+.rtl .vs_options_item,
+.rtl .vs_options_name label,
+.rtl .vs_options_bottom,
+.rtl .vs_options_name,
+.rtl .vs_options_setting,
+.rtl .vs_form_select,
+.rtl .vs_options_number  .vs_form_range,
+.rtl .vs_checkbox ,
+.rtl .vs_hover_item,
+.rtl .vs_hover_item  .vs_hover_checked  span,
+.rtl .vs_hover_item label,
+.rtl .vs_radio_warp,
+.rtl .vs_radio_item,
+.rtl .vs_radio_item input,
+.rtl .vs_radio_item label,
+.rtl .vs_multi_options_item .vs_radio_image_warp ,
+.rtl .vs_options_icon .vs-menu-icon,
+.rtl .vs_builder_remove_icon::before,
+.rtl .vs_image_remove::before,
+.rtl .vs_builder_choose_icon,
+.rtl .vs_options_heading span,
+.rtl .vs_multi_options,
+.rtl .vs_multi_options_item ,
+.rtl .vs_form_number,
+.rtl  .vs_form_text,
+.rtl .vs_multi_options_item label,
+.rtl .vs_options_number span,
+.rtl .vs_radio_image_item{
+	float:right;
+}
+.rtl .vs_options_bottom,
+.rtl .vs_options_start,
+.rtl  .vs_options_start li,
+.rtl .vs_options_description,
+ .rtl .vs_options_name label,
+  .rtl .vs_options_heading span{
+	text-align: right;
+}
+
+.rtl .vs_options_number span{
+  margin: 0 5px 0px 20px;
+}
+.rtl .vs_radio_item{
+	margin-right:20px ;
+margin-left:00px ;
+}
+.rtl .vs_multi_options_item label{
+    margin-left: 10px;
+    margin-right: 00px;
+}
+.rtl .vs_options_icon .vs-menu-icon{
+	margin-left: 00px;
+margin-right: 10px;
+}
+
+.rtl .vs_multi_options_item,
+ .rtl .vs_radio_image_item {
+	padding-right:00px;	padding-left:10px;
+}
+.rtl .vs_options_description {
+	padding-right:00px;	padding-left:15px;
+}
+.rtl .vs_radio_image_item label > input + img{
+	transform: scale(-1,1);
+}

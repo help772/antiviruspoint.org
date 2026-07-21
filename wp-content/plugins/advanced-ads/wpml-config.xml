@@ -1,0 +1,12 @@
+<wpml-config>
+    <admin-texts>
+        <key name="advanced-ads">
+            <key name="custom-label">
+                <key name="text" />
+          	</key>
+        </key>
+    </admin-texts>
+    <taxonomies>
+        <taxonomy translate="0">advanced_ads_groups</taxonomy>
+    </taxonomies>
+</wpml-config>

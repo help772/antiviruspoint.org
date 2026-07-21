@@ -1,0 +1,1015 @@
+# Copyright (C) 2026 WooCommerce
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce USPS Shipping 5.6.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/woocommerce-shipping-usps\n"
+"POT-Creation-Date: 2026-06-30 12:31:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.7\n"
+
+#: includes/class-wc-shipping-usps.php:1149
+msgid "1"
+msgstr ""
+
+#: includes/abilities/class-wc-shipping-usps-ability-output.php:63
+msgid ""
+"Optional USPS shipping method instance ID. When omitted or zero, global "
+"USPS settings are returned."
+msgstr ""
+
+#: includes/abilities/class-wc-shipping-usps-ability-output.php:92
+msgid "USPS shipping method instance not found."
+msgstr ""
+
+#: includes/abilities/class-wc-shipping-usps-get-settings-ability.php:42
+msgid "Get USPS settings"
+msgstr ""
+
+#: includes/abilities/class-wc-shipping-usps-get-settings-ability.php:43
+msgid ""
+"Retrieve a non-secret summary of WooCommerce USPS shipping configuration "
+"and environment requirements."
+msgstr ""
+
+#: includes/abilities/class-wc-shipping-usps-list-packages-ability.php:42
+msgid "List USPS packages"
+msgstr ""
+
+#: includes/abilities/class-wc-shipping-usps-list-packages-ability.php:43
+msgid ""
+"Retrieve USPS flat-rate package catalogs and non-secret merchant packing "
+"configuration."
+msgstr ""
+
+#: includes/abilities/class-wc-shipping-usps-list-services-ability.php:42
+msgid "List USPS services"
+msgstr ""
+
+#: includes/abilities/class-wc-shipping-usps-list-services-ability.php:43
+msgid ""
+"Retrieve the USPS service catalog with enabled status and non-secret rate "
+"adjustment settings."
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:70
+#: includes/api/rest/class-rest-api.php:282
+msgid "Standard services disabled -- skipping standard rates."
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:79
+#: includes/api/rest/class-rest-api.php:311
+msgid "Priority flat rate boxes disabled -- skipping."
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:87
+#: includes/api/rest/class-rest-api.php:329
+msgid "Express flat rate boxes disabled -- skipping."
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:108
+#. translators: %s is the package type (e.g. "large" or "regular").
+msgid "No %s package requests -- skipping API call."
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:119
+msgid "No packages returned from any API request -- nothing to parse."
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:148
+#: includes/api/rest/class-rest-api.php:457
+#. translators: %s is a USPS rate key.
+msgid "Adding unpacked item costs to rate %s"
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:167
+#: includes/api/legacy/class-legacy-api.php:1747
+#: includes/api/rest/class-rest-api.php:163
+#: includes/api/rest/class-rest-api.php:612
+msgid "Warning: The fallback amount is not set."
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:240
+#. translators: %s: USPS API link
+msgid ""
+"The USPS User ID you entered is invalid. Please make sure you entered a "
+"valid ID (<a href=\"%s\" target=\"_blank\">which can be obtained here</a>)."
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:380
+#: includes/api/rest/class-rest-api.php:1798
+#. translators: %1$s is Label rate, %2$s is the shipping method title.
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:419
+#: includes/api/rest/class-rest-api.php:1502
+#. translators: %s is number of rates found.
+msgid "Package %s"
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:475
+#: includes/api/rest/class-rest-api.php:183
+msgid "Package overweight (>70 lbs) -- no standard rate requests."
+msgstr ""
+
+#: includes/api/legacy/class-legacy-api.php:553
+#: includes/api/legacy/class-legacy-api.php:1431
+#: includes/api/legacy/class-legacy-api.php:1677
+#: includes/api/legacy/class-legacy-api.php:1884
+#: includes/api/rest/class-rest-api.php:506
+#: includes/api/rest/class-rest-api.php:676
+#: includes/api/rest/class-rest-api.php:815
+#: includes/api/rest/class-rest-api.php:1340
+#. translators: %d is a product ID.
+msgid "Product #%d is virtual. Skipping."
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:119
+msgid "No destination country provided. USPS rates cannot be calculated."
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:129
+msgid "No destination postcode provided. USPS rates cannot be calculated."
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:256
+#. translators: %s is the API endpoint name.
+msgid "No API requests to process for %s endpoint."
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:264
+#. translators: %s is the API endpoint name.
+msgid "All API responses empty/failed for %s endpoint."
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:347
+msgid "No first class services enabled -- skipping."
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:352
+msgid "Package not eligible for first class -- skipping."
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:930
+msgid "Origin Postcode is empty -- USPS API request will likely fail."
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:1837
+msgid "Insurance"
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:1838
+#: includes/class-wc-shipping-usps.php:1043
+msgid "Signature Confirmation"
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:1839
+msgid "Insurance & Signature Confirmation"
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:1887
+#. translators: %1$s is the base rate label, %2$s is the extra-service name.
+msgid "%1$s - %2$s"
+msgstr ""
+
+#: includes/api/rest/class-rest-api.php:1923
+msgid "OAuth token empty -- cannot send API request."
+msgstr ""
+
+#: includes/api/rest/class-usps-oauth.php:101
+msgid "OAuth credentials missing (client_id or client_secret empty)."
+msgstr ""
+
+#: includes/class-product-editor.php:53
+msgid "USPS extra settings"
+msgstr ""
+
+#: includes/class-product-editor.php:54
+#: includes/class-wc-shipping-usps-admin.php:64
+#: includes/class-wc-shipping-usps-admin.php:111
+#: includes/views/html-flat-rate-box-weights.php:36
+msgid "Envelope"
+msgstr ""
+
+#: includes/class-product-editor.php:56
+#: includes/class-wc-shipping-usps-admin.php:65
+#: includes/class-wc-shipping-usps-admin.php:112
+msgid "Use Envelope rates to ship package"
+msgstr ""
+
+#: includes/class-product-editor.php:74
+#: includes/class-wc-shipping-usps-admin.php:75
+#: includes/class-wc-shipping-usps-admin.php:97
+msgid "Declared Value"
+msgstr ""
+
+#: includes/class-product-editor.php:76
+#: includes/class-wc-shipping-usps-admin.php:76
+#: includes/class-wc-shipping-usps-admin.php:98
+msgid "Use Product's Price"
+msgstr ""
+
+#: includes/class-product-editor.php:77
+#: includes/class-wc-shipping-usps-admin.php:77
+msgid ""
+"Items value sent with rate request for international shipping. Applies to "
+"all variations unless a value is set per variation."
+msgstr ""
+
+#: includes/class-wc-shipping-usps-admin.php:99
+msgid "Items value sent with rate request for international shipping."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:329
+#: includes/class-wc-shipping-usps.php:909
+#: includes/class-wc-usps-privacy.php:24
+msgid "USPS"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:330
+msgid ""
+"The USPS extension obtains rates dynamically from the USPS API during "
+"cart/checkout."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:353
+msgid "is_available() = false -- destination country is empty."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:370
+msgid ""
+"is_available() = false -- blocked by woocommerce_shipping_usps_is_available "
+"filter."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:779
+msgid ""
+"Origin Postcode is required. USPS cannot calculate shipping rates without "
+"it."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:906
+msgid "Method Title"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:908
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:913
+msgid "Origin Postcode (required)"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:915
+msgid "Enter the postcode for the <strong>sender</strong>."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:923
+msgid "Tax Status"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:928
+msgid "Taxable"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:929
+msgid "None"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:933
+msgid "Shipping Rates"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:937
+msgid "Use Commercial Rates"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:938
+msgid "Use Retail Rates"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:941
+msgid ""
+"Choose which rates to show your customers: Standard retail or discounted "
+"commercial rates."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:944
+msgid "Offer Rates"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:949
+msgid "Offer the customer all returned rates"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:950
+msgid "Offer the customer the cheapest rate only"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:954
+msgid "Fallback"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:957
+msgid ""
+"If USPS returns no matching rates, offer this amount for shipping so that "
+"the user can still checkout. Leave blank to disable."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:959
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:962
+msgid "Flat Rates"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:964
+msgid "These are USPS flat rate boxes services."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:967
+msgid "Flat Rate Boxes &amp; envelopes"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:971
+msgid "Yes - Enable flat rate services"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:972
+msgid "No - Disable flat rate services"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:973
+msgid "Enable Priority flat rate services only"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:974
+msgid "Enable Express flat rate services only"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:976
+msgid ""
+"Enable this option to offer shipping using USPS Flat Rate services. Items "
+"will be packed into the boxes/envelopes and the customer will be offered a "
+"single rate from these."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:980
+msgid "Express Flat Rate Title"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:987
+msgid "Priority Flat Rate Title"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:994
+msgid "Additional Fee"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:996
+msgid ""
+"Fee per-box excluding tax. Enter an amount, e.g. 2.50, or a percentage, "
+"e.g. 5%. Leave blank to disable."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1001
+msgid "API Rates"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1003
+msgid "These are standard service rates pulled from the USPS API."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1006
+msgid "Enable API Rates"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1007
+msgid "Retrieve Standard Service rates from the USPS API"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1011
+msgid "Enable non-flat rate services."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1014
+msgid "Sort by Price"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1015
+msgid "Sort the returned rates by price"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1019
+msgid "If this box is checked, the returned shipping rates will be sorted by price."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1022
+msgid "Display Delivery Times"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1023
+msgid "Display estimated delivery times with shipping rates"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1027
+msgid ""
+"When enabled, estimated delivery times (e.g., \"2 days\") will be displayed "
+"alongside the shipping method name at checkout."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1030
+msgid "Extra Services"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1032
+msgid ""
+"Offer customers optional, paid USPS extra services as additional rate "
+"choices at checkout. Requires API rates and the \"Offer the customer all "
+"returned rates\" option."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1035
+msgid "Shipping Insurance"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1036
+msgid "Offer shipping insurance as a selectable rate"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1040
+msgid ""
+"Adds an insured rate variant for each service, priced by USPS based on the "
+"declared value of the package contents."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1044
+msgid "Offer signature confirmation as a selectable rate"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1048
+msgid ""
+"Adds a signature confirmation rate variant for each service, priced by "
+"USPS. Domestic shipments only."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1051
+msgid "Parcel Packing Method"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1056
+msgid "Default: Pack items individually"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1057
+msgid "Recommended: Pack into boxes with weights and dimensions"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1058
+msgid ""
+"Weight based: Regular sized items (< 12 inches) are grouped and quoted for "
+"weights only. Large items are quoted individually."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1060
+msgid "Not applicable to the flat rate service."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1066
+msgid "Unpacked item handling"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1071
+msgid "Get a quote for the unpacked item by itself"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1072
+msgid "Ignore the item - do not quote"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1073
+msgid "Use the fallback price (above)"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1074
+msgid "Abort - do not return any quotes for the standard services"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1081
+msgid "Restrict Media Mail to..."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1088
+msgid "No restrictions"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1095
+msgid "API Type"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1096
+msgid "Select whether to use the legacy SOAP API or the new REST API."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1101
+msgid "REST"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1102
+msgid "SOAP (legacy)"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1106
+msgid "USPS User ID"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1110
+#. translators: %1$s: is an anchor link to plugin documentation.
+msgid ""
+"This field is for the legacy Web Tools API, which USPS will retire as of "
+"January 25, 2026. If your REST API Status shows \"Authenticated\", no "
+"further action is required. If you haven't migrated yet, <strong>your USPS "
+"shipping prices won't appear at checkout until you switch to the REST "
+"API.</strong> %1$s."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1111
+msgid "Learn how to migrate"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1117
+msgid "REST API Key"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1119
+#: includes/class-wc-shipping-usps.php:1127
+msgid "Obtained from USPS after creating a Project in the USPS Developer Portal."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1125
+msgid "REST API Secret"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1133
+msgid "REST API Status"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1135
+msgid "Displays the current USPS REST API authorization status."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1144
+#. translators: $s is a woocommerce weight unit value.
+msgid "Default Product Weight (%s)"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1147
+msgid "This weight will be used for products that do not have a weight set."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1152
+msgid "Enable Flat Rate Box Weights"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1153
+msgid "Include Flat Rate box weights in the box packer calculation?"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1157
+msgid ""
+"Enable Flat Rate box weights to factor in the empty flat rate box/envelope "
+"weights in the box packer algorithm. Only the product weights will be taken "
+"into account when this setting is disabled."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1163
+msgid "Custom Flat Rate boxes"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1164
+msgid "Enable custom Flat Rate boxes"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1168
+msgid ""
+"USPS Flat Rate envelopes and boxes can be stuffed beyond their official "
+"dimensions — USPS calls this \"bulging\" and allows it as long as the "
+"container closes within its normal folds. Enable this to define custom flat "
+"rate box or envelope entries with adjusted dimensions (e.g., increased "
+"height) so the packing algorithm can fit more items into cheaper flat rate "
+"options."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1174
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1175
+msgid "Enable debug mode"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1179
+msgid "Enable debug mode to show debugging information on your cart/checkout."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1189
+msgid "Box Packer Library"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1194
+#: includes/class-wc-shipping-usps.php:2060
+msgid "Speed Packer"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1195
+#: includes/class-wc-shipping-usps.php:2059
+msgid "Accurate Packer"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1197
+msgid ""
+"Speed Packer packs items by volume, Accurate Packer check each dimension "
+"allowing more accurate packing but might be slow when you sell items in "
+"large quantities."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1318
+#. translators: 1: instance ID, 2: API type (rest or legacy), 3: destination
+#. country, 4: destination postcode.
+msgid ""
+"calculate_shipping() called [instance:%1$d, API:%2$s, "
+"destination:%3$s/%4$s]."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1332
+#. translators: %1$d: shipping method instance ID, %2$s: URL to the instance
+#. settings page.
+msgid ""
+"Origin Postcode is missing for USPS shipping instance #%1$d. Rates cannot "
+"be calculated. Set the Origin Postcode at: %2$s"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1910
+#. translators: %1$s is a default product dimension unit.
+msgid "Invalid Woo Product! Using default dimensions: %1$s."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1920
+#. translators: %1$d is a product ID and %2$s is a default product dimension
+#. unit.
+msgid "Product #%1$d is missing dimensions! Using default dimensions: %2$s."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:1970
+#. translators: %1$d is Product ID and %2$s is a product weight.
+msgid "Product #%1$d is missing weight. Using %2$slb."
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:2056
+msgid "Items shipped individually"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:2057
+msgid "Box packing"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:2062
+msgid "Weight based packing"
+msgstr ""
+
+#: includes/class-wc-shipping-usps.php:2065
+msgid "Unknown"
+msgstr ""
+
+#: includes/class-wc-usps-privacy.php:32
+#. translators: %s is a link to WC USPS plugin documentation page.
+msgid ""
+"By using this extension, you may be storing personal data or sharing data "
+"with an external service. <a href=\"%s\" target=\"_blank\">Learn more about "
+"how this works, including what you may want to include in your privacy "
+"policy.</a>"
+msgstr ""
+
+#: includes/class-wc-usps.php:80
+#. translators: %s is a link to WooCommerce general settings page.
+msgid "USPS requires that the <a href=\"%s\">currency</a> is set to US Dollars."
+msgstr ""
+
+#: includes/class-wc-usps.php:86
+#. translators: %s is a link to WooCommerce general settings page.
+msgid ""
+"USPS requires that the <a href=\"%s\">base country/region</a> is the United "
+"States."
+msgstr ""
+
+#: includes/class-wc-usps.php:92
+#. translators: %1$s is a link to USPS API. %2$s is a anchor closer tag. %3$s
+#. is  a link to USPS settings page.
+msgid ""
+"The WooCommerce USPS User ID your site is currently using is no longer "
+"valid. Registering for an account at USPS is now required. <br />Please "
+"register for an %1$saccount at USPS%2$s and %3$senter your user ID here%2$s."
+msgstr ""
+
+#: includes/class-wc-usps.php:100
+#. translators: %1$s is a link to USPS API. %2$s is a anchor closer tag. %3$s
+#. is  a link to USPS settings page.
+msgid ""
+"WooCommerce USPS Shipping plugin requires you to %1$sregister for an "
+"account at USPS%2$s and %3$senter your user ID here%2$s."
+msgstr ""
+
+#: includes/class-wc-usps.php:147
+msgid "Action Required: Check your USPS connection"
+msgstr ""
+
+#: includes/class-wc-usps.php:150
+#. translators: %1$s is the documentation link tag.
+msgid ""
+"USPS is retiring the legacy Web Tools API on January 25, 2026. If you're "
+"still using the legacy API connection, your USPS shipping prices calculated "
+"at checkout will stop working unless you migrate to the REST API. %1$s."
+msgstr ""
+
+#: includes/class-wc-usps.php:226
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wc-usps.php:248
+msgid "View Documentation"
+msgstr ""
+
+#: includes/class-wc-usps.php:248
+msgid "Docs"
+msgstr ""
+
+#: includes/class-wc-usps.php:257
+msgid "Open a support request at WooCommerce.com"
+msgstr ""
+
+#: includes/class-wc-usps.php:257
+msgid "Support"
+msgstr ""
+
+#: includes/views/html-box-packing.php:13
+msgid "Box Sizes"
+msgstr ""
+
+#: includes/views/html-box-packing.php:15
+msgid ""
+"Items will be packed into these boxes based on item dimensions and volume. "
+"Outer dimensions will be passed to USPS, whereas inner dimensions will be "
+"used for packing. Items not fitting into boxes will be packed individually."
+msgstr ""
+
+#: includes/views/html-box-packing.php:22
+#: includes/views/html-custom-flat-rate-boxes.php:44
+#: includes/views/html-flat-rate-box-weights.php:73
+#: includes/views/html-services.php:33
+msgid "Name"
+msgstr ""
+
+#: includes/views/html-box-packing.php:23
+#: includes/views/html-custom-flat-rate-boxes.php:45
+msgid "L"
+msgstr ""
+
+#: includes/views/html-box-packing.php:24
+#: includes/views/html-custom-flat-rate-boxes.php:46
+msgid "W"
+msgstr ""
+
+#: includes/views/html-box-packing.php:25
+#: includes/views/html-custom-flat-rate-boxes.php:47
+msgid "H"
+msgstr ""
+
+#: includes/views/html-box-packing.php:26
+msgid "Inner L"
+msgstr ""
+
+#: includes/views/html-box-packing.php:27
+msgid "Inner W"
+msgstr ""
+
+#: includes/views/html-box-packing.php:28
+msgid "Inner H"
+msgstr ""
+
+#: includes/views/html-box-packing.php:29
+msgid "Weight of Box"
+msgstr ""
+
+#: includes/views/html-box-packing.php:30
+msgid "Max Weight"
+msgstr ""
+
+#: includes/views/html-box-packing.php:31
+msgid "Letter"
+msgstr ""
+
+#: includes/views/html-box-packing.php:37
+msgid "Add Box"
+msgstr ""
+
+#: includes/views/html-box-packing.php:38
+#: includes/views/html-custom-flat-rate-boxes.php:57
+msgid "Remove selected box(es)"
+msgstr ""
+
+#: includes/views/html-custom-flat-rate-boxes.php:17
+msgid "Domestic Priority Mail"
+msgstr ""
+
+#: includes/views/html-custom-flat-rate-boxes.php:19
+msgid "Domestic Priority Mail Express"
+msgstr ""
+
+#: includes/views/html-custom-flat-rate-boxes.php:21
+msgid "International Priority Mail"
+msgstr ""
+
+#: includes/views/html-custom-flat-rate-boxes.php:23
+msgid "International Priority Mail Express"
+msgstr ""
+
+#: includes/views/html-custom-flat-rate-boxes.php:35
+msgid "Custom Flat Rate Boxes"
+msgstr ""
+
+#: includes/views/html-custom-flat-rate-boxes.php:37
+msgid ""
+"Define custom flat rate box or envelope dimensions to account for bulging "
+"or non-standard packing. Each entry is mapped to a USPS flat rate product "
+"and will be used alongside the predefined flat rate boxes in the packing "
+"algorithm."
+msgstr ""
+
+#: includes/views/html-custom-flat-rate-boxes.php:48
+msgid "Box weight"
+msgstr ""
+
+#: includes/views/html-custom-flat-rate-boxes.php:49
+msgid "Max weight"
+msgstr ""
+
+#: includes/views/html-custom-flat-rate-boxes.php:50
+msgid "Flat Rate packaging"
+msgstr ""
+
+#: includes/views/html-custom-flat-rate-boxes.php:56
+msgid "Add custom Flat Rate box"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:20
+msgid "Small Box"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:24
+msgid "Medium Box - 1"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:28
+msgid "Medium Box - 2"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:32
+msgid "Large Box"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:40
+msgid "Legal Envelope"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:44
+msgid "Padded Envelope"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:48
+msgid "Gift Card Envelope"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:52
+msgid "Window Envelope"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:56
+msgid "Small Envelope"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:66
+msgid "Flat Rate Box Weights"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:67
+msgid "Use this table to adjust the empty box/envelope weights as needed."
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:74
+msgid "Empty Weight"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:75
+msgid "Length"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:76
+msgid "Width"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:77
+msgid "Height"
+msgstr ""
+
+#: includes/views/html-flat-rate-box-weights.php:102
+#. translators: %s is a label rate.
+msgid "Flat Rate %s"
+msgstr ""
+
+#: includes/views/html-oauth-status.php:27
+msgid "Authenticated"
+msgstr ""
+
+#: includes/views/html-oauth-status.php:29
+msgid "Not Authenticated."
+msgstr ""
+
+#: includes/views/html-oauth-status.php:30
+msgid "Enter your USPS Client ID and USPS Client Secret and click \"Save changes\"."
+msgstr ""
+
+#: includes/views/html-product-dimensions.php:15
+#. translators: $s is a dimension unit.
+msgid "Default Product Dimensions (%s)"
+msgstr ""
+
+#: includes/views/html-product-dimensions.php:18
+msgid ""
+"These dimensions (LxWxH) will be used for products that do not have "
+"dimensions set."
+msgstr ""
+
+#: includes/views/html-services.php:28
+msgid "Services"
+msgstr ""
+
+#: includes/views/html-services.php:34
+msgid "Service(s)"
+msgstr ""
+
+#: includes/views/html-services.php:38
+#. translators: %s is a currency symbol.
+msgid "Price Adjustment (%s)"
+msgstr ""
+
+#: includes/views/html-services.php:41
+msgid "Price Adjustment (%)"
+msgstr ""
+
+#: includes/views/html-services.php:152
+#. translators: %1$s Media Mail anchor tag start, %3$s <b> tag start, %4$s </b>
+#. tag end, %5$s Shipping class document anchor tag start and ( %2$s, %6$s,
+#. %8$s ) is anchor tags end.
+msgid ""
+"To enable %1$sMedia Mail®%2$s, you must select the ‘Retrieve Standard "
+"Service rates from the USPS API’ option. You then have two options: "
+"%3$sa)%4$s You can do nothing, which allows any item to use Media Mail®; or "
+"%3$sb)%4$s if only some of your products are eligible for Media Mail®, you "
+"need to give each product a %5$sshipping class%6$s and %7$srestrict Media "
+"Mail®%8$s to use only that class or classes."
+msgstr ""
+
+#: woocommerce-shipping-usps.php:109
+#. translators: %1$s: WooCommerce link, %2$s: Add plugins link.
+msgid ""
+"WooCommerce USPS Shipping requires %1$s to be installed and active. Install "
+"and activate it %2$s."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce USPS Shipping"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://woocommerce.com/products/usps-shipping-method/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Obtain shipping rates dynamically via the USPS Shipping API for your orders."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooCommerce"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://woocommerce.com"
+msgstr ""

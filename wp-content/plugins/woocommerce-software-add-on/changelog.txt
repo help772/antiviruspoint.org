@@ -1,0 +1,202 @@
+*** Software Add-On for WooCommerce Changelog ***
+
+2024-03-26 - version 1.9.2
+* Tweak - Change plugin name to Software Add-On for WooCommerce
+* Tweak - Update brand to Kestrel
+
+2023-06-05 - version 1.9.1
+* Tweak - Escape the order URLs in the Software reports screen.
+* Tweak - Tested compatibility up to WC 7.8.
+* Tweak - Tested compatibility with WP 6.2.
+
+2023-02-27 - version 1.9.0
+* Tweak - Check the minimum requirements before initializing the plugin.
+* Tweak - Insert the shortcode for recovering a lost license as a WP block on the 'Lost license' page.
+* Tweak - Tested compatibility with WC 7.4.
+* Dev - New plugin updater.
+* Dev - Initialize the plugin when the main file is loaded.
+* Dev - Renamed the database option `woocommerce_software_version` to `wc_software_addon_version`.
+* Dev - Updated the minimum requirements to WC 3.7, WP 4.9, and PHP 5.6.
+* Dev - Dropped `examples/` test scripts.
+* Dev - Added a Postman collection for testing the API.
+
+2023-01-31 - version 1.8.0
+* Feature - Added compatibility with WooCommerce High-Performance Order Storage.
+* Tweak - Added links to the license keys, the reports, the documentation page, and to get support in the plugin list.
+* Tweak - Updated plugin author.
+* Tweak - Tested compatibility up to WC 7.3
+* Tweak - Tested compatibility with WP 6.1
+* Fix - Fixed broken 'Total software sales' and 'Total software sold' metrics in reports.
+* Dev - Implement the singleton pattern in the main plugin class.
+* Dev - Updated the minimum requirements to WC 3.5, WP 4.7, and PHP 5.4.
+
+2022-09-27 - version 1.7.20
+* Feature - Added compatibility with subscriptions of WooCommerce Payments.
+* Tweak - Tested compatibility up to WC 6.9.
+* Tweak - Tested compatibility up to WP 6.0.
+
+2021-05-04 - version 1.7.19
+* Fix - Replaced deprecated jQuery 3 methods.
+* Tweak - WC 5.2.2 compatibility.
+* Tweak - WP 5.7.1 compatibility.
+
+2021-01-20 - version 1.7.18
+* Fix - Prevent critical errors by passing the correct number of args to woocommerce_email_header/footer in email templates.
+* Tweak - WC 4.9 compatibility.
+* Tweak - WP 5.6 compatibility.
+
+2020-10-07 - version 1.7.17
+* Tweak - WC 4.4 compatibility.
+
+2020-08-18 - version 1.7.16
+* Fix - Replace deprecated jQuery methods.
+* Tweak - WordPress 5.5 compatibility.
+* Tweak - Remove deprecated WC functions.
+
+2020-06-10 - version 1.7.15
+* Tweak - WC 4.2 compatibility.
+
+2020-04-30 - version 1.7.13
+* Tweak - Remove legacy code.
+* Tweak - WC 4.1 compatibility.
+
+2020-03-05 - version 1.7.12
+* Tweak - WC tested up to WC 4.0
+
+2020-01-14 - version 1.7.11
+* Tweak - WC tested up to WC 3.9
+
+2019-11-04 - version 1.7.10
+* Tweak - WC tested up to WC 3.8
+
+2019-08-08 - version 1.7.9
+* Tweak - WC tested up to WC 3.7
+
+2019-04-16 - version 1.7.8
+* Tweak - WC tested up to 3.6
+
+2018-10-10 - version 1.7.7
+* Fix - License keys not being automatically generated.
+
+2018-10-09 - version 1.7.6
+* Update - WC tested up to WC 3.5
+
+2018-05-23 - version 1.7.5
+* Fix - Change main plugin file
+* Fix - Upgrade license form not working on simple products.
+* Fix - Upgraded license cost not being applied correctly in cart.
+* Tweak - Tested up to WooCommerce 3.3
+* Update - WC tested up to WC 3.4
+* Add - GDPR policy
+
+2017-09-04 - version 1.7.4
+* Fix - Add filter to require user authentication (disabled by default, toggle filter `woocommerce_software_addon_api_require_user_auth`).
+
+2017-07-06 - version 1.7.3
+* New - Filter woocommerce_software_addon_save_license_key for altering licenses before they are saved.
+* Fix - Lost license post call gives error when decoding JSON.
+* Fix - Lost license woocommerce messages classes not correct.
+* Fix - Purchasing multiple copies of software generates only a single license.
+* Fix - Generating new license keys on subscriptions renewals.
+
+2017-04-03 - version 1.7.2
+* Fix - Update for WooCommerce 3.0 compatibility.
+
+2017-02-23 - version 1.7.1
+* Tweak - Add new hook `woocommerce_software_addon_generate_license_key` to filter generated license key
+* Fix - Issue with activation_reset where it was resetting only a single activation instead of all.
+
+2016-11-09 - version 1.7.0
+* Fix - Don't check remaining activations for existing instance of uses.
+* Tweak - Removed platform information in license key check request. License has many activations and platform belongs to each activation.
+* Tweak - Returns list of activations in check request.
+* Tweak - Allow optional activation_id to be passed in deactivation request. This allows deactivation of a single use.
+* Fix - Issue of datepicker in software reporting.
+
+2016-01-27 - version 1.6.2
+* Tweak - Use tooltip for field descriptions in Product Data meta box
+* Fix - Strict standard notices from edit order page
+
+2015-10-29 - version 1.6.1
+* Fixed undefined class WP_Importer
+
+2015-10-28 - version 1.6.0
+* Added CSV importer
+
+2015-08-03 - version 1.5.1
+* Fix key migration.
+
+2015-07-29 - version 1.5.0
+* Added escaping in template files.
+* General cleanup and removal of deprecated methods.
+* Converted all tables and functions and methods to US ENGLISH version of license (previously licence).
+
+2015-05-28 - version 1.4.4
+* Fix multiple activation / deactivation bug
+
+2014-11-13 - version 1.4.3
+* Fix notice in save_update_key()
+
+2014-09-22 - version 1.4.2
+* Reversed activation sort order in reports.
+* Move licence key display to after order items in emails.
+* Fix notices.
+
+2014-09-22 - version 1.4.1
+* Fix requests using shop_order_status.
+
+2014-09-01 - version 1.4.0
+* 2.2 Compatibility.
+
+2014-07-01 - version 1.3.0
+* Allow 1 upgrade per key.
+* Check cart items to prevent double key usage.
+* Updated text domain.
+* Dropped < WC 2.0 support.
+* Record used keys on order payment.
+
+2014-03-25 - version 1.2.3
+* Fixed upgradable product check
+* Fixed resetting of platform upon key reset
+
+2014-03-19 - version 1.2.2
+* Introduces the value of the platform field in the check request
+
+2014-03-12 - version 1.2.1
+* Fixed bug where upgrade price didn't apply
+* Added remaining number activations to check request
+
+2014-01-20 - version 1.2
+* WooCommerce 2.1 compatible
+
+2013-04-22 - version 1.1.4
+* Fix - When querying software products, return those with parents (grouped)
+
+2013-04-04 - version 1.1.3
+* Fix - Removed object passes by reference
+* Fix - Generate multiple licences if product is bought in multiple quantity
+* Fix - Zero equals to false, should check for the infinite value
+
+2013-02-14 - version 1.1.2
+* Fixes for manually adding keys in admin
+
+2013-02-14 - version 1.1.1
+* Restored WC 1.6.6 compat
+
+2013-01-31 - version 1.1
+* WooCommerce 2.0 and WordPress 3.5 compatibility
+
+2012-12-04 - version 1.0.4
+* New updater
+
+2012-09-13 - version 1.0.3
+* Fixed issue with unlimited available activations
+
+2012-08-03 - version 1.0.2
+* Small UI tweak for WooCommerce 1.6.2
+
+2012-07-25 - version 1.0.1
+* Support write panel in WC 1.6.2
+
+2012-05-16 - version 1.0
+* First Release

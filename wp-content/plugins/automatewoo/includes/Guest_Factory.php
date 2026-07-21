@@ -1,0 +1,129 @@
+<?php
+
+namespace AutomateWoo;
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+/**
+ * @class Guest_Factory
+ * @since 2.9
+ */
+class Guest_Factory extends Factory {
+
+	/** @var string */
+	public static $model = 'AutomateWoo\Guest';
+
+
+	/**
+	 * @param int $guest_id
+	 * @return Guest|bool
+	 */
+	public static function get( $guest_id ) {
+		return parent::get( $guest_id );
+	}
+
+
+	/**
+	 * @param string $email
+	 * @return Guest|bool
+	 */
+	public static function get_by_email( $email ) {
+
+		if ( ! is_email( $email ) ) {
+			return false;
+		}
+
+		if ( Cache::exists( $email, 'guest_email' ) ) {
+			return static::get( Cache::get( $email, 'guest_email' ) );
+		}
+
+		$guest = new Guest();
+		$guest->get_by( 'email', $email );
+
+		if ( ! $guest->exists ) {
+			Cache::set( $email, 0, 'guest_email' );
+			return false;
+		}
+
+		return $guest;
+	}
+
+	/**
+	 * @param int $order_id
+	 * @return Guest|bool
+	 */
+	public static function get_by_most_recent_order_id( $order_id ) {
+		if ( is_int( $order_id ) ) {
+			$guest = new Guest();
+			$guest->get_by( 'most_recent_order', $order_id );
+
+			if ( $guest->exists ) {
+				return $guest;
+			}
+		}
+
+		return false;
+	}
+
+	/**
+	 * @deprecated
+	 *
+	 * @param string $key
+	 *
+	 * @return Guest|bool
+	 */
+	public static function get_by_key( $key ) {
+
+		wc_deprecated_function( __METHOD__, '5.2.0' );
+
+		if ( ! $key ) {
+			return false;
+		}
+
+		$guest = new Guest();
+		$guest->get_by( 'tracking_key', $key );
+
+		if ( ! $guest->exists ) {
+			return false;
+		}
+
+		return $guest;
+	}
+
+
+	/**
+	 * @param Guest $guest
+	 */
+	public static function update_cache( $guest ) {
+		parent::update_cache( $guest );
+
+		Cache::set( $guest->get_email(), $guest->get_id(), 'guest_email' );
+	}
+
+
+	/**
+	 * @param Guest $guest
+	 */
+	public static function clean_cache( $guest ) {
+		parent::clean_cache( $guest );
+
+		static::clear_cached_prop( $guest, 'email', 'guest_email' );
+	}
+
+
+	/**
+	 * @param string $email
+	 * @return Guest
+	 */
+	public static function create( $email ) {
+
+		$guest = new Guest();
+		$guest->set_email( Clean::email( $email ) );
+		$guest->set_date_created( new DateTime() );
+		$guest->save();
+
+		return $guest;
+	}
+}

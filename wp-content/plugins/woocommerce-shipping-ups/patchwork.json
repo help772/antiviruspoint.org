@@ -1,0 +1,3 @@
+{
+	"redefinable-internals": ["trigger_error", "is_file", "is_readable", "method_exists"]
+}

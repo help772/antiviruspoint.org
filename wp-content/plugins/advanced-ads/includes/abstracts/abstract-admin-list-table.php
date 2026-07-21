@@ -1,0 +1,226 @@
+<?php
+/**
+ * This class is serving as the base for admin tables and providing a foundation.
+ *
+ * @package AdvancedAds
+ * @author  Advanced Ads <info@wpadvancedads.com>
+ * @since   1.48.2
+ */
+
+namespace AdvancedAds\Abstracts;
+
+use AdvancedAds\Framework\Interfaces\Integration_Interface;
+use WP_Screen;
+
+defined( 'ABSPATH' ) || exit;
+
+/**
+ * Admin List Table.
+ */
+abstract class Admin_List_Table implements Integration_Interface {
+
+	/**
+	 * Object being shown on the row.
+	 *
+	 * @var object|null
+	 */
+	protected $object = null;
+
+	/**
+	 * Object type.
+	 *
+	 * @var string
+	 */
+	protected $object_type = 'unknown';
+
+	/**
+	 * Post type.
+	 *
+	 * @var string
+	 */
+	protected $list_table_type = '';
+
+	/**
+	 * Hook into WordPress.
+	 *
+	 * @return void
+	 */
+	public function hooks(): void {
+		if ( $this->list_table_type ) {
+			// Columns.
+			add_filter( 'default_hidden_columns', [ $this, 'default_hidden_columns' ], 10, 2 );
+			add_filter( 'manage_' . $this->list_table_type . '_posts_columns', [ $this, 'define_columns' ] );
+			add_filter( 'manage_edit-' . $this->list_table_type . '_sortable_columns', [ $this, 'define_sortable_columns' ] );
+			add_action( 'manage_' . $this->list_table_type . '_posts_custom_column', [ $this, 'render_columns' ], 10, 2 );
+
+			// Views.
+			add_filter( 'view_mode_post_types', [ $this, 'disable_view_mode' ] );
+			add_action( 'restrict_manage_posts', [ $this, 'restrict_manage_posts' ] );
+
+			// Query.
+			add_filter( 'request', [ $this, 'request_query' ] );
+		}
+	}
+
+	/**
+	 * Define which columns to show on this screen.
+	 *
+	 * @param array $columns Existing columns.
+	 *
+	 * @return array
+	 */
+	public function define_columns( $columns ): array {
+		return $columns;
+	}
+
+	/**
+	 * Define which columns are sortable.
+	 *
+	 * @param array $columns Existing columns.
+	 *
+	 * @return array
+	 */
+	public function define_sortable_columns( $columns ): array {
+		return $columns;
+	}
+
+	/**
+	 * Define hidden columns.
+	 *
+	 * @return array
+	 */
+	protected function define_hidden_columns(): array {
+		return [];
+	}
+
+	/**
+	 * Adjust which columns are displayed by default.
+	 *
+	 * @param array     $hidden Current hidden columns.
+	 * @param WP_Screen $screen Current screen.
+	 *
+	 * @return array
+	 */
+	public function default_hidden_columns( $hidden, $screen ): array {
+		if ( isset( $screen->id ) && 'edit-' . $this->list_table_type === $screen->id ) {
+			$hidden = array_merge( $hidden, $this->define_hidden_columns() );
+		}
+
+		return $hidden;
+	}
+
+	/**
+	 * Pre-fetch any data for the row each column has access to it.
+	 *
+	 * @param int $post_id Post ID being shown.
+	 *
+	 * @return void
+	 */
+	protected function prepare_row_data( $post_id ): void {}
+
+	/**
+	 * Render individual columns.
+	 *
+	 * @param string $column Column ID to render.
+	 * @param int    $post_id Post ID being shown.
+	 *
+	 * @return void
+	 */
+	public function render_columns( $column, $post_id ): void {
+		$this->prepare_row_data( $post_id );
+
+		if ( ! $this->object ) {
+			return;
+		}
+
+		if ( is_callable( [ $this, 'render_' . $column . '_column' ] ) ) {
+			$this->{"render_{$column}_column"}();
+		}
+
+		do_action( 'advanced-ads-ad-render-columns', $column, $this->object );
+		do_action( "advanced-ads-{$this->object_type}-render-column-{$column}", $this->object );
+	}
+
+	/**
+	 * Removes this type from list of post types that support "View Mode" switching.
+	 * View mode is seen on posts where you can switch between list or excerpt. Our post types don't support
+	 * it, so we want to hide the useless UI from the screen options tab.
+	 *
+	 * @param array $post_types Array of post types supporting view mode.
+	 *
+	 * @return array             Array of post types supporting view mode, without this type.
+	 */
+	public function disable_view_mode( $post_types ): array {
+		unset( $post_types[ $this->list_table_type ] );
+
+		return $post_types;
+	}
+
+	/**
+	 * Render any custom filters and search inputs for the list table.
+	 *
+	 * @return void
+	 */
+	protected function render_filters(): void {}
+
+	/**
+	 * See if we should render search filters or not.
+	 *
+	 * @return void
+	 */
+	public function restrict_manage_posts(): void {
+		global $typenow;
+
+		if ( $this->list_table_type === $typenow ) {
+			$this->render_filters();
+		}
+	}
+
+	/**
+	 * Handle any filters.
+	 *
+	 * @param array $query_vars Query vars.
+	 *
+	 * @return array
+	 */
+	public function request_query( $query_vars ): array {
+		global $typenow;
+
+		if ( $this->list_table_type === $typenow ) {
+			return $this->query_filters( $query_vars );
+		}
+
+		return $query_vars;
+	}
+
+	/**
+	 * Handle any custom filters.
+	 *
+	 * @param array $query_vars Query vars.
+	 *
+	 * @return array
+	 */
+	protected function query_filters( $query_vars ): array {
+		return $query_vars;
+	}
+
+	/**
+	 * Check if all filters are applied.
+	 *
+	 * @return bool
+	 */
+	protected function is_all_filters_applied(): bool {
+		return count(
+			array_diff_key(
+				$_GET, // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+				[
+					'post_type' => $this->list_table_type,
+					'orderby'   => '',
+					'order'     => '',
+					'paged'     => '',
+					'mode'      => '',
+				]
+			)
+		) === 0;
+	}
+}

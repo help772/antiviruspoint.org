@@ -1,0 +1,205 @@
+/**
+ * Section 232 metal — match COM row: same padding + float as `p.form-field`.
+ *
+ * WC only applies `padding: 5px 20px 5px 162px` to `p.form-field` and `fieldset.form-field`.
+ * `fieldset`+`legend` often renders above the box (not beside inputs like COM). This block
+ * uses `div.form-field` + `label` and mirrors WC rules so the title aligns with COM.
+ */
+
+#woocommerce-product-data .woocommerce_options_panel div.form-field._wc_avatax_section232_metal_field {
+	padding: 5px 20px 5px 162px !important;
+	margin: 0 0 9px;
+	font-size: 12px;
+	line-height: 24px;
+	min-width: 0;
+	box-sizing: border-box;
+}
+
+#woocommerce-product-data .woocommerce_options_panel div.form-field._wc_avatax_section232_metal_field::after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Same typography as COM label (WC global label float still applies). */
+#woocommerce-product-data .woocommerce_options_panel div._wc_avatax_section232_metal_field > label#wc_avatax_section232_heading {
+	font-size: 12px;
+	font-weight: 400;
+	color: #555;
+}
+
+#woocommerce-product-data .woocommerce_options_panel div._wc_avatax_section232_metal_field .wc-avatax-section232-fields {
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	min-width: 0;
+	overflow: visible;
+	box-sizing: border-box;
+	display: flow-root;
+	container-type: inline-size;
+	container-name: wcavx232;
+}
+
+/* Nested labels must not use WC’s global options_panel label float (breaks repeater UI). */
+#woocommerce-product-data .woocommerce_options_panel div._wc_avatax_section232_metal_field .wc-avatax-metal-label {
+	float: none !important;
+	clear: none !important;
+	width: auto !important;
+	max-width: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	display: flex !important;
+	flex-direction: column;
+	align-items: stretch;
+	white-space: normal !important;
+	position: static !important;
+	left: auto !important;
+}
+
+.wc-avatax-metal-rows {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	min-width: 0;
+}
+
+/*
+ * Grid = one row when wide (no flex “two on top, one below” wrap).
+ * Narrow content column → single column stack via container query.
+ */
+.wc-avatax-metal-row-inner {
+	display: grid;
+	grid-template-columns: minmax(4.25rem, 5.75rem) minmax(0, 1fr) minmax(0, 1.35fr) auto;
+	/* start = labels/inputs stay on one line; end pushed Unit/Country down when Value has error text */
+	align-items: start;
+	gap: 10px 12px;
+	padding: 12px 14px;
+	background: #f9f9f9;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	box-sizing: border-box;
+	min-width: 0;
+	overflow: visible;
+}
+
+.wc-avatax-metal-row.wc-avatax-metal-row-invalid .wc-avatax-metal-row-inner {
+	border-color: #dc3545;
+	box-shadow: 0 0 0 1px #dc3545;
+}
+
+.wc-avatax-metal-field {
+	min-width: 0;
+	max-width: 100%;
+	overflow: visible;
+}
+
+.wc-avatax-metal-field-actions {
+	justify-self: end;
+	/* Line up remove control with inputs (label + gap ≈ one line). */
+	padding-top: 1.35em;
+	margin-top: 0.15em;
+}
+
+@supports (container-type: inline-size) {
+	@container wcavx232 (max-width: 640px) {
+		.wc-avatax-metal-row-inner {
+			grid-template-columns: 1fr;
+			align-items: stretch;
+			gap: 14px;
+		}
+
+		.wc-avatax-metal-field-actions {
+			justify-self: end;
+			padding-top: 0;
+			margin-top: 0;
+		}
+	}
+}
+
+/* WP admin narrow window — stack when container queries unsupported (older browsers). */
+@media screen and (max-width: 782px) {
+	@supports not (container-type: inline-size) {
+		.wc-avatax-metal-row-inner {
+			grid-template-columns: 1fr;
+			align-items: stretch;
+			gap: 14px;
+		}
+
+		.wc-avatax-metal-field-actions {
+			justify-self: end;
+			padding-top: 0;
+			margin-top: 0;
+		}
+	}
+}
+
+.wc-avatax-metal-label {
+	cursor: pointer;
+}
+
+.wc-avatax-metal-label-text {
+	font-weight: 500;
+	font-size: 12px;
+	color: #50575e;
+	line-height: 1.35;
+	display: block;
+	margin-bottom: 4px;
+	white-space: normal;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+.wc-avatax-metal-label .wc-avatax-metal-value,
+.wc-avatax-metal-label select.wc-avatax-metal-unit,
+.wc-avatax-metal-label select.wc-avatax-metal-country {
+	width: 100%;
+	max-width: 100%;
+	min-width: 0;
+	box-sizing: border-box;
+}
+
+.wc-avatax-metal-field .wc-avatax-metal-value.wc-avatax-metal-invalid,
+.wc-avatax-metal-field .wc-avatax-metal-unit.wc-avatax-metal-invalid,
+.wc-avatax-metal-field .wc-avatax-metal-country.wc-avatax-metal-invalid {
+	border-color: #dc3545 !important;
+	box-shadow: 0 0 0 1px #dc3545;
+}
+
+.wc-avatax-metal-field-error {
+	font-size: 12px;
+	color: #dc3545;
+	min-height: 1em;
+	cursor: default;
+}
+
+.wc-avatax-metal-field-actions .wc-avatax-metal-remove {
+	min-width: 36px;
+	padding: 0 10px;
+	line-height: 2;
+	color: #b32d2e;
+	border-color: #d63638;
+	box-sizing: border-box;
+}
+
+.wc-avatax-metal-field-actions .wc-avatax-metal-remove:hover {
+	color: #fff;
+	background: #d63638;
+	border-color: #d63638;
+}
+
+.wc-avatax-metal-actions {
+	margin: 8px 0 0;
+	padding: 0;
+}
+
+.wc-avatax-metal-global-error {
+	color: #dc3545;
+	font-size: 13px;
+	margin: 8px 0 0;
+}
+
+.wc-avatax-metal-global-error[hidden] {
+	display: none !important;
+}

@@ -1,0 +1,74 @@
+.vh_duplicate_post {
+	cursor: pointer;
+}
+@keyframes vh_opacity{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}
+.vh-duplicate {
+	cursor: wait !important;
+	position: fixed !important;
+	top:0px;
+	left:0px;
+	height:100%;
+	transition:transform 300s,background .3s ,color .3s ,border .3s ,box-shadow .3s ,opacity .3s;
+	width:100%;
+	background:rgba(0, 0, 0, 0);
+	z-index: 99999999999 !important;
+	opacity:0;
+	pointer-events: all !important;
+}
+.vh-duplicate.vh-duplicate-active{
+	transition:transform 300s,background .3s ,color .3s ,border .3s ,box-shadow .3s ,opacity .3s;
+	opacity:1;
+	animation: vh_opacity 300ms;
+	position:fixed;
+	z-index:999;
+	height:100%;
+	left:0px;
+	top:0px;
+	width:100%;
+	background: rgba(0,0,0,0.80) no-repeat center center;
+}
+.vh-duplicate.vh-duplicate-loading{
+	background: url(../image/loading.svg) rgba(0,0,0,0.80) no-repeat center center;
+}
+.vh-duplicate-message{
+	position:fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9999999999;
+	line-height:60px;
+	text-align: center;
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+}
+.vh-duplicate-message.vh-errored:before{
+	content: "\f153";
+	font-family:dashicons;
+	font-style:normal;
+	color:#FF0004;
+	margin-right: 10px;
+	vertical-align:middle;
+}
+.vh-duplicate-message.vh-duplicated::before{
+	background-image:url('../image/icon/successed.png');
+	background-size: 60px;
+	background-position: center;
+	content: "";
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	display: inline-block;
+	line-height: 60px;
+	vertical-align: top;
+	margin-top: 6px;
+}

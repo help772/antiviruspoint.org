@@ -1,0 +1,78 @@
+
+[class*="hw-post-"] figcaption {
+	background:var(--hw-cap-bg);
+	position: absolute;
+	opacity:0;
+	height: 100%;
+	width: 100%;
+	display: flex ;
+	transition: all 350ms;
+	pointer-events: none;
+}
+[class*="hw-post-"] figcaption::before,[class*="hw-post-"] figcaption::after{
+	transition: all 350ms;
+}
+[class*='hw-post-']:hover figcaption{
+	opacity:1;
+}
+[class*="hw-el-"][class*="hw-cap-hover"] [class*="hw-post-"] figcaption,
+[class*="hw-el-"] [class*="hw-module-2"] [class*="hw-post-"] figcaption{
+	z-index:2;
+}
+
+.hw-thumb figcaption{
+	align-items:center;
+}
+.hw-hover-icon{
+	position: relative;
+	width: auto;
+	opacity:0;
+	float:left;
+	transition: all 350ms;
+	margin-right: auto;
+	font-size:0px;
+	height:0px;
+	width:100%;
+	text-align:center;
+	margin-left: auto;
+}
+.hw-hover-icon a{
+	text-align:center;
+	font-size:inherit;
+display: var(--hw-dp-4,none);
+	margin:0 5px;
+	pointer-events: all;
+}
+.hw-hover-icon a::before {
+	font-family: 'fontsite';
+	display: inline-block;
+	vertical-align: top;
+	height:0px;
+	transition: all 350ms;
+	box-shadow:0 0 0 1px var(--hw-cap-br-cr) inset;
+	font-size:1.25em;
+	line-height:calc(var(--hw-fn-md) * 3);
+	width:calc(var(--hw-fn-md) * 3);
+	height: calc(var(--hw-fn-md) * 3);
+	border-radius:50%;
+	cursor:pointer;
+	color: var(--hw-cap-txt,#ffffff);
+}
+.hw-hover-img::before{
+	content:'\F004';
+	transform: scaleX(-1);
+}
+.hw-hover-post::before{
+	content:'\F026';
+}
+.hw-hover-icon a:hover::before {
+	background:var(--hw-primary-bg);
+	color:var(--hw-primary-txt);
+	box-shadow:0 0 0 1px transparent inset;
+}
+[class*="hw-post"]:hover .hw-hover-icon{
+	opacity:1;
+	font-size:var(--hw-fn-md);
+	margin-top: 0px;
+	height:calc(var(--hw-fn-md) * 3);
+}

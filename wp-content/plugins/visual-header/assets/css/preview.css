@@ -1,0 +1,34 @@
+ 
+.vh_preview_loading::before {
+	cursor: wait !important;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1111;
+	content:"";
+	height:100%;
+	transition:transform 300s,background .3s ,color .3s ,border .3s ,box-shadow .3s ,opacity .3s;
+	width:100%;
+	background:rgba(0, 0, 0, 0);
+ 	opacity:1111;
+	pointer-events: none !important;
+}
+.vh_preview_loading::after{
+	transition:transform 300s,background .3s ,color .3s ,border .3s ,box-shadow .3s ,opacity .3s;
+	opacity:1;
+	z-index:2222;	content:"";
+
+	animation: vh_opacity 300ms;
+	position:absolute;
+	z-index:999;
+	height:100%;
+	left:0px;
+	top:0px;
+	width:100%;
+	background: url(../image/loading.svg) rgba(0,0,0,0.50) no-repeat center center;
+}
+@keyframes hw-spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}

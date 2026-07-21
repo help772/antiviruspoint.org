@@ -1,0 +1,129 @@
+{
+  "name": "yith/product-results-block",
+  "version": "1.0.0",
+  "title": "Product Results Block",
+  "description": "Shows the found products.",
+  "category": "yith-blocks",
+  "supports": {
+    "align": [
+      "wide"
+    ],
+    "html": false,
+    "multiple": false,
+    "reusable": false,
+    "inserter": false,
+    "lock": false,
+    "color": {
+      "text": false,
+      "background": true,
+      "link": true
+    },
+    "spacing": {
+      "__experimentalSkipSerialization": true,
+      "padding": [ "horizontal", "vertical" ],
+      "__experimentalDefaultControls": {
+        "padding": true
+      }
+    }
+  },
+  "attributes": {
+    "showName": {
+      "type": "boolean",
+      "default": true
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "showPrice": {
+      "type": "boolean",
+      "default": true
+    },
+    "showCategories": {
+      "type": "boolean",
+      "default": false
+    },
+    "showStock": {
+      "type": "boolean",
+      "default": false
+    },
+    "showSKU": {
+      "type": "boolean",
+      "default": false
+    },
+    "showSummary": {
+      "type": "boolean",
+      "default": false
+    },
+    "showAddToCart": {
+      "type": "boolean",
+      "default":false
+    },
+    "maxResultsToShow": {
+      "type": "number",
+      "default": 5
+    },
+    "imagePosition": {
+      "type": "string",
+      "default": "left"
+    },
+    "layout": {
+      "type": "string",
+      "default":"list"
+    },
+    "imageSize": {
+      "type": "number",
+      "default": 170
+    },
+    "limitSummary": {
+      "type": "boolean",
+      "default": false
+    },
+    "summaryMaxWord": {
+      "type": "number",
+      "default": 10
+    },
+    "productNameColor": {
+      "type": "string",
+      "default": "#292929"
+    },
+    "priceLabel": {
+      "type": "string",
+      "default": "Price:"
+    },
+    "noResults": {
+      "type": "string",
+      "default": ""
+    },
+    "showViewAll": {
+      "type": "boolean",
+      "default": false
+    },
+    "showViewAllText": {
+      "type": "string",
+      "default": "See all products ({total})"
+    },
+    "showSaleBadge": {
+      "type": "boolean",
+      "default": true
+    },
+    "showOutOfStockBadge": {
+      "type": "boolean",
+      "default": true
+    },
+    "showFeaturedBadge": {
+      "type": "boolean",
+      "default": true
+    },
+    "hideFeaturedIfOnSale": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "parent": [
+    "yith/filled-block"
+  ],
+  "textdomain": "yith-woocommerce-ajax-search",
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2
+}

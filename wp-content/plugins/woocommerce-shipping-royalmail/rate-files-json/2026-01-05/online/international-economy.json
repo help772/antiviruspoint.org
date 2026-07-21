@@ -1,0 +1,29 @@
+{
+  "service": "international-economy",
+  "taxed": false,
+  "packages": {
+    "letter": {
+      "100": 330
+    },
+    "large-letter": {
+      "100": 410,
+      "250": 730,
+      "500": 940,
+      "750": 1290
+    },
+    "packet": {
+      "250": 1140,
+      "500": 1635,
+      "750": 1830,
+      "1000": 2060,
+      "1500": 2430,
+      "2000": 2660
+    }
+  },
+  "addons": {
+    "compensation": {
+      "included": 2000,
+      "max": 2000
+    }
+  }
+}

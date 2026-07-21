@@ -1,0 +1,380 @@
+{
+	"info": {
+		"_postman_id": "cdf7ce4e-4a6d-47b3-93ff-34aee1c67701",
+		"name": "Software Add-On for WooCommerce",
+		"description": "Collection for testing the [Software Add-On for WooCommerce](https://woocommerce.com/es-es/products/software-add-on/) API.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23556536"
+	},
+	"item": [
+		{
+			"name": "activation",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "{{base_url}}?wc-api={{wc_api}}&request=activation&email={{email}}&license_key={{license_key}}&product_id={{product_id}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"query": [
+						{
+							"key": "wc-api",
+							"value": "{{wc_api}}",
+							"description": "API endpoint."
+						},
+						{
+							"key": "request",
+							"value": "activation",
+							"description": "Activation request."
+						},
+						{
+							"key": "email",
+							"value": "{{email}}",
+							"description": "Email in license property."
+						},
+						{
+							"key": "license_key",
+							"value": "{{license_key}}",
+							"description": "The license key."
+						},
+						{
+							"key": "product_id",
+							"value": "{{product_id}}",
+							"description": "Software Product ID associated with the license."
+						},
+						{
+							"key": "instance",
+							"value": "",
+							"description": "Optional. Pass to activate existing uses (previously deactivated). If empty, new activation record is created.",
+							"disabled": true
+						},
+						{
+							"key": "platform",
+							"value": "",
+							"description": "Optional. Decided by user.",
+							"disabled": true
+						},
+						{
+							"key": "secret_key",
+							"value": "",
+							"description": "Optional. Not used internally. Same value is sent in response.",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deactivation",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "{{base_url}}?wc-api={{wc_api}}&request=deactivation&email={{email}}&license_key={{license_key}}&product_id={{product_id}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"query": [
+						{
+							"key": "wc-api",
+							"value": "{{wc_api}}",
+							"description": "API endpoint."
+						},
+						{
+							"key": "request",
+							"value": "deactivation",
+							"description": "Deactivation request."
+						},
+						{
+							"key": "email",
+							"value": "{{email}}",
+							"description": "Email in license property."
+						},
+						{
+							"key": "license_key",
+							"value": "{{license_key}}",
+							"description": "The license key."
+						},
+						{
+							"key": "product_id",
+							"value": "{{product_id}}",
+							"description": "Software Product ID associated with the license."
+						},
+						{
+							"key": "activation_id",
+							"value": "",
+							"description": "Optional. Pass to only deactivate a single use.",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "activation_reset",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "{{base_url}}?wc-api={{wc_api}}&request=activation_reset&email={{email}}&license_key={{license_key}}&product_id={{product_id}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"query": [
+						{
+							"key": "wc-api",
+							"value": "{{wc_api}}",
+							"description": "API endpoint."
+						},
+						{
+							"key": "request",
+							"value": "activation_reset",
+							"description": "Activation reset request."
+						},
+						{
+							"key": "email",
+							"value": "{{email}}",
+							"description": "Email in license property."
+						},
+						{
+							"key": "license_key",
+							"value": "{{license_key}}",
+							"description": "The license key."
+						},
+						{
+							"key": "product_id",
+							"value": "{{product_id}}",
+							"description": "Software Product ID associated with the license."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "{{base_url}}?wc-api={{wc_api}}&request=check&email={{email}}&license_key={{license_key}}&product_id={{product_id}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"query": [
+						{
+							"key": "wc-api",
+							"value": "{{wc_api}}",
+							"description": "API endpoint."
+						},
+						{
+							"key": "request",
+							"value": "check",
+							"description": "Check license request."
+						},
+						{
+							"key": "email",
+							"value": "{{email}}",
+							"description": "Email in license property."
+						},
+						{
+							"key": "license_key",
+							"value": "{{license_key}}",
+							"description": "The license key."
+						},
+						{
+							"key": "product_id",
+							"value": "{{product_id}}",
+							"description": "Software Product ID associated with the license."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generate_key",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "{{base_url}}?wc-api={{wc_api}}&request=generate_key&email={{email}}&product_id={{product_id}}&secret_key={{secret_key}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"query": [
+						{
+							"key": "wc-api",
+							"value": "{{wc_api}}",
+							"description": "API endpoint."
+						},
+						{
+							"key": "request",
+							"value": "generate_key",
+							"description": "Generate key request."
+						},
+						{
+							"key": "email",
+							"value": "{{email}}",
+							"description": "Email in license property."
+						},
+						{
+							"key": "product_id",
+							"value": "{{product_id}}",
+							"description": "Software Product ID associated with the license."
+						},
+						{
+							"key": "secret_key",
+							"value": "{{secret_key}}",
+							"description": "Secret key of the software product."
+						},
+						{
+							"key": "order_id",
+							"value": "",
+							"description": "Optional. Order ID.",
+							"disabled": true
+						},
+						{
+							"key": "activations",
+							"value": "10",
+							"description": "Optional. The maximum number of activations for this license. Default unlimited.",
+							"disabled": true
+						},
+						{
+							"key": "version",
+							"value": "",
+							"description": "Optional. Product version.",
+							"disabled": true
+						},
+						{
+							"key": "key_prefix",
+							"value": "",
+							"description": "Optional. License key prefix.",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "{{consumer_secret}}",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "{{consumer_key}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "consumer_key",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "consumer_secret",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "base_url",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "wc_api",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "email",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "product_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "secret_key",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "license_key",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

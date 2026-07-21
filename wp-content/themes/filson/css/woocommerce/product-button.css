@@ -1,0 +1,281 @@
+
+.hw-module-1 .hw-product-button,
+.hw-module-2  .hw-details  .hw-product-button{
+	width:100%;
+	float:left;
+	--hw-pt-fn-sz:var(--hw-fn-sm);
+	margin-top: var(--hw-product-pd);
+	--hw-pt-btn-txt:var(--hw-meta-txt);
+	font-size: 0;
+	--hw-pt-btn-br-cr:0 0 0 1px var(--hw-main-br-cr) inset;
+}
+.hw-module-1 .hw-product-button > div,
+.hw-module-2  .hw-details  .hw-product-button > div{
+	font-size:0px;
+	position:relative;
+	margin-right:10px;
+	width:calc(var(--hw-pt-fn-sz) * 3);
+	height:calc(var(--hw-pt-fn-sz) * 3);
+	display:inline-block;
+	vertical-align: top;
+	color:var(--hw-pt-btn-txt);
+	border-radius: var(--hw-btn-rd,0px) !important;
+	background:var(--hw-pt-btn-bg,transparent) !important;
+	overflow:hidden;
+	box-shadow: var(--hw-pt-btn-br-cr) !important;
+}
+.hw-module-1 .hw-product-button > div > a,
+.hw-module-1 .hw-product-button > div > .button,
+.hw-module-1 .hw-product-button > div > a:hover,
+.hw-module-1 .hw-product-button > div > div,
+.hw-module-1 .hw-product-button > div > img,
+
+.hw-module-2 .hw-details  .hw-product-button > div > a,
+.hw-module-2 .hw-details  .hw-product-button > div > .button,
+.hw-module-2 .hw-details  .hw-product-button > div > a:hover,
+.hw-module-2 .hw-details  .hw-product-button > div > div,
+.hw-module-2 .hw-details  .hw-product-button > div > img
+{
+	font-size:0px !important;
+	width:100% !important;
+	height:100% !important;
+	position:absolute !important;
+	background:none !important;
+	color:inherit !important;
+	text-align:center;
+	float: left ;
+	transition: var(--hw-tr);
+}
+
+ 
+
+.hw-module-1 .hw-product-button > div > *::before{
+	content: "";
+	position:relative;
+	width: 100%;
+	font-family:fontsite;
+	text-align:center;
+	line-height:2em;
+	width:2em;
+	transition: var(--hw-tr);
+	height:2em;
+	color:inherit !important;
+	font-size:calc(var(--hw-pt-fn-sz) * 1.5);
+}
+.hw-module-1 .hw-product-button > div:hover,
+.hw-module-2 .hw-details .hw-product-button > div:hover {
+	color:var(--hw-primary-txt) !important;
+	background:var(--hw-primary-bg) !important;
+	transition: var(--hw-tr);
+	box-shadow:0 0 0 1px transparent inset !important;
+}
+
+
+.hw-module-1 .hw-product-button > div.hw-button-cart,
+.hw-module-2 .hw-details .hw-product-button > div.hw-button-cart {
+	width:auto !important;
+	--hw-pt-btn-bg:var(--hw-primary-bg) !important;
+	--hw-pt-btn-txt:var(--hw-primary-txt)	!important;
+	--hw-pt-btn-br-cr:none 	!important;
+}
+.hw-module-1 .hw-product-button > div.hw-button-cart a,
+.hw-module-2 .hw-details .hw-product-button > div.hw-button-cart a{
+	font-size:var(--hw-fn-sm) !important;
+	position:relative !important;
+	line-height:calc(var(--hw-pt-fn-sz) * 3)!important;
+	width:auto !important;
+	
+	padding: 0 1.3em  !important;
+}
+ 
+.hw-module-1 .hw-product-button > div.hw-button-cart:hover,
+ .hw-module-2 .hw-details  .hw-product-button > div.hw-button-cart:hover {
+	background:var(--hw-primary-hv-bg) !important;
+ 
+}
+.hw-module-1 .hw-product-button > div.hw-button-cart a:hover,
+.hw-module-2  .hw-details  .hw-product-button > div.hw-button-cart a:hover{
+	position:relative !important;
+}
+ [class*="hw-module-"] .hw-details .hw-product-button > div.hw-button-cart a::before{
+	 display:none !important;
+ }
+.hw-module-2  .hw-details  .hw-product-button{
+	text-align:var(--hw-ag,center);
+}
+.hw-module-2  .hw-details  .hw-product-button > div.hw-button-cart{
+	margin:0px  !important;
+}
+ 
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	module 2 	Product Button
+																		
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.hw-module-2 .hw-thumb .hw-product-button{
+	--hw-pt-btn-bg:var(--hw-main-gry) ;
+	--hw-pt-btn-txt:var(--hw-post-tl-lk);
+  	
+	--hw-pt-fn-sz:var(--hw-product-lg);
+	position: absolute;
+	text-align:center;
+	top: 50% !important;
+transform: translateY( -50%) !important;
+	right:0px;
+ 	width:100%;
+	transition:transform 300ms ease;
+}
+.hw-module-2 [class*="hw-post-"]:hover .hw-thumb .hw-product-button   > div{
+ 	right:0px;
+	transform:scale(1);
+
+	transition:transform 300ms ease;
+}
+.hw-module-2 .hw-thumb .hw-product-button > div{
+	margin:auto 5px;
+ 	font-size:0px;
+	text-align:left;
+		transform:scale(0);
+	position:relative;
+ 	width:calc(var(--hw-pt-fn-sz) * 3);
+	height:calc(var(--hw-pt-fn-sz) * 3);
+	display:inline-block;
+	vertical-align: top;
+	color:var(--hw-pt-btn-txt);
+	border-radius: var(--hw-btn-rd,0px) !important;
+	background:var(--hw-pt-btn-bg,transparent) !important;
+	overflow:hidden;
+	box-shadow: var(--hw-pt-btn-br-cr) !important;
+}
+  .hw-module-2 .hw-thumb .hw-product-button > div > a,
+  .hw-module-2 .hw-thumb .hw-product-button > div > .button,
+  .hw-module-2 .hw-thumb .hw-product-button > div > a:hover,
+  .hw-module-2 .hw-thumb .hw-product-button > div > div,
+  .hw-module-2 .hw-thumb .hw-product-button > div > img,
+  .hw-module-2 .hw-thumb .hw-product-button > div > .button:hover{
+	font-size:0px !important;
+	width:100% !important;
+	height:100% !important;
+	position:absolute !important;
+	background:none !important;
+	color:inherit !important;
+	text-align:center;
+	float: left ;
+	transition: var(--hw-tr);
+}
+.hw-module-2 .hw-thumb .hw-product-button > div > *::before{
+	content: "";
+	position:relative;
+	width: 100%;
+	font-family:fontsite;
+	text-align:center;
+	line-height:2em;
+	width:2em;
+	transition: var(--hw-tr);
+	height:2em;
+	color:inherit !important;
+	font-size:calc(var(--hw-pt-fn-sz) * 1.5);
+}
+.hw-module-2 .hw-thumb .hw-product-button > div:hover {
+	color:var(--hw-primary-txt) !important;
+	background:var(--hw-primary-hv-bg) !important;
+	transition: var(--hw-tr);
+	box-shadow:0 0 0 1px transparent inset !important;
+}
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	 Cart Button
+																		
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+body .product .hw-product-button .add_to_cart_button::before,
+body .product .hw-product-button .product_type_simple::before{
+		content: '\F012';
+
+}
+ 
+body .product .hw-product-button .product_type_external::before,
+body .product .hw-product-button .product_type_variable::before,
+body .product .hw-product-button .product_type_grouped::before{
+	content: '\F026';
+}
+body .product .hw-product-button .add_to_cart_button.added::before{
+	font-family:WooCommerce;
+	content:"\e017";
+}
+body .product .hw-product-button .added_to_cart.added::before{
+	content: '\F015';
+}
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	 Wishlist
+																		
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+body .product .hw-product-button .add_to_wishlist::before{
+	content: '\F014';
+}
+body .product .hw-product-button .yith-wcwl-wishlistexistsbrowse::before,
+body .product .hw-product-button .yith-wcwl-wishlistaddedbrowse::before
+{
+	content: '\F018';
+}
+body .product .hw-product-button .wishlist-fragment img{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+body .product .hw-product-button .yith-wcwl-wishlistexistsbrowse a,
+body .product .hw-product-button .yith-wcwl-wishlistexistsbrowse span{
+	font-size:0px !important;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	compare
+																		
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+body .product .hw-product-button .compare-button a::before{
+	content: '\F016';
+	font-family:fontsite;
+}
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	Text Hover
+																		
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.hw-btn-text-hover{
+	position:absolute;
+	z-index:999999;
+	pointer-events: none;
+}
+.hw-btn-text-hover span{
+	position: relative;
+	width: 100%;
+	padding: 0 10px;
+	background:#111111;
+	border-radius:50px;
+	font-size: 12px;
+	line-height: 24px;
+	height:24px;
+	float: left;
+	color: #fff;
+}
+.hw-btn-text-hover span::before{
+	background: rgb(17, 17, 17);
+	width: 16px;
+	content: "";
+	position: absolute;
+	bottom: -8px;
+	height: 16px;
+	transform: rotate(45deg);
+	z-index: -1;
+	right: calc(50% - 8px);
+}

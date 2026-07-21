@@ -1,0 +1,297 @@
+.taboola-banner {
+    width: 606px;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+.taboola-pixel-plugin {
+    --secondary-50: #4D86EC;
+    --secondary-70: #0056F0;
+    --blue-5: #4472C4;
+    --gray-2: #EEF0F2;
+    --gray-4: #d4d9df;
+    --gray-5: #B8C1CA;
+    --gray-8: #4C5560;
+    --neutral-40: #D4D9DF;
+    --success: #F3FCF0;
+    --success-border: #88DD66;
+    font-family: 'Roboto', 'Open Sans', 'Arial', sans-serif;
+}
+
+.taboola-pixel-plugin.wrap {
+    max-width: 1277px;
+    padding: 10px;
+}
+
+.topbar {
+    background: white;
+    padding: 15px;
+    margin-left: -20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.taboola-pixel-plugin .header {
+    text-align: left;
+    line-height: 1rem;
+    margin: 0.125rem;
+}
+
+
+
+.taboola-pixel-plugin .topbar span {
+    vertical-align: middle;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.taboola-pixel-plugin .topbar .icon {
+    border-radius: 5px;
+}
+
+
+.taboola-pixel-plugin .submit > input:hover {
+    background-color: var(--secondary-70);
+}
+
+.taboola-pixel-plugin .submit > input {
+    width: 100%;
+    height: 2.5rem;
+    background-color: var(--secondary-50);
+}
+
+.taboola-pixel-plugin p.submit {
+    all: unset;
+}
+
+.taboola-pixel-plugin input[type="text"] {
+    -moz-appearance: textfield;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    position: relative;
+    border-width: 0;
+    border-radius: 4px;
+    line-height: normal;
+    text-align: center;
+    height: 2.5rem;
+    color: var(--gray-8);
+}
+
+.taboola-pixel-plugin input[type="text"][disabled] {
+    background-color: var(--gray-2); /* Set your desired background color */
+    cursor: not-allowed;
+}
+
+
+.taboola-pixel-plugin input[type="text"]:focus {
+    border: 1px solid var(--blue-5);
+    box-shadow: 0 0 4px 0 var(--blue-5);
+    outline: none;
+}
+
+
+
+.taboola-pixel-plugin form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 2rem;
+}
+
+.taboola-pixel-plugin .text-left {
+    text-align: left;
+}
+
+
+.taboola-pixel-plugin .installation-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    padding: 1rem 0;
+}
+
+
+.taboola-pixel-plugin .installation-form-header h2 {
+    margin: 1rem 0;
+    font-weight: 650;
+    font-size: 1.25rem;
+}
+
+.taboola-pixel-plugin .installation-form-header img {
+    border-radius: 6px;
+    width: 100%;
+    max-width: 606px;
+    height: auto;
+}
+
+.content-section {
+    border-style: solid;
+    border-color: var(--gray-4);
+    border-width: 1px;
+    border-radius: 6px;
+    margin: 1rem 0;
+    background: white;
+    min-width: 606px;
+}
+
+.taboola-pixel-plugin .installation-form-body h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.taboola-pixel-plugin .installation-form-body .title {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid var(--gray-4);
+}
+
+.taboola-pixel-plugin .installation-form-body .title h2 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.taboola-pixel-plugin .installation-form-body .form {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.taboola-pixel-plugin .installation-form-body p {
+    margin: 0;
+}
+
+.taboola-pixel-plugin .installation-form-body .form .input-wrapper {
+    width: 21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap between the label and input as needed */
+    border: 1px solid var(--gray-8);
+    border-radius: 6px;
+    background-color: var(--gray-2);
+}
+
+.taboola-pixel-plugin .notice-success {
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: flex-start; /* Horizontally align to the left */
+    gap: 0.5rem;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: var(--neutral-40);
+    border-style: solid;
+    padding: 0.25rem 0.75rem;
+    border-left: 5px solid var(--success-border);
+    background-color: var(--success);
+}
+
+.taboola-pixel-plugin #select_account_button,
+.taboola-pixel-button {
+    background-color: var(--secondary-70);
+    color: white;
+    border-color: var(--secondary-70);
+    padding: 5px 25px;
+    border-radius: 4px;
+}
+
+.taboola-pixel-plugin #select_account_button:hover {
+    background-color: var(--secondary-70);
+}
+
+/* Modal styles */
+#taboola-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#taboola-modal-content {
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#taboola-modal-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    color: #333;
+}
+
+#taboola-modal-close:hover {
+    color: #000;
+}
+
+.install-pixel-component {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.account-info-box {
+    border: 1px solid #4C5560;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 6px 20px 6px 6px;
+    background-color: #EEF0F2;
+    min-width: 300px;
+}
+
+.account-details {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.account-label {
+    font-size: 14px;
+    color: #4C5560;
+}
+
+.account-id {
+    font-size: 12px;
+    color: #4C5560;
+}
+
+#install-pixel-step, #step-success {
+    display: none;
+}
+
+
+#step-success .notice-success {
+    margin: 0 20px 20px;
+}
+
+#step-success .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.step-content {
+    padding: 20px;
+    text-align: left;
+}

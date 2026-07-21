@@ -1,0 +1,102 @@
+
+.hw-thumb{
+	width:100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.hw-not-thumb {
+	--hw-img-wt:0px !important;
+}
+.hw-thumb > a{
+	padding-bottom:var(--hw-ratio,0px);
+	width: 100%;
+	height: var(--hw-ratio-ht,auto);
+	float: left;
+	position:relative;
+	overflow:hidden;
+}
+.hw-thumb > a > img{
+	width:100%;
+	font-size:0;
+	transition:all 350ms;
+	float:left;
+	visibility:var(--hw-ratio-img,visible);
+	height: var(--hw-ratio-ht-img,auto);
+	position:var(--hw-ratio-po,relative);
+ }
+ .hw-thumb > a > figure{ 
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	float: left;
+	height: 100%;
+	transition: all 350ms;
+		left:0;
+	top:0;
+	position: absolute;
+	width: 100%;
+	display:var(--hw-ratio-figure,none);
+ }
+.hw-ratio-auto,.hw-ratio-auto-second .hw-second {
+	--hw-ratio:0;
+	--hw-ratio-auto:0;
+	--hw-ratio-ht:fit-content;
+	--hw-ratio-ht-img:auto;
+	--hw-ratio-po:relative;
+	--hw-ratio-ob:none;
+	--hw-ratio-img:visible;	
+	--hw-ratio-figure:none;
+}
+.hw-ratio40,.hw-ratio40-second .hw-second {
+	--hw-ratio:40%;
+}
+.hw-ratio50,.hw-ratio50-second .hw-second{
+	--hw-ratio:50%;
+}
+.hw-ratio55,.hw-ratio55-second .hw-second{
+	--hw-ratio:55%;
+}
+.hw-ratio60,.hw-ratio60-second .hw-second{
+	--hw-ratio:60%;
+}
+.hw-ratio75,.hw-ratio75-second .hw-second{
+	--hw-ratio:75%;
+}
+.hw-ratio100,.hw-ratio100-second .hw-second{
+	--hw-ratio:100%;
+}
+.hw-ratio135,.hw-ratio135-second .hw-second{
+	--hw-ratio:135%;
+}
+.hw-ratio40,.hw-ratio50,.hw-ratio55,.hw-ratio60,.hw-ratio75,.hw-ratio100,.hw-ratio135,.hw-ratio40-second .hw-second,.hw-ratio50-second .hw-second,.hw-ratio60-second .hw-second,.hw-ratio55-second .hw-second,.hw-ratio75-second .hw-second,.hw-ratio100-second .hw-second,.hw-ratio135-second .hw-second{
+	--hw-ratio-ht:100%;
+	--hw-ratio-ht-img:100%;
+	--hw-ratio-po:absolute;
+	--hw-ratio-auto:1;
+	--hw-ratio-img:hidden;
+	--hw-ratio-figure:inline-block;
+   }
+@media (min-width: 1025px) {
+
+.hw-ratio1-2x > [class*="hw-post-"]{
+	padding-bottom:calc(calc(var(--hw-ratio,0px) / 2) - var(--hw-gp,0px)) !important;
+}
+.hw-ratio2x > [class*="hw-post-"]{
+	padding-bottom:calc(calc(var(--hw-ratio,0px) * 2) - var(--hw-gp,0px)) !important;
+}
+}
+@media (max-width: 1024px) {
+	.hw-second{
+		--hw-ratio:inherit!important;
+		--hw-ratio:inherit!important;
+		--hw-img-wt:inherit !important;
+		--hw-ratio-ht:inherit!important;
+		--hw-ratio-ht-img:inherit!important;
+		--hw-ratio-po:inherit!important;
+		--hw-ratio-ob:inherit !important;
+		--hw-ratio-img:inherit !important;
+		--hw-ratio-figure:inherit !important;
+	}
+	
+}

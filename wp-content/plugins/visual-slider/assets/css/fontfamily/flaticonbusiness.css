@@ -1,0 +1,30 @@
+ @font-face {
+			font-family: 'vs-iransans';
+			font-weight:normal;
+			font-weight:400;
+			src: url('../../fonts/vs-iransans.woff2') format('woff2');
+		}
+		@font-face {
+			font-family: 'vs-iransans';
+			font-weight:bold;
+			font-weight:700;
+			src: url('../../fonts/vs-iransans-bold.woff2') format('woff2');
+		} 
+	
+		@font-face {
+			font-family: 'vs-iransans';
+			font-weight:medium;
+			font-weight:500;
+			src: url('../../fonts/fonts/vs-iransans-medium.woff2') format('woff2');
+		} 
+	
+		@font-face {
+			font-family: '$font_family';
+ 			font-weight:900;
+			src: url('../../fonts/vs-iransans-black.woff2') format('woff2');
+		} 	
+		@font-face {
+			font-family: 'vs-iransans';
+ 			font-weight:300;
+			src: url('../../fonts/vs-iransans-light.woff2') format('woff2');
+		} 	

@@ -1,0 +1,800 @@
+@font-face {
+			font-family: 'vs-iransans';
+ 			font-weight:300;
+			src: url('../fonts/vs-iransans-300.woff') format('woff');
+		} 	
+		@font-face {
+			font-family: 'vs-iransans';
+			font-weight:normal;
+			font-weight:400;
+			src: url('../fonts/vs-iransans-400.woff') format('woff');
+		}
+		@font-face {
+			font-family: 'vs-iransans';
+			font-weight:bold;
+			font-weight:700;
+			src: url('../fonts/vs-iransans-700.woff') format('woff');
+		} 
+	
+		@font-face {
+			font-family: 'vs-iransans';
+			font-weight:medium;
+			font-weight:500;
+			src: url('../fonts/vs-iransans-500.woff') format('woff');
+		} 
+	
+		@font-face {
+			font-family: 'vs-iransans';
+ 			font-weight:900;
+			src: url('../fonts/vs-iransans-900.woff') format('woff');
+		} 		 
+		@font-face {
+			font-family: 'vs-rubik';
+ 			font-weight:300;
+			src: url('../fonts/rubik-300.woff2') format('woff');
+		} 	
+		@font-face {
+			font-family: 'vs-rubik';
+			font-weight:normal;
+			font-weight:400;
+			src: url('../fonts/rubik-400.woff2') format('woff');
+		}
+		@font-face {
+			font-family: 'vs-rubik';
+			font-weight:bold;
+			font-weight:700;
+			src: url('../fonts/rubik-700.woff2') format('woff');
+		} 
+	
+		@font-face {
+			font-family: 'vs-rubik';
+			font-weight:medium;
+			font-weight:500;
+			src: url('../fonts/rubik-500.woff2') format('woff');
+		} 
+	
+		@font-face {
+			font-family: 'vs-rubik';
+ 			font-weight:900;
+			src: url('../fonts/rubik-900.woff2') format('woff');
+		} 		 
+
+		 
+ 
+
+body{
+--vs-panel-font-family:vs-rubik,rubik,vs-iransans,tahoma ,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif	;
+--vs-font-family:vs-rubik,rubik,vs-iransans,tahoma ,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif	;
+}
+
+.vs_module_global_template_demo{
+	display:none !important;
+}
+.vs_metabox *{
+	box-sizing:border-box;
+	transition: color 350ms,background 350ms,border-color 350ms,box-shadow 350ms
+}
+.vs_metabox{
+	font-family:var(--vs-panel-font-family);
+	padding:10px;
+}
+.vs-mouse-wait {
+	cursor: wait !important;
+	position:fixed;
+	top:0px;
+	right:0px;
+	height:100%;
+	width:100%;
+	z-index:99999;background: rgba(0, 0, 0, 0.52);
+	z-index: 99999999999999999;
+	pointer-events: all !important;
+}
+ 
+.vs-mouse-wait .vs-errored{
+	font-size:50px;
+	color:#ffffff !important;
+ top:50%;right:50%;
+ text-align:center;
+ transform:translate(50%,-50%);position: relative;
+ -webkit-transform:translate(50%,-50%);
+ -moz-transform:translate(50%,-50%);-o-transform:translate(50%,-50%); -ms-transform:translate(-50%,-50%);
+}
+.vs-mouse-wait div.vs-errored{
+	display:none !important;
+}
+.vs-mouse-wait div.vs-errored:first-child{
+	display:inline-block !important;
+}
+.vs-mouse-wait .vs-errored:before{
+ 	content: "\f153";
+	font-family:dashicons;
+	font-style:normal;
+	color:#FF0004;
+	margin-left: 10px;
+	vertical-align:middle;
+	
+	
+}
+.vs_module_heading{
+	float:left;
+	width:100%;
+	margin-bottom: 20px;
+float: left;
+}
+.vs_module_shortcode{
+	float:left;
+	padding-right: 20px;
+	margin-top:20px;
+}
+
+
+.vs_module_global_template{
+	float:right;
+	margin-top:20px;
+}
+
+.vs_module_shortcode .vs_options_name{
+	width:200px;
+}
+.vs_module_shortcode .vs_options_setting{
+	width:200px;
+}
+ 
+#vs_shortcode{
+ resize: none;
+width: 100%;
+height: 50px;
+color: rgb(50, 92, 119);
+background: rgb(251, 236, 191);
+border: none;
+ border-radius: 7px;
+direction: ltr;
+text-align: left;
+text-align: center;
+vertical-align: middle;
+line-height: 44px;
+ }
+#vs_setting_json,
+#vs_slide{
+	display:none;
+}
+.vs_module_button {
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+background-color: #f2f5f8;
+    display: inline-block;
+    position: relative;
+    background-size: 37px;
+    background-repeat: no-repeat;
+    background-position: left 60px center;
+    padding: 0px 20px;
+    line-height: 50px;
+    font-size: 15px;
+    vertical-align: middle;
+    font-family: var(--vs-panel-font-family);
+    color: rgb(80, 96, 112);
+    font-weight: 700;
+    border-radius: 7px;
+    transition: all 500ms;margin-top: 0px !important;
+    cursor: pointer;
+}
+ .vs_module_button::before{
+    content: "";
+     width: 25px;
+    height: 25px;
+    float: left;
+    background-size: 25px;
+    margin-top: 14px;
+    margin-right: 10px;
+ }
+ 
+ 
+.vs_module_button:hover{
+	background:rgb(42, 155, 216);
+	color:#ffffff !important;
+	
+}
+.vs_module_button img{
+	width:30px;
+	margin:10px 0px 10px 10px;
+	float:left;
+}
+
+.vs_module_global_template_save::before{
+	background-image:url(../image/library_save.png);
+	
+}
+ 
+.vs_module_global_template_add::before{
+	background-image:url(../image/library_add.png);
+	
+}
+
+.vs_module_global_template_import::before{
+	background-image:url(../image/import.png);
+	
+}
+.vs_module_global_template_export::before{
+	background-image:url(../image/export.png);
+	
+}
+.vs_module_global_template_demo::before{
+	background-image:url(../image/demo.png);
+	
+}
+ 
+/******************** setting**************/
+.vs_module_setting{
+	position:relative;
+	width:100%;
+	background:none !important;
+	height:auto !important;
+}
+.vs_module_setting.vs_module_type_single .vs_title_tabs a:nth-child(4),
+.vs_module_setting.vs_module_type_single .vs_title_tabs a:nth-child(5),
+.vs_module_setting.vs_module_type_single .vs_title_tabs a:nth-child(6),
+.vs_module_setting.vs_module_type_single .vs_title_tabs a:nth-child(7),
+.vs_module_setting.vs_module_type_glider .vs_title_tabs a:nth-child(4),
+.vs_module_setting.vs_module_type_glider .vs_title_tabs a:nth-child(5),
+.vs_module_setting.vs_module_type_glider .vs_title_tabs a:nth-child(6),
+.vs_module_setting.vs_module_type_glider .vs_title_tabs a:nth-child(7){
+	 display:none !important;
+ }
+/******************************************************** Slide *************************************/
+.vs_module_slide_warp{
+ 	width: 100%;
+display: inline-block;border-top: solid 3px rgb(226, 229, 232);
+margin:0px;
+padding-top: 20px;
+}
+.vs_module_slide_list{
+		display: inline-block;
+vertical-align: top;
+margin:0px;margin-bottom: 20px;
+width:100%;
+}
+.vs_module_slide_item{
+width: 200px;
+margin: 10px;
+height: 180px;
+background: #e2e5e8;
+position: relative;
+display: inline-block;
+border-radius: 10px;
+cursor:move;
+overflow: hidden;
+box-shadow: 5px 5px 5px 0px #e2e5e8;
+ }
+ 
+ .vs_module_slide_top{
+	 width:100%;
+	background:#506070;
+	height:30px;
+	position:relative;
+}
+.vs_module_slide_top a{
+	width:25%;
+	width: 25%;
+	text-align:center;
+    background: #30383f;
+     position: relative;
+    top: 0;
+    display: inline-block;
+     border-right: 1px solid #40484f;
+}
+.vs_module_slide_top a:hover{
+	background:rgba(59,179,255,1.00);
+}
+.vs_module_slide_top a:before{
+	cursor: pointer;
+	
+	line-height:30px;
+	font-size:15px;
+	width:100%;
+	text-decoration: none;
+	float: left;
+	vertical-align: middle;	
+	font-style: normal;
+	color: #ffffff;
+}
+.vs_module_slide_options::before{
+ 
+ 	font-family: dashicons;
+ 	content: "\f111";
+ 
+ }
+ 
+ .vs_module_slide_duplicate::before{
+ 
+ 	font-family: dashicons;
+ 	content: "\f105";
+ 
+ }
+
+ .vs_module_slide_template_save::before{
+ 
+ 	font-family: FontAwesome;
+ 	content: "\f0c7";
+ 
+ }
+  .vs_module_slide_remove::before{
+ 
+ 	font-family: dashicons;
+content: "\f182"; 
+ }
+
+ .vs_module_slide_bottom{
+background: rgb(240, 243, 246);
+height: 20px;
+bottom: 0;
+position: absolute;
+width: 100%;
+text-align: center;
+ }
+  .vs_module_slide_title{
+line-height: 30px;
+text-align: center;
+width: 100%;
+float: left;
+width: 100%;
+height: 30px;
+background: #f2f5f8;
+color: #60686f;
+
+  }
+  .vs_module_slide_list .ui-sortable-placeholder{
+	  background:rgba(34, 113, 177, 0.1);width: 200px;
+	  visibility:visible !important;
+ height: 180px;
+	border:dashed 1px rgba(34, 113, 177, 0.6);
+	  
+  }
+  
+.vs_module_add_warp{
+	display: inline-block;
+vertical-align: top;
+	margin:00px;
+
+}
+.vs_module_add_warp a{
+	float:left;
+}
+.vs_module_slide_add::before{
+	background-image:url(../image/addslide.png);
+	
+}
+.vs_module_slide_options_show::before {
+    background-image: url(../image/slide_setting.png);
+}
+.vs_module_slide_template_add::before{
+	background-image:url(../image/library_add.png);
+	
+}
+.vs_module_all_slide_template_save::before{
+	background-image:url(../image/library_save.png);
+	
+}
+
+.vs_module_add_slide:hover{
+	background-color:#102030;
+	color:#ffffff;
+}
+ 
+.vs_module_add_bottom{
+	width: 100%;
+ text-align: center;
+background: rgb(224, 232, 239);
+color: #506070;
+position: absolute;
+bottom: 0;
+line-height: 25px;
+font-size: 13px;
+ 	
+}
+.vs_module_slide_layer,
+.vs_module_slide_option{
+	display:none !important;
+}
+
+.vs_module_slide_inner {
+    height: 150px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    float: right;
+}
+.vs_module_slide_cover{
+	height:120px !important;
+	width:100%;
+	position:relative;
+	float:left;
+		background-image: var(--vs-sl-bg-img);
+		background-repeat:no-repeat;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+
+
+}
+.vs_module_slide_cover::before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	background:var(--vs-sl-bg-cr);
+}
+.vs-visualslider *{
+	font-family:var(--vs-font-family);	
+}
+ /**************************options/*************************/
+ 
+.vs_panel *{
+	box-sizing:border-box;
+ 
+}
+.vs_perview_heading *,
+.vs_panel_title *,
+.vs_module_layer_warp *,
+.vs_options *{
+		transition: color 350ms,background 350ms,border-color 350ms,box-shadow 350ms;
+}
+ 
+
+.vs_panel {
+	display: none;
+	position: fixed;
+	pointer-events: all;
+	background: rgba(0,0,0,0.70);
+	top: 0;
+	z-index: 150000;
+	cursor: initial;
+	height: 100%;
+	width: 100%;
+	right: 0;
+	
+	display: table;
+	font-family:var(--vs-panel-font-family);
+
+	vertical-align: middle
+}
+.vs_panel_middle {
+	margin: auto;
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	text-align: center;
+	overflow:hidden;
+ box-shadow: 0 0 50px 0px rgba(0, 0, 0, 1);
+	border-radius:7px;
+	display: inline-block;
+	position: absolute;
+	padding: 0 0;
+ 	left: 20px;
+	top:20px;
+  }
+ 
+.vs_panel_title {
+	padding: 00px;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: right;
+	position:absolute;
+	background: #f5f8fb;
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	z-index: 1;
+	height:50px;
+	top: 0;
+ }
+.vs_panel_title h3{
+	margin:0px !important;
+	float: left;
+	line-height:1 !important;
+	padding:15px !important;
+}
+ 
+.vs_panel_cancel {
+	cursor: pointer;
+	height:50px;
+	line-height:50px;
+	padding:0 20px;
+	background: rgb(240, 71, 71);
+ 	color:#ffffff;
+	float:right;
+ } 
+ .vs_panel_cancel:hover{
+	 background: rgb(185, 25, 25);
+ }
+.vs_panel_save,
+.vs_panel_add{
+    cursor: pointer;
+    background: rgb(6, 208, 142);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    float: right;
+    padding: 0 20px;
+}
+.vs_panel_save:hover,
+.vs_panel_add:hover{
+	    background: rgb(0, 142, 96);
+}
+.vs_panel_save:before,
+.vs_panel_cancel:before {
+width: 25px;
+content:"";
+background-size:25px;
+height: 25px;
+margin-right: 10px;
+margin-top: 12px;
+float: left;
+}
+.vs_panel_save:before{
+	
+	background-image:url(../image/panel_save.png);
+}
+.vs_panel_cancel:before{
+	background-image:url(../image/panel_cancel.png)
+}
+.vs_panel_add:before{
+	background-image:url(../image/panel_add.png);
+}
+ 
+.vs_panel_scroll {
+	overflow-y: auto;
+	float: right;
+	background: #fff;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	top:50px;
+	position:relative;
+	padding:20px;
+	height:calc(100% - 50px);
+}
+.vs_panel_content{
+	width:100%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+.vs_slide_json{
+	display:none;
+}
+ 
+
+.vs_id_tablet_background_start .vs_options_span::after{
+	
+width: 25px;
+content: "";
+background-size: 25px;
+height: 25px;
+margin-right: 10px;
+margin-top: 7.5px;
+float: left;
+background-image:url(../image/tablet-grey.png);
+}
+.vs_id_tablet_background_start .vs_options_span:hover::after{
+	background-image:url(../image/tablet.png) !important;
+}
+.vs_id_mobile_background_start .vs_options_span::after{
+	
+	width: 25px;
+content:"";
+background-size:25px;
+height: 25px;
+margin-right: 10px;
+margin-top: 7.5px;
+float: left;
+background-image:url(../image/mobile-grey.png);
+}
+.vs_id_mobile_background_start .vs_options_span:hover::after{
+	background-image:url(../image/mobile.png) !important;
+}
+
+.vs_title_tabs {
+	float: right;
+	padding: 0px 00px 0px;
+border-bottom: 3px solid #e2e5e8;
+	width: 100%;
+	text-align: left;
+ }
+.vs_title_tabs a {
+    padding: 10px 20px;
+    float: left;
+    background: #60686f;
+    border-color: #fff;
+    font-size: 15px;
+    color: #e2e5e8;
+    margin-bottom: -3px;
+    border-style: solid;
+    border-width: 3px 3px 0px 3px;
+    cursor: pointer;
+    border-radius: 7px 7px 0px 0px;
+    font-weight: 700;
+}
+ 
+.vs_title_tabs a:hover{
+	background: rgb(255, 255, 255) !important;
+	color:#222528  !important;
+	  	border-left: solid 3px #e2e5e8 !important;
+ 	border-top: solid 3px #e2e5e8 !important;
+ 	border-right: solid 3px #e2e5e8 !important;
+ 	border-bottom: solid 3px #fff !important;
+}
+body .vs_layout_active {
+	background: rgb(255, 255, 255) !important;
+	border-bottom: none !important;
+	color:#222528;
+  	border-left: solid 3px #e2e5e8 !important;
+ 	border-top: solid 3px #e2e5e8 !important;
+ 	border-right: solid 3px #e2e5e8 !important;
+ 	border-bottom: solid 3px #fff !important;
+}
+
+ 
+ 
+.vs_options_heading.vs_responsive_options_tablet  span::before{
+ width: 25px;
+content:"";
+background-size:25px;
+height: 25px;
+margin-right: 10px;
+margin-top: 7.5px;
+float: left;
+background-image:url(../image/tablet-grey.png);
+}
+.vs_options_heading.vs_responsive_options_mobile  span::before{
+ width: 25px;
+content:"";
+background-size:25px;
+height: 25px;
+margin-right: 10px;
+margin-top: 7.5px;
+float: left;
+background-image:url(../image/mobile-grey.png);
+}
+ 
+ .vs_live_slide_background_image input{
+	 width:500px;
+	 margin-left:10px;
+ }
+ .vs_module_slide_options_show{
+	 float:left;
+ }
+ .vs_module_slide_options_show.vs_module_slide_options_active{
+	 background:rgb(42, 155, 216) !important;
+	 color:#ffffff !important;
+	 
+ }#vs_module_slide_options.vs_module_side_options_active{
+		width:400px;
+ 	display:inline-block;
+  }
+ 
+
+ 
+ 
+ 
+.rtl .vs-mouse-wait .vs-errored:before{
+ 
+	margin-left: 0px;
+	margin-right: 10px;
+ 	
+	
+}
+.rtl .vs_module_heading,
+.rtl .vs_module_button img,
+.rtl .vs_module_add_warp a,
+.rtl .vs_module_slide_cover,
+.rtl .vs_module_slide_inner,
+.rtl .vs_module_global_template,
+.rtl .vs_module_slide_inner,
+ 
+.rtl .vs_panel_title ,
+.rtl .vs_panel_title h3,
+.rtl  .vs_panel_save:before,
+.rtl .vs_panel_cancel:before,
+.rtl  .vs_module_slide_options_show,
+.rtl .vs_module_slide_top a:before,
+.rtl  .vs_title_tabs a {
+	float:right;
+ 
+}
+.rtl .vs_panel_cancel,
+.rtl .vs_panel_save,
+.rtl .vs_panel_add{
+ 
+	float:left;
+ } 
+.rtl .vs_module_shortcode{
+	float:right;
+	padding-right: 00px;
+	padding-left: 20px;
+ 
+}
+ 
+ 
+.rtl #vs_shortcode{
+	 direction: rtl;
+	text-align: right; 
+ }
+ 
+ 
+ .rtl .vs_module_button::before{
+    float: right;
+    margin-left: 10px;
+    margin-right: 00px;
+ }
+  
+ 
+ 
+/******************************************************** Slide *************************************/
+ 
+ 
+ 
+  
+.rtl .vs_module_slide_top a{
+      border-left: 1px solid #40484f;
+}
+ 
+  
+ .rtl .vs_module_slide_cover::before{
+  	right:0px;
+  	left:auto;
+  }
+
+ /**************************options/*************************/
+ 
+  
+ 
+ 
+ 
+ 
+
+ 
+ .rtl .vs_id_tablet_background_start .vs_options_span::after,
+ .rtl .vs_id_mobile_background_start .vs_options_span::after{
+	
+ 
+margin-right: 0px;
+margin-left: 10px;
+ 
+float: right;
+}
+ .rtl .vs_title_tabs {
+	float: right;
+ 	text-align: right;
+ }
+ 
+ 
+ .rtl .vs_options_heading.vs_responsive_options_tablet  span::before,
+ .rtl .vs_options_heading.vs_responsive_options_mobile  span::before,
+ .rtl  .vs_panel_save::before, .rtl .vs_panel_cancel::before
+ {
+margin-right: 00px;
+margin-left: 10px;
+ float: right;
+ }
+ 
+ .rtl .vs_live_slide_background_image input{
+ 	 margin-left:00px;
+ 	 margin-right:10px;
+ }
+  .rtl  .vs_module_button {
+	 	 margin-left:20px;
+ 	 margin-right:0px;
+ }
+ 

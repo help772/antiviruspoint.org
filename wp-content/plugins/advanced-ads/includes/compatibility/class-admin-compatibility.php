@@ -1,0 +1,126 @@
+<?php
+/**
+ * This class is responsible for fixing compatibility issues in admin area.
+ *
+ * @package AdvancedAds
+ * @author  Advanced Ads <info@wpadvancedads.com>
+ * @since   1.48.2
+ */
+
+namespace AdvancedAds\Compatibility;
+
+use AdvancedAds\Constants;
+use AdvancedAds\Utilities\Conditional;
+use AdvancedAds\Framework\Interfaces\Integration_Interface;
+
+defined( 'ABSPATH' ) || exit;
+
+/**
+ * Admin Compatibility.
+ */
+class Admin_Compatibility implements Integration_Interface {
+
+	/**
+	 * Hook into WordPress.
+	 *
+	 * @return void
+	 */
+	public function hooks(): void {
+		add_action( 'admin_enqueue_scripts', [ $this, 'dequeue_jnews_style' ], 100 );
+		add_action( 'quads_meta_box_post_types', [ $this, 'fix_wpquadspro_issue' ], 11 );
+		add_filter( 'wpml_admin_language_switcher_active_languages', [ $this, 'wpml_language_switcher' ] );
+
+		// Hide from WPML translation settings.
+		if ( defined( 'ICL_SITEPRESS_VERSION' ) ) {
+			add_filter( 'get_translatable_documents', [ $this, 'wpml_hide_from_translation' ], 10, 1 );
+		}
+
+		add_filter( 'admin_body_class', [ $this, 'add_advads_admin_body_class_wp7' ] );
+	}
+
+	/**
+	 * Adds a new class to admin body to fix CSS on version 7.0+
+	 *
+	 * @param string $classes Space-separated string of admin body classes.
+	 *
+	 * @return string
+	 */
+	public function add_advads_admin_body_class_wp7( ?string $classes ): string {
+		global $wp_version;
+
+		// Catch null values passed by 3rd party plugins to prevent TypeError on return.
+		$classes = $classes ?? '';
+
+		// Check if WordPress version is 7.0 or greater.
+		if ( version_compare( $wp_version, '7.0-alpha', '>=' ) && Conditional::is_screen_advanced_ads() ) {
+			$classes .= ' advads-wp-7-plus';
+		}
+
+		return $classes;
+	}
+
+	/**
+	 * Fixes a WP QUADS PRO compatibility issue
+	 * they inject their ad optimization meta box into our ad page, even though it is not a public post type
+	 * using they filter, we remove AA from the list of post types they inject this box into
+	 *
+	 * @param array $allowed_post_types Array of allowed post types.
+	 *
+	 * @return array
+	 */
+	public function fix_wpquadspro_issue( $allowed_post_types ): array {
+		unset( $allowed_post_types['advanced_ads'] );
+
+		return $allowed_post_types;
+	}
+
+	/**
+	 * Dequeue J-NEWS styles to prevent layout issues.
+	 *
+	 * @return void
+	 */
+	public function dequeue_jnews_style(): void {
+		if ( ! Conditional::is_screen_advanced_ads() || ! defined( 'JNEWS_THEME_URL' ) ) {
+			return;
+		}
+
+		wp_dequeue_style( 'jnews-admin' );
+	}
+
+	/**
+	 * Show only all languages in language switcher on Advanced Ads pages if ads and groups are translated
+	 *
+	 * @param array $active_languages languages that can be used in language switcher.
+	 *
+	 * @return array
+	 */
+	public function wpml_language_switcher( $active_languages ): array {
+		global $sitepress;
+
+		$screen = get_current_screen();
+
+		// If ad post type is translatable.
+		if ( isset( $screen->id ) && in_array( $screen->id, [ 'edit-advanced_ads', 'advanced_ads' ], true ) ) {
+			$translatable_documents = $sitepress->get_translatable_documents();
+			if ( empty( $translatable_documents['advanced_ads'] ) ) {
+				return [];
+			}
+		}
+
+		return $active_languages;
+	}
+
+	/**
+	 * Hide post type from WPML translatable documents.
+	 *
+	 * @param array $documents Array of translatable documents.
+	 *
+	 * @return array Modified array.
+	 */
+	public function wpml_hide_from_translation( $documents ): array {
+		if ( isset( $documents[ Constants::POST_TYPE_PLACEMENT ] ) ) {
+			unset( $documents[ Constants::POST_TYPE_PLACEMENT ] );
+		}
+		return $documents;
+	}
+}

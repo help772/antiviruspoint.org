@@ -1,0 +1,167 @@
+  
+.hw-slider-list-warp .lSSlideOuter {
+	overflow: hidden !important;
+}
+.hw-slider .hw-item-list {
+	vertical-align: top;
+	height:auto !important;
+	overflow: hidden !important;
+	grid-template-columns: repeat(var(--hw-flx,1), 1fr);
+	display: grid !important;
+}
+.hw-slider .lightSlider.hw-item-list{
+	height:auto !important;
+	overflow:visible !important;
+	visibility:visible !important;
+	display: inline-flex !important;
+}
+.hw-slider-list-warp{
+	width:100%;
+	float: left;
+	overflow:visible !important;
+}
+ 
+
+/******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+
+																	 	Arrow
+																		
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/ 
+.hw-gap-content   .hw-arrow-warp {
+	width: calc(100% - var(--hw-gp,0px)) !important;
+	left: calc(var(--hw-gp,0px) / 2) !important;
+	z-index:100;
+ 	position: absolute;
+	height: 100%;
+	top: 0;
+	pointer-events: none;
+}
+.hw-gap-content .hw-page-list{
+	display:none !important;
+}
+.hw-gap-content .hw-arrow-warp{
+	transition:var(--hw-tr);
+	opacity: var(--hw-aw-ly,0);
+}
+.hw-gap-content [class*="slider-list-warp"]:hover .hw-arrow-warp {
+	opacity: 1;
+	transition:var(--hw-tr);
+}
+.hw-gap-content .noPager .hw-item-list{
+	transform:none !important;
+}
+/* slider actions */
+.hw-gap-content .vao-hide-arrow .hw-arrow-warp{
+	display:none !important;
+}
+.hw-gap-content .hw-arrow-warp a {
+	opacity:1;
+	background:#444;
+	top: calc(50% - (var(--hw-aw-sz,45px) / 2 + var(--hw-has-pager,0px)) );
+	position: absolute;
+	height: var(--hw-aw-sz,45px);
+	width: var(--hw-aw-sz,45px);
+	font-size:var(--hw-aw-sz,45px);
+	pointer-events: all;
+	box-shadow:0 0 5px 3px rgba(118,128,138,0.2) !important;
+	color:var(--hw-aw-txt,#ffffff);
+	background:var(--hw-aw-bg,rgba(0,5,10,0.50));
+	border-radius:var(--hw-btn-rd,0px);
+	cursor: pointer;
+}
+.hw-gap-content .hw-arrow-warp a::before{
+	width: var(--hw-aw-sz,45px);
+	text-align: center;
+	position: relative;
+	height: var(--hw-aw-sz,45px);
+	float: left;
+	line-height: var(--hw-aw-sz,45px);
+	font-size:0.8em;
+	color:inherit !important;
+	font-family: 'fontsite';
+	text-align: center;
+}
+.hw-gap-content .hw-arrow-warp a:hover{
+	--hw-aw-txt:var(--hw-primary-txt);
+	--hw-aw-bg:var(--hw-primary-bg);
+}
+.hw-gap-content .hw-arrow-warp .hw-arrow-prev {
+	left: var(--hw-aw-lc,calc(var(--hw-aw-sz,45px) / -2));
+}
+.hw-gap-content .hw-arrow-warp .hw-arrow-next {
+	right: var(--hw-aw-lc,calc(var(--hw-aw-sz,45px) / -2));
+}
+  .hw-arrow-warp .hw-arrow-prev::before {
+	content: "\F023";
+	margin-left: -2px;
+}
+ .hw-arrow-warp .hw-arrow-next::before {
+	content: "\F024";
+	margin-left: 2px;
+}
+ 
+  .lSSlideOuter .lSPager.lSpg{
+	 display:none;
+ } 
+ .hw-hide-prev  .hw-arrow-prev{
+	opacity:.5 !important;
+}
+.hw-hide-next    .hw-arrow-next{
+	opacity:.5 !important;
+}
+
+@media (max-width:1024px) {
+	body .hw-slider .dragscroll{
+		overflow-x: scroll !important;
+		overflow-y:hidden!important;
+	}
+	body .hw-slider .dragscroll .hw-item-list {
+		overflow-x: visible !important;
+		overflow-y: auto !important;
+		transition:none !important;
+	}
+	body .hw-slider .dragscroll .lSSlideOuter{
+		width:100% !important;
+		overflow:visible !important;
+	}
+	.dragscroll .lSSlideWrapper{
+		width:auto !important;
+	}
+	.dragscroll .hw-item-list{
+		transform: none !important;
+		display: inline-flex !important;
+		visibility: visible !important;
+		opacity: 1;
+		width: auto !important;
+		height: auto !important;
+	}
+	.dragscroll .hw-item {
+		width:var(--hw-drg-col) !important;
+	}
+	body .hw-slider .dragscroll .lSSlideOuter .lSPager.lSpg,body .hw-slider .dragscroll .hw-arrow-warp{
+		display:none !important;
+	}
+}
+.hw-slider-options{
+	display:none !important;
+}
+.lSSlideWrapper .lSSlide {
+	transform: translate(0px, 0px);
+	transition-property: transform,height;
+	transition-duration: inherit !important;
+	transition-timing-function: inherit !important;
+}
+.lSSlideWrapper .lightSlider.lsGrab > * {
+	cursor: grab !important;
+}
+.lSSlideWrapper .lightSlider.lsGrabbing > * {
+	cursor: move !important;
+	cursor: grabbing !important;
+}
+body .hw-slider .vao-hide-arrow .lSSlideWrapper .lightSlider > *,.lSSlideWrapper .lightSlider.lsGrabbing a{
+	cursor:inherit !important;
+}
+
+
+ 

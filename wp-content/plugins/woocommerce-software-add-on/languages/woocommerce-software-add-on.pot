@@ -1,0 +1,766 @@
+# Copyright (C) 2024 Kestrel
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Software Add-On for WooCommerce 1.9.2\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/create-a-ticket/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-26T16:40:58+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: woocommerce-software-add-on\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-software-add-on.php
+#: includes/class-wc-software-privacy.php:8
+#: src/Admin/Notices/views/html-notice-update.php:17
+#: src/Admin/Notices/views/html-notice-updating.php:18
+msgid "Software Add-On for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-software-add-on.php
+msgid "https://woocommerce.com/products/software-add-on/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-software-add-on.php
+msgid "Extends WooCommerce to a full-blown software shop, including license activation, license retrieval, activation e-mails and more."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-software-add-on.php
+msgid "Kestrel"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-software-add-on.php
+msgid "https://kestrelwp.com"
+msgstr ""
+
+#: includes/class-wc-software-api-request.php:30
+msgid "The following required information is missing"
+msgstr ""
+
+#: includes/class-wc-software-api.php:29
+msgid "Invalid API Request"
+msgstr ""
+
+#: includes/class-wc-software-api.php:32
+msgid "No API Request Made"
+msgstr ""
+
+#: includes/class-wc-software-api.php:59
+msgid "Invalid License Key"
+msgstr ""
+
+#: includes/class-wc-software-api.php:65
+msgid "Software has been deactivated"
+msgstr ""
+
+#: includes/class-wc-software-api.php:71
+msgid "Exceeded maximum number of activations"
+msgstr ""
+
+#: includes/class-wc-software-api.php:77
+msgid "Invalid Instance ID"
+msgstr ""
+
+#: includes/class-wc-software-api.php:83
+msgid "Invalid security key"
+msgstr ""
+
+#: includes/class-wc-software-api.php:89
+msgid "Forbidden"
+msgstr ""
+
+#: includes/class-wc-software-api.php:95
+msgid "Invalid Request"
+msgstr ""
+
+#: includes/class-wc-software-api.php:103
+msgid "No debug information available"
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:52
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:78
+msgid "Could not found valid data from the file to import."
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:169
+msgid "Product ID %s is not a valid software product"
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:180
+msgid "Missing license_key"
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:190
+msgid "Invalid email"
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:212
+msgid "License key %1$s is successfully imported into product ID %2$d"
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:231
+msgid "No license key being imported."
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:232
+#: includes/class-wc-software-csv-importer.php:241
+msgid "See detailed report below."
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:237
+msgid "%1$d license key(s) imported and %2$d license keys skipped."
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:246
+msgid "All done. <a href=\"%s\"> Have fun!</a>"
+msgstr ""
+
+#: includes/class-wc-software-csv-importer.php:403
+msgid "Import License Keys"
+msgstr ""
+
+#: includes/class-wc-software-csv-parser.php:43
+msgid "File <code>%s</code> does not exist"
+msgstr ""
+
+#: includes/class-wc-software-csv-parser.php:50
+msgid "No data to parse from <code>%s</code>"
+msgstr ""
+
+#: includes/class-wc-software-csv-parser.php:81
+msgid "Unable to open file <code>%s</code>"
+msgstr ""
+
+#: includes/class-wc-software-csv-parser.php:93
+msgid "File <code>%s</code> is not readable"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:59
+#: includes/class-wc-software-order-admin.php:186
+#: includes/class-wc-software-order-admin.php:319
+#: includes/class-wc-software-product-admin.php:84
+msgid "Unlimited"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:63
+#: includes/class-wc-software-key-admin.php:65
+#: includes/class-wc-software-order-admin.php:439
+#: includes/class-wc-software-product-admin.php:59
+#: includes/class-wc-software-reports.php:221
+#: includes/class-wc-software-reports.php:327
+#: includes/class-wc-software-reports.php:338
+msgid "N/A"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:91
+msgid "License key"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:92
+msgid "Activation email"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:93
+msgid "Software product ID"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:94
+msgid "Software version"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:95
+#: includes/class-wc-software-product-admin.php:82
+msgid "Activation limit"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:96
+msgid "Activations remaining"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:97
+msgid "Order ID"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:98
+msgid "Date created"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:124
+msgid "Delete"
+msgstr ""
+
+#: includes/class-wc-software-key-admin.php:157
+msgid "License Keys Deleted"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:119
+#: includes/class-wc-software-order-admin.php:441
+#: includes/class-wc-software-reports.php:227
+#: includes/class-wc-software-reports.php:344
+msgid "Activated"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:119
+#: includes/class-wc-software-order-admin.php:441
+#: includes/class-wc-software-reports.php:227
+#: includes/class-wc-software-reports.php:344
+msgid "Deactivated"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:133
+msgid "Software License Keys"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:134
+msgid "Activations"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:168
+#: includes/class-wc-software-order-admin.php:301
+msgid "Delete key"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:169
+#: includes/class-wc-software-order-admin.php:302
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:170
+#: includes/class-wc-software-order-admin.php:303
+msgid "Product: %1$s, version %2$s"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:177
+#: includes/class-wc-software-order-admin.php:310
+#: includes/class-wc-software-order-admin.php:417
+#: includes/class-wc-software-reports.php:196
+#: includes/class-wc-software-reports.php:302
+msgid "License Key"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:181
+#: includes/class-wc-software-order-admin.php:314
+msgid "Activation Email"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:185
+msgid "Activation Limit"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:191
+#: includes/class-wc-software-order-admin.php:324
+msgid "Software Product ID"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:195
+#: includes/class-wc-software-order-admin.php:328
+#: includes/class-wc-software-order-admin.php:422
+#: includes/class-wc-software-reports.php:199
+#: includes/class-wc-software-reports.php:305
+msgid "Software Version"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:265
+msgid "Add License Key"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:318
+msgid "Activations Remaining"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:349
+msgid "Are you sure you want to delete this license key?"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:418
+#: includes/class-wc-software-reports.php:300
+msgid "Instance"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:419
+#: includes/class-wc-software-reports.php:195
+#: includes/class-wc-software-reports.php:301
+msgid "Software ID"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:420
+#: includes/class-wc-software-reports.php:197
+#: includes/class-wc-software-reports.php:303
+msgid "Status"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:421
+#: includes/class-wc-software-reports.php:198
+#: includes/class-wc-software-reports.php:304
+msgid "Date &amp; Time"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:423
+#: includes/class-wc-software-reports.php:200
+#: includes/class-wc-software-reports.php:306
+msgid "Platform/OS"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:424
+msgid "Action"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:442
+#: includes/class-wc-software-reports.php:228
+#: includes/class-wc-software-reports.php:345
+msgid "D j M Y \\a\\t h:ia"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:446
+msgid "Toggle Activation"
+msgstr ""
+
+#: includes/class-wc-software-order-admin.php:495
+#: includes/class-wc-software-reports.php:239
+msgid "No activations yet"
+msgstr ""
+
+#: includes/class-wc-software-privacy.php:10
+#: includes/class-wc-software-privacy.php:11
+msgid "WooCommerce Software Data"
+msgstr ""
+
+#: includes/class-wc-software-privacy.php:43
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. <a href=\"%s\" target=\"_blank\">Learn more about how this works, including what you may want to include in your privacy policy.</a>"
+msgstr ""
+
+#: includes/class-wc-software-privacy.php:143
+msgid "Software Add-On personal data erased."
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:49
+msgid "Product ID"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:50
+msgid "This ID is used for the license key API."
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:51
+msgid "e.g. SOFTWARE1"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:57
+msgid "License key prefix"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:58
+msgid "Optional prefix for generated license keys."
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:65
+msgid "Secret key"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:66
+msgid "Secret Product Key to use  for API."
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:67
+msgid "any random string"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:74
+msgid "Version"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:75
+msgid "Version number for the software."
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:76
+msgid "e.g. 1.0"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:83
+msgid "Amount of activations possible per license key."
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:92
+msgid "Upgradable product"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:93
+msgid "Name of the product which can be upgraded."
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:100
+msgid "Upgrade Price"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:101
+msgid "Users with a valid upgrade key will be able to pay this amount."
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:102
+msgid "e.g. 10.99"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:109
+msgid "Valid upgrade keys"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:110
+msgid "A comma separated list of keys which can be upgraded."
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:117
+msgid "Used upgrade keys"
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:118
+msgid "A comma separated list of keys which have been used for an upgrade already."
+msgstr ""
+
+#: includes/class-wc-software-product-admin.php:152
+msgid "Software"
+msgstr ""
+
+#: includes/class-wc-software-reports.php:116
+msgid "Total software sales"
+msgstr ""
+
+#. translators: No total sales to display in reporting
+#: includes/class-wc-software-reports.php:124
+msgid "n/a"
+msgstr ""
+
+#: includes/class-wc-software-reports.php:164
+msgid "active"
+msgstr ""
+
+#: includes/class-wc-software-reports.php:194
+#: includes/class-wc-software-reports.php:299
+msgid "Order"
+msgstr ""
+
+#: includes/class-wc-software-reports.php:271
+msgid "From:"
+msgstr ""
+
+#: includes/class-wc-software-reports.php:274
+msgid "To:"
+msgstr ""
+
+#: includes/class-wc-software-reports.php:355
+msgid "No activations found."
+msgstr ""
+
+#: includes/requests/class-wc-activation-request.php:32
+#: includes/requests/class-wc-activation-reset-request.php:14
+#: includes/requests/class-wc-check-request.php:22
+#: includes/requests/class-wc-deactivation-request.php:14
+msgid "The email provided is invalid"
+msgstr ""
+
+#: includes/requests/class-wc-activation-request.php:39
+#: includes/requests/class-wc-activation-reset-request.php:20
+#: includes/requests/class-wc-check-request.php:29
+#: includes/requests/class-wc-deactivation-request.php:20
+msgid "No matching license key exists"
+msgstr ""
+
+#: includes/requests/class-wc-activation-request.php:46
+#: includes/requests/class-wc-check-request.php:38
+msgid "The purchase matching this product is not complete"
+msgstr ""
+
+#: includes/requests/class-wc-activation-request.php:56
+msgid "Remaining activations is equal to zero"
+msgstr ""
+
+#: includes/requests/class-wc-activation-request.php:63
+msgid "Could not activate key"
+msgstr ""
+
+#: includes/requests/class-wc-activation-request.php:74
+msgid "%1$s out of %2$s activations remaining"
+msgstr ""
+
+#: includes/requests/class-wc-activation-reset-request.php:38
+msgid "An undisclosed error occurred"
+msgstr ""
+
+#: includes/requests/class-wc-deactivation-request.php:27
+msgid "No matching instance exists"
+msgstr ""
+
+#: includes/requests/class-wc-generate-key-request.php:60
+msgid "Non matching product_id and secret_key provided"
+msgstr ""
+
+#: src/Admin/Admin.php:59
+msgctxt "aria-label: settings link"
+msgid "View Software Add-On for WooCommerce license keys"
+msgstr ""
+
+#: src/Admin/Admin.php:60
+msgctxt "plugin action link"
+msgid "License Keys"
+msgstr ""
+
+#: src/Admin/Admin.php:66
+msgctxt "aria-label: settings link"
+msgid "View Software Add-On for WooCommerce reports"
+msgstr ""
+
+#: src/Admin/Admin.php:67
+msgctxt "plugin action link"
+msgid "Reports"
+msgstr ""
+
+#: src/Admin/Admin.php:92
+msgctxt "aria-label: documentation link"
+msgid "View Software Add-On for WooCommerce documentation"
+msgstr ""
+
+#: src/Admin/Admin.php:93
+msgctxt "plugin row link"
+msgid "Docs"
+msgstr ""
+
+#: src/Admin/Admin.php:99
+msgctxt "aria-label: support link"
+msgid "Open a support ticket at WooCommerce.com"
+msgstr ""
+
+#: src/Admin/Admin.php:100
+msgctxt "plugin row link"
+msgid "Support"
+msgstr ""
+
+#: src/Admin/Notices/views/html-notice-update.php:17
+msgctxt "admin notice"
+msgid "We need to update your store database to the latest version."
+msgstr ""
+
+#: src/Admin/Notices/views/html-notice-update.php:20
+msgid "Run the updater"
+msgstr ""
+
+#: src/Admin/Notices/views/html-notice-update.php:26
+msgctxt "admin notice"
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: src/Admin/Notices/views/html-notice-updating.php:18
+msgctxt "admin notice"
+msgid "Your database is being updated in the background."
+msgstr ""
+
+#: src/Admin/Notices/views/html-notice-updating.php:20
+msgid "Taking a while? Click here to run it now."
+msgstr ""
+
+#: src/Database/Installer.php:187
+msgctxt "Title of a page"
+msgid "Lost License"
+msgstr ""
+
+#: src/Database/Installer.php:268
+msgid "Software Add-On for WooCommerce update completed. Thank you for updating to the latest version!"
+msgstr ""
+
+#. translators: %s WC download URL link.
+#: src/Deprecated/functions.php:18
+msgid "Software Add-on requires WooCommerce to be installed and active. You can download %s here."
+msgstr ""
+
+#. translators: 1: Minimum PHP version 2: Current PHP version
+#: src/Requirements.php:59
+msgctxt "admin notice"
+msgid "<strong>Software Add-On for WooCommerce</strong> requires PHP %1$s or higher. You are using version %2$s"
+msgstr ""
+
+#. translators: 1: Minimum WordPress version 2: Current WordPress version
+#: src/Requirements.php:66
+msgctxt "admin notice"
+msgid "<strong>Software Add-On for WooCommerce</strong> requires WordPress %1$s or higher. You are using version %2$s"
+msgstr ""
+
+#: src/Requirements.php:71
+msgctxt "admin notice"
+msgid "<strong>Software Add-On for WooCommerce</strong> requires WooCommerce to be activated to work."
+msgstr ""
+
+#. translators: 1: Minimum WooCommerce version 2: Current WooCommerce version
+#: src/Requirements.php:75
+msgctxt "admin notice"
+msgid "<strong>Software Add-On for WooCommerce</strong> requires WooCommerce %1$s or higher. You are using version %2$s"
+msgstr ""
+
+#: templates/csv-import-greet.php:2
+msgid "Hi there! Upload a CSV file containing license keys to import the licenses into your shop."
+msgstr ""
+
+#: templates/csv-import-greet.php:3
+msgid "Choose a CSV (.csv) file to upload, then click Upload file and import."
+msgstr ""
+
+#: templates/csv-import-result.php:4
+msgid "Row"
+msgstr ""
+
+#: templates/csv-import-result.php:5
+msgid "Result"
+msgstr ""
+
+#: templates/email-keys.php:3
+#: woocommerce-software-add-on.php:133
+#: woocommerce-software-add-on.php:146
+msgid "License Keys"
+msgstr ""
+
+#: templates/email-keys.php:9
+#: templates/email-lost-keys.php:11
+msgid "Version %s"
+msgstr ""
+
+#: templates/email-keys.php:14
+#: templates/email-lost-keys.php:16
+msgid "License Email:"
+msgstr ""
+
+#: templates/email-keys.php:15
+#: templates/email-lost-keys.php:17
+#: templates/upgrade-form.php:13
+msgid "License Key:"
+msgstr ""
+
+#: templates/email-keys.php:18
+#: templates/email-lost-keys.php:20
+msgid "%d activations remaining"
+msgstr ""
+
+#: templates/lost-license.php:4
+msgid "Please tell us the email address used during the purchase. Your license along with the order receipt will be sent by email."
+msgstr ""
+
+#: templates/lost-license.php:5
+msgid "If your email address has changed, please contact us."
+msgstr ""
+
+#: templates/lost-license.php:9
+msgid "Javascript must be enabled to use this form."
+msgstr ""
+
+#: templates/lost-license.php:10
+msgid "Your email address"
+msgstr ""
+
+#: templates/lost-license.php:11
+msgid "Email License Keys"
+msgstr ""
+
+#: templates/lost-license.php:52
+msgid "Error processing request"
+msgstr ""
+
+#: templates/upgrade-form.php:3
+msgid "Upgrading from an old version?"
+msgstr ""
+
+#: templates/upgrade-form.php:5
+msgid "Upgrade from %1$s for just %2$s by entering your details below."
+msgstr ""
+
+#: templates/upgrade-form.php:8
+msgid "Activation email:"
+msgstr ""
+
+#: templates/upgrade-form.php:9
+msgid "Enter your email address"
+msgstr ""
+
+#: templates/upgrade-form.php:14
+msgid "Enter your license key"
+msgstr ""
+
+#: templates/upgrade-form.php:18
+msgid "Upgrade"
+msgstr ""
+
+#: woocommerce-software-add-on.php:342
+#: woocommerce-software-add-on.php:479
+#: woocommerce-software-add-on.php:523
+#: woocommerce-software-add-on.php:542
+msgid "Upgrade key"
+msgstr ""
+
+#: woocommerce-software-add-on.php:374
+msgid "Please enter your upgrade key!"
+msgstr ""
+
+#: woocommerce-software-add-on.php:378
+msgid "Please enter your activation email address!"
+msgstr ""
+
+#: woocommerce-software-add-on.php:386
+msgid "Please enter a valid activation email address."
+msgstr ""
+
+#: woocommerce-software-add-on.php:392
+msgid "This upgrade key has been used already. If you need assistance please contact us."
+msgstr ""
+
+#: woocommerce-software-add-on.php:397
+msgid "This upgrade key is not valid. If you need assistance please contact us."
+msgstr ""
+
+#: woocommerce-software-add-on.php:405
+msgid "This key has already been used on an item in your cart."
+msgstr ""
+
+#: woocommerce-software-add-on.php:473
+#: woocommerce-software-add-on.php:522
+#: woocommerce-software-add-on.php:541
+msgid "Upgrading from"
+msgstr ""
+
+#: woocommerce-software-add-on.php:485
+#: woocommerce-software-add-on.php:524
+#: woocommerce-software-add-on.php:543
+msgid "Upgrade email"
+msgstr ""
+
+#: woocommerce-software-add-on.php:560
+msgid "Invalid Email Address"
+msgstr ""
+
+#: woocommerce-software-add-on.php:580
+#: woocommerce-software-add-on.php:588
+msgid "Your license keys"
+msgstr ""
+
+#: woocommerce-software-add-on.php:593
+msgid "Your license keys have been emailed"
+msgstr ""
+
+#: woocommerce-software-add-on.php:601
+msgid "No license keys were found for your email address"
+msgstr ""
+
+#: woocommerce-software-add-on.php:1133
+msgid "WooCommerce Software License Keys (CSV)"
+msgstr ""
+
+#: woocommerce-software-add-on.php:1133
+msgid "Import software license keys to your store via a csv file."
+msgstr ""

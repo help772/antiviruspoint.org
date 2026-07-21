@@ -1,0 +1,74 @@
+
+.hw-load-more {
+	width: 100%;
+	text-align: center;
+	padding-top: 00px !important;
+	padding-bottom: 00px !important;
+	margin-bottom: calc(var(--hw-gp,0px) / 2);
+	float: left;
+}
+.hw-load-more a {
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+	cursor: pointer;
+	font-size: 15px;
+	text-transform: uppercase;
+	width: auto;
+	color:var(--hw-post-tl-lk)!important;
+	border-color: var(--hw-post-sd)!important;
+	border-radius: var(--hw-btn-rd,0px);
+	font-weight:var(--hw-more-fn-wt,500);
+	text-transform:var(--hw-more-fn-tr,none);
+	display: inline-block;
+	line-height: 2.5em;
+	padding: 0.0em 1.5em;
+	border-width: 1px;
+	border-style: solid;
+	transition: var(--hw-tr);
+}
+[class*="hw-boxed-item"] .hw-load-more a,[class*="hw-boxed-details"] .hw-load-more a{
+	background:var(--hw-post-bg,#ffffff);
+}
+.hw-load-more a::before {
+	content: "+";
+	font-family: 'fontsite';
+	margin-right: 5px;
+	font-size: 1.5em;
+	display: inline-block;
+	vertical-align: sub;
+	font-weight: inherit !important;
+	line-height: 1.5em;
+}
+.hw-load-more.hw-loading a {
+	width: 100px;
+	font-size:0px;
+	pointer-events: none;
+	border: none!important;
+	background-position: center;
+	box-shadow: none !important;
+	background:none !important;
+	height: 40px;
+}
+.hw-load-more.hw-loading a::before{
+	content: "\F045";
+	-webkit-animation: hexwp_rotate 1.4s infinite linear;
+	animation: hexwp_rotate 1.4s infinite linear;
+	font-family: 'fontsite';
+	font-size:40px;
+}
+[class*="hw-boxed-item"] .hw-load-more.hw-loading a,[class*="hw-boxed-details"] .hw-load-more.hw-loading a{
+	color:var(--hw-main-lk) !important;
+}
+.hw-load-more.hw-load-more-hide{
+	display:none !important;
+	
+}
+@keyframes hexwp_rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,5791 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TechStore\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-09 17:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: hexwp"
+
+#. 1: plugin name.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3763
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. 1: plugin name.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3771
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: import/classes/wordpress-importer.php:670
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: woocommerce/single-product/rating.php:38
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#. accessibility text
+#: widgets/widget-custom-html.php:348
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: admin/multi-array.php:260
+#: admin/theme-options/ui/single-options/single-meta.php:78
+msgid "-"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:333
+msgid "- Select -"
+msgstr ""
+
+#: admin/multi-array.php:262
+#: admin/theme-options/ui/single-options/single-meta.php:80
+msgid "/"
+msgstr ""
+
+#: inc/post-functions.php:725 inc/post-functions.php:727 inc/translation.php:37
+msgid "0"
+msgstr ""
+
+#: inc/post-functions.php:790 inc/wp_list_comments.php:96
+msgid "0 Second"
+msgstr ""
+
+#: admin/header-builder/element/call-options.php:64
+#: admin/header-builder/options/mobbar-options.php:62
+msgid "0032 541 6488"
+msgstr ""
+
+#: inc/translation.php:38
+msgid "1"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:71
+msgid "1/3"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:72
+msgid "1/4"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:73
+msgid "1/5"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:74
+msgid "1/6"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:77
+#: admin/theme-options/ui/single-options/related-post.php:64
+msgid "3 Column"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:78
+#: admin/theme-options/ui/single-options/related-post.php:65
+msgid "4 Column"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:79
+#: admin/theme-options/ui/single-options/related-post.php:66
+msgid "5 Column"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:80
+#: admin/theme-options/ui/single-options/related-post.php:67
+msgid "6 Column"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:81
+msgid "7 Column"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:82
+msgid "8 Column"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1261
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/widgets.php:17
+msgid "Above Content Area"
+msgstr ""
+
+#: widgets/widget.php:289
+msgid "Above Content For Ads"
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/widgets.php:41
+msgid "Above Main Column Area"
+msgstr ""
+
+#: widgets/widget.php:313
+msgid "Above Main Column For Ads"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:467
+msgid "Accessibility Icons"
+msgstr ""
+
+#: inc/translation.php:49 admin/header-builder/element/account-options.php:12
+msgid "Account"
+msgstr ""
+
+#: admin/header-builder/element/account-options.php:18
+msgid "Account Layout"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2957
+msgid "Activate"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2839
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2535
+msgid "Active"
+msgstr ""
+
+#: elementor/general/elementor-title-box-style.php:86
+msgid "Active Tabs - Background Color"
+msgstr ""
+
+#: elementor/general/elementor-title-box-style.php:99
+msgid "Active Tabs - Text Color"
+msgstr ""
+
+#: admin/array.php:430
+msgid "Add Blur"
+msgstr ""
+
+#: admin/array.php:432
+msgid "Add Brighten"
+msgstr ""
+
+#: admin/array.php:425
+msgid "Add Color"
+msgstr ""
+
+#: admin/theme-options/ui/general.php:53
+msgid "Add Custom Script Code"
+msgstr ""
+
+#: admin/array.php:434
+msgid "Add Darkness"
+msgstr ""
+
+#: elementor/image/elementor-image-general.php:48
+msgid "Add Image"
+msgstr ""
+
+#: admin/custom-sidebar.php:74
+msgid "Add More!"
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:787
+msgid "Add New Slide."
+msgstr ""
+
+#. parent slug
+#: admin/custom-sidebar.php:21 admin/custom-sidebar.php:22
+msgid "Add Sidebar"
+msgstr ""
+
+#: elementor/blog/elementor-blog-title-box.php:91
+#: elementor/product/elementor-product-title-box.php:92
+msgid "Add tabs"
+msgstr ""
+
+#: admin/menu/menu-item-custom-fields.php:300
+msgid "Add to Menu"
+msgstr ""
+
+#: elementor/image/elementor-image-general.php:56
+msgid "Add URL"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:22
+msgid "Additional information"
+msgstr ""
+
+#: widgets/widget-ads.php:17
+msgid "Ads Banner"
+msgstr ""
+
+#: widgets/widget-ads.php:24
+msgid "Ads Image path"
+msgstr ""
+
+#: widgets/widget-ads.php:29
+msgid "Ads link"
+msgstr ""
+
+#: admin/theme-options/ui/ads-settings.php:9
+msgid "ADS Options"
+msgstr ""
+
+#: inc/translation.php:72
+msgid "ago"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:108
+#: elementor/elementor-social_icons.php:99
+#: admin/theme-options/ui/ads-options/banner-header.php:74
+msgid "Alignment"
+msgstr ""
+
+#: inc/default.php:166 inc/translation.php:22
+msgid "All"
+msgstr ""
+
+#: admin/category-array.php:128 admin/category-array.php:140
+#: admin/category-array.php:159 inc/translation.php:24
+#: elementor/menu/elementor-menu-general.php:21
+#: admin/header-builder/element/category_menu-options.php:63
+msgid "All Categories"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:177
+msgid "All done."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3764
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3772
+msgid "All installations have been completed."
+msgstr ""
+
+#. 1: dashboard link.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:412
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/array.php:188 admin/multi-array.php:88 admin/multi-array.php:140
+#: admin/theme-options/class.options_machine.php:583
+msgid "All Round"
+msgstr ""
+
+#: admin/array.php:588 elementor/product/elementor-product-title-box.php:35
+msgid "All Tabs Center"
+msgstr ""
+
+#. 1: plugin name, 2: error message.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3755
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: elementor/general/elementor-slider.php:105
+msgid "Animation Pause Time"
+msgstr ""
+
+#: elementor/general/elementor-slider.php:96
+msgid "Animation Speed"
+msgstr ""
+
+#: widgets/widget-custom-html.php:57
+msgid "Arbitrary HTML code."
+msgstr ""
+
+#. Name of the template
+msgid "Archive"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/archive-sidebar.php:26
+msgid "Archive a sidebar in Archive Main Sidebar"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/archive-sidebar.php:25
+msgid "Archive Main Left"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/archive-sidebar.php:17
+msgid "Archive Main Right"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/archive-sidebar.php:12
+msgid "Archive Sidebar"
+msgstr ""
+
+#: inc/translation.php:26
+msgid "Archives"
+msgstr ""
+
+#: admin/menu/fonts/flaticon.php:13
+msgid "Arrow"
+msgstr ""
+
+#: elementor/general/elementor-slider-style.php:21
+msgid "Arrow Background Color"
+msgstr ""
+
+#: elementor/general/elementor-slider-style.php:37
+msgid "Arrow Text Color"
+msgstr ""
+
+#: elementor/general/elementor-slider.php:21
+msgid "Arrows"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:149
+msgid "Article Typography"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2702
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:103
+msgid "ASC"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:265
+msgid "Assign Authors"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:323
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/translation.php:75
+msgid "at"
+msgstr ""
+
+#: admin/multi-array.php:185 admin/multi-array.php:217 inc/translation.php:27
+msgid "Author"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/single-general.php:66
+msgid "Author Box"
+msgstr ""
+
+#: elementor/blog/elementor-blog-carousel-general.php:89
+#: elementor/blog/elementor-blog-general.php:150
+#: elementor/blog/elementor-blog-masonry-general.php:87
+#: admin/theme-options/ui/blog-options/blog-archive.php:52
+#: admin/theme-options/ui/single-options/single-meta.php:17
+msgid "Author Meta"
+msgstr ""
+
+#: elementor/elementor-comments.php:262
+msgid "Author Typography"
+msgstr ""
+
+#: admin/array.php:283 admin/array.php:314 admin/menu/menu_array.php:60
+msgid "Auto"
+msgstr ""
+
+#: elementor/general/elementor-slider.php:85
+msgid "Auto Play"
+msgstr ""
+
+#: inc/translation.php:81
+msgid "Availability"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2730
+msgid "Available version:"
+msgstr ""
+
+#: elementor/elementor-comments.php:114
+#: elementor/elementor-slider_featured.php:196
+#: admin/metabox/blog-metabox.php:254 admin/metabox/page-metabox.php:144
+#: elementor/blog/elementor-blog-post-style.php:20
+#: elementor/image/elementor-image-style.php:20
+#: elementor/menu/elementor-menu-style.php:57
+#: elementor/product/elementor-product-style.php:25
+#: elementor/product_cat/elementor-product_cat-style.php:25
+#: admin/header-builder/element/search-options.php:150
+#: admin/header-builder/element/search-options.php:172
+#: admin/header-builder/element/text_html-options.php:43
+#: admin/header-builder/options/navbar-options.php:119
+#: admin/theme-options/ui/general.php:98
+#: admin/header-builder/element/style/nav-style.php:5
+#: admin/theme-options/ui/general-style/body-style.php:21
+#: admin/theme-options/ui/post-style/post-style.php:81
+#: admin/theme-options/ui/post-style/title-box-style.php:38
+#: admin/theme-options/ui/post-style/title-box-style.php:60
+#: admin/theme-options/ui/post-style/title-box-style.php:81
+msgid "Background Color"
+msgstr ""
+
+#: admin/menu/custom-fields/menu_item-options.php:52
+msgid "Background Image For Sub Menu:"
+msgstr ""
+
+#: admin/menu/custom-fields/menu_item-options.php:78
+msgid "Background Opacity:"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:278 admin/metabox/page-metabox.php:168
+#: admin/theme-options/ui/general-style/body-style.php:39
+msgid "Background Pattern"
+msgstr ""
+
+#: admin/menu/custom-fields/menu_item-options.php:68
+msgid "Background Position:"
+msgstr ""
+
+#: admin/menu/custom-fields/menu_item-options.php:59
+msgid "Background Size:"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:261 admin/metabox/page-metabox.php:151
+msgid "Background Type"
+msgstr ""
+
+#: admin/theme-options/ui/backup.php:21
+msgid "Backup and Restore Options"
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:908
+#: admin/theme-options/ui/backup.php:9
+msgid "Backup Options"
+msgstr ""
+
+#: admin/header-builder/element/banner-options.php:14
+msgid "Banner"
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/banner-header.php:13
+#: admin/theme-options/ui/ads-options/banner-header.php:17
+msgid "Banner in Header"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/array.php:556
+msgid "Behance"
+msgstr ""
+
+#: widgets/widget.php:336 admin/theme-options/ui/ads-options/widgets.php:65
+msgid "Below Article Area"
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/widgets.php:29
+msgid "Below Content Area"
+msgstr ""
+
+#: widgets/widget.php:301
+msgid "Below Content For Ads"
+msgstr ""
+
+#: widgets/widget.php:325 admin/theme-options/ui/ads-options/widgets.php:53
+msgid "Below Main Column Area"
+msgstr ""
+
+#: admin/multi-array.php:254
+#: admin/theme-options/ui/single-options/single-meta.php:73
+msgid "Between"
+msgstr ""
+
+#: elementor/blog/elementor-blog-post-style.php:101
+#: elementor/product/elementor-product-style.php:211
+#: elementor/product_cat/elementor-product_cat-style.php:86
+msgid "Between Border"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/post-style.php:141
+msgid "Between Border "
+msgstr ""
+
+#: elementor/elementor-contact_form_7.php:89
+msgid "Between Field"
+msgstr ""
+
+#: elementor/elementor-blog.php:12 import/demo.php:37
+#: widgets/widget-blog.php:18
+msgid "Blog"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-layout.php:101
+msgid "Blog Box Layout"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-layout.php:107
+msgid "Blog Caption Layout"
+msgstr ""
+
+#: elementor/elementor-blog_carousel.php:12
+msgid "Blog Carousel"
+msgstr ""
+
+#: admin/menu/menu-item-custom-fields.php:255
+#: admin/menu/menu-item-custom-fields.php:256
+msgid "Blog Grid"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-layout.php:14
+#: admin/theme-options/ui/blog-options/blog-layout.php:19
+msgid "Blog Layout"
+msgstr ""
+
+#: elementor/elementor-blog_masonry.php:12
+msgid "Blog Masonry"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options.php:8
+msgid "Blog Options"
+msgstr ""
+
+#: widgets/widget-blog-tags.php:17
+msgid "Blog Tags"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-archive.php:20
+msgid "Blog Title"
+msgstr ""
+
+#: admin/array.php:106 admin/multi-array.php:42
+#: admin/theme-options/class.options_machine.php:631
+msgid "Blur"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/body-style.php:27
+msgid "Body Background Type"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/body-style.php:88
+msgid "Body Layout"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/body-style.php:13
+msgid "Body Style"
+msgstr ""
+
+#: admin/theme-options/ui/general.php:32
+msgid "Body Width"
+msgstr ""
+
+#: admin/array.php:525 admin/multi-array.php:296 admin/multi-array.php:330
+#: admin/multi-array.php:368 admin/multi-array.php:402
+msgid "Bold"
+msgstr ""
+
+#: admin/array.php:152 admin/header-builder/options/navbar-options.php:157
+msgid "Border"
+msgstr ""
+
+#: elementor/elementor-comments.php:198
+#: elementor/blog/elementor-blog-post-style.php:80
+#: elementor/image/elementor-image-style.php:70
+#: elementor/menu/elementor-menu-style.php:127
+#: elementor/product/elementor-product-style.php:190
+msgid "Border Color"
+msgstr ""
+
+#: elementor/elementor-comments.php:234
+#: elementor/elementor-contact_form_7.php:184
+#: elementor/elementor-slider_featured.php:218
+#: elementor/blog/elementor-blog-post-style.php:111
+#: elementor/image/elementor-image-style.php:93
+#: elementor/menu/elementor-menu-style.php:151
+#: elementor/product/elementor-product-style.php:221
+#: elementor/product_cat/elementor-product_cat-style.php:96
+#: admin/header-builder/element/text_html-options.php:83
+#: admin/header-builder/element/style/nav-style.php:46
+msgid "Border Radius"
+msgstr ""
+
+#: admin/array.php:192 admin/multi-array.php:91 admin/multi-array.php:117
+#: admin/multi-array.php:142 admin/multi-array.php:165
+#: admin/menu/menu_array.php:54
+#: admin/theme-options/class.options_machine.php:586
+#: admin/header-builder/options/navbar-options.php:63
+msgid "Bottom"
+msgstr ""
+
+#: admin/menu/menu_array.php:55
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/multi-array.php:250
+msgid "Bottom Details"
+msgstr ""
+
+#: admin/header-builder/header-builder.php:68
+msgid "Bottom Header"
+msgstr ""
+
+#: admin/multi-array.php:249
+msgid "Bottom Title"
+msgstr ""
+
+#: elementor/elementor-comments.php:57 widgets/widget-blog.php:195
+#: widgets/widget-custom-html.php:271 widgets/widget-product.php:191
+#: elementor/blog/elementor-blog-carousel-layout.php:137
+#: elementor/blog/elementor-blog-layout.php:363
+#: elementor/blog/elementor-blog-masonry-layout.php:111
+#: elementor/image/elementor-image-layout.php:69
+#: elementor/product/elementor-product-carousel-layout.php:150
+#: elementor/product/elementor-product-layout.php:217
+#: elementor/product_cat/elementor-product_cat-layout.php:72
+#: admin/menu/custom-fields/blog_grid-options.php:122
+msgid "Box Layout"
+msgstr ""
+
+#: elementor/elementor-comments.php:209
+#: elementor/elementor-slider_featured.php:206
+#: elementor/blog/elementor-blog-post-style.php:91
+#: elementor/image/elementor-image-style.php:81
+#: elementor/menu/elementor-menu-style.php:140
+#: elementor/product/elementor-product-style.php:201
+#: elementor/product_cat/elementor-product_cat-style.php:75
+#: admin/theme-options/ui/post-style/post-style.php:152
+msgid "Box Shadow Color"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/post-style.php:146
+msgid "Box Shadow Size"
+msgstr ""
+
+#: elementor/elementor-comments.php:62
+#: admin/header-builder/element/account-options.php:35
+#: admin/header-builder/element/account-options.php:45
+#: admin/header-builder/element/call-options.php:37
+#: admin/header-builder/element/call-options.php:48
+#: admin/header-builder/element/cart-options.php:39
+#: admin/header-builder/element/cart-options.php:49
+#: admin/header-builder/element/category_menu-options.php:42
+#: admin/header-builder/element/category_menu-options.php:52
+#: admin/header-builder/element/contact_us-options.php:37
+#: admin/header-builder/element/contact_us-options.php:48
+#: admin/header-builder/element/menu-options.php:41
+#: admin/header-builder/element/menu-options.php:51
+#: admin/header-builder/element/mobile_category_menu-options.php:43
+#: admin/header-builder/element/mobile_category_menu-options.php:52
+#: admin/header-builder/element/mobile_menu-options.php:44
+#: admin/header-builder/element/mobile_menu-options.php:53
+#: admin/header-builder/element/search-options.php:54
+#: admin/header-builder/element/search-options.php:67
+#: admin/header-builder/element/social-options.php:54
+#: admin/header-builder/element/social-options.php:69
+#: admin/header-builder/element/text_html-options.php:38
+#: admin/header-builder/element/wish-options.php:38
+#: admin/header-builder/element/wish-options.php:48
+#: admin/theme-options/ui/general-style/body-style.php:93
+msgid "Boxed"
+msgstr ""
+
+#: admin/array.php:375
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:18
+msgid "Boxed All"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/body-style.php:100
+msgid "Boxed Background Color"
+msgstr ""
+
+#: admin/array.php:376
+msgid "Boxed Content"
+msgstr ""
+
+#: admin/array.php:379
+msgid "Boxed Details"
+msgstr ""
+
+#: admin/array.php:380
+msgid "Boxed Details 2"
+msgstr ""
+
+#: admin/header-builder/element/social-options.php:94
+#: admin/header-builder/options/mobbar-options.php:149
+#: admin/theme-options/ui/general-style/general-style.php:102
+msgid "Boxed Icon"
+msgstr ""
+
+#: admin/array.php:377 widgets/widget-custom-html.php:277
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:19
+msgid "Boxed Item"
+msgstr ""
+
+#: admin/array.php:378
+msgid "Boxed Item 2"
+msgstr ""
+
+#: admin/header-builder/element/account-options.php:30
+#: admin/header-builder/element/call-options.php:32
+#: admin/header-builder/element/cart-options.php:34
+#: admin/header-builder/element/contact_us-options.php:32
+#: admin/header-builder/element/menu-options.php:36
+#: admin/header-builder/element/mobile_category_menu-options.php:38
+#: admin/header-builder/element/mobile_menu-options.php:39
+#: admin/header-builder/element/search-options.php:45
+#: admin/header-builder/element/social-options.php:45
+#: admin/header-builder/element/text_html-options.php:33
+#: admin/header-builder/element/wish-options.php:33
+msgid "Boxed Layout"
+msgstr ""
+
+#: admin/header-builder/element/social-options.php:95
+#: admin/header-builder/options/mobbar-options.php:150
+#: admin/theme-options/ui/general-style/general-style.php:103
+msgid "Boxed Original Color"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/body-style.php:110
+msgid "Boxed Shadow"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:762
+msgid "Brand Icons"
+msgstr ""
+
+#: admin/theme-options/ui/general.php:75
+msgid "Breadcrumbs"
+msgstr ""
+
+#: admin/theme-options/ui/general.php:90
+msgid "Breadcrumbs Color"
+msgstr ""
+
+#: admin/array.php:452
+msgid "Bubba"
+msgstr ""
+
+#. Name of the template
+msgid "Builder Template"
+msgstr ""
+
+#: admin/menu/fonts/flaticon.php:176
+msgid "Business Seo Elements"
+msgstr ""
+
+#: admin/menu/fonts/flaticon_thin.php:551
+msgid "Business Strategy"
+msgstr ""
+
+#: elementor/elementor-comments.php:176
+#: elementor/elementor-contact_form_7.php:162
+msgid "Button Background Color"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/general-style.php:91
+msgid "Button Border Radius"
+msgstr ""
+
+#: elementor/elementor-comments.php:186
+#: elementor/elementor-contact_form_7.php:172
+msgid "Button Text Color"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:156
+msgid "Button Typography"
+msgstr ""
+
+#: inc/translation.php:36
+msgid "By"
+msgstr ""
+
+#: woocommerce/content-widget-reviews.php:35
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: admin/multi-array.php:273
+#: admin/theme-options/ui/single-options/single-meta.php:90
+msgid "by Icon"
+msgstr ""
+
+#: admin/multi-array.php:275
+#: admin/theme-options/ui/single-options/single-meta.php:92
+msgid "by Icon & Avater Author"
+msgstr ""
+
+#: admin/multi-array.php:274
+#: admin/theme-options/ui/single-options/single-meta.php:91
+msgid "by Icon & no Icon Author "
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:32
+msgid "By Parent"
+msgstr ""
+
+#: admin/header-builder/element/call-options.php:13
+msgid "Call"
+msgstr ""
+
+#: admin/header-builder/element/call-options.php:20
+msgid "Call Layout"
+msgstr ""
+
+#: admin/header-builder/element/call-options.php:58
+msgid "Call Number"
+msgstr ""
+
+#: admin/header-builder/element/call-options.php:52
+msgid "Call Title"
+msgstr ""
+
+#: inc/translation.php:104
+msgid "Call Us Free"
+msgstr ""
+
+#: admin/multi-array.php:309 admin/multi-array.php:343
+#: admin/multi-array.php:381 admin/multi-array.php:415
+#: admin/header-builder/element/text_html-options.php:123
+#: admin/header-builder/options/dropdown-options.php:125
+#: admin/header-builder/options/mobbar-options.php:186
+#: admin/header-builder/options/navbar-options.php:251
+#: admin/header-builder/element/style/nav-style.php:138
+msgid "Capitalize"
+msgstr ""
+
+#: elementor/general/elementor-caption-style.php:41
+#: admin/theme-options/ui/post-style/caption-style.php:32
+msgid "Caption Background Color"
+msgstr ""
+
+#: elementor/general/elementor-caption-style.php:31
+#: admin/theme-options/ui/post-style/caption-style.php:25
+msgid "Caption Background Effect"
+msgstr ""
+
+#: elementor/general/elementor-caption-style.php:49
+#: admin/theme-options/ui/post-style/caption-style.php:39
+msgid "Caption Color"
+msgstr ""
+
+#: admin/array.php:384
+msgid "Caption in Bottom"
+msgstr ""
+
+#: admin/array.php:386
+msgid "Caption in Hover"
+msgstr ""
+
+#: admin/array.php:387
+msgid "Caption in Hover Bottom"
+msgstr ""
+
+#: admin/array.php:383
+msgid "Caption in Middle"
+msgstr ""
+
+#: widgets/widget-blog.php:202
+#: elementor/blog/elementor-blog-carousel-layout.php:153
+#: elementor/blog/elementor-blog-layout.php:375
+#: elementor/blog/elementor-blog-masonry-layout.php:124
+msgid "Caption Layout"
+msgstr ""
+
+#: admin/header-builder/element/cart-options.php:15
+msgid "Cart"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:48
+#: admin/header-builder/element/mobile_category_menu-options.php:66
+msgid "Categories"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:19
+msgid "Categories Count"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-archive.php:49
+#: admin/theme-options/ui/single-options/single-meta.php:37
+msgid "Categories Meta"
+msgstr ""
+
+#: admin/multi-array.php:190 admin/multi-array.php:222
+#: widgets/widget-blog.php:39 widgets/widget-product.php:36
+#: elementor/blog/elementor-blog-carousel-general.php:28
+#: elementor/blog/elementor-blog-general.php:28
+#: elementor/blog/elementor-blog-masonry-general.php:28
+#: elementor/blog/elementor-blog-title-box.php:73
+#: elementor/product/elementor-product-carousel-general.php:28
+#: elementor/product/elementor-product-general.php:28
+#: elementor/product/elementor-product-title-box.php:74
+#: admin/menu/custom-fields/blog_grid-options.php:25
+#: admin/theme-options/ui/single-options/related-post.php:53
+msgid "Category"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:14
+msgid "Category Menu"
+msgstr ""
+
+#: admin/header-builder/element/mobile_category_menu-options.php:59
+msgid "Category Menu Title"
+msgstr ""
+
+#: elementor/blog/elementor-blog-carousel-general.php:97
+#: elementor/blog/elementor-blog-general.php:158
+#: elementor/blog/elementor-blog-masonry-general.php:95
+#: admin/theme-options/ui/blog-options/blog-archive.php:63
+msgid "Category Meta"
+msgstr ""
+
+#: admin/array.php:336 admin/array.php:342 admin/array.php:349
+#: admin/array.php:358 admin/menu/menu_array.php:43
+msgid "Center"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:597
+msgid "Chart Icons"
+msgstr ""
+
+#: admin/array.php:453
+msgid "Chico"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1277
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: admin/menu/admin-menu.php:131
+msgid "Choose Icon:"
+msgstr ""
+
+#: admin/menu/admin-menu.php:114 admin/metabox/blog-metabox.php:295
+#: admin/metabox/page-metabox.php:183
+msgid "Choose Image"
+msgstr ""
+
+#: admin/array.php:149
+msgid "Circular"
+msgstr ""
+
+#: inc/translation.php:120
+msgid "Close"
+msgstr ""
+
+#: admin/array.php:230 elementor/elementor-slider_featured.php:95
+#: widgets/widget-blog.php:127 widgets/widget-product.php:127
+#: elementor/blog/elementor-blog-carousel-layout.php:35
+#: elementor/blog/elementor-blog-layout.php:34
+#: elementor/blog/elementor-blog-masonry-layout.php:33
+#: elementor/image/elementor-image-layout.php:14
+#: elementor/product/elementor-product-carousel-layout.php:31
+#: elementor/product/elementor-product-layout.php:31
+#: elementor/product_cat/elementor-product_cat-layout.php:15
+#: admin/menu/custom-fields/blog_grid-options.php:58
+msgid "Column"
+msgstr ""
+
+#: elementor/elementor-slider_featured.php:144
+#: elementor/blog/elementor-blog-layout.php:133
+#: elementor/image/elementor-image-layout.php:39
+#: admin/theme-options/ui/blog-options/blog-layout.php:59
+#: admin/theme-options/ui/product-options/product-layout.php:50
+#: admin/theme-options/ui/single-options/related-post.php:71
+msgid "Column in Tablet and Mobile"
+msgstr ""
+
+#: elementor/blog/elementor-blog-carousel-layout.php:39
+#: elementor/blog/elementor-blog-masonry-layout.php:37
+#: elementor/product/elementor-product-carousel-layout.php:35
+#: elementor/product_cat/elementor-product_cat-layout.php:19
+msgid "Column Layout"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/columns.php:53
+msgid "Column Left"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/columns.php:34
+msgid "Column Right"
+msgstr ""
+
+#: widgets/widget-blog.php:142
+#: elementor/blog/elementor-blog-carousel-layout.php:60
+#: elementor/blog/elementor-blog-masonry-layout.php:57
+#: elementor/product/elementor-product-carousel-layout.php:69
+#: elementor/product/elementor-product-layout.php:79
+#: elementor/product_cat/elementor-product_cat-layout.php:42
+msgid "Column Width in Tablet and Mobile"
+msgstr ""
+
+#: widgets/widget-blog.php:130 widgets/widget-product.php:130
+#: admin/menu/custom-fields/blog_grid-options.php:61
+#: admin/theme-options/ui/columns-options/columns.php:14
+#: admin/theme-options/ui/columns-options/columns.php:20
+msgid "Columns"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options.php:8
+msgid "Columns Options"
+msgstr ""
+
+#: inc/translation.php:83
+msgid "Comment"
+msgstr ""
+
+#: admin/multi-array.php:206 elementor/elementor-comments.php:12
+#: inc/translation.php:84
+msgid "Comments"
+msgstr ""
+
+#: inc/translation.php:85
+msgid "Comments are Closed."
+msgstr ""
+
+#: elementor/elementor-comments.php:44
+#: admin/theme-options/ui/single-options/single-general.php:76
+msgid "Comments Layout"
+msgstr ""
+
+#: elementor/blog/elementor-blog-carousel-general.php:124
+#: elementor/blog/elementor-blog-general.php:185
+#: elementor/blog/elementor-blog-masonry-general.php:122
+#: admin/theme-options/ui/blog-options/blog-archive.php:96
+#: admin/theme-options/ui/single-options/single-meta.php:57
+msgid "Comments Meta"
+msgstr ""
+
+#: inc/translation.php:39
+msgid "Comments Off"
+msgstr ""
+
+#: elementor/elementor-comments.php:298
+msgid "Comments Typography"
+msgstr ""
+
+#: inc/translation.php:90
+msgid "Compare"
+msgstr ""
+
+#: import/classes/importer.class.php:151 import/classes/importer.class.php:191
+msgid "Complate"
+msgstr ""
+
+#: elementor/elementor-contact_form_7.php:44
+msgid "Contact Form"
+msgstr ""
+
+#: admin/header-builder/element/contact_us-options.php:13
+#: admin/header-builder/element/contact_us-options.php:58
+msgid "Contact Us"
+msgstr ""
+
+#: inc/translation.php:111
+msgid "Contact us"
+msgstr ""
+
+#: import/demo.php:40
+msgid "Contact us - About me"
+msgstr ""
+
+#: admin/header-builder/element/contact_us-options.php:20
+msgid "Contact Us Layout"
+msgstr ""
+
+#: admin/header-builder/element/contact_us-options.php:52
+msgid "Contact Us Title"
+msgstr ""
+
+#: admin/menu/menu_array.php:62
+msgid "Contain"
+msgstr ""
+
+#. Name of the template
+msgid "Content"
+msgstr ""
+
+#: elementor/elementor-contact_form_7.php:12
+msgid "Content Form 7"
+msgstr ""
+
+#: widgets/widget-custom-html.php:301
+msgid "Content:"
+msgstr ""
+
+#: admin/header-builder/element/menu-options.php:56
+msgid ""
+"Controls right (left on RTL) menu padding. Use a number without \"px\", "
+"Example 10"
+msgstr ""
+
+#: admin/header-builder/element/social-options.php:74
+msgid ""
+"Controls right (left on RTL) Social Item padding. Use a number without "
+"\"px\", Example 10"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:105
+msgid ""
+"Controls Top (top on bottom) menu padding. Use a number without \"px\", "
+"Example 10"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1030
+msgid "Could not create temporary file."
+msgstr ""
+
+#: widgets/widget-blog-tags.php:29
+#: elementor/product_cat/elementor-product_cat-general.php:91
+msgid "Count"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-style.php:62
+msgid "Count Color"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/post-style.php:76
+msgid "Countdown Color"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:64
+msgid "Countdown in Single Product"
+msgstr ""
+
+#: elementor/product/elementor-product-style.php:133
+msgid "Countdown Number"
+msgstr ""
+
+#: elementor/product/elementor-product-style.php:147
+msgid "Countdown Text"
+msgstr ""
+
+#: admin/menu/menu_array.php:61
+msgid "Cover"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:604
+msgid "Currency Icons"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:33
+msgid "Current Subcategories"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:293 admin/metabox/page-metabox.php:181
+#: admin/theme-options/ui/general-style/body-style.php:78
+msgid "Custom Background Image"
+msgstr ""
+
+#: admin/metabox/page-metabox.php:50
+msgid "Custom Header Builder"
+msgstr ""
+
+#: widgets/widget-custom-html.php:64
+msgid "Custom HTML"
+msgstr ""
+
+#: widgets/widget-custom-html.php:364
+msgid "Custom HTML Widget"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:270 admin/metabox/page-metabox.php:160
+#: admin/theme-options/ui/general-style/body-style.php:35
+msgid "Custom Image"
+msgstr ""
+
+#: import/demo.php:35
+msgid "Custom Import"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:102 admin/metabox/page-metabox.php:80
+msgid "Custom Sidebar Left"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:89 admin/metabox/page-metabox.php:67
+msgid "Custom Sidebar Right"
+msgstr ""
+
+#: admin/custom-sidebar.php:97
+msgid "Custom-Sidebar"
+msgstr ""
+
+#: inc/translation.php:44
+msgid "Dashboard"
+msgstr ""
+
+#: admin/multi-array.php:195 admin/multi-array.php:227
+msgid "Date"
+msgstr ""
+
+#: elementor/blog/elementor-blog-carousel-general.php:107
+#: elementor/blog/elementor-blog-general.php:168
+#: elementor/blog/elementor-blog-masonry-general.php:105
+#: admin/theme-options/ui/blog-options/blog-archive.php:74
+#: admin/theme-options/ui/single-options/single-meta.php:27
+msgid "Date Meta"
+msgstr ""
+
+#: inc/translation.php:65
+msgid "Day"
+msgstr ""
+
+#: inc/translation.php:64
+msgid "Days"
+msgstr ""
+
+#: admin/array.php:22 admin/array.php:521 admin/array.php:530
+#: admin/array.php:594 admin/category-array.php:34 admin/category-array.php:91
+#: admin/category-array.php:262 admin/multi-array.php:4
+#: admin/multi-array.php:247 admin/multi-array.php:258
+#: admin/multi-array.php:270 admin/multi-array.php:292
+#: admin/multi-array.php:305 admin/multi-array.php:326
+#: admin/multi-array.php:339 admin/multi-array.php:364
+#: admin/multi-array.php:377 admin/multi-array.php:398
+#: admin/multi-array.php:411 admin/multi-array.php:423
+#: elementor/elementor-comments.php:47 elementor/elementor-comments.php:60
+#: widgets/widget-blog.php:108 widgets/widget-custom-html.php:275
+#: admin/menu/menu_array.php:14 admin/menu/menu_array.php:29
+#: admin/menu/menu_array.php:42 admin/menu/menu_array.php:59
+#: admin/menu/menu_array.php:88 admin/metabox/blog-metabox.php:141
+#: admin/metabox/blog-metabox.php:158 admin/metabox/blog-metabox.php:174
+#: admin/metabox/blog-metabox.php:191 admin/metabox/blog-metabox.php:209
+#: admin/metabox/blog-metabox.php:225 admin/metabox/blog-metabox.php:241
+#: admin/metabox/blog-metabox.php:267 admin/metabox/page-metabox.php:118
+#: admin/metabox/page-metabox.php:134 admin/metabox/page-metabox.php:157
+#: admin/theme-options/google-font.php:3
+#: elementor/blog/elementor-blog-carousel-general.php:145
+#: elementor/blog/elementor-blog-carousel-layout.php:64
+#: elementor/blog/elementor-blog-general.php:206
+#: elementor/blog/elementor-blog-masonry-general.php:142
+#: elementor/product/elementor-product-carousel-layout.php:73
+#: elementor/product/elementor-product-title-box.php:31
+#: elementor/product_cat/elementor-product_cat-title-box.php:31
+#: admin/header-builder/element/social-options.php:92
+#: admin/header-builder/element/text_html-options.php:119
+#: admin/header-builder/options/dropdown-options.php:121
+#: admin/header-builder/options/header-options.php:20
+#: admin/header-builder/options/mobbar-options.php:147
+#: admin/header-builder/options/mobbar-options.php:182
+#: admin/header-builder/options/navbar-options.php:247
+#: admin/header-builder/element/style/nav-style.php:134
+msgid "Default"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-archive.php:130
+msgid "Default WordPress"
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:1346
+msgid "Delete"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:104
+msgid "DESC"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:90
+#: woocommerce/single-product/tabs/description.php:22
+msgid "Description"
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:1343
+msgid "Description (optional)"
+msgstr ""
+
+#: elementor/image/elementor-image-general.php:37
+msgid "Details"
+msgstr ""
+
+#: widgets/widget-blog.php:187 widgets/widget-product.php:183
+#: elementor/blog/elementor-blog-carousel-layout.php:126
+#: elementor/blog/elementor-blog-layout.php:352
+#: elementor/blog/elementor-blog-masonry-layout.php:100
+#: elementor/product/elementor-product-carousel-layout.php:139
+#: elementor/product/elementor-product-layout.php:206
+#: admin/menu/custom-fields/blog_grid-options.php:114
+#: admin/menu/custom-fields/image_text-options.php:31
+#: admin/theme-options/ui/blog-options/blog-layout.php:94
+#: admin/theme-options/ui/product-options/product-layout.php:99
+msgid "Details Alignment"
+msgstr ""
+
+#: import/classes/parsers.php:47
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:101
+#: admin/header-builder/element/logo-options.php:32
+#: admin/header-builder/options/dropdown-options.php:74
+#: admin/header-builder/options/dropdown-options.php:83
+#: admin/header-builder/options/dropdown-options.php:93
+#: admin/header-builder/options/dropdown-options.php:99
+#: admin/header-builder/options/mobbar-options.php:160
+#: admin/header-builder/options/navbar-options.php:30
+#: admin/header-builder/options/navbar-options.php:34
+#: admin/header-builder/options/navbar-options.php:70
+#: admin/header-builder/options/navbar-options.php:87
+#: admin/header-builder/options/navbar-options.php:160
+#: admin/header-builder/options/navbar-options.php:216
+msgid "Determine Value In Pixels."
+msgstr ""
+
+#: admin/array.php:545
+msgid "DeviantArt"
+msgstr ""
+
+#: admin/array.php:550
+msgid "Digg"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:684
+msgid "Directional Icons"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:124 admin/metabox/page-metabox.php:101
+#: admin/header-builder/element/banner-options.php:35
+#: admin/header-builder/element/banner-options.php:44
+#: admin/theme-options/ui/footer-options.php:106
+#: admin/theme-options/ui/general.php:29 admin/theme-options/ui/general.php:85
+#: admin/theme-options/ui/ads-options/banner-header.php:23
+#: admin/theme-options/ui/ads-options/banner-header.php:53
+#: admin/theme-options/ui/ads-options/banner-header.php:68
+#: admin/theme-options/ui/ads-options/banner-header.php:93
+#: admin/theme-options/ui/ads-options/widgets.php:24
+#: admin/theme-options/ui/ads-options/widgets.php:36
+#: admin/theme-options/ui/ads-options/widgets.php:48
+#: admin/theme-options/ui/ads-options/widgets.php:60
+#: admin/theme-options/ui/ads-options/widgets.php:72
+#: admin/theme-options/ui/blog-options/blog-archive.php:39
+#: admin/theme-options/ui/blog-options/blog-archive.php:58
+#: admin/theme-options/ui/blog-options/blog-archive.php:69
+#: admin/theme-options/ui/blog-options/blog-archive.php:80
+#: admin/theme-options/ui/blog-options/blog-archive.php:91
+#: admin/theme-options/ui/blog-options/blog-archive.php:102
+#: admin/theme-options/ui/blog-options/blog-archive.php:113
+#: admin/theme-options/ui/blog-options/blog-archive.php:123
+#: admin/theme-options/ui/blog-options/blog-archive.php:140
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:30
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:41
+#: admin/theme-options/ui/product-options/product-archive.php:37
+#: admin/theme-options/ui/product-options/product-archive.php:55
+#: admin/theme-options/ui/product-options/product-archive.php:68
+#: admin/theme-options/ui/product-options/product-archive.php:80
+#: admin/theme-options/ui/product-options/product-layout.php:94
+#: admin/theme-options/ui/product-options/product-single.php:50
+#: admin/theme-options/ui/product-options/product-single.php:69
+#: admin/theme-options/ui/single-options/related-post.php:24
+#: admin/theme-options/ui/single-options/related-post.php:105
+#: admin/theme-options/ui/single-options/single-general.php:40
+#: admin/theme-options/ui/single-options/single-general.php:60
+#: admin/theme-options/ui/single-options/single-general.php:72
+#: admin/theme-options/ui/single-options/single-meta.php:23
+#: admin/theme-options/ui/single-options/single-meta.php:33
+#: admin/theme-options/ui/single-options/single-meta.php:43
+#: admin/theme-options/ui/single-options/single-meta.php:53
+#: admin/theme-options/ui/single-options/single-meta.php:63
+msgid "Disable"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:49
+#: admin/header-builder/options/navbar-options.php:61
+#: admin/header-builder/options/navbar-options.php:109
+msgid "Disbale"
+msgstr ""
+
+#: admin/array.php:558
+msgid "Discord"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:413
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/theme-options/ui/general.php:79
+msgid "Display Breadcrumbs"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:79
+msgid "Display Menu in Homepage"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:100
+msgid "Display Social Icons"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-archive.php:135
+msgid "Donot Load All Page in Pagenavi"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:281
+msgid "Download and import file attachments"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1089
+msgid "Downloaded file has incorrect size"
+msgstr ""
+
+#: admin/array.php:541
+msgid "Dribbble"
+msgstr ""
+
+#: admin/array.php:543
+msgid "Dropbox"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:23
+#: admin/header-builder/element/social-options.php:24
+msgid "Dropdown"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:18
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:64
+msgid "Dropdown Border color"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:89
+msgid "Dropdown Border Radius"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:71
+msgid "Dropdown Cover Border"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:80
+msgid "Dropdown Cover Shadow"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:57
+msgid "Dropdown Grey field color"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:50
+msgid "Dropdown Highlight color"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:24
+msgid "Dropdown Link Color"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:12
+msgid "Dropdown Options"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:20
+#: admin/header-builder/options/dropdown-options.php:27
+#: admin/header-builder/options/dropdown-options.php:45
+#: admin/header-builder/options/dropdown-options.php:52
+#: admin/header-builder/options/dropdown-options.php:59
+#: admin/header-builder/options/dropdown-options.php:66
+#: admin/header-builder/options/dropdown-options.php:75
+#: admin/header-builder/options/dropdown-options.php:84
+#: admin/header-builder/options/dropdown-options.php:92
+msgid "Dropdown Style"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:43
+msgid "Dropdown Text color"
+msgstr ""
+
+#: inc/translation.php:35
+msgid "Edit"
+msgstr ""
+
+#: admin/multi-array.php:259
+#: admin/theme-options/ui/single-options/single-meta.php:77
+msgid "empty"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:125 admin/metabox/page-metabox.php:102
+#: admin/header-builder/element/banner-options.php:36
+#: admin/header-builder/element/banner-options.php:45
+#: admin/header-builder/options/navbar-options.php:50
+#: admin/header-builder/options/navbar-options.php:110
+#: admin/theme-options/ui/footer-options.php:105
+#: admin/theme-options/ui/general.php:28 admin/theme-options/ui/general.php:84
+#: admin/theme-options/ui/ads-options/banner-header.php:22
+#: admin/theme-options/ui/ads-options/banner-header.php:52
+#: admin/theme-options/ui/ads-options/banner-header.php:67
+#: admin/theme-options/ui/ads-options/banner-header.php:92
+#: admin/theme-options/ui/ads-options/widgets.php:23
+#: admin/theme-options/ui/ads-options/widgets.php:35
+#: admin/theme-options/ui/ads-options/widgets.php:47
+#: admin/theme-options/ui/ads-options/widgets.php:59
+#: admin/theme-options/ui/ads-options/widgets.php:71
+#: admin/theme-options/ui/blog-options/blog-archive.php:38
+#: admin/theme-options/ui/blog-options/blog-archive.php:57
+#: admin/theme-options/ui/blog-options/blog-archive.php:68
+#: admin/theme-options/ui/blog-options/blog-archive.php:79
+#: admin/theme-options/ui/blog-options/blog-archive.php:90
+#: admin/theme-options/ui/blog-options/blog-archive.php:101
+#: admin/theme-options/ui/blog-options/blog-archive.php:112
+#: admin/theme-options/ui/blog-options/blog-archive.php:122
+#: admin/theme-options/ui/blog-options/blog-archive.php:139
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:29
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:40
+#: admin/theme-options/ui/product-options/product-archive.php:36
+#: admin/theme-options/ui/product-options/product-archive.php:54
+#: admin/theme-options/ui/product-options/product-archive.php:67
+#: admin/theme-options/ui/product-options/product-archive.php:79
+#: admin/theme-options/ui/product-options/product-layout.php:93
+#: admin/theme-options/ui/product-options/product-single.php:49
+#: admin/theme-options/ui/product-options/product-single.php:68
+#: admin/theme-options/ui/single-options/related-post.php:23
+#: admin/theme-options/ui/single-options/related-post.php:104
+#: admin/theme-options/ui/single-options/single-general.php:39
+#: admin/theme-options/ui/single-options/single-general.php:59
+#: admin/theme-options/ui/single-options/single-general.php:71
+#: admin/theme-options/ui/single-options/single-meta.php:22
+#: admin/theme-options/ui/single-options/single-meta.php:32
+#: admin/theme-options/ui/single-options/single-meta.php:42
+#: admin/theme-options/ui/single-options/single-meta.php:52
+#: admin/theme-options/ui/single-options/single-meta.php:62
+msgid "Enable"
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/widgets.php:18
+#: admin/theme-options/ui/ads-options/widgets.php:42
+msgid "Enable Ads Widget In Above Content"
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/widgets.php:66
+msgid "Enable Ads Widget In Below Article"
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/widgets.php:30
+msgid "Enable Ads Widget In Below Content"
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/widgets.php:54
+msgid "Enable Ads Widget In Below Main Column Area"
+msgstr ""
+
+#: inc/translation.php:29
+msgid "Error 404"
+msgstr ""
+
+#: import/classes/importer.class.php:269
+msgid "Error on import"
+msgstr ""
+
+#: admin/theme-options/options.php:12
+msgid "Error!"
+msgstr ""
+
+#: admin/menu/fonts/flaticon_thin.php:13
+msgid "Essential Set"
+msgstr ""
+
+#: widgets/widget-product.php:53
+#: elementor/blog/elementor-blog-carousel-general.php:58
+#: elementor/blog/elementor-blog-general.php:58
+#: elementor/blog/elementor-blog-masonry-general.php:58
+#: elementor/product/elementor-product-carousel-general.php:50
+#: elementor/product/elementor-product-general.php:49
+msgid "example: \"100\""
+msgstr ""
+
+#: widgets/widget-product.php:69
+#: elementor/blog/elementor-blog-carousel-general.php:79
+#: elementor/blog/elementor-blog-general.php:140
+#: elementor/blog/elementor-blog-masonry-general.php:77
+#: elementor/product/elementor-product-carousel-general.php:68
+#: elementor/product/elementor-product-general.php:97
+msgid "example: \"200\""
+msgstr ""
+
+#: admin/header-builder/element/contact_us-options.php:66
+#: admin/header-builder/options/mobbar-options.php:40
+msgid "example@email.com"
+msgstr ""
+
+#: elementor/blog/elementor-blog-post-style.php:56
+#: elementor/image/elementor-image-style.php:56
+#: elementor/product/elementor-product-style.php:96
+msgid "Excerpt Color"
+msgstr ""
+
+#: elementor/blog/elementor-blog-typography.php:127
+#: elementor/image/elementor-image-typography.php:57
+#: elementor/product/elementor-product-typography.php:173
+#: admin/theme-options/ui/typography.php:108
+msgid "Excerpt Typography"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:32
+msgid "Exmple Google Font"
+msgstr ""
+
+#: admin/theme-options/options.php:36
+msgid "Expand"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2508
+msgid "External Source"
+msgstr ""
+
+#: admin/array.php:526 admin/multi-array.php:297 admin/multi-array.php:331
+#: admin/multi-array.php:369 admin/multi-array.php:403
+msgid "Extra-Bold"
+msgstr ""
+
+#: admin/array.php:473 admin/array.php:537 admin/array.php:572
+msgid "Facebook"
+msgstr ""
+
+#: admin/array.php:439
+msgid "Fade"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:388
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: import/classes/wordpress-importer.php:540
+#: import/classes/wordpress-importer.php:766
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:732
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:633
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:239
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: import/classes/wordpress-importer.php:440
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:485
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: admin/menu/fonts/flaticon_thin.php:668
+msgid "Fashion"
+msgstr ""
+
+#: inc/translation.php:116
+msgid "Favorite"
+msgstr ""
+
+#: admin/array.php:467 inc/translation.php:95
+msgid "Featured"
+msgstr ""
+
+#: admin/post-type/blog_post_type.php:13
+#: elementor/product/elementor-product-featured.php:13
+#: elementor/product/elementor-product-featured.php:20
+msgid "Featured Image"
+msgstr ""
+
+#: elementor/product/elementor-product-featured.php:101
+msgid "Featured Image Size"
+msgstr ""
+
+#: elementor/product/elementor-product-featured.php:29
+msgid "Featured Image Type"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:978
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: elementor/elementor-comments.php:152
+#: elementor/elementor-contact_form_7.php:128
+msgid "Field Background Color"
+msgstr ""
+
+#: elementor/elementor-contact_form_7.php:151
+msgid "Field Border Color"
+msgstr ""
+
+#: elementor/elementor-comments.php:70
+#: elementor/elementor-contact_form_7.php:65
+msgid "Field Height"
+msgstr ""
+
+#: elementor/elementor-comments.php:164
+#: elementor/elementor-contact_form_7.php:140
+msgid "Field Text Color"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:543
+msgid "File Type Icons"
+msgstr ""
+
+#: admin/array.php:244 inc/translation.php:31
+msgid "First"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:128
+#: admin/header-builder/element/category_menu-options.php:184
+#: admin/header-builder/element/search-options.php:190
+#: admin/header-builder/element/text_html-options.php:50
+#: admin/header-builder/options/navbar-options.php:126
+#: admin/header-builder/options/navbar-options.php:181
+#: admin/header-builder/element/style/nav-style.php:12
+#: admin/header-builder/element/style/nav-style.php:69
+#: admin/theme-options/ui/post-style/post-style.php:124
+msgid "First Background"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:22
+#: admin/header-builder/element/social-options.php:23
+msgid "Fixed"
+msgstr ""
+
+#: admin/array.php:477 admin/array.php:544
+msgid "Flickr"
+msgstr ""
+
+#: admin/array.php:446
+msgid "Flip Diag 1"
+msgstr ""
+
+#: admin/array.php:447
+msgid "Flip Diag 2"
+msgstr ""
+
+#: admin/array.php:445
+msgid "Flip Horiz"
+msgstr ""
+
+#: admin/array.php:444
+msgid "Flip Vert"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:42
+msgid "Font Family Body"
+msgstr ""
+
+#: admin/multi-array.php:283 admin/multi-array.php:317
+#: admin/multi-array.php:389 admin/multi-array.php:435
+#: elementor/elementor-comments.php:273 elementor/elementor-comments.php:309
+#: elementor/elementor-comments.php:344
+#: elementor/elementor-contact_form_7.php:224
+#: elementor/blog/elementor-blog-typography.php:31
+#: elementor/blog/elementor-blog-typography.php:65
+#: elementor/blog/elementor-blog-typography.php:103
+#: elementor/blog/elementor-blog-typography.php:140
+#: elementor/blog/elementor-blog-typography.php:175
+#: elementor/image/elementor-image-typography.php:33
+#: elementor/image/elementor-image-typography.php:70
+#: elementor/menu/elementor-menu-typography.php:34
+#: elementor/menu/elementor-menu-typography.php:75
+#: elementor/menu/elementor-menu-typography.php:117
+#: elementor/product/elementor-product-typography.php:33
+#: elementor/product/elementor-product-typography.php:71
+#: elementor/product/elementor-product-typography.php:110
+#: elementor/product/elementor-product-typography.php:146
+#: elementor/product/elementor-product-typography.php:186
+#: elementor/product/elementor-product-typography.php:223
+#: elementor/product_cat/elementor-product_cat-typography.php:34
+#: admin/header-builder/element/text_html-options.php:95
+#: admin/header-builder/options/dropdown-options.php:97
+#: admin/header-builder/options/mobbar-options.php:158
+#: admin/header-builder/options/navbar-options.php:223
+#: admin/header-builder/element/style/nav-style.php:110
+msgid "Font Size"
+msgstr ""
+
+#: admin/multi-array.php:419
+msgid "Font Style"
+msgstr ""
+
+#: admin/multi-array.php:288 admin/multi-array.php:322
+#: admin/multi-array.php:360 admin/multi-array.php:394
+#: elementor/elementor-comments.php:283 elementor/elementor-comments.php:319
+#: elementor/elementor-comments.php:354
+#: elementor/elementor-contact_form_7.php:236
+#: elementor/blog/elementor-blog-typography.php:42
+#: elementor/blog/elementor-blog-typography.php:77
+#: elementor/blog/elementor-blog-typography.php:114
+#: elementor/blog/elementor-blog-typography.php:151
+#: elementor/blog/elementor-blog-typography.php:186
+#: elementor/image/elementor-image-typography.php:44
+#: elementor/image/elementor-image-typography.php:81
+#: elementor/menu/elementor-menu-typography.php:46
+#: elementor/menu/elementor-menu-typography.php:86
+#: elementor/menu/elementor-menu-typography.php:127
+#: elementor/product/elementor-product-typography.php:46
+#: elementor/product/elementor-product-typography.php:83
+#: elementor/product/elementor-product-typography.php:121
+#: elementor/product/elementor-product-typography.php:157
+#: elementor/product/elementor-product-typography.php:197
+#: elementor/product/elementor-product-typography.php:234
+#: elementor/product_cat/elementor-product_cat-typography.php:45
+#: admin/header-builder/element/text_html-options.php:106
+#: admin/header-builder/options/dropdown-options.php:108
+#: admin/header-builder/options/mobbar-options.php:169
+#: admin/header-builder/options/navbar-options.php:234
+#: admin/header-builder/element/style/nav-style.php:121
+msgid "Font Weight"
+msgstr ""
+
+#. Name of the template
+#: admin/theme-options/ui/footer-options.php:52
+msgid "Footer"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:140
+msgid "Footer Background Color"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:179
+msgid "Footer Border color"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:185
+msgid "Footer Border Radius"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:64
+msgid "Footer Column"
+msgstr ""
+
+#: widgets/widget.php:224
+msgid "Footer Column 1"
+msgstr ""
+
+#: widgets/widget.php:235
+msgid "Footer Column 2"
+msgstr ""
+
+#: widgets/widget.php:246
+msgid "Footer Column 3"
+msgstr ""
+
+#: widgets/widget.php:257
+msgid "Footer Column 4"
+msgstr ""
+
+#: widgets/widget.php:268
+msgid "Footer Column 5"
+msgstr ""
+
+#: widgets/widget.php:278
+msgid "Footer Column 6"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:174
+msgid "Footer Grey field color"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:169
+msgid "Footer Highlight  color"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:146
+msgid "Footer Link Color"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:8
+msgid "Footer Options"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:96
+msgid "Footer Social Icon"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:133
+msgid "Footer Style"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:164
+msgid "Footer Text color"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:570
+msgid "Form Control Icons"
+msgstr ""
+
+#: admin/array.php:27
+msgid "Full"
+msgstr ""
+
+#: admin/menu/custom-fields/image-options.php:33
+msgid "Full Height"
+msgstr ""
+
+#: widgets/widget-ads.php:37
+msgid "Full Size Image"
+msgstr ""
+
+#: admin/menu/menu_array.php:39
+#: admin/header-builder/element/search-options.php:108
+#: admin/header-builder/options/header-options.php:30
+#: admin/menu/custom-fields/image-options.php:26
+#: admin/theme-options/ui/general.php:45
+msgid "Full Width"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:118 admin/metabox/page-metabox.php:95
+msgid "Full Width Post"
+msgstr ""
+
+#: admin/menu/custom-fields/section-options.php:69
+msgid "Gap Between Column:"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:527
+msgid "Gender Icons"
+msgstr ""
+
+#: elementor/elementor-contact_form_7.php:37
+#: elementor/elementor-slider_featured.php:49
+#: elementor/blog/elementor-blog-carousel-general.php:12
+#: elementor/blog/elementor-blog-general.php:12
+#: elementor/blog/elementor-blog-masonry-general.php:12
+#: elementor/image/elementor-image-general.php:12
+#: elementor/menu/elementor-menu-general.php:12
+#: elementor/product/elementor-product-carousel-general.php:12
+#: elementor/product/elementor-product-general.php:12
+#: elementor/product_cat/elementor-product_cat-general.php:12
+#: admin/theme-options/ui/general.php:8 admin/theme-options/ui/general.php:17
+msgid "General"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-archive.php:15
+msgid "General Archive Options"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:11 admin/metabox/page-metabox.php:10
+msgid "General Options"
+msgstr ""
+
+#: admin/theme-options/ui/general-style.php:8
+#: admin/theme-options/ui/general-style/general-style.php:13
+msgid "General Style"
+msgstr ""
+
+#: widgets/widget-blog.php:122 widgets/widget-product.php:121
+#: elementor/blog/elementor-blog-carousel-layout.php:30
+#: elementor/blog/elementor-blog-layout.php:29
+#: elementor/blog/elementor-blog-masonry-layout.php:28
+msgid "Glider"
+msgstr ""
+
+#: elementor/elementor-slider_featured.php:100
+#: elementor/blog/elementor-blog-layout.php:88
+msgid "Glider Layout"
+msgstr ""
+
+#: admin/array.php:475
+msgid "Google Plus"
+msgstr ""
+
+#: admin/array.php:539 admin/array.php:574
+msgid "Google+"
+msgstr ""
+
+#: admin/array.php:385
+msgid "Gradient Caption in Bottom"
+msgstr ""
+
+#: widgets/widget-blog.php:121 widgets/widget-product.php:109
+#: widgets/widget-product.php:120
+#: elementor/blog/elementor-blog-carousel-layout.php:29
+#: elementor/blog/elementor-blog-layout.php:28
+#: elementor/blog/elementor-blog-masonry-layout.php:27
+#: elementor/product/elementor-product-carousel-layout.php:26
+#: elementor/product/elementor-product-layout.php:27
+#: admin/theme-options/ui/blog-options/blog-layout.php:23
+#: admin/theme-options/ui/product-options/product-layout.php:20
+msgid "Grid"
+msgstr ""
+
+#: elementor/blog/elementor-blog-layout.php:60
+#: elementor/product/elementor-product-layout.php:53
+#: admin/theme-options/ui/blog-options/blog-layout.php:29
+msgid "Grid Layout"
+msgstr ""
+
+#: admin/array.php:427
+msgid "Grow"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:177
+msgid "Have fun!"
+msgstr ""
+
+#: import/demo.php:45 admin/theme-options/ui/header-layout.php:8
+#: admin/theme-options/ui/header-layout.php:13
+msgid "Header"
+msgstr ""
+
+#: admin/header-builder/header-builder.php:15
+#: admin/header-builder/header-builder.php:16
+msgid "Header Builder"
+msgstr ""
+
+#: header/header-default.php:11 admin/header-builder/header-builder.php:232
+msgid "Header Default"
+msgstr ""
+
+#: admin/header-builder/options/header-options.php:12
+msgid "Header Options"
+msgstr ""
+
+#: admin/header-builder/options/header-options.php:34
+msgid "Header Shadow"
+msgstr ""
+
+#: admin/header-builder/options/header-options.php:37
+msgid "Header Style"
+msgstr ""
+
+#: admin/header-builder/options/header-options.php:16
+msgid "Header Width"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:121
+#: admin/header-builder/element/category_menu-options.php:177
+msgid "Heading Background Color"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:161
+msgid "Heading Border Radius"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:36
+msgid "Heading Boxed Layout"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:309
+msgid "Heading Font Size"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:320
+#: admin/header-builder/element/category_menu-options.php:359
+msgid "Heading Font Weight"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:197
+msgid "Heading Icon Color"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:46
+msgid "Heading Icon Layout"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:216
+msgid "Heading Icon Radius"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:335
+msgid "Heading Icon Size"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:171
+msgid "Heading Icon Style"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:26
+msgid "Heading Layout"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:125
+#: admin/header-builder/element/category_menu-options.php:146
+#: admin/header-builder/element/category_menu-options.php:165
+#: admin/header-builder/element/category_menu-options.php:174
+#: admin/header-builder/element/category_menu-options.php:181
+#: admin/header-builder/element/category_menu-options.php:200
+#: admin/header-builder/element/category_menu-options.php:220
+msgid "Heading Style"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:59
+msgid "Heading Text"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:143
+msgid "Heading Text Color"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:303
+msgid "Heading Typography"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:23
+msgid "Height"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:33
+msgid "Height of Elements"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:86
+msgid "Height of Elements on Sticky Header"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:69
+msgid "Height on Sticky Header"
+msgstr ""
+
+#. Author of the theme
+msgid "Hex-WP"
+msgstr ""
+
+#. Base ID
+#: widgets/widget-ads.php:17 widgets/widget-blog-tags.php:17
+#: widgets/widget-blog.php:18 widgets/widget-custom-html.php:64
+#: widgets/widget-menu.php:17 widgets/widget-product.php:17
+#: widgets/widget-social.php:16
+msgid "hexwp"
+msgstr ""
+
+#: admin/array.php:589 widgets/widget-blog.php:110
+#: admin/metabox/blog-metabox.php:142 admin/metabox/blog-metabox.php:159
+#: admin/metabox/blog-metabox.php:175 admin/metabox/blog-metabox.php:192
+#: admin/metabox/blog-metabox.php:210 admin/metabox/blog-metabox.php:226
+#: admin/metabox/blog-metabox.php:242 admin/metabox/page-metabox.php:119
+#: admin/metabox/page-metabox.php:135
+#: elementor/blog/elementor-blog-carousel-general.php:147
+#: elementor/blog/elementor-blog-general.php:208
+#: elementor/blog/elementor-blog-masonry-general.php:144
+#: elementor/product/elementor-product-title-box.php:36
+#: elementor/product_cat/elementor-product_cat-title-box.php:35
+#: admin/header-builder/element/category_menu-options.php:84
+#: admin/header-builder/element/mobile_menu-options.php:73
+#: admin/header-builder/element/mobile_menu-options.php:82
+#: admin/header-builder/element/mobile_menu-options.php:91
+#: admin/header-builder/element/mobile_menu-options.php:100
+#: admin/header-builder/element/search-options.php:118
+#: admin/header-builder/element/search-options.php:129
+#: admin/header-builder/options/mobbar-options.php:21
+#: admin/header-builder/options/mobbar-options.php:30
+#: admin/header-builder/options/mobbar-options.php:51
+#: admin/header-builder/options/mobbar-options.php:71
+#: admin/theme-options/ui/product-options/product-archive.php:91
+msgid "Hide"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:185
+msgid "Hide Author Bio"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:219 admin/metabox/page-metabox.php:111
+msgid "Hide Below Ads Widget"
+msgstr ""
+
+#: admin/array.php:388
+msgid "Hide Caption"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:123
+msgid "Hide Categories Count"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:112
+msgid "Hide Categories Ttile"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:235 admin/metabox/page-metabox.php:128
+msgid "Hide Comments"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3779
+msgid "Hide Details"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:73
+msgid "Hide Empty"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:152
+msgid "Hide Post Meta"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:168
+msgid "Hide Post Share"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:134
+msgid "Hide Post Tags"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:203
+msgid "Hide Related Post"
+msgstr ""
+
+#: admin/menu/fonts/flaticon_thin.php:616
+msgid "Hipster"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/home-sidebar.php:26
+msgid "Home Main Left"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/home-sidebar.php:18
+#: admin/theme-options/ui/columns-options/single-sidebar.php:18
+msgid "Home Main Right"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/home-sidebar.php:13
+msgid "Home Sidebar"
+msgstr ""
+
+#: import/demo.php:44 import/demo.php:89 inc/translation.php:25
+msgid "Homepage"
+msgstr ""
+
+#: inc/translation.php:94
+msgid "Hot"
+msgstr ""
+
+#: inc/translation.php:67
+msgid "Hour"
+msgstr ""
+
+#: inc/translation.php:66
+msgid "Hours"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:154
+#: admin/header-builder/element/category_menu-options.php:208
+#: admin/header-builder/element/category_menu-options.php:250
+#: admin/header-builder/element/category_menu-options.php:269
+#: admin/header-builder/element/text_html-options.php:76
+#: admin/header-builder/options/dropdown-options.php:35
+#: admin/header-builder/options/mobbar-options.php:104
+#: admin/header-builder/options/navbar-options.php:149
+#: admin/header-builder/options/navbar-options.php:206
+#: admin/theme-options/ui/footer-options.php:155
+#: admin/header-builder/element/style/nav-style.php:39
+#: admin/header-builder/element/style/nav-style.php:93
+#: admin/theme-options/ui/general-style/general-style.php:54
+#: admin/theme-options/ui/post-style/post-style.php:33
+msgid "Hover Color"
+msgstr ""
+
+#: elementor/elementor-slider_featured.php:229
+#: elementor/general/elementor-caption-style.php:22
+#: admin/theme-options/ui/post-style/caption-style.php:18
+msgid "Hover Image Effect"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1276
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:82
+#: admin/menu/custom-fields/menu_item-options.php:22
+msgid "Icon"
+msgstr ""
+
+#: admin/header-builder/element/style/nav-style.php:62
+msgid "Icon Background Color"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:203
+#: admin/header-builder/element/category_menu-options.php:264
+#: admin/header-builder/element/style/nav-style.php:82
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/widget-blog.php:104
+#: elementor/blog/elementor-blog-carousel-general.php:141
+#: elementor/blog/elementor-blog-general.php:201
+#: elementor/blog/elementor-blog-masonry-general.php:138
+#: admin/theme-options/ui/blog-options/blog-archive.php:117
+msgid "Icon in Hover post"
+msgstr ""
+
+#: admin/header-builder/element/account-options.php:39
+#: admin/header-builder/element/call-options.php:42
+#: admin/header-builder/element/cart-options.php:43
+#: admin/header-builder/element/contact_us-options.php:42
+#: admin/header-builder/element/menu-options.php:45
+#: admin/header-builder/element/mobile_category_menu-options.php:46
+#: admin/header-builder/element/mobile_menu-options.php:47
+#: admin/header-builder/element/search-options.php:58
+#: admin/header-builder/element/social-options.php:58
+#: admin/header-builder/element/wish-options.php:42
+msgid "Icon Layout"
+msgstr ""
+
+#: admin/header-builder/element/style/nav-style.php:101
+msgid "Icon Radius"
+msgstr ""
+
+#: admin/multi-array.php:347
+#: admin/header-builder/options/navbar-options.php:256
+#: admin/header-builder/element/style/nav-style.php:142
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:131
+#: elementor/elementor-social_icons.php:122 widgets/widget-social.php:39
+#: admin/theme-options/ui/footer-options.php:114
+#: admin/header-builder/element/style/nav-style.php:56
+msgid "Icon Style"
+msgstr ""
+
+#: admin/menu/custom-fields/menu_item-options.php:18
+msgid "Icon Type:"
+msgstr ""
+
+#: admin/menu/custom-fields/menu_item-options.php:30
+msgid "Icon:"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:268
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: elementor/blog/elementor-blog-carousel-general.php:47
+#: elementor/blog/elementor-blog-general.php:47
+#: elementor/blog/elementor-blog-masonry-general.php:47
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: admin/menu/menu-item-custom-fields.php:219
+#: admin/menu/menu-item-custom-fields.php:220
+#: elementor/image/elementor-image-general.php:22
+#: admin/menu/custom-fields/image-options.php:17
+#: admin/menu/custom-fields/image_text-options.php:14
+msgid "Image"
+msgstr ""
+
+#: admin/menu/menu-item-custom-fields.php:238
+#: admin/menu/menu-item-custom-fields.php:239
+msgid "Image & Text"
+msgstr ""
+
+#: elementor/general/elementor-caption-style.php:11
+#: admin/theme-options/ui/post-style/caption-style.php:13
+msgid "Image And Caption Style"
+msgstr ""
+
+#: admin/header-builder/element/banner-options.php:20
+msgid "Image Banner"
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/banner-header.php:28
+msgid "Image Banner in Header"
+msgstr ""
+
+#: elementor/elementor-image_list.php:12
+msgid "Image List"
+msgstr ""
+
+#: elementor/elementor-slider_featured.php:164 widgets/widget-blog.php:159
+#: widgets/widget-product.php:151
+#: elementor/blog/elementor-blog-carousel-layout.php:91
+#: elementor/blog/elementor-blog-layout.php:156
+#: elementor/blog/elementor-blog-masonry-layout.php:78
+#: elementor/product/elementor-product-carousel-layout.php:99
+#: elementor/product/elementor-product-layout.php:99
+#: elementor/product_cat/elementor-product_cat-layout.php:63
+#: admin/menu/custom-fields/blog_grid-options.php:91
+#: admin/theme-options/ui/blog-options/blog-layout.php:73
+#: admin/theme-options/ui/product-options/product-layout.php:65
+#: admin/theme-options/ui/single-options/related-post.php:85
+msgid "Image Ratio"
+msgstr ""
+
+#: elementor/blog/elementor-blog-layout.php:169
+#: elementor/product/elementor-product-layout.php:108
+msgid "Image Ratio For Second Layout"
+msgstr ""
+
+#: widgets/widget-blog.php:176 widgets/widget-product.php:167
+#: elementor/blog/elementor-blog-carousel-layout.php:116
+#: elementor/blog/elementor-blog-layout.php:276
+#: elementor/blog/elementor-blog-masonry-layout.php:90
+#: elementor/product/elementor-product-carousel-layout.php:119
+#: elementor/product/elementor-product-layout.php:150
+#: admin/menu/custom-fields/blog_grid-options.php:103
+#: admin/theme-options/ui/blog-options/blog-layout.php:80
+#: admin/theme-options/ui/product-options/product-layout.php:72
+#: admin/theme-options/ui/product-options/product-single.php:37
+#: admin/theme-options/ui/single-options/related-post.php:92
+msgid "Image Size"
+msgstr ""
+
+#: elementor/blog/elementor-blog-layout.php:285
+#: elementor/product/elementor-product-layout.php:159
+msgid "Image Size For Second Layout"
+msgstr ""
+
+#: elementor/product/elementor-product-featured.php:44
+msgid "Image Src"
+msgstr ""
+
+#: admin/menu/custom-fields/image-options.php:40
+#: admin/menu/custom-fields/image_text-options.php:23
+msgid "Image URL"
+msgstr ""
+
+#: widgets/widget-blog.php:169 widgets/widget-product.php:159
+#: admin/metabox/product-metabox.php:41
+#: elementor/blog/elementor-blog-carousel-layout.php:103
+#: elementor/blog/elementor-blog-layout.php:234
+#: elementor/image/elementor-image-layout.php:58
+#: elementor/product/elementor-product-carousel-layout.php:108
+#: elementor/product/elementor-product-layout.php:139
+#: admin/theme-options/ui/blog-options/blog-layout.php:87
+#: admin/theme-options/ui/product-options/product-layout.php:79
+msgid "Image Width"
+msgstr ""
+
+#: elementor/blog/elementor-blog-layout.php:245
+msgid "Image Width For Second Layout"
+msgstr ""
+
+#: admin/menu/custom-fields/menu_item-options.php:36
+msgid "Image:"
+msgstr ""
+
+#: import/classes/importer.class.php:120 import/classes/importer.class.php:141
+#: import/classes/importer.class.php:181
+msgid "Import"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1452
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and "
+"tags</strong> from a WordPress export file."
+msgstr ""
+
+#: import/classes/wordpress-importer.php:278
+msgid "Import Attachments"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:298
+msgid "Import author:"
+msgstr ""
+
+#: import/classes/import.php:139
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: import/demo.php:26 import/classes/importer.class.php:74
+#: import/classes/importer.class.php:74 import/classes/importer.class.php:76
+#: import/classes/importer.class.php:76
+msgid "Import Data Demo"
+msgstr ""
+
+#: import/classes/importer.class.php:272
+msgid "Import done"
+msgstr ""
+
+#: import/classes/import.php:100
+msgid "Import file could not be found. Please try again."
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:919
+msgid "Import Options"
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:730
+#: admin/theme-options/class.options_machine.php:965
+msgid "Import Predefined Styles"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1254
+msgid "Import WordPress"
+msgstr ""
+
+#: import/classes/import.php:322
+msgid "Imported"
+msgstr ""
+
+#: import/classes/import.php:325
+msgid "Imported to Inactive"
+msgstr ""
+
+#: admin/array.php:231
+msgid "in Mobile"
+msgstr ""
+
+#: admin/array.php:468 inc/translation.php:91
+msgid "In Stock"
+msgstr ""
+
+#: admin/array.php:229
+msgid "in Table"
+msgstr ""
+
+#: widgets/widget-custom-html.php:355
+msgid "In the editing area, the Tab key enters a tab character."
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:77
+msgid "input  Text in Bottom Footer"
+msgstr ""
+
+#: elementor/elementor-comments.php:221
+msgid "Input and Button Border Radius"
+msgstr ""
+
+#: admin/header-builder/element/call-options.php:62
+#: admin/header-builder/options/mobbar-options.php:57
+msgid "input Text In Call"
+msgstr ""
+
+#: admin/header-builder/element/contact_us-options.php:64
+#: admin/header-builder/options/mobbar-options.php:35
+msgid "input Text In Contact Us"
+msgstr ""
+
+#: admin/header-builder/element/text_html-options.php:21
+#: admin/header-builder/options/mobbar-options.php:76
+msgid "input Text in Text,Html And Shortcode"
+msgstr ""
+
+#: admin/theme-options/ui/social-networks.php:31
+msgid "Insert your custom link to show. Leave blank to hide icon"
+msgstr ""
+
+#: admin/array.php:482 admin/array.php:554
+msgid "Instagram"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2948
+msgid "Install"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2828
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:346
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:345
+msgid "Install Required Plugins"
+msgstr ""
+
+#. 1: install status, 2: update status
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2556
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2710
+msgid "Installed version:"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3766
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3774
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/menu/fonts/flaticon.php:305
+msgid "Interface"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:991
+msgid "Invalid file type"
+msgstr ""
+
+#: admin/array.php:532 admin/multi-array.php:425
+msgid "Italic"
+msgstr ""
+
+#: widgets/widget.php:291 widgets/widget.php:303 widgets/widget.php:315
+#: widgets/widget.php:338 widgets/widget.php:351
+msgid "just for show ADS widget"
+msgstr ""
+
+#: admin/array.php:344 admin/array.php:351
+msgid "Justify"
+msgstr ""
+
+#: elementor/elementor-comments.php:139
+msgid "Label Color"
+msgstr ""
+
+#: admin/menu/custom-fields/menu_item-options.php:12
+msgid "Lable Featured:"
+msgstr ""
+
+#: inc/translation.php:32
+msgid "Last"
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:907
+msgid "Last Backup :"
+msgstr ""
+
+#: admin/array.php:450
+msgid "Layla"
+msgstr ""
+
+#: admin/multi-array.php:266 elementor/elementor-comments.php:37
+#: elementor/elementor-contact_form_7.php:58
+#: elementor/elementor-share_icons.php:80
+#: elementor/elementor-slider_featured.php:91
+#: elementor/elementor-slider_featured.php:96
+#: elementor/elementor-social_icons.php:71 widgets/widget-blog.php:116
+#: widgets/widget-blog.php:161 widgets/widget-blog.php:178
+#: widgets/widget-blog.php:204 widgets/widget-product.php:104
+#: widgets/widget-product.php:115 widgets/widget-product.php:143
+#: widgets/widget-product.php:169 widgets/widget-social.php:32
+#: admin/metabox/product-metabox.php:11
+#: elementor/blog/elementor-blog-carousel-layout.php:11
+#: elementor/blog/elementor-blog-carousel-layout.php:23
+#: elementor/blog/elementor-blog-layout.php:11
+#: elementor/blog/elementor-blog-layout.php:22
+#: elementor/blog/elementor-blog-layout.php:35
+#: elementor/blog/elementor-blog-masonry-layout.php:11
+#: elementor/blog/elementor-blog-masonry-layout.php:22
+#: elementor/image/elementor-image-layout.php:11
+#: elementor/image/elementor-image-layout.php:15
+#: elementor/product/elementor-product-carousel-layout.php:11
+#: elementor/product/elementor-product-carousel-layout.php:20
+#: elementor/product/elementor-product-layout.php:11
+#: elementor/product/elementor-product-layout.php:22
+#: elementor/product/elementor-product-layout.php:32
+#: elementor/product_cat/elementor-product_cat-layout.php:11
+#: admin/header-builder/options/navbar-options.php:14
+#: admin/menu/custom-fields/blog_grid-options.php:93
+#: admin/menu/custom-fields/blog_grid-options.php:105
+#: admin/theme-options/ui/single-options/single-meta.php:84
+msgid "Layout"
+msgstr ""
+
+#: admin/array.php:190 admin/array.php:335 admin/array.php:341
+#: admin/array.php:350 admin/array.php:359 admin/array.php:364
+#: admin/array.php:368 admin/multi-array.php:92 admin/multi-array.php:170
+#: admin/menu/menu_array.php:44 admin/menu/menu_array.php:48
+#: admin/theme-options/class.options_machine.php:587
+msgid "Left"
+msgstr ""
+
+#: admin/menu/menu_array.php:46 admin/menu/menu_array.php:50
+msgid "Left Bottom"
+msgstr ""
+
+#: admin/menu/menu_array.php:47 admin/menu/menu_array.php:51
+msgid "Left Center"
+msgstr ""
+
+#: admin/menu/menu_array.php:45 admin/menu/menu_array.php:49
+msgid "Left Top"
+msgstr ""
+
+#: admin/array.php:522 admin/multi-array.php:293 admin/multi-array.php:327
+#: admin/multi-array.php:365 admin/multi-array.php:399
+msgid "Light"
+msgstr ""
+
+#: widgets/widget-blog.php:66 widgets/widget-product.php:66
+#: elementor/blog/elementor-blog-carousel-general.php:77
+#: elementor/blog/elementor-blog-general.php:138
+#: elementor/blog/elementor-blog-masonry-general.php:75
+#: elementor/product/elementor-product-carousel-general.php:66
+#: elementor/product/elementor-product-general.php:95
+#: admin/theme-options/ui/blog-options/blog-archive.php:44
+#: admin/theme-options/ui/product-options/product-archive.php:42
+msgid "Limit Excerpt length"
+msgstr ""
+
+#: widgets/widget-blog.php:53 widgets/widget-product.php:51
+#: elementor/blog/elementor-blog-carousel-general.php:56
+#: elementor/blog/elementor-blog-general.php:56
+#: elementor/blog/elementor-blog-masonry-general.php:56
+#: elementor/product/elementor-product-carousel-general.php:48
+#: elementor/product/elementor-product-general.php:47
+#: admin/theme-options/ui/blog-options/blog-archive.php:27
+#: admin/theme-options/ui/product-options/product-archive.php:25
+msgid "Limit Title length"
+msgstr ""
+
+#: admin/multi-array.php:441
+msgid "Line Height"
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:1340
+msgid "Link URL (optional)"
+msgstr ""
+
+#: admin/array.php:542
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/array.php:476 admin/array.php:577
+msgid "Linkedin"
+msgstr ""
+
+#: elementor/elementor-comments.php:49 widgets/widget-blog.php:120
+#: widgets/widget-product.php:108 widgets/widget-product.php:119
+#: elementor/blog/elementor-blog-carousel-layout.php:28
+#: elementor/blog/elementor-blog-layout.php:27
+#: elementor/product/elementor-product-carousel-layout.php:25
+#: elementor/product/elementor-product-layout.php:26
+#: admin/theme-options/ui/blog-options/blog-layout.php:24
+#: admin/theme-options/ui/product-options/product-layout.php:21
+#: admin/theme-options/ui/single-options/single-general.php:81
+msgid "List"
+msgstr ""
+
+#: elementor/blog/elementor-blog-layout.php:39
+#: elementor/image/elementor-image-layout.php:19
+#: elementor/product/elementor-product-layout.php:36
+#: admin/theme-options/ui/blog-options/blog-layout.php:46
+msgid "List Layout"
+msgstr ""
+
+#: elementor/blog/elementor-blog-general.php:222
+#: elementor/blog/elementor-blog-masonry-general.php:157
+#: elementor/product/elementor-product-general.php:146
+msgid "Load More"
+msgstr ""
+
+#: inc/translation.php:42
+msgid "Load more"
+msgstr ""
+
+#: admin/multi-array.php:243
+msgid "Location"
+msgstr ""
+
+#: inc/translation.php:47
+msgid "Log In"
+msgstr ""
+
+#: inc/translation.php:46
+msgid "Log Out"
+msgstr ""
+
+#: admin/header-builder/element/logo-options.php:12
+msgid "Logo"
+msgstr ""
+
+#: admin/header-builder/element/logo-options.php:17
+msgid "Logo Image"
+msgstr ""
+
+#: admin/header-builder/element/logo-options.php:24
+msgid "Logo Image in Overlap"
+msgstr ""
+
+#: admin/header-builder/element/logo-options.php:31
+msgid "Logo Width"
+msgstr ""
+
+#: inc/translation.php:56
+msgid "Lost Your Password?"
+msgstr ""
+
+#: admin/multi-array.php:308 admin/multi-array.php:342
+#: admin/multi-array.php:380 admin/multi-array.php:414
+#: admin/header-builder/element/text_html-options.php:122
+#: admin/header-builder/options/dropdown-options.php:124
+#: admin/header-builder/options/mobbar-options.php:185
+#: admin/header-builder/options/navbar-options.php:250
+#: admin/header-builder/element/style/nav-style.php:137
+msgid "Lowercase"
+msgstr ""
+
+#: admin/array.php:579
+msgid "Mail"
+msgstr ""
+
+#: elementor/general/elementor-title-box-style.php:35
+msgid "Main - Background Color"
+msgstr ""
+
+#: elementor/general/elementor-title-box-style.php:49
+msgid "Main - Text Color"
+msgstr ""
+
+#: elementor/product/elementor-product-style.php:61
+#: admin/theme-options/ui/post-style/post-style.php:46
+msgid "Main Color"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/general-style.php:78
+msgid "Main Content Border color"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/general-style.php:83
+msgid "Main Content Border Radius"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/general-style.php:73
+msgid "Main Content Grey field  color"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/general-style.php:68
+msgid "Main Content Highlight  color"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/general-style.php:44
+msgid "Main Content Link Color"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/general-style.php:62
+msgid "Main Content Text color"
+msgstr ""
+
+#: admin/array.php:587 elementor/product/elementor-product-title-box.php:34
+#: elementor/product_cat/elementor-product_cat-title-box.php:34
+msgid "Main Title and Tabs Right"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/title-box-style.php:33
+msgid "Main Title Color"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:104
+msgid "Make it Overlap"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:44
+#: admin/header-builder/options/navbar-options.php:56
+msgid "Make it Sticky"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:105
+msgid "Make the Header Overlap the Content.Overlap Only Homepage"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:31
+msgid "Manual Selection"
+msgstr ""
+
+#: widgets/widget-menu.php:37
+msgid "Max Count"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:953
+msgid "Medical Icons"
+msgstr ""
+
+#: admin/array.php:524 admin/multi-array.php:295 admin/multi-array.php:329
+#: admin/multi-array.php:367 admin/multi-array.php:401
+msgid "Medium"
+msgstr ""
+
+#: admin/menu/menu-item-custom-fields.php:317
+msgid "Mega Menu"
+msgstr ""
+
+#: elementor/elementor-menu.php:12 import/demo.php:41 inc/translation.php:50
+#: widgets/widget-menu.php:17 admin/header-builder/element/menu-options.php:12
+#: admin/header-builder/element/mobile_menu-options.php:65
+msgid "Menu"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:231
+msgid "Menu Background Color"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:276
+msgid "Menu Border Color"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:289
+msgid "Menu Box Radius"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:282
+msgid "Menu Box Shadow Cover"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:348
+msgid "Menu Font Size"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:258
+msgid "Menu Icon Color"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:375
+msgid "Menu Icon Size"
+msgstr ""
+
+#: elementor/menu/elementor-menu-style.php:87
+msgid "Menu Item Hover Color"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:104
+#: admin/header-builder/element/menu-options.php:55
+msgid "Menu Item Padding"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:913
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:906
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: elementor/menu/elementor-menu-style.php:75
+msgid "Menu Item Text Color"
+msgstr ""
+
+#: admin/header-builder/element/menu-options.php:24
+#: admin/header-builder/element/mobile_category_menu-options.php:26
+#: admin/header-builder/element/mobile_menu-options.php:27
+msgid "Menu Layout"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:93
+msgid "Menu Margin Top"
+msgstr ""
+
+#: elementor/menu/elementor-menu-style.php:11
+#: admin/header-builder/element/category_menu-options.php:234
+#: admin/header-builder/element/category_menu-options.php:242
+#: admin/header-builder/element/category_menu-options.php:261
+#: admin/header-builder/element/category_menu-options.php:278
+#: admin/header-builder/element/category_menu-options.php:284
+#: admin/header-builder/element/category_menu-options.php:292
+msgid "Menu Style"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:239
+msgid "Menu Text Color"
+msgstr ""
+
+#: admin/header-builder/element/mobile_menu-options.php:58
+msgid "Menu Title"
+msgstr ""
+
+#: elementor/menu/elementor-menu-typography.php:11
+#: elementor/menu/elementor-menu-typography.php:64
+#: admin/header-builder/element/category_menu-options.php:342
+msgid "Menu Typography"
+msgstr ""
+
+#: elementor/blog/elementor-blog-post-style.php:68
+#: elementor/product/elementor-product-style.php:108
+msgid "Meta Color"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-layout.php:115
+#: admin/theme-options/ui/single-options/single-meta.php:68
+msgid "Meta Layout"
+msgstr ""
+
+#: elementor/blog/elementor-blog-typography.php:165
+#: elementor/product/elementor-product-typography.php:213
+#: admin/theme-options/ui/typography.php:113
+msgid "Meta Typography"
+msgstr ""
+
+#: admin/menu/fonts/metrizeicon.php:17
+msgid "Metrize"
+msgstr ""
+
+#: admin/header-builder/header-builder.php:65
+msgid "Middle Header"
+msgstr ""
+
+#: admin/array.php:455
+msgid "Ming"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2718
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/translation.php:68
+msgid "Mins"
+msgstr ""
+
+#: inc/translation.php:69
+msgid "Minute"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:87
+msgid "Mobile Bar Background Color"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:133
+msgid "Mobile Bar Border color"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:126
+msgid "Mobile Bar Grey field color"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:119
+msgid "Mobile Bar Highlight color"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:93
+msgid "Mobile Bar Link Color"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:12
+msgid "Mobile Bar Options"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:112
+msgid "Mobile Bar Text color"
+msgstr ""
+
+#: admin/header-builder/header-builder.php:77
+msgid "Mobile Bottom Header"
+msgstr ""
+
+#: admin/header-builder/element/mobile_category_menu-options.php:12
+msgid "Mobile Category Menu"
+msgstr ""
+
+#: admin/header-builder/element/mobile_menu-options.php:12
+msgid "Mobile Menu"
+msgstr ""
+
+#: admin/header-builder/header-builder.php:74
+msgid "Mobile Middle Header"
+msgstr ""
+
+#: admin/header-builder/header-builder.php:71
+msgid "Mobile Top Header"
+msgstr ""
+
+#: inc/translation.php:63
+msgid "Month"
+msgstr ""
+
+#: inc/translation.php:62
+msgid "Months"
+msgstr ""
+
+#: elementor/menu/elementor-menu-style.php:101
+msgid "More Background Color"
+msgstr ""
+
+#: inc/translation.php:119
+msgid "More Category"
+msgstr ""
+
+#: elementor/blog/elementor-blog-general.php:217
+#: elementor/blog/elementor-blog-masonry-general.php:152
+#: elementor/product/elementor-product-general.php:142
+msgid "More Posts"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:126
+msgid "More Posts Typography"
+msgstr ""
+
+#: elementor/menu/elementor-menu-style.php:115
+msgid "More Text Color"
+msgstr ""
+
+#: elementor/menu/elementor-menu-typography.php:106
+msgid "More Typography"
+msgstr ""
+
+#: admin/array.php:399
+msgid "Most Comments "
+msgstr ""
+
+#: admin/array.php:400
+msgid "Most Comments 1 day ago"
+msgstr ""
+
+#: admin/array.php:402
+msgid "Most Comments 1 month ago"
+msgstr ""
+
+#: admin/array.php:401
+msgid "Most Comments 1 week ago"
+msgstr ""
+
+#: admin/array.php:403
+msgid "Most Comments 1 year ago"
+msgstr ""
+
+#: admin/array.php:404
+msgid "Most Views"
+msgstr ""
+
+#: admin/array.php:405
+msgid "Most Views - 1 day ago"
+msgstr ""
+
+#: admin/array.php:407
+msgid "Most Views - 1 month ago"
+msgstr ""
+
+#: admin/array.php:406
+msgid "Most Views - 1 week ago"
+msgstr ""
+
+#: admin/array.php:408
+msgid "Most Views - 1 year ago"
+msgstr ""
+
+#: admin/menu/fonts/flaticon.php:121
+msgid "Multi Media"
+msgstr ""
+
+#: inc/translation.php:106
+msgid "My Account"
+msgstr ""
+
+#: inc/translation.php:97 inc/translation.php:98
+msgid "My Cart"
+msgstr ""
+
+#: inc/translation.php:51
+msgid "My Wishlist"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:88
+msgid "Name"
+msgstr ""
+
+#: admin/menu/fonts/flaticon_thin.php:810
+msgid "Network"
+msgstr ""
+
+#: inc/translation.php:93
+msgid "New"
+msgstr ""
+
+#: inc/translation.php:34
+msgid "Next"
+msgstr ""
+
+#. 1: plugin name.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:408
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/translation.php:82
+msgid "No Comments Yet"
+msgstr ""
+
+#: admin/multi-array.php:271
+#: admin/theme-options/ui/single-options/single-meta.php:88
+msgid "no Icon"
+msgstr ""
+
+#: admin/multi-array.php:272
+#: admin/theme-options/ui/single-options/single-meta.php:89
+msgid "no Icon & Avater Author"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3167
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3032
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3034
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2754
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3141
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2989
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2991
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/translation.php:102
+msgid "No products in the cart."
+msgstr ""
+
+#: dokan/store.php:100
+msgid "No products were found of this vendor!"
+msgstr ""
+
+#: inc/translation.php:117
+msgid "No Results"
+msgstr ""
+
+#: inc/translation.php:112
+msgid "No results"
+msgstr ""
+
+#: import/classes/import.php:332
+msgid "No Title"
+msgstr ""
+
+#: widgets/widget-ads.php:50 admin/header-builder/element/banner-options.php:40
+#: admin/theme-options/ui/ads-options/banner-header.php:59
+msgid "Nofollow"
+msgstr ""
+
+#: admin/array.php:110 admin/array.php:374 admin/array.php:422
+#: admin/category-array.php:68 admin/category-array.php:251
+#: admin/multi-array.php:306 admin/multi-array.php:340
+#: admin/multi-array.php:378 elementor/elementor-comments.php:61
+#: widgets/widget-custom-html.php:276 admin/menu/menu_array.php:4
+#: admin/metabox/blog-metabox.php:268 admin/metabox/page-metabox.php:158
+#: elementor/blog/elementor-blog-general.php:221
+#: elementor/blog/elementor-blog-masonry-general.php:156
+#: elementor/product/elementor-product-general.php:145
+#: admin/header-builder/element/account-options.php:34
+#: admin/header-builder/element/account-options.php:44
+#: admin/header-builder/element/call-options.php:36
+#: admin/header-builder/element/call-options.php:47
+#: admin/header-builder/element/cart-options.php:38
+#: admin/header-builder/element/cart-options.php:48
+#: admin/header-builder/element/category_menu-options.php:41
+#: admin/header-builder/element/category_menu-options.php:51
+#: admin/header-builder/element/contact_us-options.php:36
+#: admin/header-builder/element/contact_us-options.php:47
+#: admin/header-builder/element/menu-options.php:40
+#: admin/header-builder/element/menu-options.php:50
+#: admin/header-builder/element/mobile_category_menu-options.php:42
+#: admin/header-builder/element/mobile_category_menu-options.php:51
+#: admin/header-builder/element/mobile_menu-options.php:43
+#: admin/header-builder/element/mobile_menu-options.php:52
+#: admin/header-builder/element/search-options.php:53
+#: admin/header-builder/element/search-options.php:66
+#: admin/header-builder/element/social-options.php:53
+#: admin/header-builder/element/social-options.php:68
+#: admin/header-builder/element/text_html-options.php:37
+#: admin/header-builder/element/text_html-options.php:120
+#: admin/header-builder/element/wish-options.php:37
+#: admin/header-builder/element/wish-options.php:47
+#: admin/header-builder/options/dropdown-options.php:122
+#: admin/header-builder/options/mobbar-options.php:183
+#: admin/header-builder/options/navbar-options.php:248
+#: admin/header-builder/element/style/nav-style.php:135
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:17
+#: admin/theme-options/ui/general-style/body-style.php:33
+msgid "None"
+msgstr ""
+
+#: admin/array.php:156 admin/multi-array.php:412
+msgid "none"
+msgstr ""
+
+#: elementor/product/elementor-product-style.php:172
+#: admin/theme-options/ui/post-style/post-style.php:109
+msgid "None Rating"
+msgstr ""
+
+#: admin/array.php:523 admin/array.php:531 admin/multi-array.php:294
+#: admin/multi-array.php:328 admin/multi-array.php:366
+#: admin/multi-array.php:400 admin/multi-array.php:424
+msgid "Normal"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2529
+msgid "Not Installed"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/post-style.php:86
+msgid "Number Color"
+msgstr ""
+
+#: elementor/elementor-slider_featured.php:56 widgets/widget-blog.php:31
+#: widgets/widget-product.php:28
+#: elementor/blog/elementor-blog-carousel-general.php:19
+#: elementor/blog/elementor-blog-general.php:19
+#: elementor/blog/elementor-blog-masonry-general.php:19
+#: elementor/product/elementor-product-carousel-general.php:19
+#: elementor/product/elementor-product-general.php:19
+#: admin/menu/custom-fields/blog_grid-options.php:17
+msgid "Number of Posts to show"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-archive.php:18
+msgid "Number of products Displayed Per page"
+msgstr ""
+
+#: admin/array.php:533 admin/multi-array.php:426
+msgid "Oblique"
+msgstr ""
+
+#: inc/translation.php:30
+msgid "of"
+msgstr ""
+
+#: admin/menu/fonts/flaticon.php:253
+msgid "Office"
+msgstr ""
+
+#: admin/array.php:465
+msgid "On Sales"
+msgstr ""
+
+#: admin/array.php:466
+msgid "On Sales Variation"
+msgstr ""
+
+#: admin/header-builder/element/social-options.php:93
+#: admin/header-builder/options/mobbar-options.php:148
+#: admin/theme-options/ui/general-style/general-style.php:101
+msgid "Only Icon"
+msgstr ""
+
+#: admin/array.php:586 elementor/product/elementor-product-title-box.php:33
+#: elementor/product_cat/elementor-product_cat-title-box.php:33
+msgid "Only Main Title Center"
+msgstr ""
+
+#: admin/array.php:585 elementor/product/elementor-product-title-box.php:32
+#: elementor/product_cat/elementor-product_cat-title-box.php:32
+msgid "Only Main Title Right"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:58
+msgid "Only Top Level"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-archive.php:84
+msgid "Onsale Tags"
+msgstr ""
+
+#: inc/translation.php:87
+msgid "Oops, This Page Could Not Be Found!"
+msgstr ""
+
+#: widgets/widget-ads.php:44 admin/header-builder/element/banner-options.php:31
+#: admin/theme-options/ui/ads-options/banner-header.php:44
+msgid "Open in New Window"
+msgstr ""
+
+#: admin/theme-options/options.php:8 admin/theme-options/options.php:67
+msgid "Options Reset"
+msgstr ""
+
+#: admin/theme-options/options.php:4
+msgid "Options Updated"
+msgstr ""
+
+#: inc/translation.php:105
+msgid "or"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:325
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:99
+msgid "Order"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:84
+msgid "Order By"
+msgstr ""
+
+#: widgets/widget-blog.php:46 widgets/widget-product.php:43
+#: elementor/blog/elementor-blog-carousel-general.php:38
+#: elementor/blog/elementor-blog-general.php:38
+#: elementor/blog/elementor-blog-masonry-general.php:38
+#: elementor/blog/elementor-blog-title-box.php:82
+#: elementor/product/elementor-product-carousel-general.php:38
+#: elementor/product/elementor-product-general.php:38
+#: elementor/product/elementor-product-title-box.php:83
+#: admin/menu/custom-fields/blog_grid-options.php:33
+msgid "Orderby"
+msgstr ""
+
+#: admin/theme-options/ui/translation.php:8
+msgid "Orginal"
+msgstr ""
+
+#: admin/array.php:451
+msgid "Oscar"
+msgstr ""
+
+#: inc/translation.php:92 inc/translation.php:115
+msgid "Out of Stock"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:172
+msgid "Overlap Background Color"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:213
+msgid "Overlap Border"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:166
+msgid "Overlap Style"
+msgstr ""
+
+#: admin/header-builder/options/navbar-options.php:194
+msgid "Overlap Text Color"
+msgstr ""
+
+#: admin/menu/custom-fields/section-options.php:55
+msgid "Padding Bottom:"
+msgstr ""
+
+#: admin/menu/custom-fields/section-options.php:49
+#: admin/menu/custom-fields/section-options.php:62
+msgid "Padding Left:"
+msgstr ""
+
+#: admin/menu/custom-fields/section-options.php:49
+#: admin/menu/custom-fields/section-options.php:62
+msgid "Padding Right:"
+msgstr ""
+
+#: admin/menu/custom-fields/section-options.php:43
+msgid "Padding Top:"
+msgstr ""
+
+#: inc/translation.php:28
+msgid "Page"
+msgstr ""
+
+#: inc/pagenavi.php:158 inc/pagenavi.php:178 inc/pagenavi.php:190
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: admin/menu/menu-item-custom-fields.php:200
+#: admin/menu/menu-item-custom-fields.php:201
+msgid "Page Builder"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/page-sidebar.php:25
+msgid "Page Main Left"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/page-sidebar.php:17
+msgid "Page Main Right"
+msgstr ""
+
+#: elementor/blog/elementor-blog-general.php:223
+#: elementor/product/elementor-product-general.php:147
+msgid "Page Number"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/page-sidebar.php:12
+msgid "Page Sidebar"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-archive.php:134
+msgid "Pagenavi Ajax"
+msgstr ""
+
+#: inc/translation.php:73
+msgid "Pages"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:62
+msgid "Parent"
+msgstr ""
+
+#: inc/translation.php:53
+msgid "Password"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:269 admin/metabox/page-metabox.php:159
+#: admin/theme-options/ui/general-style/body-style.php:34
+msgid "Pattern"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:583
+msgid "Payment Icons"
+msgstr ""
+
+#: admin/array.php:555
+msgid "PayPal"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-archive.php:90
+msgid "Percentage"
+msgstr ""
+
+#: inc/translation.php:109
+msgid "Phone"
+msgstr ""
+
+#: inc/translation.php:110
+msgid "Phone number"
+msgstr ""
+
+#: inc/translation.php:77
+msgid "Pingback"
+msgstr ""
+
+#: admin/array.php:484 admin/array.php:553
+msgid "Pinterest"
+msgstr ""
+
+#: admin/menu/custom-fields/blog_grid-options.php:48
+msgid "Platforms"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:415
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:1059
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:1069
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-archive.php:45
+#: admin/theme-options/ui/product-options/product-archive.php:43
+msgid "Please Enter Maximum Number of characters"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-archive.php:28
+#: admin/theme-options/ui/product-options/product-archive.php:26
+msgid "Please enter Maximum number of characters"
+msgstr ""
+
+#: import/classes/importer.class.php:150 import/classes/importer.class.php:190
+msgid "Please Wait..."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2769
+msgid "Plugin"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:1262
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3181
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:405
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3401
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3400
+msgid "Plugin activation failed."
+msgstr ""
+
+#. 1: plugin name.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:410
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. 1: number of plugins.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2604
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/theme-options/ui/columns-options/portfolio-sidebar.php:25
+msgid "Portfolio Main Left"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/portfolio-sidebar.php:17
+msgid "Portfolio Main Right"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/portfolio-sidebar.php:12
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/post-style.php:17
+msgid "Post Background Color"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/post-style.php:65
+msgid "Post Excerpt Color"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/post-style.php:23
+msgid "Post Link Color Title"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/post-style.php:71
+msgid "Post Meta Text Color"
+msgstr ""
+
+#: elementor/elementor-slider_featured.php:187
+#: elementor/blog/elementor-blog-post-style.php:11
+#: elementor/image/elementor-image-style.php:11
+#: admin/theme-options/ui/post-style.php:8
+#: admin/theme-options/ui/post-style/post-style.php:12
+msgid "Post Style"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/single-general.php:54
+msgid "Post Tags"
+msgstr ""
+
+#: elementor/blog/elementor-blog-typography.php:91
+#: elementor/image/elementor-image-typography.php:21
+#: elementor/product/elementor-product-typography.php:98
+#: elementor/product_cat/elementor-product_cat-typography.php:22
+#: admin/theme-options/ui/typography.php:102
+msgid "Post Title Typography"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2511
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/translation.php:33
+msgid "Previous"
+msgstr ""
+
+#: elementor/product/elementor-product-style.php:61
+#: elementor/product/elementor-product-style.php:74
+#: elementor/product/elementor-product-style.php:84
+#: admin/theme-options/ui/post-style/post-style.php:41
+msgid "Price Color"
+msgstr ""
+
+#: elementor/product/elementor-product-typography.php:135
+#: admin/theme-options/ui/typography.php:141
+msgid "Price Typography"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/general-style.php:17
+msgid "Primary Color"
+msgstr ""
+
+#: widgets/widget.php:188
+msgid "Primary Left Sidebar"
+msgstr ""
+
+#: widgets/widget.php:177
+msgid "Primary Right Sidebar"
+msgstr ""
+
+#: elementor/elementor-product.php:12 import/demo.php:38
+#: widgets/widget-product.php:17
+msgid "Product"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-archive.php:9
+msgid "Product Archive"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-layout.php:110
+msgid "Product Box Layout"
+msgstr ""
+
+#: elementor/elementor-product_carousel.php:12
+msgid "Product Carousel"
+msgstr ""
+
+#: elementor/elementor-product_cat.php:12
+msgid "Product Categories"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-columns.php:51
+msgid "Product Column Left"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-columns.php:31
+msgid "Product Column Right"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-columns.php:2
+#: admin/theme-options/ui/product-options/product-columns.php:16
+msgid "Product Columns"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/post-style.php:118
+msgid "Product Featured Color"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:25
+msgid "Product Gallery Item"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-layout.php:8
+#: admin/theme-options/ui/product-options/product-layout.php:16
+#: admin/theme-options/ui/product-options/product-layout.php:26
+msgid "Product Layout"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-layout.php:40
+msgid "Product List Layout"
+msgstr ""
+
+#: admin/theme-options/ui/product-options.php:8
+msgid "Product Options"
+msgstr ""
+
+#: elementor/product/elementor-product-style.php:11
+#: elementor/product_cat/elementor-product_cat-style.php:11
+msgid "Product Style"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:134
+msgid "Product Title Typography"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/related-post.php:48
+msgid "Query Type"
+msgstr ""
+
+#: admin/array.php:394
+msgid "Randam"
+msgstr ""
+
+#: admin/array.php:395
+msgid "Randam - 1 day ago"
+msgstr ""
+
+#: admin/array.php:397
+msgid "Randam - 1 month ago"
+msgstr ""
+
+#: admin/array.php:396
+msgid "Randam - 1 week ago"
+msgstr ""
+
+#: admin/array.php:398
+msgid "Randam - 1 year ago"
+msgstr ""
+
+#: admin/array.php:464
+#: admin/theme-options/ui/single-options/related-post.php:55
+msgid "Random"
+msgstr ""
+
+#: elementor/product/elementor-product-style.php:159
+#: admin/theme-options/ui/post-style/post-style.php:104
+msgid "Rating"
+msgstr ""
+
+#: elementor/product/elementor-product-style.php:159
+#: elementor/product/elementor-product-style.php:172
+#: admin/theme-options/ui/post-style/post-style.php:99
+msgid "Rating Color"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-archive.php:62
+msgid "Rating Meta"
+msgstr ""
+
+#: inc/translation.php:40
+msgid "Read More"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:120
+msgid "Read More Typography"
+msgstr ""
+
+#: inc/translation.php:107
+msgid "Real Name"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/related-post.php:52
+msgid "Recent"
+msgstr ""
+
+#: inc/default.php:78
+msgid "Recent Blog"
+msgstr ""
+
+#: admin/array.php:393
+msgid "Recent Posts"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2488
+msgid "Recommended"
+msgstr ""
+
+#: admin/array.php:578
+msgid "reddit"
+msgstr ""
+
+#: admin/array.php:423
+msgid "Reduce Opacity"
+msgstr ""
+
+#: inc/translation.php:55
+msgid "Register"
+msgstr ""
+
+#: elementor/product/elementor-product-style.php:84
+#: admin/theme-options/ui/post-style/post-style.php:56
+msgid "Regular Color"
+msgstr ""
+
+#: inc/default.php:118
+msgid "Related Blog"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/related-post.php:110
+msgid "Related Box Layout"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/related-post.php:60
+msgid "Related Layout"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/related-post.php:18
+msgid "Related Posts"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/related-post.php:14
+msgid "Related Posts Settings"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/related-post.php:35
+msgid "Related Posts Title"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:73
+msgid "Related Product Columns"
+msgstr ""
+
+#: inc/translation.php:103
+msgid "Related products"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/related-post.php:78
+msgid "Related Space Between Item"
+msgstr ""
+
+#: inc/translation.php:54
+msgid "Remember Me"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:178
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1095
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1077
+msgid "Remote server did not respond"
+msgstr ""
+
+#. 1: The HTTP error message. 2: The HTTP error code.
+#: import/classes/wordpress-importer.php:1065
+#, php-format
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr ""
+
+#: admin/custom-sidebar.php:60 admin/custom-sidebar.php:69
+#: admin/menu/admin-menu.php:114 admin/menu/admin-menu.php:121
+#: admin/metabox/blog-metabox.php:295 admin/metabox/blog-metabox.php:299
+#: admin/metabox/page-metabox.php:187
+#: admin/theme-options/class.options_machine.php:1253
+#: admin/theme-options/class.options_machine.php:1329
+msgid "Remove"
+msgstr ""
+
+#: admin/array.php:431
+msgid "Remove Blur"
+msgstr ""
+
+#: admin/array.php:433
+msgid "Remove Brighten"
+msgstr ""
+
+#: admin/array.php:426
+msgid "Remove Color"
+msgstr ""
+
+#: admin/array.php:435
+msgid "Remove Darkness"
+msgstr ""
+
+#: admin/array.php:424
+msgid "Remove Opacity"
+msgstr ""
+
+#: inc/translation.php:114
+msgid "Remove this item"
+msgstr ""
+
+#. 1: The WordPress error message. 2: The WordPress error code.
+#: import/classes/wordpress-importer.php:1049
+#, php-format
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2485
+msgid "Required"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2541
+msgid "Required Update not Available"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2544
+msgid "Requires Update"
+msgstr ""
+
+#: admin/theme-options/ui/general.php:22
+msgid "Responsive Design"
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:909
+msgid "Restore Options"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/array.php:191 admin/array.php:337 admin/array.php:343
+#: admin/array.php:348 admin/array.php:357 admin/array.php:365
+#: admin/array.php:369 admin/multi-array.php:90 admin/multi-array.php:160
+#: admin/menu/menu_array.php:44 admin/menu/menu_array.php:48
+#: admin/theme-options/class.options_machine.php:585
+msgid "Right"
+msgstr ""
+
+#: admin/menu/menu_array.php:46 admin/menu/menu_array.php:50
+msgid "Right Bottom"
+msgstr ""
+
+#: admin/menu/menu_array.php:47 admin/menu/menu_array.php:51
+msgid "Right Center"
+msgstr ""
+
+#: admin/menu/menu_array.php:45 admin/menu/menu_array.php:49
+msgid "Right Top"
+msgstr ""
+
+#: admin/array.php:429
+msgid "Rotate"
+msgstr ""
+
+#: elementor/product/elementor-product-carousel-layout.php:55
+msgid "Row"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/related-post.php:42
+msgid "Rows Per Page To Show"
+msgstr ""
+
+#: admin/array.php:536
+msgid "RSS"
+msgstr ""
+
+#: inc/translation.php:96
+msgid "Sale"
+msgstr ""
+
+#: elementor/product/elementor-product-style.php:74
+#: admin/theme-options/ui/post-style/post-style.php:51
+msgid "Sale Color"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-archive.php:89
+msgid "Sale Text"
+msgstr ""
+
+#: inc/translation.php:100
+msgid "Sale!"
+msgstr ""
+
+#: admin/theme-options/options.php:42 admin/theme-options/options.php:66
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/custom-sidebar.php:81
+msgid "Save Changes"
+msgstr ""
+
+#: admin/theme-options/ui/general.php:23
+msgid ""
+"SCheck this box to use the responsive design features. If left unchecked "
+"then the fixed layout is used."
+msgstr ""
+
+#: widgets/widget-custom-html.php:357
+msgid ""
+"Screen reader users: when in forms mode, you may need to press the Esc key "
+"twice."
+msgstr ""
+
+#: admin/theme-options/ui/general.php:52
+msgid "Script Code"
+msgstr ""
+
+#: inc/translation.php:78
+msgid "Search"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:11
+msgid "Search "
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:208
+msgid "Search Border Color"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:74
+msgid "Search Button in Form Layout"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:184
+msgid "Search Button Style"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:163
+msgid "Search Category Style"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:30
+msgid "Search Dropdown Layout"
+msgstr ""
+
+#: admin/menu/icon-picker.php:31
+msgid "Search Icon"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:17
+msgid "Search Layout"
+msgstr ""
+
+#: woocommerce/product-searchform.php:34
+msgid "Search products&hellip;"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:214
+msgid "Search Radius"
+msgstr ""
+
+#: inc/translation.php:79 inc/translation.php:80
+msgid "Search Results for"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:139
+#: admin/header-builder/element/search-options.php:144
+msgid "Search Style"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:87
+msgid "Search Width"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:124
+msgid "Search with AJAX"
+msgstr ""
+
+#: inc/translation.php:99
+msgid "Search..."
+msgstr ""
+
+#: admin/theme-options/ui/post-style/post-style.php:129
+msgid "Secend Background"
+msgstr ""
+
+#: inc/translation.php:71
+msgid "Second"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:133
+#: admin/header-builder/element/category_menu-options.php:189
+#: admin/header-builder/element/search-options.php:195
+#: admin/header-builder/element/text_html-options.php:55
+#: admin/header-builder/options/navbar-options.php:131
+#: admin/header-builder/options/navbar-options.php:186
+#: admin/header-builder/element/style/nav-style.php:17
+#: admin/header-builder/element/style/nav-style.php:74
+msgid "Second Background"
+msgstr ""
+
+#: widgets/widget-product.php:177
+#: elementor/product/elementor-product-carousel-layout.php:128
+#: elementor/product/elementor-product-layout.php:195
+#: admin/theme-options/ui/product-options/product-layout.php:88
+msgid "Second Image"
+msgstr ""
+
+#: inc/translation.php:70
+msgid "Secs"
+msgstr ""
+
+#: admin/menu/menu-item-custom-fields.php:161
+#: admin/menu/menu-item-custom-fields.php:163
+msgid "Section"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/body-style.php:40
+msgid "Select a background pattern"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:35
+msgid "Select a font"
+msgstr ""
+
+#: admin/menu/custom-fields/page_builder-options.php:10
+msgid "Select a Page Builder"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/archive-sidebar.php:18
+msgid "Select a sidebar in Archive Main Sidebar"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/page-sidebar.php:18
+#: admin/theme-options/ui/columns-options/page-sidebar.php:26
+msgid "Select a sidebar in Page Main Sidebar"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/portfolio-sidebar.php:18
+#: admin/theme-options/ui/columns-options/portfolio-sidebar.php:26
+msgid "Select a sidebar in Portfolio Main Sidebar"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/home-sidebar.php:19
+#: admin/theme-options/ui/columns-options/home-sidebar.php:27
+#: admin/theme-options/ui/columns-options/single-sidebar.php:19
+#: admin/theme-options/ui/columns-options/single-sidebar.php:26
+msgid "Select a sidebar in Single Main Sidebar"
+msgstr ""
+
+#: admin/menu/custom-fields/widget-options.php:16
+msgid "Select a Widget Area"
+msgstr ""
+
+#: admin/menu/menu-item-custom-fields.php:296
+msgid "Select All"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/body-style.php:28
+msgid "Select Background Type Gradient , Pattern And Upload Custom Image"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:20
+msgid "Select Category Menu"
+msgstr ""
+
+#: admin/theme-options/ui/header-layout.php:21
+msgid "Select Header Builder"
+msgstr ""
+
+#: admin/menu/icon-picker.php:31
+msgid "Select Icon"
+msgstr ""
+
+#: widgets/widget-menu.php:30 elementor/menu/elementor-menu-general.php:30
+#: elementor/menu/elementor-menu-general.php:41
+#: admin/header-builder/element/menu-options.php:18
+#: admin/header-builder/element/mobile_category_menu-options.php:19
+#: admin/header-builder/element/mobile_menu-options.php:19
+msgid "Select Menu"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:57
+msgid "Select Page Builder For Footer"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:30
+msgid "Select Page Builder For Top Footer"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:31
+msgid "Select Page in display Top Footer"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:58
+msgid "Select Page in displays Footer,note:if select page builder hide footer"
+msgstr ""
+
+#: admin/array.php:454
+msgid "Selena"
+msgstr ""
+
+#: admin/menu/icon-picker.php:82
+msgid "Set Icon"
+msgstr ""
+
+#: header/menu.php:42 header/menu.php:98 header/mobile_menu.php:80
+#: header/mobile_menu.php:167
+msgid "Set menu"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:751
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: admin/array.php:151
+msgid "Shadow"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:59
+msgid "Share by"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:158
+msgid "Share Icon Background"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:171
+msgid "Share Icon Border Color"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:185
+msgid "Share Icon Border Radius"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:145
+msgid "Share Icon Color"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:87
+msgid "Share Icon Size"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:11
+#: elementor/elementor-share_icons.php:41
+msgid "Share Icons"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:44
+#: admin/theme-options/ui/single-options/single-general.php:34
+msgid "Share icons"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:54
+#: admin/theme-options/ui/single-options/single-general.php:44
+msgid "Share icons Style"
+msgstr ""
+
+#: inc/translation.php:74
+msgid "Share this Post"
+msgstr ""
+
+#: admin/header-builder/element/cart-options.php:22
+msgid "Shop Cart Layout"
+msgstr ""
+
+#: widgets/widget-blog.php:109
+#: elementor/blog/elementor-blog-carousel-general.php:146
+#: elementor/blog/elementor-blog-general.php:207
+#: elementor/blog/elementor-blog-masonry-general.php:143
+#: woocommerce/loop/orderby.php:41 woocommerce/loop/orderby.php:42
+#: woocommerce/loop/orderby.php:43 woocommerce/loop/orderby.php:44
+#: woocommerce/loop/orderby.php:45 woocommerce/loop/orderby.php:46
+#: woocommerce/loop/orderby.php:47
+#: admin/header-builder/element/category_menu-options.php:85
+#: admin/header-builder/element/mobile_menu-options.php:74
+#: admin/header-builder/element/mobile_menu-options.php:83
+#: admin/header-builder/element/mobile_menu-options.php:92
+#: admin/header-builder/element/mobile_menu-options.php:101
+#: admin/header-builder/element/search-options.php:119
+#: admin/header-builder/element/search-options.php:130
+#: admin/header-builder/options/mobbar-options.php:22
+#: admin/header-builder/options/mobbar-options.php:31
+#: admin/header-builder/options/mobbar-options.php:52
+#: admin/header-builder/options/mobbar-options.php:72
+msgid "Show"
+msgstr ""
+
+#: admin/header-builder/element/mobile_menu-options.php:78
+msgid "Show Account"
+msgstr ""
+
+#: widgets/widget-product.php:92
+#: elementor/product/elementor-product-carousel-general.php:104
+#: elementor/product/elementor-product-general.php:133
+#: admin/theme-options/ui/product-options/product-archive.php:73
+msgid "Show Add to Cart"
+msgstr ""
+
+#: widgets/widget-product.php:98
+msgid "Show Add to Cart,Wishlist,Campare in Hover"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:30
+msgid "Show All"
+msgstr ""
+
+#: widgets/widget-blog.php:80
+msgid "Show Author Meta"
+msgstr ""
+
+#: elementor/blog/elementor-blog-title-box.php:51
+#: elementor/product/elementor-product-title-box.php:54
+msgid "Show Button See all"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:47
+msgid "Show Call"
+msgstr ""
+
+#: admin/header-builder/element/mobile_menu-options.php:96
+msgid "Show Cart"
+msgstr ""
+
+#: widgets/widget-blog.php:74 widgets/widget-product.php:79
+#: elementor/product/elementor-product-carousel-general.php:86
+#: elementor/product/elementor-product-general.php:115
+msgid "Show Category Meta"
+msgstr ""
+
+#: widgets/widget-blog.php:98
+msgid "Show Comments Meta"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:26
+msgid "Show Contact Us"
+msgstr ""
+
+#: widgets/widget-product.php:73
+#: elementor/product/elementor-product-carousel-general.php:78
+#: elementor/product/elementor-product-general.php:107
+msgid "Show Countdown Sale Timer"
+msgstr ""
+
+#: widgets/widget-blog.php:86
+msgid "Show Date Meta"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3779
+msgid "Show Details"
+msgstr ""
+
+#: widgets/widget-blog.php:60 widgets/widget-product.php:60
+#: elementor/blog/elementor-blog-carousel-general.php:66
+#: elementor/blog/elementor-blog-general.php:66
+#: elementor/blog/elementor-blog-masonry-general.php:66
+#: elementor/product/elementor-product-carousel-general.php:58
+#: elementor/product/elementor-product-general.php:57
+#: admin/theme-options/ui/blog-options/blog-archive.php:33
+#: admin/theme-options/ui/product-options/product-archive.php:31
+#: admin/theme-options/ui/single-options/related-post.php:99
+msgid "Show Excerpt Posts"
+msgstr ""
+
+#: elementor/blog/elementor-blog-general.php:74
+#: elementor/product/elementor-product-general.php:65
+msgid "Show Excerpt Posts For Second Layout"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:54
+msgid "Show Grid"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:53
+msgid "Show List"
+msgstr ""
+
+#: widgets/widget-product.php:86
+#: elementor/product/elementor-product-carousel-general.php:95
+#: elementor/product/elementor-product-general.php:124
+msgid "Show Rating"
+msgstr ""
+
+#: elementor/blog/elementor-blog-carousel-general.php:133
+#: elementor/blog/elementor-blog-general.php:193
+#: elementor/blog/elementor-blog-masonry-general.php:130
+#: admin/theme-options/ui/blog-options/blog-archive.php:107
+msgid "Show Read More"
+msgstr ""
+
+#: admin/header-builder/element/mobile_menu-options.php:87
+msgid "Show Search Form"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:113
+msgid "Show Search Product Category"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:35
+msgid "Show Sidebar in Mobile"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:17
+msgid "Show Social Icon"
+msgstr ""
+
+#: widgets/widget-blog.php:92
+msgid "Show View Meta"
+msgstr ""
+
+#: admin/header-builder/element/mobile_menu-options.php:69
+msgid "Show Wishlist"
+msgstr ""
+
+#: admin/array.php:428
+msgid "Shrink"
+msgstr ""
+
+#: admin/custom-sidebar.php:58 admin/custom-sidebar.php:67
+msgid "Sidebar"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:12
+msgid "Sidebar Box Layout"
+msgstr ""
+
+#: admin/custom-sidebar.php:38
+msgid "Sidebar Creator Settings"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:7
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/translation.php:48
+msgid "Sing In"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/single-sidebar.php:25
+msgid "Single Main Left"
+msgstr ""
+
+#: admin/theme-options/ui/single-options.php:8
+msgid "Single Options"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/single-general.php:13
+msgid "Single Post General"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/single-meta.php:13
+msgid "Single Post Meta Settings"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:8
+msgid "Single Product"
+msgstr ""
+
+#: admin/theme-options/ui/product-options/product-single.php:18
+msgid "Single Product Image Width"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/single-sidebar.php:13
+msgid "Single Sidebar"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/single-general.php:18
+msgid "Single Template"
+msgstr ""
+
+#: admin/metabox/blog-metabox.php:55
+msgid "Single template"
+msgstr ""
+
+#: import/classes/import.php:206
+msgid "Site does not support widget"
+msgstr ""
+
+#: admin/multi-array.php:11 admin/multi-array.php:27 admin/multi-array.php:64
+#: admin/multi-array.php:79 admin/multi-array.php:107 admin/multi-array.php:131
+#: admin/theme-options/class.options_machine.php:570
+msgid "Size"
+msgstr ""
+
+#: inc/translation.php:113
+msgid "Skills"
+msgstr ""
+
+#: admin/array.php:478 admin/array.php:549
+msgid "Skype"
+msgstr ""
+
+#: admin/array.php:441
+msgid "Slide Down"
+msgstr ""
+
+#: admin/array.php:442
+msgid "Slide Left"
+msgstr ""
+
+#: admin/array.php:443
+msgid "Slide Right"
+msgstr ""
+
+#: admin/array.php:440
+msgid "Slide Up"
+msgstr ""
+
+#: import/demo.php:43 elementor/general/elementor-slider.php:12
+msgid "Slider"
+msgstr ""
+
+#: elementor/elementor-slider_featured.php:12
+msgid "Slider Featured"
+msgstr ""
+
+#: elementor/general/elementor-slider-style.php:12
+msgid "Slider Style"
+msgstr ""
+
+#: elementor/elementor-slider_featured.php:71
+#: elementor/product/elementor-product-featured.php:52
+msgid "Sliders"
+msgstr ""
+
+#: elementor/product_cat/elementor-product_cat-general.php:89
+msgid "Slug"
+msgstr ""
+
+#: widgets/widget-social.php:61
+msgid "Social"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/general-style.php:107
+msgid "Social Border Radius"
+msgstr ""
+
+#: widgets/widget-social.php:16 widgets/widget-social.php:41
+#: admin/header-builder/element/social-options.php:12
+msgid "Social Icon"
+msgstr ""
+
+#: elementor/elementor-social_icons.php:149
+msgid "Social Icon Background"
+msgstr ""
+
+#: elementor/elementor-social_icons.php:162
+msgid "Social Icon Border Color"
+msgstr ""
+
+#: elementor/elementor-social_icons.php:176
+msgid "Social Icon Border Radius"
+msgstr ""
+
+#: elementor/elementor-social_icons.php:136
+msgid "Social Icon Color"
+msgstr ""
+
+#: admin/header-builder/element/social-options.php:17
+msgid "Social Icon Position"
+msgstr ""
+
+#: elementor/elementor-social_icons.php:78
+msgid "Social Icon Size"
+msgstr ""
+
+#: elementor/elementor-social_icons.php:11
+#: elementor/elementor-social_icons.php:41
+msgid "Social Icons"
+msgstr ""
+
+#: admin/header-builder/element/social-options.php:29
+msgid "Social Icons Layout"
+msgstr ""
+
+#: admin/header-builder/element/social-options.php:105
+msgid "Social Icons Size"
+msgstr ""
+
+#: admin/header-builder/element/social-options.php:86
+#: admin/header-builder/options/mobbar-options.php:140
+msgid "Social Icons Style"
+msgstr ""
+
+#: admin/header-builder/element/social-options.php:73
+msgid "Social Item Padding"
+msgstr ""
+
+#: admin/theme-options/ui/social-networks.php:21
+msgid "Social Networking"
+msgstr ""
+
+#: admin/theme-options/ui/social-networks.php:8
+msgid "Social Networks"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/general-style.php:97
+msgid "Social Style"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:33
+msgid "Some description font"
+msgstr ""
+
+#: widgets/widget-custom-html.php:314
+msgid "Some HTML tags are not permitted, including:"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:351
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/translation.php:89
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: import/classes/wordpress-importer.php:133
+#: import/classes/wordpress-importer.php:142
+#: import/classes/wordpress-importer.php:193
+#: import/classes/wordpress-importer.php:197
+#: import/classes/wordpress-importer.php:206
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1127
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: admin/array.php:461
+msgid "Sort by average rating"
+msgstr ""
+
+#: admin/array.php:459
+msgid "Sort by latest"
+msgstr ""
+
+#: admin/array.php:460
+msgid "Sort by popularity"
+msgstr ""
+
+#: admin/array.php:463
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: admin/array.php:462
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2770
+#: elementor/product_cat/elementor-product_cat-general.php:27
+msgid "Source"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:98
+#: elementor/elementor-slider_featured.php:155
+#: elementor/elementor-social_icons.php:89 widgets/widget-blog.php:150
+#: widgets/widget-product.php:141 widgets/widget-social.php:30
+#: elementor/blog/elementor-blog-carousel-layout.php:79
+#: elementor/blog/elementor-blog-layout.php:144
+#: elementor/blog/elementor-blog-masonry-layout.php:67
+#: elementor/image/elementor-image-layout.php:50
+#: elementor/product/elementor-product-carousel-layout.php:89
+#: elementor/product/elementor-product-layout.php:89
+#: elementor/product_cat/elementor-product_cat-layout.php:53
+#: admin/menu/custom-fields/blog_grid-options.php:80
+#: admin/theme-options/ui/blog-options/blog-layout.php:66
+#: admin/theme-options/ui/product-options/product-layout.php:57
+msgid "Space Between Item"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:563
+msgid "Spinner Icons"
+msgstr ""
+
+#: admin/array.php:107 admin/multi-array.php:48
+#: admin/theme-options/class.options_machine.php:637
+msgid "Spread"
+msgstr ""
+
+#: elementor/product/elementor-product-featured.php:127
+msgid "Src Featured Image"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:24
+msgid "Standard Fonts"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2776
+msgid "Status"
+msgstr ""
+
+#: admin/theme-options/ui/columns-options/sidebar-layout.php:24
+msgid "Sticky Main Sidebar"
+msgstr ""
+
+#: admin/array.php:551
+msgid "StumbleUpon"
+msgstr ""
+
+#: elementor/elementor-comments.php:103
+#: elementor/elementor-contact_form_7.php:108
+#: elementor/elementor-share_icons.php:124
+#: elementor/elementor-social_icons.php:115
+#: admin/header-builder/element/search-options.php:142
+#: admin/header-builder/element/search-options.php:147
+#: admin/header-builder/element/search-options.php:166
+#: admin/header-builder/element/search-options.php:186
+#: admin/header-builder/element/search-options.php:210
+#: admin/header-builder/element/search-options.php:217
+#: admin/header-builder/element/social-options.php:90
+#: admin/header-builder/element/text_html-options.php:47
+#: admin/header-builder/element/text_html-options.php:68
+#: admin/header-builder/element/text_html-options.php:87
+#: admin/header-builder/options/mobbar-options.php:89
+#: admin/header-builder/options/mobbar-options.php:96
+#: admin/header-builder/options/mobbar-options.php:114
+#: admin/header-builder/options/mobbar-options.php:121
+#: admin/header-builder/options/mobbar-options.php:128
+#: admin/header-builder/options/mobbar-options.php:135
+#: admin/header-builder/options/navbar-options.php:123
+#: admin/header-builder/options/navbar-options.php:141
+#: admin/header-builder/options/navbar-options.php:161
+#: admin/header-builder/options/navbar-options.php:170
+#: admin/header-builder/options/navbar-options.php:175
+#: admin/header-builder/options/navbar-options.php:178
+#: admin/header-builder/options/navbar-options.php:198
+#: admin/header-builder/options/navbar-options.php:218
+#: admin/header-builder/element/style/nav-style.php:9
+#: admin/header-builder/element/style/nav-style.php:31
+#: admin/header-builder/element/style/nav-style.php:50
+#: admin/header-builder/element/style/nav-style.php:59
+#: admin/header-builder/element/style/nav-style.php:66
+#: admin/header-builder/element/style/nav-style.php:85
+#: admin/header-builder/element/style/nav-style.php:105
+msgid "Style"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:135
+#: elementor/elementor-social_icons.php:126 widgets/widget-social.php:44
+#: admin/theme-options/ui/footer-options.php:118
+#: admin/theme-options/ui/product-options/product-single.php:59
+#: admin/theme-options/ui/single-options/single-general.php:49
+msgid "Style 1: only icon"
+msgstr ""
+
+#: admin/array.php:412 admin/theme-options/ui/post-style/title-box-style.php:22
+msgid "Style 1:none"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:136
+#: elementor/elementor-social_icons.php:127 widgets/widget-social.php:45
+#: admin/theme-options/ui/footer-options.php:119
+#: admin/theme-options/ui/product-options/product-single.php:60
+#: admin/theme-options/ui/single-options/single-general.php:50
+msgid "Style 2: Boxed Icon"
+msgstr ""
+
+#: admin/array.php:413 admin/theme-options/ui/post-style/title-box-style.php:23
+msgid "style 2:mini Border Bottom"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:137
+#: elementor/elementor-social_icons.php:128 widgets/widget-social.php:46
+#: admin/theme-options/ui/footer-options.php:120
+#: admin/theme-options/ui/product-options/product-single.php:61
+#: admin/theme-options/ui/single-options/single-general.php:51
+msgid "Style 3: Boxed Original Color"
+msgstr ""
+
+#: admin/array.php:414 admin/theme-options/ui/post-style/title-box-style.php:24
+msgid "Style 3:Border Bottom"
+msgstr ""
+
+#: admin/array.php:415 admin/theme-options/ui/post-style/title-box-style.php:25
+msgid "Style 4:Border Top Button"
+msgstr ""
+
+#: admin/array.php:416 admin/theme-options/ui/post-style/title-box-style.php:26
+msgid "style 5:Border Middle"
+msgstr ""
+
+#: admin/array.php:417 admin/theme-options/ui/post-style/title-box-style.php:27
+msgid "style 6:Border Cover"
+msgstr ""
+
+#: admin/array.php:418 admin/theme-options/ui/post-style/title-box-style.php:28
+msgid "Style 7:Background"
+msgstr ""
+
+#: admin/menu/custom-fields/section-options.php:16
+msgid "Sub Column"
+msgstr ""
+
+#: admin/menu/custom-fields/menu_item-options.php:44
+msgid "Sub Menu Width:"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:285
+msgid "Submit"
+msgstr ""
+
+#: inc/translation.php:101
+msgid "Subtotal"
+msgstr ""
+
+#: elementor/blog/elementor-blog-title-box.php:65
+#: elementor/product/elementor-product-title-box.php:66
+msgid "Tab"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/title-box-style.php:76
+msgid "Tab Active Color"
+msgstr ""
+
+#: admin/theme-options/ui/post-style/title-box-style.php:55
+msgid "Tab Item Color"
+msgstr ""
+
+#: elementor/general/elementor-title-box-style.php:62
+msgid "Tabs - Background Color"
+msgstr ""
+
+#: elementor/general/elementor-title-box-style.php:74
+msgid "Tabs - Text Color"
+msgstr ""
+
+#: admin/menu/custom-fields/blog_grid-options.php:41
+msgid "Tag"
+msgstr ""
+
+#: inc/translation.php:86
+msgid "Tag Archives"
+msgstr ""
+
+#: inc/translation.php:59 widgets/widget-ads.php:66
+#: widgets/widget-blog-tags.php:44
+#: admin/theme-options/ui/single-options/related-post.php:54
+msgid "Tags"
+msgstr ""
+
+#: admin/menu/fonts/flaticon_thin.php:395
+msgid "Tech Support"
+msgstr ""
+
+#: admin/menu/fonts/flaticon_thin.php:497
+msgid "Technology"
+msgstr ""
+
+#. Name of the theme
+msgid "TechStore"
+msgstr ""
+
+#: import/classes/importer.class.php:84
+msgid "techstore Theme Demo Importer"
+msgstr ""
+
+#: admin/array.php:483 admin/array.php:540 admin/array.php:575
+msgid "Telegram"
+msgstr ""
+
+#: admin/header-builder/element/search-options.php:81
+#: admin/theme-options/ui/post-style/post-style.php:134
+msgid "Text"
+msgstr ""
+
+#: elementor/elementor-comments.php:126
+#: elementor/elementor-contact_form_7.php:117
+#: admin/header-builder/element/category_menu-options.php:149
+#: admin/header-builder/element/category_menu-options.php:245
+#: admin/header-builder/element/search-options.php:155
+#: admin/header-builder/element/search-options.php:177
+#: admin/header-builder/element/search-options.php:200
+#: admin/header-builder/element/text_html-options.php:65
+#: admin/header-builder/element/text_html-options.php:71
+#: admin/header-builder/options/navbar-options.php:138
+#: admin/header-builder/options/navbar-options.php:144
+#: admin/header-builder/options/navbar-options.php:201
+#: admin/theme-options/ui/general.php:103
+#: admin/header-builder/element/style/nav-style.php:27
+#: admin/header-builder/element/style/nav-style.php:34
+#: admin/header-builder/element/style/nav-style.php:88
+#: admin/theme-options/ui/general-style/general-style.php:32
+#: admin/theme-options/ui/post-style/post-style.php:91
+#: admin/theme-options/ui/post-style/title-box-style.php:46
+#: admin/theme-options/ui/post-style/title-box-style.php:68
+#: admin/theme-options/ui/post-style/title-box-style.php:89
+msgid "Text Color"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:633
+msgid "Text Editor Icons"
+msgstr ""
+
+#: admin/header-builder/options/dropdown-options.php:30
+#: admin/header-builder/options/mobbar-options.php:99
+#: admin/theme-options/ui/footer-options.php:150
+#: admin/theme-options/ui/general-style/general-style.php:49
+#: admin/theme-options/ui/post-style/post-style.php:28
+msgid "Text Link Color"
+msgstr ""
+
+#: admin/multi-array.php:301 admin/multi-array.php:335
+#: admin/multi-array.php:373 admin/multi-array.php:407
+#: admin/header-builder/element/category_menu-options.php:328
+#: admin/header-builder/element/category_menu-options.php:367
+#: admin/header-builder/element/text_html-options.php:114
+#: admin/header-builder/options/dropdown-options.php:116
+#: admin/header-builder/options/mobbar-options.php:177
+#: admin/header-builder/options/navbar-options.php:242
+#: admin/header-builder/element/style/nav-style.php:129
+msgid "Text Transform"
+msgstr ""
+
+#: admin/header-builder/options/mobbar-options.php:67
+msgid "Text,Html And Sortcode"
+msgstr ""
+
+#: admin/header-builder/element/text_html-options.php:13
+msgid "Text,Html,Sortcode"
+msgstr ""
+
+#: elementor/elementor-contact_form_7.php:197
+msgid "Textarea Border Radius"
+msgstr ""
+
+#: elementor/elementor-comments.php:82
+#: elementor/elementor-contact_form_7.php:77
+msgid "Textarea Height"
+msgstr ""
+
+#. %s: version number
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2165
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#. 1: link to user profile, 2: additional link attributes, 3: accessibility text
+#: widgets/widget-custom-html.php:342
+#, php-format
+msgid ""
+"The edit field automatically highlights code syntax. You can disable this in "
+"your <a href=\"%1$s\" %2$s>user profile%3$s</a> to work in plain text mode."
+msgstr ""
+
+#: import/classes/wordpress-importer.php:198
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: import/classes/wordpress-importer.php:134
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#. 1: plugin name(s).
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:365
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:406
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3185
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. 1: plugin name(s).
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:383
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: plugin name(s).
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:377
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3761
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. 1: plugin name.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3757
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3769
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/translation.php:88
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable.."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:1069
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:1059
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1142
+msgid "The uploaded file could not be moved"
+msgstr ""
+
+#: admin/admin.php:8 admin/admin.php:9 elementor/elementor.php:65
+msgid "Theme"
+msgstr ""
+
+#. parent slug
+#: admin/theme-options/functions.interface.php:65
+#: admin/theme-options/functions.interface.php:66
+#: admin/theme-options/options.php:24
+msgid "Theme Options"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:414
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#. %d: error count
+#: widgets/widget-custom-html.php:245 widgets/widget-custom-html.php:247
+msgid "There is %d error which must be fixed before you can save."
+msgid_plural "There are %d errors which must be fixed before you can save."
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: plugin name(s).
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:371
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: import/classes/parsers.php:46 import/classes/parsers.php:81
+#: import/classes/parsers.php:89
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: import/classes/parsers.php:94 import/classes/parsers.php:100
+#: import/classes/parsers.php:392 import/classes/parsers.php:656
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:37
+msgid "This is my preview text!"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:628
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-archive.php:21
+msgid "This text will display in the page Title Bar of the assigned Blog Page"
+msgstr ""
+
+#: admin/theme-options/ui/single-options/related-post.php:36
+msgid "This text will display in title bar Related Posts."
+msgstr ""
+
+#. 1: plugin name(s).
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: plugin name(s).
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:353
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: import/classes/wordpress-importer.php:214
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: elementor/elementor-comments.php:48
+#: admin/theme-options/ui/single-options/single-general.php:80
+msgid "Thread"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-archive.php:131
+msgid "Time ago"
+msgstr ""
+
+#: admin/theme-options/ui/blog-options/blog-archive.php:127
+msgid "Time Format For Post"
+msgstr ""
+
+#: widgets/widget-blog-tags.php:24 widgets/widget-blog.php:26
+#: widgets/widget-blog.php:221 widgets/widget-product.php:23
+#: widgets/widget-product.php:210 widgets/widget-social.php:22
+#: admin/theme-options/class.options_machine.php:1320
+#: elementor/blog/elementor-blog-title-box.php:63
+#: elementor/image/elementor-image-general.php:28
+#: elementor/image/elementor-image-general.php:30
+#: elementor/product/elementor-product-title-box.php:64
+msgid "Title"
+msgstr ""
+
+#: widgets/widget-menu.php:22 widgets/widget-menu.php:24
+#: elementor/blog/elementor-blog-title-box.php:11
+#: elementor/blog/elementor-blog-title-box.php:19
+#: elementor/blog/elementor-blog-title-box.php:21
+#: elementor/blog/elementor-blog-title-box.php:22
+#: elementor/menu/elementor-menu-general.php:19
+#: elementor/product/elementor-product-title-box.php:11
+#: elementor/product/elementor-product-title-box.php:19
+#: elementor/product/elementor-product-title-box.php:21
+#: elementor/product/elementor-product-title-box.php:22
+#: elementor/product_cat/elementor-product_cat-title-box.php:11
+#: elementor/product_cat/elementor-product_cat-title-box.php:19
+#: elementor/product_cat/elementor-product_cat-title-box.php:21
+#: elementor/product_cat/elementor-product_cat-title-box.php:22
+#: admin/theme-options/ui/post-style/title-box-style.php:8
+msgid "Title Box"
+msgstr ""
+
+#: elementor/general/elementor-title-box-style.php:112
+#: admin/theme-options/ui/post-style/title-box-style.php:97
+msgid "Title Box Border Color"
+msgstr ""
+
+#: elementor/blog/elementor-blog-title-box.php:28
+#: elementor/product/elementor-product-title-box.php:28
+#: elementor/product_cat/elementor-product_cat-title-box.php:28
+msgid "Title Box Display"
+msgstr ""
+
+#: elementor/blog/elementor-blog-typography.php:20
+#: elementor/product/elementor-product-typography.php:22
+#: admin/theme-options/ui/typography.php:71
+msgid "Title Box Main Typography"
+msgstr ""
+
+#: elementor/general/elementor-title-box-style.php:125
+#: admin/theme-options/ui/post-style/title-box-style.php:109
+msgid "Title box Radius"
+msgstr ""
+
+#: elementor/general/elementor-title-box-style.php:11
+#: elementor/general/elementor-title-box-style.php:23
+#: admin/theme-options/ui/post-style/title-box-style.php:18
+msgid "Title Box Style"
+msgstr ""
+
+#: elementor/blog/elementor-blog-typography.php:55
+#: elementor/product/elementor-product-typography.php:61
+#: admin/theme-options/ui/typography.php:77
+msgid "Title Box Tabs Typography"
+msgstr ""
+
+#: elementor/blog/elementor-blog-post-style.php:43
+#: elementor/image/elementor-image-style.php:43
+#: elementor/product/elementor-product-style.php:48
+#: elementor/product_cat/elementor-product_cat-style.php:48
+msgid "Title Color - Hover Color"
+msgstr ""
+
+#: elementor/blog/elementor-blog-post-style.php:32
+#: elementor/image/elementor-image-style.php:32
+#: elementor/product/elementor-product-style.php:37
+#: elementor/product_cat/elementor-product_cat-style.php:37
+msgid "Title Color - Link Color"
+msgstr ""
+
+#: elementor/menu/elementor-menu-style.php:22
+msgid "Title First Background Color"
+msgstr ""
+
+#: elementor/blog/elementor-blog-title-box.php:40
+#: elementor/product/elementor-product-title-box.php:44
+msgid "Title For All Tab"
+msgstr ""
+
+#: elementor/menu/elementor-menu-style.php:34
+msgid "Title Secend Background Color"
+msgstr ""
+
+#: elementor/menu/elementor-menu-style.php:44
+msgid "Title Text Color"
+msgstr ""
+
+#: elementor/elementor-comments.php:333
+#: elementor/menu/elementor-menu-typography.php:22
+msgid "Title Typography"
+msgstr ""
+
+#: widgets/widget-custom-html.php:296
+msgid "Title:"
+msgstr ""
+
+#. 1: number of plugins.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2616
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: number of plugins.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: import/classes/wordpress-importer.php:266
+msgid ""
+"To make it simpler for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site, such as your primary administrator account."
+msgstr ""
+
+#: widgets/widget-custom-html.php:356
+msgid "To move away from this area, press the Esc key followed by the Tab key."
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/banner-header.php:85
+msgid "To use the widget, you must leave the image empty Area"
+msgstr ""
+
+#: admin/array.php:189 admin/multi-array.php:89 admin/multi-array.php:116
+#: admin/multi-array.php:141 admin/multi-array.php:155
+#: admin/menu/menu_array.php:52
+#: admin/theme-options/class.options_machine.php:584
+#: admin/header-builder/options/navbar-options.php:62
+msgid "Top"
+msgstr ""
+
+#: admin/multi-array.php:93 admin/multi-array.php:118
+#: admin/theme-options/class.options_machine.php:588
+msgid "Top And Bottom"
+msgstr ""
+
+#: admin/array.php:193
+msgid "Top Bottom"
+msgstr ""
+
+#: admin/menu/menu_array.php:53
+msgid "Top Center"
+msgstr ""
+
+#: admin/theme-options/ui/footer-options.php:26
+msgid "Top Footer"
+msgstr ""
+
+#: admin/header-builder/header-builder.php:62
+msgid "Top Header"
+msgstr ""
+
+#: admin/multi-array.php:144
+msgid "Top Left & Bottom Right"
+msgstr ""
+
+#: admin/multi-array.php:143
+msgid "Top Right & Bottom Left"
+msgstr ""
+
+#: admin/multi-array.php:248
+msgid "Top Title"
+msgstr ""
+
+#: admin/theme-options/ui/backup.php:29
+msgid "Transfer Theme Options Data"
+msgstr ""
+
+#: admin/theme-options/ui/translation.php:9
+#: admin/theme-options/ui/translation.php:21
+msgid "Translation"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:506
+msgid "Transportation Icons"
+msgstr ""
+
+#: admin/menu/fonts/flaticon_thin.php:772
+msgid "Travel"
+msgstr ""
+
+#: admin/array.php:479 admin/array.php:552 admin/array.php:576
+msgid "Tumblr"
+msgstr ""
+
+#: admin/array.php:474 admin/array.php:538 admin/array.php:573
+msgid "Twitter"
+msgstr ""
+
+#: admin/menu/fonts/typcn.php:12
+msgid "Typcn"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2771
+msgid "Type"
+msgstr ""
+
+#: elementor/elementor-comments.php:252
+#: elementor/elementor-contact_form_7.php:215
+#: elementor/blog/elementor-blog-typography.php:11
+#: elementor/image/elementor-image-typography.php:11
+#: elementor/product/elementor-product-typography.php:11
+#: elementor/product_cat/elementor-product_cat-typography.php:11
+#: admin/header-builder/element/category_menu-options.php:306
+#: admin/header-builder/element/category_menu-options.php:316
+#: admin/header-builder/element/category_menu-options.php:323
+#: admin/header-builder/element/category_menu-options.php:331
+#: admin/header-builder/element/category_menu-options.php:338
+#: admin/header-builder/element/category_menu-options.php:345
+#: admin/header-builder/element/category_menu-options.php:355
+#: admin/header-builder/element/category_menu-options.php:362
+#: admin/header-builder/element/category_menu-options.php:370
+#: admin/header-builder/element/category_menu-options.php:378
+#: admin/header-builder/element/social-options.php:107
+#: admin/header-builder/element/text_html-options.php:102
+#: admin/header-builder/element/text_html-options.php:109
+#: admin/header-builder/element/text_html-options.php:117
+#: admin/header-builder/options/dropdown-options.php:105
+#: admin/header-builder/options/dropdown-options.php:111
+#: admin/header-builder/options/dropdown-options.php:119
+#: admin/header-builder/options/mobbar-options.php:166
+#: admin/header-builder/options/mobbar-options.php:172
+#: admin/header-builder/options/mobbar-options.php:180
+#: admin/header-builder/options/navbar-options.php:230
+#: admin/header-builder/options/navbar-options.php:237
+#: admin/header-builder/options/navbar-options.php:245
+#: admin/header-builder/options/navbar-options.php:259
+#: admin/theme-options/ui/typography.php:8
+#: admin/header-builder/element/style/nav-style.php:117
+#: admin/header-builder/element/style/nav-style.php:124
+#: admin/header-builder/element/style/nav-style.php:132
+#: admin/header-builder/element/style/nav-style.php:145
+msgid "Typography"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:98
+msgid "Typography Posts"
+msgstr ""
+
+#: admin/theme-options/ui/typography.php:66
+msgid "Typography Title Box"
+msgstr ""
+
+#: admin/multi-array.php:175
+msgid "Unit"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2954
+msgid "Update"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2833
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. 1: number of plugins.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2612
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Update recommended"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:629
+msgid "Update Required"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3752
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:350
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2913
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:1257
+msgid "Upgrade your version of WordPress for full media support"
+msgstr ""
+
+#: admin/menu/admin-menu.php:114 admin/metabox/blog-metabox.php:295
+#: admin/metabox/page-metabox.php:183
+#: admin/theme-options/class.options_machine.php:1250
+#: admin/theme-options/class.options_machine.php:1326
+msgid "Upload"
+msgstr ""
+
+#: elementor/product/elementor-product-featured.php:43
+#: elementor/product/elementor-product-featured.php:76
+#: admin/menu/custom-fields/menu_item-options.php:23
+msgid "Upload Image"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/body-style.php:79
+msgid "Upload images using native media uploader from Wordpress 3.5+"
+msgstr ""
+
+#: admin/header-builder/element/logo-options.php:18
+#: admin/header-builder/element/logo-options.php:25
+msgid "Upload Select an image file for your logo"
+msgstr ""
+
+#: admin/multi-array.php:307 admin/multi-array.php:341
+#: admin/multi-array.php:379 admin/multi-array.php:413
+#: admin/header-builder/element/text_html-options.php:121
+#: admin/header-builder/options/dropdown-options.php:123
+#: admin/header-builder/options/mobbar-options.php:184
+#: admin/header-builder/options/navbar-options.php:249
+#: admin/header-builder/element/style/nav-style.php:136
+msgid "Uppercase"
+msgstr ""
+
+#: admin/theme-options/class.options_machine.php:1323
+msgid "URL"
+msgstr ""
+
+#: admin/header-builder/element/banner-options.php:25
+msgid "Url Banner"
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/banner-header.php:36
+msgid "Url Banner in Header"
+msgstr ""
+
+#: elementor/product/elementor-product-featured.php:152
+msgid "Url Featured Image"
+msgstr ""
+
+#: admin/header-builder/element/text_html-options.php:26
+msgid "Url Link"
+msgstr ""
+
+#: elementor/elementor-share_icons.php:48
+msgid "URL Share"
+msgstr ""
+
+#: widgets/widget-custom-html.php:335
+msgid ""
+"Use the Custom HTML widget to add arbitrary HTML code to your widget areas."
+msgstr ""
+
+#: admin/menu/admin-menu.php:114 admin/metabox/blog-metabox.php:295
+#: admin/metabox/page-metabox.php:183
+msgid "Use This Image"
+msgstr ""
+
+#: inc/translation.php:52
+msgid "Username"
+msgstr ""
+
+#: admin/theme-options/ui/ads-options/widgets.php:12
+msgid "Using Widgets"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2775
+msgid "Version"
+msgstr ""
+
+#: admin/array.php:153
+msgid "Vertical"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:739
+msgid "Video Player Icons"
+msgstr ""
+
+#: admin/multi-array.php:201 admin/multi-array.php:233 inc/translation.php:57
+msgid "View"
+msgstr ""
+
+#: inc/translation.php:23 inc/translation.php:118
+msgid "View All"
+msgstr ""
+
+#: elementor/blog/elementor-blog-carousel-general.php:116
+#: elementor/blog/elementor-blog-general.php:177
+#: elementor/blog/elementor-blog-masonry-general.php:114
+#: admin/theme-options/ui/blog-options/blog-archive.php:85
+#: admin/theme-options/ui/single-options/single-meta.php:47
+msgid "View Meta"
+msgstr ""
+
+#: inc/translation.php:41
+msgid "View More"
+msgstr ""
+
+#: admin/admin.php:136 inc/translation.php:58
+msgid "Views"
+msgstr ""
+
+#: admin/array.php:480 admin/array.php:548
+msgid "Vimeo"
+msgstr ""
+
+#: elementor/product/elementor-product-featured.php:42
+msgid "Visual Slider"
+msgstr ""
+
+#: admin/theme-options/options.php:27
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: admin/menu/fonts/fa-icon.php:14
+msgid "Web Application Icons"
+msgstr ""
+
+#: admin/menu/fonts/flaticon_thin.php:720
+msgid "Web Design"
+msgstr ""
+
+#: inc/translation.php:108
+msgid "Website"
+msgstr ""
+
+#: inc/translation.php:43
+msgid "Welcome"
+msgstr ""
+
+#: admin/array.php:485 admin/array.php:557 admin/array.php:580
+msgid "Whatsapp"
+msgstr ""
+
+#: widgets/widget-custom-html.php:353
+msgid "When using a keyboard to navigate:"
+msgstr ""
+
+#: admin/theme-options/ui/general-style/body-style.php:92
+msgid "Wide"
+msgstr ""
+
+#: admin/menu/menu-item-custom-fields.php:182
+#: admin/menu/menu-item-custom-fields.php:183
+msgid "Widget"
+msgstr ""
+
+#: import/classes/import.php:244
+msgid "Widget already exists"
+msgstr ""
+
+#: import/classes/import.php:183
+msgid "Widget area does not exist in theme (using Inactive)"
+msgstr ""
+
+#: widgets/widget.php:349
+#: admin/theme-options/ui/ads-options/banner-header.php:83
+msgid "Widget in Header"
+msgstr ""
+
+#: import/demo.php:42
+msgid "Widgets"
+msgstr ""
+
+#: admin/header-builder/element/category_menu-options.php:66
+msgid "Width"
+msgstr ""
+
+#: admin/header-builder/element/wish-options.php:15
+msgid "Wishlist"
+msgstr ""
+
+#: admin/header-builder/element/wish-options.php:22
+msgid "Wishlist Layout"
+msgstr ""
+
+#: widgets/widget.php:210
+msgid "Woocommerce Left Sidebar"
+msgstr ""
+
+#: import/demo.php:39
+msgid "WooCommerce Pages"
+msgstr ""
+
+#: widgets/widget.php:198
+msgid "Woocommerce Right Sidebar"
+msgstr ""
+
+#. Description of the theme
+msgid "Woocomrece WordPress Theme"
+msgstr ""
+
+#: admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2505
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/array.php:547
+msgid "Yahoo"
+msgstr ""
+
+#: inc/translation.php:61
+msgid "Year"
+msgstr ""
+
+#: inc/translation.php:60
+msgid "Years"
+msgstr ""
+
+#: admin/menu/admin-menu.php:74
+msgid "You can not use this depth"
+msgstr ""
+
+#: admin/theme-options/ui/backup.php:33
+msgid ""
+"You can tranfer the saved options data between different installs by copying "
+"the text inside the text box. To import data from another install, replace "
+"the data in the text box with the one from another install and click "
+"\"Import Options"
+msgstr ""
+
+#: admin/theme-options/ui/backup.php:25
+msgid ""
+"You can use the two buttons below to backup your current options, and then "
+"restore it back at a later time. This is useful if you want to experiment on "
+"the options but would like to keep the old settings in case you need it back."
+msgstr ""
+
+#: admin/custom-sidebar.php:32
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: import/classes/import.php:44
+msgid "You must upload a <b>.wie</b> file generated by this plugin."
+msgstr ""
+
+#: inc/translation.php:76
+msgid "Your Comment is Awaiting Moderation."
+msgstr ""
+
+#: inc/translation.php:45
+msgid "Your Profile"
+msgstr ""
+
+#: admin/array.php:546
+msgid "YouTube"
+msgstr ""
+
+#: admin/array.php:481
+msgid "Youtube"
+msgstr ""
+
+#: import/classes/wordpress-importer.php:1084
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: admin/array.php:448
+msgid "Zoom in"
+msgstr ""
+
+#: admin/array.php:449
+msgid "Zoom out"
+msgstr ""
+
+#: admin/multi-array.php:261
+#: admin/theme-options/ui/single-options/single-meta.php:79
+msgid "|"
+msgstr ""
+
+#: inc/default.php:199
+msgid ""
+"© CopyRight 2024 | template designed by Hex Wp - All lefts reserved | "
+"Designed for WordPress"
+msgstr ""

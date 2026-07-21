@@ -1,0 +1,95 @@
+ 
+
+ 
+body .menu-item p.description.field-move{
+	display:inline-block !important;
+}
+
+.menu-item-depth-0   > .menu-item-settings > .menu-item-depth_0{
+	display:inline-block !important;
+}
+
+.menu-item-depth-0 > .menu-item-settings > .menu-item-depth_1{
+	display:none !important;
+}
+.menu-item:not(.menu-item-depth-0) > .menu-item-settings > .menu-item-depth_1{
+	display:inline-block !important;
+}
+.menu-item:not(.menu-item-depth-0) > .menu-item-settings > .menu-item-depth_0{
+	display:none !important;
+}
+.menu-item-blog_grid p.description:not(.field-custom),
+.menu-item-page_builder p.description:not(.field-custom),
+.menu-item-section p.description:not(.field-custom),
+.menu-item-image p.description:not(.field-custom),
+.menu-item-image_text.menu-item-depth-0    .description:not(.field-custom) {
+	display: none !important;
+} 
+
+
+.menu-type-image  img{
+max-width: 100% !important;
+height: auto !important;
+width: auto !important;
+max-height: 200px !important;
+margin-top: 20px !important;
+display: block;
+box-shadow: 0 0 0 5px #f2f5f8;
+	
+}
+.hexwp_remove_image {
+	margin-right:10px!important;
+}
+
+.menu-type-not_depth{
+	text-align:center !important;
+	color:red !important;
+}
+.hexwp_options_radio_image{
+float: inline-start;
+}
+.hexwp_options_radio_image *{
+	box-sizing: border-box;
+}
+.hexwp_options_radio_image label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+
+ .hexwp_options_radio_image label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+      box-shadow:0px 0px 0px 0px #dddddd;
+	  margin:0px !important;
+ 
+}
+.hexwp_options_radio_image label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+    box-shadow:0px 0px 0px 3px #31C2FF;
+
+}
+.hexwp_options_radio_image li{
+ 	width:33.33%;box-sizing: border-box;
+ float: inline-start;
+padding-inline-end: 15px;
+	padding-bottom: 15px;
+	margin: 0px;
+}
+.hexwp_options_radio_image li  img{
+	width:100%;
+	height:auto;
+}
+.menu-item-section .menu-item-bar .menu-item-handle {
+  background: #64b0ff;
+  color:#ffffff;
+}
+.menu-item-section .menu-item-bar .menu-item-handle span, .menu-item-section .menu-item-bar .item-edit::before {
+  color: #fff !important;
+}
+
+.hexwp_is_icon_image   .menu-id-hexwp_menu_icon{
+	display:none !important;
+	
+}
+.menu-item-settings:not(.hexwp_is_icon_image )   .menu-id-hexwp_menu_image{
+	display:none !important;
+	
+}

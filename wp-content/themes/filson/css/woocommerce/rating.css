@@ -1,0 +1,89 @@
+.hw-rating{
+	width:100% !important;
+	float:left !important;
+	margin-top: var(--hw-product-mg-tp)!important;
+	font-size: var(--hw-fn-md)!important;
+	padding-top: 0em;
+}
+.hw-post-product .hw-product .hw-rating{
+		font-size: var(--hw-product-md)!important;
+}
+.hw-rating .star-rating {
+	overflow:hidden !important;
+	position:relative!important;
+	height:1.5em!important;
+	line-height:1.5em!important;
+	font-size:1em!important;
+	width:5.4em!important;
+	font-family:fontsite!important;
+	display: block!important;
+	float: var(--hw-ag,left)!important;
+	vertical-align:top!important;
+	margin: auto!important;
+}
+.hw-rating .star-rating::before {
+	content:"\F032\F032\F032\F032\F032"!important;
+	color:var(--hw-rat-no-cr)!important;
+	float:left!important;
+	font-size:calc(1em - 1px);
+	letter-spacing:1px;
+	top:0!important;
+	left:0!important;
+	position:absolute!important;
+}
+body .hw-rating .star-rating span {
+	overflow:hidden!important;
+	float:left!important;
+	top:0!important;
+	left:0!important;
+	position:absolute!important;
+	padding-top:1.5em!important;
+}
+.woocommerce .star-rating::before{
+	content:"\F032\F032\F032\F032\F032";
+	font-family:fontsite ;
+	color:var(--hw-rat-no-cr);
+	font-size:calc(1em - 1px);
+	letter-spacing:1px;	
+}
+.woocommerce .star-rating span::before{
+	content:"\F032\F032\F032\F032\F032";
+	color:var(--hw-rat-rat-cr);
+		font-size:calc(1em - 1px);
+	letter-spacing:1px;
+	font-family:fontsite ;
+}
+.woocommerce .hw-rating .star-rating span::before {
+	content:"\F032\F032\F032\F032\F032";
+	top:0;
+	color:var(--hw-rat-rat-cr);
+		font-size:calc(1em - 1px);
+	letter-spacing:1px;
+	width:calc(20% * var(--hw-rating,0));
+	position:absolute;
+	left:0
+}
+.woocommerce p.stars span{
+	font-size:0px !important;
+}
+.woocommerce p.stars a{
+	font-size: var(--hw-fn-md)!important;
+	width: 1.1em;
+}
+.woocommerce p.stars a::before{
+	content:"\F032" !important;
+	font-family:fontsite !important;
+	margin:1px;
+}
+.woocommerce p.stars a:hover~a::before,.woocommerce p.stars a::before,.woocommerce p.stars.selected a.active~a::before{
+	color:var(--hw-rat-no-cr);
+}
+.woocommerce p.stars{
+	width: auto !important;
+	position: relative;
+	height: 1.5em;
+	margin-bottom: 15px !important;
+}
+.woocommerce p.stars:hover a::before,.woocommerce p.stars.selected a.active::before,.woocommerce p.stars.selected a:not(.active)::before{
+	color:var(--hw-rat-rat-cr);
+}

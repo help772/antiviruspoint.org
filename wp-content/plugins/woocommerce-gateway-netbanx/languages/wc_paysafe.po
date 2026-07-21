@@ -1,0 +1,1459 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-gateway-paysafe\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 17:36+0200\n"
+"PO-Revision-Date: 2022-02-17 17:36+0200\n"
+"Last-Translator: Ivan Andreev <vanbo.develops@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: includes/admin/admin-notices.php:44 includes/admin/system-status.php:123
+msgid "Paysafe Gateway"
+msgstr ""
+
+#: includes/admin/admin-notices.php:163
+#, php-format
+msgid ""
+"The minimum PHP version required for this plugin is %1$s. You are running "
+"%2$s."
+msgstr ""
+
+#: includes/admin/admin-notices.php:174
+#, php-format
+msgid ""
+"The minimum WooCommerce version required for this plugin is %1$s. You are "
+"running %2$s."
+msgstr ""
+
+#: includes/admin/admin-notices.php:184
+msgid "cURL is not installed."
+msgstr ""
+
+#: includes/admin/admin-notices.php:190
+#, php-format
+msgid ""
+"The gateway is enabled for live payments, but an SSL certificate is not "
+"detected. Your checkout may not be secure! Please ensure your server has a "
+"valid <a href=\"%1$s\" target=\"_blank\">SSL certificate</a>"
+msgstr ""
+
+#: includes/admin/admin-notices.php:200
+#, php-format
+msgid ""
+"Your API credentials are not entered. Please visit the %ssettings page%s to "
+"enter your credentials. Your gateway will not be shown on the checkout page."
+msgstr ""
+
+#: includes/admin/admin-notices.php:214
+#, php-format
+msgid ""
+"Not all required credentials are filled in. Please visit the %ssettings page"
+"%s to enter your credentials. Your gateway will not be shown on the checkout "
+"page."
+msgstr ""
+
+#: includes/admin/admin-notices.php:232
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/admin-notices.php:236
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/admin/capture.php:91 includes/admin/capture.php:142
+msgid "Capture"
+msgstr ""
+
+#: includes/admin/capture.php:94
+msgid ""
+"Enter the amount you want to capture above and press \"Capture Payment\" "
+"button."
+msgstr ""
+
+#: includes/admin/capture.php:96
+msgid "Capture Payment"
+msgstr ""
+
+#: includes/admin/capture.php:100
+msgid "Cancel Capture"
+msgstr ""
+
+#: includes/admin/capture.php:141
+msgid "You can capture no more than the initially authorized amount."
+msgstr ""
+
+#: includes/admin/capture.php:157
+msgid "Total amount allowed to capture"
+msgstr ""
+
+#: includes/admin/refund.php:128
+msgid ""
+"Important: You are about to perform a Standalone Credit to the following "
+"bank account."
+msgstr ""
+
+#: includes/admin/refund.php:133
+msgid "Receivers bank information"
+msgstr ""
+
+#: includes/admin/refund.php:137
+msgid "Account Holder Name"
+msgstr ""
+
+#: includes/admin/refund.php:141
+msgid "Account Digits"
+msgstr ""
+
+#: includes/admin/refund.php:145
+msgid "Routing Number"
+msgstr ""
+
+#: includes/admin/refund.php:190
+msgid "Available to refund: "
+msgstr ""
+
+#: includes/admin/system-status.php:49
+msgctxt "Label on WooCommerce -> System Status page"
+msgid "Integration type"
+msgstr ""
+
+#: includes/admin/system-status.php:58
+msgctxt "Label on WooCommerce -> System Status page"
+msgid "3D Secure"
+msgstr ""
+
+#: includes/admin/system-status.php:60 includes/admin/system-status.php:68
+#: includes/admin/system-status.php:76 includes/admin/system-status.php:96
+#: includes/admin/system-status.php:104
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/system-status.php:60 includes/admin/system-status.php:68
+#: includes/admin/system-status.php:76 includes/admin/system-status.php:96
+#: includes/admin/system-status.php:104
+msgid "No"
+msgstr ""
+
+#: includes/admin/system-status.php:66
+msgctxt "Label on WooCommerce -> System Status page"
+msgid "3D Secure 2"
+msgstr ""
+
+#: includes/admin/system-status.php:74
+msgctxt "Label on WooCommerce -> System Status page"
+msgid "Allow Payments via Saved Cards"
+msgstr ""
+
+#: includes/admin/system-status.php:82
+msgctxt "Label on WooCommerce -> System Status page"
+msgid "Merchant Accounts for Cards"
+msgstr ""
+
+#: includes/admin/system-status.php:88
+msgctxt "Label on WooCommerce -> System Status page"
+msgid "Merchant Accounts for DirectDebit"
+msgstr ""
+
+#: includes/admin/system-status.php:94
+msgctxt "Label on WooCommerce -> System Status page"
+msgid "Using iFrame"
+msgstr ""
+
+#: includes/admin/system-status.php:102
+msgctxt "Label on WooCommerce -> System Status page"
+msgid "Sending IP"
+msgstr ""
+
+#: includes/admin/system-status.php:113
+msgctxt "Label on WooCommerce -> System Status page"
+msgid "Gateway Mode"
+msgstr ""
+
+#: includes/admin/system-status.php:115
+msgid "Test"
+msgstr ""
+
+#: includes/admin/system-status.php:115
+msgid "Live"
+msgstr ""
+
+#: includes/admin/system-status.php:124
+msgid "System information about WooCommerce Paysafe plugin."
+msgstr ""
+
+#: includes/ajax/admin/ajax.php:54
+msgid "API is ready to be used"
+msgstr ""
+
+#: includes/ajax/admin/ajax.php:57
+msgid "The API is not available"
+msgstr ""
+
+#: includes/ajax/admin/ajax.php:88
+msgid "Invalid capture amount"
+msgstr ""
+
+#: includes/ajax/admin/ajax.php:98
+msgid "Amount was successfully captured"
+msgstr ""
+
+#: includes/ajax/admin/ajax.php:114
+msgid "Cannot verify the request, please refresh the page and try again."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:78
+#: includes/ajax/frontend/payments.php:219
+#: includes/ajax/frontend/payments.php:304
+#: includes/ajax/frontend/payments.php:371
+msgid ""
+"The could not verify the payment collection request. Please refresh the page "
+"and try again."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:97
+msgid "Can't retrieve the order. Please refresh the page and try again."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:101
+msgid "Can't process the payment. Please refresh the page and try again."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:105
+#: includes/ajax/frontend/payments.php:240
+#: includes/ajax/frontend/payments.php:324
+#: includes/ajax/frontend/payments.php:389
+msgid ""
+"We don't support interac payments. Please try again using another payment "
+"type."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:194
+msgid "Payment completed successfully."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:196
+#, php-format
+msgid "Payment was completed, but with notices: %s"
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:246
+msgid ""
+"Could not retrieve the token user. Please refresh the page and try again."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:259
+msgid ""
+"Could not retrieve the token to update. Please refresh the page and try "
+"again."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:266
+#: includes/tokens/update-payment-method.php:109
+msgid "This token does not belong to you."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:288
+msgid "Payment method successfully updated."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:355
+msgid "Payment method successfully added."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:395
+msgid ""
+"The subscription ID passed to the request was not found. Please refresh the "
+"page and try again."
+msgstr ""
+
+#: includes/ajax/frontend/payments.php:431
+msgid "Payment method successfully changed."
+msgstr ""
+
+#: includes/api/alternate-payments/parameters/refunds.php:39
+#: includes/api/cards/parameters/refunds.php:39
+#: includes/api/direct-debit/parameters/standalone-credits.php:42
+msgid ""
+"Refunds are only processed against an existing order. Please pass an order "
+"source to be able to process the refund"
+msgstr ""
+
+#: includes/api/cards/parameters/authorizations.php:58
+msgid "Verification of a transaction"
+msgstr ""
+
+#: includes/api/cards/parameters/authorizations.php:165
+msgid "The card CVV number is required."
+msgstr ""
+
+#: includes/api/data-sources/order-source.php:38
+#, php-format
+msgid "Paying for order #%s"
+msgstr ""
+
+#: includes/api/direct-debit/parameters/purchases.php:68
+#, php-format
+msgid ""
+"Invalid currency. We do not support direct debit payments with your currency "
+"\"%s\""
+msgstr ""
+
+#: includes/api/direct-debit/parameters/standalone-credits.php:62
+msgid ""
+"To refund a Direct Debit payment we need the customer to have saved their "
+"payment method to the Paysafe Vault. This transaction was not saved to the "
+"Paysafe Vault, so we cannot refund it."
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:32
+msgid "Checkout API"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:33
+msgid "Hosted Payments API"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:115
+msgid "Integration Type"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:117
+msgid "Choose the API integration you want to connect and Save Settings."
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:139
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:141
+msgid "Enable Paysafe"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:146
+msgid "Sandbox"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:150
+msgid "Sandbox Mode"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:151
+msgid "Live Mode"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:162
+msgid "General Settings"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:168
+msgid "Method Title"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:170
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:171
+#: includes/gateways/redirect/gateway.php:129
+msgid "Paysafe"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:174
+msgid "Description"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:176
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:177
+msgid "Pay using your credit/debit card."
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:191
+msgid "Test and Debug Settings"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:197
+msgid "Enable Debug mode"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:201
+#, php-format
+msgid ""
+"Debug logs the plugin processes for easier troubleshooting. Logged inside %s"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:297
+#, php-format
+msgctxt "password field placeholder"
+msgid "%s is not set"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:299
+#, php-format
+msgctxt "password field placeholder"
+msgid "%s is set"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:344
+msgid "Reset Profiles"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:362
+msgid "Show Reset Profiles"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:366
+msgid "Check the checkbox and show the reset button"
+msgstr ""
+
+#: includes/gateways/redirect/abstracted-gateway.php:389
+msgid "Are you sure you want to reset customer profiles?"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:198
+msgid "Invalid payment method. Please try again or use a new card number."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:301
+msgid "Invalid payment method. Please try again or use a new payment method."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:403
+msgid "Pay the order"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:421
+#: includes/gateways/redirect/hosted/processes.php:398
+#, php-format
+msgid ""
+"Error generating the payment form. Please refresh the page and try again.\n"
+"\t\t\t \t\tIf error persists, please contact the administrator. Error "
+"message: %s "
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:437
+msgid ""
+"Thank you for your order. Please click on the button below to pay for your "
+"order."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:458
+#, php-format
+msgid "The %s provided is not valid."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:460
+#, php-format
+msgid "Can not verify the %s provided. Please try again later."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:487
+#, php-format
+msgid "Unable to create vault profile. %s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:543
+msgid "Unable to convert single use token to permanent token. Please try again"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:701
+msgid "Unable update the payment method. Please refresh the page and try again"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:805
+msgid "We can't refund this transaction because we don't have settlement ID."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:813
+#, php-format
+msgid ""
+"We can only refund transactions with 'COMPLETED' status. This transaction "
+"status is: %s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:817
+msgid ""
+"We can only refund transactions with settled amount. There are no "
+"settlements for processed for this transaction."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:823
+#, php-format
+msgid ""
+"The amount to refund is more than the amount allowed to be refunded for this "
+"transaction. You are allowed to refund up to %s%s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:989
+msgid "Payment token is missing. The subscription order cannot be charged."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/processes.php:1034
+msgid "Payment token is missing. The Pre-order cannot be charged."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:163
+#: includes/gateways/redirect/hosted/abstract-response.php:279
+msgid "The order ID in the response and security check order ID do not match."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:181
+#: includes/gateways/redirect/hosted/abstract-response.php:297
+msgid "Currency of the payment did not match the currency the order."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:202
+#: includes/gateways/redirect/hosted/abstract-response.php:318
+msgid "Response amount did not match the given order amount."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:221
+#: includes/gateways/redirect/hosted/abstract-response.php:337
+#: includes/gateways/redirect/hosted/response-hosted-addons.php:138
+msgid "Paysafe: Received response, but order was already paid for."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:308
+#: includes/gateways/redirect/hosted/abstract-response.php:438
+msgid "Paysafe Payment Declined."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:311
+#, php-format
+msgid "Paysafe Payment Declined. Payment status: %s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:337
+#: includes/gateways/redirect/hosted/abstract-response.php:489
+#, php-format
+msgid ""
+"Transaction has been placed on hold due to risk rules results.\n"
+"\t\t\t\t\t\t\tRisk Reason Code: %s."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:354
+msgid ""
+"Transaction has been placed on hold because we are still waiting on the "
+"processor response. We'll process the order as soon as we get a decision "
+"back."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:384
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:387
+#: includes/gateways/redirect/hosted/abstract-response.php:522
+msgid "Transaction has been cancelled."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:406
+#: includes/gateways/redirect/hosted/abstract-response.php:544
+msgid "Paysafe Payment Error."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:424
+#: includes/gateways/redirect/hosted/abstract-response.php:565
+msgid "The payment is still pending."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:444
+#: includes/gateways/redirect/hosted/abstract-response.php:586
+msgid "Unrecognized payment status was received."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/abstract-processor.php:447
+#, php-format
+msgid ""
+"Payment Failed. Unrecognized payment status was received. Payment status: %s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/cards-processor.php:33
+#, php-format
+msgid ""
+"Paysafe Payment Details:\n"
+"Status: %s.\n"
+"Transaction Confirmation Number: %s,\n"
+"Card type: %s,\n"
+"Authorization ID: %s,\n"
+"Last four digits: %s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/cards-processor.php:50
+#, php-format
+msgid "Settlement ID: %s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/checkoutjs-processor.php:56
+#: includes/gateways/redirect/hosted/response-hosted.php:50
+msgid ""
+"Refund was not approved. Please try again or\n"
+"\t\t\t\t\t try manual refund through your Paysafe dashboard."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/checkoutjs-processor.php:63
+#, php-format
+msgid ""
+"Important: The refund is in \"%s\" status and it should be processed in the "
+"next batch. Refund ID: %s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/checkoutjs-processor.php:86
+msgid ""
+"Capture was not approved. Please try again or try manual capture through "
+"your Paysafe dashboard."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/checkoutjs-processor.php:91
+#, php-format
+msgid ""
+"Important: The settlement is in \"%s\" status and it should be processed in "
+"the next batch. Settlement ID: %s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/checkoutjs-processor.php:105
+#, php-format
+msgid "Amount captured %s. Settlement ID: %s."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/direct-debit-processor.php:39
+#, php-format
+msgid ""
+"Paysafe Direct Debit Details:\n"
+"Status: %s.\n"
+"Account Last Digits: %s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/response-processors/direct-debit-processor.php:75
+#, php-format
+msgid ""
+"The order has been placed on hold because it was not processed yet. Please "
+"manually check the transaction to complete the order. Transaction ID: %s"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:33
+#: includes/gateways/redirect/hosted/settings.php:32
+msgid "Credentials Settings"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:40
+#: includes/gateways/redirect/hosted/settings.php:39
+msgid "API Key: User Name"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:40
+#: includes/gateways/redirect/checkout/settings.php:48
+#: includes/gateways/redirect/checkout/settings.php:57
+#: includes/gateways/redirect/checkout/settings.php:65
+#: includes/gateways/redirect/checkout/settings.php:88
+#: includes/gateways/redirect/checkout/settings.php:132
+msgid "Required field"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:42
+#: includes/gateways/redirect/hosted/settings.php:41
+msgid ""
+"The User Name from the section API Keys in the Paysafe account settings."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:48
+#: includes/gateways/redirect/checkout/settings.php:50
+#: includes/gateways/redirect/hosted/settings.php:47
+msgid "API Key: Password"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:51
+#: includes/gateways/redirect/hosted/settings.php:49
+msgid "The corresponding password to the API User Name."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:57
+msgid "Single-Use Token: User Name"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:59
+msgid ""
+"The User Name from the section 'Single-Use Token' in the Paysafe account "
+"settings."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:65
+#: includes/gateways/redirect/checkout/settings.php:67
+msgid "Single-Use Token: Password"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:68
+msgid "The corresponding password to the 'Single-Use Token' User Name."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:81
+msgid "Merchant Accounts Settings"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:88
+msgid "Cards Account IDs"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:90
+msgid ""
+"Used for card payments in your store currency. For currencies other than "
+"your default one, please contact support."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:102
+msgid "3D Secure"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:103
+msgid "Enable 3DS Authentication for card payments"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:105
+msgid "Your account ID needs to be 3DS enabled or the transactions will fail"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:112
+msgid "PDS2(3DS2) Support"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:113
+msgid "Enable 3DS2 Authentication for card payments"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:115
+msgid "Your account ID needs to be 3DS2 enabled or the transactions will fail"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:122
+msgid "CVV Card Field"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:123
+msgid "Require CVV with Card Token Payments"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:125
+msgid ""
+"To comply with 3DS2 the gateway processor requires the CVV to be sent with "
+"the card token. Enabling this option will add a CVV field to the payment "
+"form and require the customer to fill it in."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:132
+msgid "Direct Debit Account IDs"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:134
+msgid "Used for direct debit transactions in your default currency."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:153
+#: includes/gateways/redirect/hosted/settings.php:62
+msgid "Transaction Settings"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:160
+#: includes/gateways/redirect/hosted/settings.php:69
+msgid "Payment Pages Language"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:162
+#: includes/gateways/redirect/hosted/settings.php:71
+msgid "Choose the language you want your Paysafe payment pages to be in."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:165
+#: includes/gateways/redirect/hosted/settings.php:75
+msgid "US English"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:166
+#: includes/gateways/redirect/hosted/settings.php:77
+msgid "French Canadian"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:172
+#: includes/gateways/redirect/hosted/settings.php:82
+msgid "Authorization Type"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:174
+msgid ""
+"\"Sale\", will capture the fund right after the transaction authorization. "
+"\"Authorization Only\", will only perform an authorization and let you "
+"capture the funds at a later date."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:177
+msgid "Sale"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:178
+#: includes/gateways/redirect/hosted/settings.php:88
+msgid "Authorization Only"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:184
+#: includes/gateways/redirect/hosted/settings.php:134
+msgid "Accepted Cards"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:186
+#: includes/gateways/redirect/hosted/settings.php:136
+msgid ""
+"Choose the cards you are accepting and want to display their logos on the "
+"checkout page."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:201
+msgid "Vault Settings"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:208
+msgid "Saved Cards"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:209
+msgid "Enable Payment via Saved Cards"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:211
+msgid ""
+"If enabled, users will be able to pay with a saved card during checkout. "
+"Card details are stored in the Paysafe Vault, not in the store database."
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:218
+msgid "Vault Profile Prefix"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:220
+msgid ""
+"Enter unique customer prefix for their Vault profile ID. Make sure this is "
+"unique prefix for your store. (Example: WC-)"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:233
+msgid "Layover Settings"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:240
+msgid "Layover Image"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:242
+msgid ""
+"Optionally enter the URL to a 56x56 pixels or a 1:1 aspect ratio (for vector "
+"images) of your brand or product. e.g. <code>https://yoursite.com/wp-content/"
+"uploads/2013/09/yourimage.jpg</code>"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:248
+msgid "Merchant Name"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:250
+msgid ""
+"Optionally enter the merchant name you want to display on the Payment "
+"Layover. Up to 60 characters"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:256
+msgid "Button Color"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:258
+msgid ""
+"Optionally enter the hex color for the payment form buttons e.g. "
+"<code>#ff0000</code>"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:264
+msgid "Default Payment Method"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:266
+msgid "The payment method selected when Paysafe Checkout is opened"
+msgstr ""
+
+#: includes/gateways/redirect/checkout/settings.php:268
+msgid "Optionally Select"
+msgstr ""
+
+#: includes/gateways/redirect/gateway-addons.php:179
+#, php-format
+msgid "Via %1$s with account ending in %2$s"
+msgstr ""
+
+#: includes/gateways/redirect/gateway-addons.php:181
+#, php-format
+msgid "Via %1$s ending in %2$s"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:67
+#: includes/tokens/manage-tokens.php:170
+msgid "Visa"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:68
+#: includes/tokens/manage-tokens.php:171
+msgid "Master Card"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:69
+msgid "Maestro"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:70
+#: includes/tokens/manage-tokens.php:172
+msgid "American Express"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:71
+#: includes/tokens/manage-tokens.php:173
+msgid "Discover"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:72
+msgid "JCB"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:73
+#: includes/tokens/manage-tokens.php:174
+msgid "Diners"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:108
+msgid "Save to Account"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:130
+msgid ""
+"Paysafe redirect service using iframe or complete redirect of the customers."
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:258
+msgctxt "layover add method button label"
+msgid "Submit"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:284
+msgctxt "layover change method button label"
+msgid "Submit"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:318
+msgctxt "layover pay for order button label"
+msgid "Pay for order"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:420
+#, php-format
+msgid "Refunded %s. Refund ID: %s. %s"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:427
+#, php-format
+msgid "Credit Note: %s."
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:478
+msgid "Capture Payment ("
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:502
+msgid "Order amount is already captured"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:516
+msgid ""
+"Missing Transaction ID. The order does not have all required information to "
+"process process a capture."
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:528
+#, php-format
+msgid "You can't capture more than the initially authorized amount: %s."
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:541
+#, php-format
+msgid "Capture failed. Message: %s"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:772
+#: includes/gateways/redirect/gateway.php:794
+msgid "Choose Currency"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:779
+#: includes/gateways/redirect/gateway.php:801
+msgid "Remove"
+msgstr ""
+
+#: includes/gateways/redirect/gateway.php:785
+msgid "Add Account ID"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/abstract-request.php:815
+msgid "Tax"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/abstract-request.php:823
+msgid "Discount"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/abstract-request.php:831
+msgid "Shipping"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/abstract-response.php:169
+msgid "The order ID in the response and the re-query ID do not match."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/abstract-response.php:184
+#, php-format
+msgid ""
+"Paysafe Payment Details:\n"
+"Status: %s.\n"
+"Transaction Confirmation Number: %s,\n"
+"Card type: %s,\n"
+"Last four digits: %s"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/abstract-response.php:460
+msgid "Payment was abandoned part way through."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/processes.php:64
+msgid "Gateway class not initiated."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/processes.php:194
+msgid ""
+"The order does not have a valid Paysafe transaction ID. Refund is not "
+"possible."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/processes.php:323
+msgid "Thank you for your order, fill in the form below to pay Paysafe."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/processes.php:426
+msgid "The request did not pass validation."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/request-hosted-pre-orders.php:146
+#, php-format
+msgid "Pre-Order #%s"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/request-hosted-subscriptions.php:151
+#, php-format
+msgid "%s - Order %s"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/request-hosted-subscriptions.php:176
+#, php-format
+msgid "Payment for Order %s."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/request-hosted-subscriptions.php:193
+#, php-format
+msgid "Change payment method request on order %s."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/response-hosted-addons.php:70
+#, php-format
+msgid "Customer changed their payment method payment to %s"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/response-hosted.php:77
+#, php-format
+msgid "Settlement response did not have the proper authType. authType: %s"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/response-hosted.php:95
+#, php-format
+msgid "Amount captured %s. Transaction ID: %s."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/response-hosted.php:118
+msgid ""
+"Capture was not approved. Please try again or\n"
+"\t\t\t\t\t try manual capture through your Paysafe dashboard."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:74
+msgid "British English"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:76
+msgid "French"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:84
+msgid ""
+"\"Authorization and Capture\", will capture the fund right after the "
+"transaction authorization. \"Authorization Only\", will only perform an "
+"authorization and let you capture the funds at a later date."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:87
+msgid "Authorization and Capture"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:93
+msgid "Send Order Details"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:95
+msgid "Send Detailed Order to Paysafe"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:96
+msgid ""
+"<strong>Enable</strong>, if you want to send a breakdown of all order "
+"details (items, taxes, shipping costs) to Paysafe.<br/><strong>Disable</"
+"strong>, if you want to just send the Order Total for the customer to pay."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:102
+msgid "Send Customer IP"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:104
+msgid "Send Customer IP to Paysafe"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:105
+msgid ""
+"<strong>Enable</strong>, will send the customer IP to Paysafe.<br/"
+"><strong>Disable</strong>, will not send the IP to Paysafe."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:110
+msgid "Synchronous responses"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:112
+msgid "Use Synchronous payment responses"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:113
+msgid ""
+"<strong>Enable</strong>, payment response will be made synchronously, in-"
+"line with the customer returning to your store.<br/><strong>Disable</"
+"strong>, payment responses will be made asynchronously, will be delayed a "
+"bit, allowing the callback system can detect problems with the merchant "
+"system and retry any failed attempts until a successful response is received."
+"<br/><strong>Recommended from PAYSAFE</strong>: Disable."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:118
+msgid "Customer ID Prefix"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:120
+msgid ""
+"Enter unique customer ID prefix. Make sure this is unique prefix for your "
+"store. (Example: WC-)"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:126
+msgid "Merchant Notification Email"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:128
+msgid ""
+"Enter merchant email, to which the merchant will receive email "
+"notifications. If empty, the notification parameter will not be send."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:151
+msgid "Iframe Settings"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:153
+msgid "In this section you will set the Iframe control settings."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:157
+msgid "Enable Iframe"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:159
+msgid ""
+"Enable iframe to have the customer payment form display in an Iframe on your "
+"site. If disabled, your customers will be redirected to Paysafe payment page."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:164
+msgid "Iframe Width"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:166
+msgid ""
+"Width of the iframe window. Enter only numbers in pixels (i.e. 700) or you "
+"can enter number in percentage but you need to suffix it with \"%\" (i.e. "
+"55%)."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:171
+msgid "Iframe Height"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:173
+msgid ""
+"Height of the iframe window. Entered can be a number in pixels (i.e. 850) or "
+"you can enter number in percentage but you need to suffix it with \"%\" (i."
+"e. 55%)."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:178
+msgid "Iframe Scroll"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:180
+msgid ""
+"Should the iframe be scrollable or not. If scrollable, the customer will be "
+"able to scroll to the iframe to reach its borders."
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:194
+msgid "Reset Customer Profiles"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:199
+msgid "Reset"
+msgstr ""
+
+#: includes/gateways/redirect/hosted/settings.php:201
+msgid "Click the button to reset the saved customer profiles"
+msgstr ""
+
+#: includes/helpers/factories.php:73
+msgid "Incorrect gateway was passed to the API client"
+msgstr ""
+
+#: includes/helpers/factories.php:104
+msgid ""
+"Integration type is required in order to load the proper response object"
+msgstr ""
+
+#: includes/payment-form.php:72
+msgid "Update Method"
+msgstr ""
+
+#: includes/paysafe-order.php:142
+msgctxt "payment type"
+msgid "card"
+msgstr ""
+
+#: includes/paysafe-order.php:150
+msgctxt "payment type"
+msgid "Direct Debit"
+msgstr ""
+
+#: includes/paysafe.php:98 includes/paysafe.php:105
+msgid "Not allowed!"
+msgstr ""
+
+#: includes/paysafe.php:250
+msgid "Settings"
+msgstr ""
+
+#: includes/scripts.php:50
+msgctxt "capture payment"
+msgid "Are you sure you want to capture the payment?"
+msgstr ""
+
+#: includes/scripts.php:53
+msgid ""
+"<span>Integration Type changed!</span> <span>Save the change before you "
+"continue.</span >"
+msgstr ""
+
+#: includes/scripts.php:54
+msgid ""
+"To refund a Direct Debit purchase we will issue the customer a Standalone "
+"Credit against their Vault payment method. Are you sure you want to proceed?"
+msgstr ""
+
+#: includes/scripts.php:55
+msgid "Are you sure you want to remove the account pair?"
+msgstr ""
+
+#: includes/scripts.php:113
+msgid "Card Number is invalid"
+msgstr ""
+
+#: includes/scripts.php:114
+msgid "Expiry date is invalid"
+msgstr ""
+
+#: includes/scripts.php:115
+msgid "Card Code is invalid"
+msgstr ""
+
+#: includes/scripts.php:116
+msgid "Failed to load the public key"
+msgstr ""
+
+#: includes/scripts.php:117
+msgid "No encryption public key was provided"
+msgstr ""
+
+#: includes/scripts.php:118
+msgid "Missing CVV field"
+msgstr ""
+
+#: includes/scripts.php:119
+msgid "The CVV field is required, please fill it in and try again."
+msgstr ""
+
+#: includes/scripts.php:120
+msgid "The CVV field not the correct length. Please correct it and try again."
+msgstr ""
+
+#: includes/scripts.php:124
+msgid "Invalid setup. The supplied number of arguments is neither 3 nor 4."
+msgstr ""
+
+#: includes/scripts.php:125
+msgid ""
+"Invalid setup. Setup function has been invoked and Paysafe Checkout is "
+"already opened or is loading at the moment."
+msgstr ""
+
+#: includes/scripts.php:126
+msgid ""
+"The supplied apiKey parameter is not a string, is in invalid format or is "
+"not configured for Paysafe Checkout"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-paysafe-cc.php:45
+msgctxt "label-unknown-card-type"
+msgid "Card"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-paysafe-cc.php:62
+#, php-format
+msgid "%1$s ending in %2$s (expires %3$s/%4$s)"
+msgstr ""
+
+#: includes/tokens/class-wc-payment-token-paysafe-dd.php:46
+#, php-format
+msgid "%2$s bank account ending in %1$s"
+msgstr ""
+
+#: includes/tokens/customer-tokens.php:82
+msgid "The Token was not found."
+msgstr ""
+
+#: includes/tokens/customer-tokens.php:158
+#: includes/tokens/customer-tokens.php:210
+#, php-format
+msgid "The Token of the transaction was not successfully saved. Error: %s"
+msgstr ""
+
+#: includes/tokens/manage-tokens.php:147
+msgid "Card"
+msgstr ""
+
+#: includes/tokens/manage-tokens.php:150
+#, php-format
+msgid "%s bank account"
+msgstr ""
+
+#: includes/tokens/update-payment-method.php:65
+msgid "Update"
+msgstr ""
+
+#: includes/tokens/update-payment-method.php:80
+msgid "The token was not found. Please try again"
+msgstr ""
+
+#: includes/tokens/update-payment-method.php:102
+msgid ""
+"The token was not found. Please try again or contact us if you require "
+"assistance."
+msgstr ""
+
+#: includes/tokens/update-payment-method.php:117
+msgid ""
+"Token gateway was not found. Please try again or contact us if you require "
+"assistance"
+msgstr ""
+
+#: includes/tokens/update-payment-method.php:132
+msgctxt "layover update method button label"
+msgid "Submit"
+msgstr ""
+
+#: includes/tokens/update-payment-method.php:188
+msgid "Paysafe Update Payment Method"
+msgstr ""
+
+#: includes/tokens/update-payment-method.php:189
+msgid "Endpoint for the Paysafe - Update Payment Method page."
+msgstr ""
+
+#: includes/wc-query.php:56
+msgid "Update Payment Method"
+msgstr ""
+
+#: templates/netbanx/iframe.php:25 templates/paysafe/iframe.php:24
+#, php-format
+msgid ""
+"Your browser does not support iframes.\n"
+"\t\t\t %sClick Here%s to get redirected to Paysafe payment page. "
+msgstr ""
+
+#: templates/paysafe/checkoutjs/checkout/cvv-field.php:22
+#: templates/paysafe/checkoutjs/checkout/cvv-field.php:25
+msgid "CVV"
+msgstr ""
+
+#: templates/paysafe/checkoutjs/checkout/saved-tokens.php:27
+msgid "Manage tokens"
+msgstr ""
+
+#: templates/paysafe/checkoutjs/checkout/saved-tokens.php:78
+msgid "Use a new payment method"
+msgstr ""
+
+#: templates/paysafe/checkoutjs/myaccount/update-payment-method.php:28
+msgid "Method to update"
+msgstr ""
+
+#: templates/paysafe/checkoutjs/myaccount/update-payment-method.php:32
+msgid "Billing Address"
+msgstr ""
+
+#: templates/paysafe/checkoutjs/myaccount/update-payment-method.php:33
+msgid ""
+"This is the address your card will be updated with. Please change your "
+"billing address, if it does not match your card data."
+msgstr ""
+
+#: templates/paysafe/checkoutjs/myaccount/update-payment-method.php:34
+msgid "Edit"
+msgstr ""
+
+#: templates/paysafe/checkoutjs/myaccount/update-payment-method.php:38
+msgid "You have not set up this type of address yet."
+msgstr ""

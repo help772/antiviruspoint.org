@@ -1,0 +1,3 @@
+id,order_id,product_id,user_id,license_key,expires_at,valid_for,status,times_activated,times_activated_max,created_at,created_by,updated_at,updated_by
+26,,,,TestKey,,,ACTIVE,,,"2025-01-27 07:43:44",1,,
+25,,,,TestKey,,,ACTIVE,,,"2025-01-27 07:19:19",1,,

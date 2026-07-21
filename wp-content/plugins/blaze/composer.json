@@ -1,0 +1,19 @@
+{
+    "name": "blaze/blaze",
+    "description": "Blaze for WordPress allows you to export your Blaze content directly to your WordPress site.",
+    "type": "library",
+    "license": "Expat (MIT License)",
+    "autoload": {
+        "psr-4": {
+            "Blaze\\Blaze\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Blaze"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}

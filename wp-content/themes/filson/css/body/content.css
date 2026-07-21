@@ -1,0 +1,104 @@
+.hw-wrapper{
+	width:100%;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+ 	margin-top: calc(var(--hw-overlab-ht,0px) * -1);
+}
+
+
+.single-visualheader .hw-wrapper{
+	height:700px;
+}
+.hw-wrapper > *{
+	text-align:left
+}
+.hw-wrapper > .hw-wrapper{
+	margin-top:0px !important; 
+}
+.hw-content-warp{
+	width:100%;
+	float:left;
+	text-align:center
+}
+.hw-middle-content{
+	text-align:left;
+	position:relative;
+	max-width:var(--hw-body-wt);
+	float:none;
+	margin:auto;
+	padding:20px 0;
+	width:100%;
+	display:inline-block
+}
+.hw-content{
+	display:inline-grid;
+	width:100%;
+	float:left;
+	grid-template-columns:100%;
+	position:relative
+}
+.hw-column-sidebar{
+	height:100%;
+	float:left
+}
+.hw-sidebar{
+	float:left;
+	height:auto;
+	width:100%
+}
+body .elementor-section.elementor-section-boxed > .elementor-container{
+	max-width:var(--hw-body-wt)
+}
+.hw-main_right{
+	grid-template-columns:calc(100% - var(--hw-side-rt)) var(--hw-side-rt);
+  }
+.hw-left_main{
+	grid-template-columns:calc(100% - var(--hw-side-lt)) var(--hw-side-lt);
+			direction:rtl
+
+ }
+.hw-main_left_right{
+	grid-template-columns:calc(100% - var(--hw-side-lt) - var(--hw-side-rt)) var(--hw-side-lt) var(--hw-side-rt);
+}
+.hw-left_main_right{
+	grid-template-columns:var(--hw-side-lt) calc(100% - var(--hw-side-lt) - var(--hw-side-rt)) var(--hw-side-rt);
+ 	
+ }
+.hw-left_right_main{
+	grid-template-columns:calc(100% - var(--hw-side-lt) - var(--hw-side-rt)) var(--hw-side-rt) var(--hw-side-lt);
+		direction:rtl
+
+}
+.hw-content > *{
+	direction:ltr
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+	:root{
+		--hw-side-rt:33.331%;
+		--hw-side-lt:33.331%
+}
+}
+@media (max-width: 1024px) {
+	.hw-wrapper{
+ 
+ 	margin-top: calc(var(--hw-mobile-overlab-ht,0px) * -1);
+}
+	.hw-hide-sidebar .hw-content{
+		--hw-side-rt:0!important;
+		--hw-side-lt:0!important;
+		grid-template-columns:100%!important
+}
+	.hw-main_left_right,.hw-left_main_right,.hw-left_right_main{
+		--hw-side-rt:0!important;
+		grid-template-columns:calc(100% - var(--hw-side-lt)) var(--hw-side-lt)!important
+}
+	.hw-main_left_right .hw-sidebar-right,.hw-left_main_right .hw-sidebar-right,.hw-left_right_main .hw-sidebar-right,.hw-hide-sidebar .hw-column-sidebar{
+		display:none!important
+}
+}
+@media (max-width: 767px) {
+	.hw-content{
+		grid-template-columns:100%!important
+}
+}

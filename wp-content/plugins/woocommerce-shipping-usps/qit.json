@@ -1,0 +1,102 @@
+{
+	"$schema": "https://raw.githubusercontent.com/woocommerce/qit-cli/trunk/src/src/PreCommand/Schemas/qit-schema.json",
+	"sut": {
+		"type": "plugin",
+		"slug": "woocommerce-shipping-usps",
+		"source": {
+			"type": "local",
+			"path": "./",
+			"build": "pnpm build:qit"
+		}
+	},
+	"environments": {
+		"stable": {
+			"wp": "stable",
+			"woo": "stable",
+			"php": "8.4"
+		},
+		"nightly": {
+			"wp": "stable",
+			"woo": "rc",
+			"php": "8.4",
+			"utilities": [
+				"./tests/qit-utility/usps-min"
+			]
+		},
+		"php74": {
+			"wp": "stable",
+			"woo": "stable",
+			"php": "7.4"
+		},
+		"shipping-combo": {
+			"wp": "stable",
+			"woo": "stable",
+			"php": "8.4",
+			"plugins": [
+				"woocommerce-shipping",
+				"woocommerce-subscriptions"
+			],
+			"utilities": [
+				"./tests/qit-utility/usps-min"
+			]
+		}
+	},
+	"test_types": {
+		"activation": {
+			"default": { "environment": "stable" },
+			"shipping-combo": { "environment": "shipping-combo" }
+		},
+		"security": {
+			"default": { "environment": "stable" }
+		},
+		"phpcompatibility": {
+			"default": { "environment": "php74" }
+		},
+		"phpstan": {
+			"default": { "environment": "stable" }
+		},
+		"validation": {
+			"default": { "environment": "stable" }
+		},
+		"malware": {
+			"default": { "environment": "stable" }
+		},
+		"woo-api": {
+			"nightly": { "environment": "nightly" }
+		},
+		"woo-e2e": {
+			"nightly": { "environment": "nightly" },
+			"shipping-combo": { "environment": "shipping-combo" }
+		},
+		"e2e": {
+			"rates": {
+				"environment": "stable",
+				"test_packages": ["./tests/e2e"]
+			}
+		}
+	},
+	"groups": {
+		"pr-gate": {
+			"activation": ["default"],
+			"security": ["default"],
+			"phpcompatibility": ["default"],
+			"phpstan": ["default"],
+			"validation": ["default"]
+		},
+		"nightly": {
+			"activation": ["default"],
+			"security": ["default"],
+			"phpcompatibility": ["default"],
+			"phpstan": ["default"],
+			"validation": ["default"],
+			"malware": ["default"],
+			"woo-api": ["nightly"],
+			"woo-e2e": ["nightly"],
+			"e2e": ["rates"]
+		},
+		"compat": {
+			"activation": ["shipping-combo"],
+			"woo-e2e": ["shipping-combo"]
+		}
+	}
+}

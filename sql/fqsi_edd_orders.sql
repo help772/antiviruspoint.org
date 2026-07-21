@@ -1,0 +1,41 @@
+/*M!999999\- enable the sandbox mode */ 
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8mb4 */;
+CREATE TABLE `fqsi_edd_orders` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `parent` bigint(20) unsigned NOT NULL DEFAULT 0,
+  `order_number` varchar(255) NOT NULL DEFAULT '',
+  `status` varchar(20) NOT NULL DEFAULT 'pending',
+  `type` varchar(20) NOT NULL DEFAULT 'sale',
+  `user_id` bigint(20) unsigned NOT NULL DEFAULT 0,
+  `customer_id` bigint(20) unsigned NOT NULL DEFAULT 0,
+  `email` varchar(100) NOT NULL DEFAULT '',
+  `ip` varchar(60) NOT NULL DEFAULT '',
+  `gateway` varchar(100) NOT NULL DEFAULT 'manual',
+  `mode` varchar(20) NOT NULL DEFAULT '',
+  `currency` varchar(20) NOT NULL DEFAULT '',
+  `payment_key` varchar(64) NOT NULL DEFAULT '',
+  `tax_rate_id` bigint(20) DEFAULT NULL,
+  `subtotal` decimal(18,9) NOT NULL DEFAULT 0.000000000,
+  `discount` decimal(18,9) NOT NULL DEFAULT 0.000000000,
+  `tax` decimal(18,9) NOT NULL DEFAULT 0.000000000,
+  `total` decimal(18,9) NOT NULL DEFAULT 0.000000000,
+  `rate` decimal(10,5) NOT NULL DEFAULT 1.00000,
+  `date_created` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_modified` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_completed` datetime DEFAULT NULL,
+  `date_refundable` datetime DEFAULT NULL,
+  `date_actions_run` datetime DEFAULT NULL,
+  `uuid` varchar(100) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`),
+  KEY `order_number` (`order_number`(191)),
+  KEY `status_type` (`status`,`type`),
+  KEY `user_id` (`user_id`),
+  KEY `customer_id` (`customer_id`),
+  KEY `email` (`email`),
+  KEY `payment_key` (`payment_key`),
+  KEY `date_created_completed` (`date_created`,`date_completed`),
+  KEY `currency` (`currency`),
+  KEY `parent_type` (`parent`,`type`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;

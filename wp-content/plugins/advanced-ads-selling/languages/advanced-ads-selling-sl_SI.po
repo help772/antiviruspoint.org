@@ -1,0 +1,487 @@
+# Translation of Selling Ads in Slovenian
+# This file is distributed under the same license as the Selling Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-28 07:22:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sl_SI\n"
+"Project-Id-Version: Selling Ads\n"
+
+#. translators: 1: is a link to a support document. 2: closing link
+#: includes/class-autoloader.php:113
+msgid "Your installation of Advanced Ads is incomplete. If you installed Advanced Ads from GitHub, %1$s please refer to this document%2$s to set up your development environment."
+msgstr "Vaša namestitev Advanced Ads ni dokončana. Če ste namestili Advanced Ads iz GitHub, %1$s prosimo, poglejte ta dokument%2$s, da nastavite svoje razvojno okolje."
+
+#. translators: %s: WP_ENVIRONMENT_TYPES
+#: includes/class-autoloader.php:157
+msgid "The %s constant is no longer supported."
+msgstr "Konstanta %s ni več podprta."
+
+#: admin/admin.php:299
+msgid "No static pages found."
+msgstr "Ni statičnih strani."
+
+#. Plugin URI of the plugin
+#: advanced-ads-selling.php
+msgid "https://wpadvancedads.com/add-ons/selling-ads/"
+msgstr "https://wpadvancedads.com/add-ons/selling-ads/"
+
+#: admin/views/setting-setup-page.php:25
+msgid "The default setup page does not work with the default plain permalink setting."
+msgstr "Privzeta namestitvena stran ne deluje s privzeto strukturo trajnih povezav."
+
+#: public/views/woocommerce/myaccount/ads.php:22
+msgid "Statistics"
+msgstr "Statistika"
+
+#: public/views/woocommerce/myaccount/ads.php:53
+msgid "Link"
+msgstr "Povezava"
+
+#. Author of the plugin
+#: advanced-ads-selling.php
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: public/views/woocommerce/myaccount/ads.php:28
+msgid "No orders found"
+msgstr "Ne najdem naročil"
+
+#: public/views/woocommerce/myaccount/ads.php:17
+msgid "Ad Title - Product Name"
+msgstr "Naslov oglasa - Ime izdelka"
+
+#: admin/views/setting-ads-page.php:4
+msgid "The page contains links to the public stats pages of ads when the Advanced Ads Tracking add-on is enabled."
+msgstr "Ta stran vsebuje povezave do javnih strani s statistikami oglasov, ko je aktiviran dodatek Advanced Ads Tracking."
+
+#: admin/views/setting-ads-page.php:3
+msgid "Show an ”Ads” link in the customer account in the frontend with a list of purchased ads and additional information."
+msgstr "Pokaži povezavo \"Oglasi\" v računu uporabnika na ospredju s seznamom zakupljenih oglasov in dodatnimi informacijami."
+
+#: public/public.php:212
+msgid "The ad setup form is only visible through the link in the purchase confirmation email or account."
+msgstr "Obrazec za namestitev oglasa je viden preko povezave v potrditveni e-pošti ali računu."
+
+#: admin/admin.php:224
+msgid "List ads in the customer account"
+msgstr "Prikaži seznam oglasov v računu uporabnika"
+
+#: classes/public-ads-page-endpoint.php:109
+#: classes/public-ads-page-endpoint.php:130
+msgid "Ads"
+msgstr "Oglasi"
+
+#: public/includes/order.php:99
+msgid "Price option"
+msgstr "Možnost cene"
+
+#: admin/admin.php:218
+msgid "WooCommerce adjustments"
+msgstr "WooCommerce prilagoditve"
+
+#: admin/views/setting-wc-fixes.php:3
+msgid "Applies the following changes to WooCommerce. Especially useful, when you don’t use WooCommerce for anything else than ads."
+msgstr "Omogoči naslednje spremembe v WooCommerce. Posebej uporabno, če ne uporabljaš WooCommerce za nič drugega kot oglase."
+
+#. Author URI of the plugin
+#: advanced-ads-selling.php
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. Description of the plugin
+#: advanced-ads-selling.php
+msgid "Let users purchase ads directly in the frontend of your site."
+msgstr "Uporabniki lahko zakupijo oglase direktno v ospredju tvoje strani."
+
+#. Plugin Name of the plugin
+#: advanced-ads-selling.php
+msgid "Advanced Ads – Selling Ads"
+msgstr "Advanced Ads – Selling Ads"
+
+#: public/views/product-template.php:85
+msgid "You will be able to submit the ad content after the purchase."
+msgstr "Vsebino oglasa boš lahko oddal po nakupu."
+
+#: public/views/product-template.php:49
+msgid "Select a placement"
+msgstr "Izberi postavitev"
+
+#: public/views/ad-setup-page.php:8
+msgid "Ad Setup"
+msgstr "Namestitev oglasa"
+
+#: public/views/ad-setup-form.php:166
+msgid "The ad was successfully submitted for review."
+msgstr "Oglas je bil uspešno poslan v pregled."
+
+#: public/views/ad-setup-form.php:163
+msgid "The ad could not be submitted. Please try later or contact the site admin."
+msgstr "Oglasa nismo uspeli poslati. Prosimo poskusite kasneje, ali stopite v kontakt z administratorjem strani."
+
+#: public/views/ad-setup-form.php:160
+msgid "submit this ad"
+msgstr "pošlji ta oglas"
+
+#: public/views/ad-setup-form.php:151
+msgid "Target URL"
+msgstr "Ciljni URL"
+
+#. translators: %s is the max file size in MB
+#: public/views/ad-setup-form.php:144
+msgid "Max File Size : %s MB"
+msgstr "Maksimalna velikost datoteke: %s MB"
+
+#: public/views/ad-setup-form.php:136
+msgid "Image Upload"
+msgstr "Naloži sliko"
+
+#: public/views/ad-setup-form.php:128
+msgid "Please enter the ad code. HTML, JavaScript, CSS and plain text are allowed."
+msgstr "Prosim vensi kodo oglasa. Dovoljeni so HTML, JavaScript, CSS in navadno besedilo."
+
+#: public/views/ad-setup-form.php:123
+msgid "Ad Code"
+msgstr "Koda oglasa"
+
+#: public/views/ad-setup-form.php:99
+msgid "Ad Type"
+msgstr "Vrsta oglasa"
+
+#: public/views/ad-setup-form.php:83
+msgid "Please complete the ad details so that we can process your order."
+msgstr "Prosim dokončaj vnos prodrobnosti oglasa, da lahko obdelam naročilo."
+
+#: public/views/ad-setup-form.php:81
+msgid "This ad is currently in review."
+msgstr "Ta oglas je trenutno v pregledu."
+
+#: public/views/ad-setup-form.php:79
+msgid "The content of this ad was already accepted and can no longer be changed."
+msgstr "Vsebina tega oglasa je že bila sprejeta in se ne more več spremeniti."
+
+#: public/views/ad-setup-form.php:74
+msgid "Status"
+msgstr "Stanje"
+
+#: public/views/ad-setup-form.php:61
+msgid "Pricing option"
+msgstr "Možnosti cen"
+
+#. translators: %d is an item ID.
+#: public/views/ad-setup-form.php:56
+msgid "Item #%d"
+msgstr "Artikel #%d"
+
+#: public/views/ad-setup-form.php:31
+msgid "purchased by"
+msgstr "kupil"
+
+#. translators: %d is the number of items purchased.
+#: public/views/ad-setup-form.php:22
+msgid "%d item(s)"
+msgstr "%d artikel(i)"
+
+#. translators: %1$d is an order ID, %2$s a string with the number of items
+#. purchased.
+#: public/views/ad-setup-form.php:18
+msgid "Setup page for order #%1$d, %2$s"
+msgstr "Nastavitvena stran za naročilo #%1$d, %2$s"
+
+#: public/includes/order.php:258
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: public/includes/order.php:172
+msgid "Please enter a positive number of days."
+msgstr "Prosim vnesi pozitivno število dni."
+
+#: public/includes/ajax.php:34
+msgid "Invalid request."
+msgstr "Neveljavna zahteva."
+
+#: admin/views/setting-wc-fixes.php:4
+msgid "Remove product images"
+msgstr "Odstrani slike izdelkov"
+
+#: admin/views/setting-setup-page.php:21
+msgid "Choose the page on which you want to show the ad setup for the client after the purchase. Leave blank for the default layout."
+msgstr "Izberi stran, na kateri želiš stranki pokazati nastavitve oglasa po nakupu. pusti prazno za privzeto postavitev."
+
+#: admin/views/setting-setup-page.php:16
+msgid "(default)"
+msgstr "(privzeto)"
+
+#: admin/views/setting-sender-email.php:2
+msgid "Enter the email used as a sender of ad store specific emails. This works best if the email contains the store domain."
+msgstr "Vpiši e-pošto, ki bo uporabljena kot pošiljatelj e-poštnih sporočil trgovine z oglasi. To deluje najbolje, če e-pošta vsebuje domeno spletne trgovine."
+
+#: admin/views/setting-hide-ad-setup.php:3
+msgid "Hide the link to the public ad setup page from the client and don‘t send out emails about the ad setup process."
+msgstr "Skrij povezavo javne strani za namestitev oglasa in ne pošlji e-pošte z navodili o namestitvenem procesu oglasa."
+
+#: admin/views/setting-admin-email.php:2
+msgid "Enter the email used for communication about ads."
+msgstr "Vpiši e-pošto, ki bo uporabljena za komunikacijo o oglasih."
+
+#: admin/views/ad-store-widget.php:20
+msgid "No ad purchases to review"
+msgstr "Ni kupljenih oglasov za pregled"
+
+#: admin/views/ad-store-widget.php:11
+msgid "Pending ad purchases"
+msgstr "Čakajoči nakupi oglasov"
+
+#: admin/views/ad-store-widget.php:2
+msgid "New ad purchases"
+msgstr "Novi nakupi oglasov"
+
+#: admin/views/ad-order-meta-box.php:31
+msgid "Product"
+msgstr "Izdelek"
+
+#: admin/views/ad-order-meta-box.php:25
+msgid "Public Ad Setup URL"
+msgstr "Javni URL nastavitve oglasov"
+
+#. translators: %d is an order ID.
+#: admin/views/ad-order-meta-box.php:20
+msgid "Order #%d"
+msgstr "Naročilo #%d"
+
+#: admin/views/ad-order-data.php:3
+msgid "Setup URL"
+msgstr "URL namestitve"
+
+#. translators: %d: expiry days
+#: admin/includes/placements.php:89
+msgid "This ad is going to <strong>expire %d days</strong> after being published."
+msgstr "Ta oglas bo <strong>potekel %d dni</strong> po objavi."
+
+#. translators: %1$s: item title, %2$s: placement title
+#: admin/includes/placements.php:76
+msgid "When you press “Publish”, this ad will be added to the group <strong>%1$s</strong> in the <strong>%2$s</strong> placement."
+msgstr "Ko pritisneš \"Objavi\", bo ta oglas dodan v skupino <strong>%1$s</strong> v postavitvi <strong>%2$s</strong>."
+
+#. translators: %1$s: item title, %2$s: placement title
+#: admin/includes/placements.php:67
+msgid "When you press “Publish”, this ad will be swapped against the currently assigned ad (<strong>%1$s</strong>) in the <strong>%2$s</strong> placement."
+msgstr "Ko pritisneš \"Objavi\", bo ta oglas zamenjan s trenutno nastavljenim oglasom (<strong>%1$s</strong>) v postavitvi <strong>%2$s</strong>."
+
+#. translators: %s: placement title
+#: admin/includes/placements.php:59
+msgid "When you press “Publish”, this ad will be published in the <strong>%2$s</strong> placement."
+msgstr "Ko pritisneš \"Objavi\", bo ta oglas objavljen v postavitvi <strong>%2$s</strong>."
+
+#: admin/includes/order-page.php:111
+msgid "Ad Types"
+msgstr "Vrste oglasov"
+
+#: admin/includes/order-page.php:110 admin/views/ad-order-meta-box.php:39
+#: public/views/ad-setup-form.php:70
+msgid "Placement"
+msgstr "Postavitev"
+
+#: admin/includes/order-page.php:109 admin/views/ad-order-meta-box.php:45
+msgid "Sales Type"
+msgstr "Vrste prodaje"
+
+#: admin/includes/order-page.php:108 admin/views/ad-order-meta-box.php:57
+msgid "Pricing Label"
+msgstr "Oznaka cen"
+
+#: admin/includes/order-page.php:107 admin/views/ad-order-meta-box.php:51
+msgid "Pricing Value"
+msgstr "Vrednost cen"
+
+#: admin/includes/order-page.php:93
+msgid "Ad"
+msgstr "Oglas"
+
+#: admin/includes/order-page.php:43
+msgid "Ad Data"
+msgstr "Podatki oglasa"
+
+#: admin/includes/ad-product.php:129
+msgid "Available placements"
+msgstr "Postavitve, ki so na voljo"
+
+#: admin/includes/ad-product.php:120 admin/includes/ad-product.php:122
+msgid "define label, value and price separated by |, e.g. 100.000 impressions|100000|20.00"
+msgstr "definiraj oznako, vrednost in ceno, ločene z |, npr. 100.000 prikazov|100000|20.00"
+
+#: admin/includes/ad-product.php:119
+msgid "Price options"
+msgstr "Možnosti cen"
+
+#: admin/includes/ad-product.php:112
+msgid "Customer can buy per …"
+msgstr "Stranka lahko kupi na ..."
+
+#: admin/includes/ad-product.php:105 public/views/product-template.php:75
+msgid "Available ad types"
+msgstr "Vrste oglasov, ki so na voljo"
+
+#: admin/includes/ad-product.php:96
+msgctxt "ad type"
+msgid "image"
+msgstr "slika"
+
+#: admin/includes/ad-product.php:95
+msgctxt "ad type"
+msgid "html"
+msgstr "html"
+
+#: admin/includes/ad-product.php:74
+msgid "Ad Options"
+msgstr "Možnosti oglasov"
+
+#: admin/includes/ad-order-meta-box.php:38
+msgid "Order Data"
+msgstr "Podatki naročila"
+
+#: public/includes/ajax.php:58 public/public.php:493
+msgid "Error when submitting the ad. Please contact the site admin."
+msgstr "Napaka pri pošiljanju oglasa. Prosim kontaktiraj administratorja strani."
+
+#: public/includes/ajax.php:43 public/public.php:478
+msgid "Ad content missing."
+msgstr "Vsebina oglasa manjka."
+
+#. translators: %s is a file size with one decimal
+#: public/public.php:428
+msgid "The allowed file size is %s MB"
+msgstr "Dovoljena velikost datoteke je %s MB"
+
+#: public/public.php:421
+msgid "Extension not allowed, please choose a JPEG, PNG or GIF file."
+msgstr "Ta končnica ni dovoljena. Prosim izberi datoteke JPEG, PNG ali GIF."
+
+#. translators: %s is the link to the ad setup page.
+#: public/public.php:315
+msgid "You can manage the content of your ads on the <a href=\"%s\">ad setup page</a>."
+msgstr "Vsebino svojih oglasov lahko upravljaš na <a href=\"%s\">strani namestitve oglasov</a>."
+
+#: classes/plugin.php:124
+msgid "Advanced Ad"
+msgstr "Advanced Ad"
+
+#: classes/plugin.php:80
+msgctxt "sales type"
+msgid "clicks"
+msgstr "kliki"
+
+#: classes/plugin.php:79
+msgctxt "sales type"
+msgid "impressions"
+msgstr "prikazi"
+
+#: classes/plugin.php:74
+msgctxt "sales type"
+msgid "days"
+msgstr "dni"
+
+#: classes/plugin.php:73
+msgctxt "sales type"
+msgid "flat price"
+msgstr "fiksna cena"
+
+#. translators: %d is the order ID
+#: classes/notifications.php:204
+msgid "An ad for order #%d was published."
+msgstr "Oglas naročila #%d je bil objavljen."
+
+#. translators: %d is the order ID
+#: classes/notifications.php:202
+msgid "An ad for order #%d was published"
+msgstr "Oglas naročila #%d je bil objavljen"
+
+#. translators: 1: %d is the ad ID, 2: %d is the order ID
+#: classes/notifications.php:156
+msgid "The ad content for ad #%1$d (order #%2$d) was rejected by the ad manager."
+msgstr "Vsebino oglasa #%1$d (naročilo #%2$d) je zavrnil skrbnik oglasov."
+
+#. translators: %d is the order ID
+#: classes/notifications.php:154
+msgid "Ad for order #%d was rejected"
+msgstr "Oglas naročila #%d je bil zavrnjen"
+
+#: classes/notifications.php:111
+msgid "PS: If you want to contact the client directly, just reply to this email."
+msgstr "P. S. Če želiš direktno kontaktirati stranko, preprosto odgovori na to e-pošto."
+
+#. translators: 1: %d is the ad ID, 2: %d is the order ID
+#: classes/notifications.php:107
+msgid "The ad content for ad #%1$d (order #%2$d) was submitted by the client. You can review it now using the following link."
+msgstr "Stranka je oddala vsebino oglasa za oglas #%1$d (naročilo #%2$d). Zdaj ga lahko pregledaš preko naslednje povezave."
+
+#. translators: %d is the ad ID
+#: classes/notifications.php:104
+msgid "Ad #%d needs approval"
+msgstr "Oglas #%d potrebuje potrditev"
+
+#: classes/notifications.php:61 classes/notifications.php:159
+#: classes/notifications.php:207
+msgid "PS: If you want to contact the ad manager directly, just reply to this email."
+msgstr "P. S. Če želiš kontaktirati skrbnika oglasov, preprosto odgovori na to e-pošto."
+
+#. translators: %s is the site URL
+#: classes/notifications.php:60 classes/notifications.php:110
+#: classes/notifications.php:158 classes/notifications.php:206
+msgid ""
+"Sincerely,\n"
+"Your ad team\n"
+"%s"
+msgstr ""
+"Lep pozdrav,↵\n"
+"Vaša ekipa oglasov↵\n"
+"%s"
+
+#: classes/notifications.php:57
+msgid "Thank you for your order. You can already upload the content of your ads following the link below."
+msgstr "Hvala za naročilo. Vsebino svojih oglasov že lahko naložiš preko spodnje povezave."
+
+#. translators: %d is the order ID
+#: classes/notifications.php:56
+msgid "Edit your ads for order #%d"
+msgstr "Uredi svoje oglase za naročilo #%d"
+
+#: admin/admin.php:214
+msgid "Hide ad setup"
+msgstr "Skrij namestitev oglasa"
+
+#: admin/admin.php:210
+msgid "Setup page"
+msgstr "Stran namestitve"
+
+#: admin/admin.php:206
+msgid "Store sender email"
+msgstr "Hrani pošiljateljev email"
+
+#: admin/admin.php:202
+msgid "Store admin email"
+msgstr "Hrani administratorjev email"
+
+#: admin/admin.php:197
+msgid "Ad Store"
+msgstr "Trgovina oglasov"
+
+#: admin/admin.php:146
+msgid "<em>Advanced Ads – Selling Ads</em> requires the free <strong>WooCommerce</strong> to be installed and activated on your site."
+msgstr "<em>Advanced Ads – Selling Ads</em> potrebuje, da je brezplačni vtičnik <strong>WooCommerce</strong> nameščen in aktiviran na tvoji strani."
+
+#: admin/admin.php:128
+msgid "<em>Advanced Ads – Selling Ads</em> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "<em>Advanced Ads – Selling Ads</em> zahteva, da je vtičnik <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong>  nameščen in aktiviran na tvoji strani."
+
+#: admin/admin.php:124 admin/admin.php:142
+msgid "Install Now"
+msgstr "Namesti zdaj"
+
+#: admin/admin.php:122 admin/admin.php:140
+msgid "Activate Now"
+msgstr "Aktiviraj zdaj"

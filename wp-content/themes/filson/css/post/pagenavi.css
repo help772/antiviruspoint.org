@@ -1,0 +1,46 @@
+
+.hw-pagenavi,.hw-post-pagination{
+	float: left;
+	margin: calc(var(--hw-gp,0px) / 2) 0px;
+	width: calc(100% - var(--hw-gp));
+	text-align:center;
+}
+.hw-pagenavi a,.hw-pagenavi span,.hw-post-pagination a,.hw-post-pagination span,.dokan-pagination-container .dokan-pagination li a {
+	border-radius: 0px;
+	display: inline-block;
+	border-width: 1px;
+	border-style: solid;
+	background: var(--hw-post-bg,transparent);
+	padding: 5px 10px!important;
+	float: none;
+	margin: 2px!important;
+	font-size: 12px;
+	color:var(--hw-post-tl-lk)!important;
+	border-color: var(--hw-post-sd)!important;
+	border-radius: var(--hw-btn-rd,0px);
+	color: inherit;
+	font-weight:var(--hw-more-fn-wt,500);
+	text-transform:var(--hw-more-fn-tr,none);
+	line-height: 18px;
+	width: auto!important;
+	cursor: pointer
+}
+.hw-post-pagination .current-post-page,.hw-post-pagination a:hover,.hw-pagenavi span.current,.hw-pagenavi a:hover,.hw-load-more a:not(.hw-loading):hover,.dokan-pagination-container .dokan-pagination li.active a,.dokan-pagination-container .dokan-pagination li a:hover {
+	border-color: transparent !important;
+	background: var(--hw-primary-bg)!important;
+	color: var(--hw-primary-txt) !important;
+}
+.woocommerce-pagination .next.page-numbers ,.woocommerce-pagination .prev.page-numbers{
+	font-size:0px;
+	vertical-align: top;
+}
+.woocommerce-pagination .next.page-numbers::before {
+	content:">";
+	vertical-align: top;
+	font-size:12px;
+}
+.woocommerce-pagination .prev.page-numbers::before{
+	content:"<";
+	vertical-align: top;
+	font-size:12px;
+}

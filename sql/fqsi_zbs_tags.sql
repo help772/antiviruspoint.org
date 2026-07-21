@@ -1,0 +1,40 @@
+/*M!999999\- enable the sandbox mode */ 
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8mb4 */;
+CREATE TABLE `fqsi_zbs_tags` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `zbs_site` int(11) DEFAULT NULL,
+  `zbs_team` int(11) DEFAULT NULL,
+  `zbs_owner` int(11) NOT NULL,
+  `zbstag_objtype` int(11) NOT NULL,
+  `zbstag_name` varchar(200) NOT NULL,
+  `zbstag_slug` varchar(200) NOT NULL,
+  `zbstag_created` int(14) NOT NULL,
+  `zbstag_lastupdated` int(14) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (1,1,1,-1,1,'Product: Norton 360 Standard - 1-Year / 1-Device - USA/Canada','productnorton360standard-1-year1-device-usacanada',1757010379,1757010379);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (2,1,1,-1,1,'Product: McAfee Total Protection - 1-Year / 3-Devices - USA/Canada','productmcafeetotalprotection-1-year3-devices-usacanada',1757010379,1757010379);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (3,1,1,-1,5,'Product: Norton 360 Standard - 1-Year / 1-Device - USA/Canada','productnorton360standard-1-year1-device-usacanada',1757010379,1757010379);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (4,1,1,-1,5,'Product: McAfee Total Protection - 1-Year / 3-Devices - USA/Canada','productmcafeetotalprotection-1-year3-devices-usacanada',1757010379,1757010379);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (5,1,1,-1,1,'Product: McAfee Total Protection - 1-Year / 5-Devices - USA/Canada','productmcafeetotalprotection-1-year5-devices-usacanada',1757010380,1757010380);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (6,1,1,-1,5,'Product: McAfee Total Protection - 1-Year / 5-Devices - USA/Canada','productmcafeetotalprotection-1-year5-devices-usacanada',1757010380,1757010380);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (7,1,1,-1,1,'Product: this is the product for test','productthisistheproductfortest',1757010380,1757010380);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (8,1,1,-1,5,'Product: this is the product for test','productthisistheproductfortest',1757010380,1757010380);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (9,1,1,-1,1,'Product: Watchdog Anti-Virus - 1-Year / 3-PC','productwatchdoganti-virus-1-year3-pc',1757010381,1757010381);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (10,1,1,-1,5,'Product: Watchdog Anti-Virus - 1-Year / 3-PC','productwatchdoganti-virus-1-year3-pc',1757010381,1757010381);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (11,1,1,-1,1,'Product: Malwarebytes Premium - 1-Year / 10-Device','productmalwarebytespremium-1-year10-device',1757010381,1757010381);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (12,1,1,-1,5,'Product: Malwarebytes Premium - 1-Year / 10-Device','productmalwarebytespremium-1-year10-device',1757010381,1757010381);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (13,1,1,-1,1,'Product: McAfee Internet Security - 1-Year / 3-Device','productmcafeeinternetsecurity-1-year3-device',1757010381,1757010381);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (14,1,1,-1,5,'Product: McAfee Internet Security - 1-Year / 3-Device','productmcafeeinternetsecurity-1-year3-device',1757010381,1757010381);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (15,1,1,-1,1,'Product: Watchdog Anti-Malware - 3-Year / 1-PC','productwatchdoganti-malware-3-year1-pc',1757010382,1757010382);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (16,1,1,-1,5,'Product: Watchdog Anti-Malware - 3-Year / 1-PC','productwatchdoganti-malware-3-year1-pc',1757010382,1757010382);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (17,1,1,-1,1,'Product: Norton 360 Deluxe - 1-Year / 5-Device - UK/Europe','productnorton360deluxe-1-year5-device-ukeurope',1757010382,1757010382);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (18,1,1,-1,5,'Product: Norton 360 Deluxe - 1-Year / 5-Device - UK/Europe','productnorton360deluxe-1-year5-device-ukeurope',1757010382,1757010382);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (19,1,1,-1,1,'Product: Norton 360 Deluxe - 1-Year / 3-Device - UK/Europe','productnorton360deluxe-1-year3-device-ukeurope',1757010384,1757010384);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (20,1,1,-1,5,'Product: Norton 360 Deluxe - 1-Year / 3-Device - UK/Europe','productnorton360deluxe-1-year3-device-ukeurope',1757010384,1757010384);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (21,1,1,-1,1,'Product: McAfee Total Protection - 1-Year / 10-Devices - Europe/UK','productmcafeetotalprotection-1-year10-devices-europeuk',1757010385,1757010385);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (22,1,1,-1,5,'Product: McAfee Total Protection - 1-Year / 10-Devices - Europe/UK','productmcafeetotalprotection-1-year10-devices-europeuk',1757010385,1757010385);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (23,1,1,-1,1,'Product: Malwarebytes Premium - 1-Year / 1-Device','productmalwarebytespremium-1-year1-device',1757010386,1757010386);
+INSERT INTO `fqsi_zbs_tags` (`ID`, `zbs_site`, `zbs_team`, `zbs_owner`, `zbstag_objtype`, `zbstag_name`, `zbstag_slug`, `zbstag_created`, `zbstag_lastupdated`) VALUES (24,1,1,-1,5,'Product: Malwarebytes Premium - 1-Year / 1-Device','productmalwarebytespremium-1-year1-device',1757010386,1757010386);

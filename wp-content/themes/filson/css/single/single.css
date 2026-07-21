@@ -1,0 +1,85 @@
+
+.hw-el-single{
+	--hw-el-pd:var(--hw-default-pd);
+}
+.hw-single-boxed{
+	padding: var(--hw-pd);
+	background: var(--hw-post-bg,rgb(255, 255, 255));
+	border-radius: var(--hw-main-rd,0px);
+	box-shadow: var(--hw-box-layout-sd);
+}
+.hw-el-single.hw-single-boxed{
+	padding:calc(var(--hw-pd) / 1.5) var(--hw-pd) var(--hw-pd)
+}
+.hw-single-details {
+	float: left;
+	width: var(--hw-col,100%);
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom:solid 1px var(--hw-main-br-cr);
+}
+.hw-single-thumb {
+	width: 100% ;
+	min-height: inherit ;
+	height: auto ;
+	float: left;
+	margin-bottom:20px;
+	text-align: center;
+}
+.hw-single-thumb img{
+	vertical-align: top;
+	max-width: 100%;
+	float: none;
+	height: auto;
+}
+.hw-single-template-1 .hw-el-single .hw-single-details {
+	width:60%;
+}
+.hw-single-template-1 .hw-el-single .hw-single-thumb,.hw-single-template-2 .hw-el-single .hw-single-thumb{
+	width:40% ;
+	margin-bottom:0px !important;
+	float:right;
+	padding-bottom:var(--hw-pd);
+	padding-left: var(--hw-pd);
+}
+.hw-single-template-1 .hw-el-single .hw-single-content,.hw-single-template-2 .hw-el-single .hw-single-content {
+	float:none;
+	width:auto;
+}
+/************************ Singe Share *************/
+.hw-el-single .hw-el-share-single {
+	margin-top:var(--hw-mg-tp) !important;
+	--hw-scl-sz: calc(var(--hw-fn-md) * 1.75);
+	--hw-ag:left;
+}
+.hw-el-single .hw-el-share-single .hw-social-icon-style-1 > a{
+	--hw-scl-sz: calc(var(--hw-fn-md) * 1.5);
+}
+ 
+.hw-el-related{
+	--hw-el-pd:var(--hw-default-pd);
+}
+.hw-el-line{
+	--hw-el-pd:var(--hw-default-pd);
+	border-bottom: solid 1px var(--hw-main-br-cr);
+}
+.hw-el-portfolio-gallery{
+	padding-bottom:20px;
+	text-align:center;
+ }
+.hw-el-portfolio-gallery:not(.hw-slider) .hw-slider-list-warp{
+		float:none;
+		display:inline-block;
+}
+.post-edit-link{
+	width:100%;
+	float:left;
+}
+@media (max-width:767px) {
+	.hw-single-template-1 .hw-el-single .hw-single-thumb,.hw-single-template-2 .hw-el-single .hw-single-thumb,.hw-single-template-1 .hw-el-single .hw-single-details{
+		width:100% ;
+		float:left;
+		padding-bottom:var(--hw-pd);
+		padding-left: 0;
+	}
+}

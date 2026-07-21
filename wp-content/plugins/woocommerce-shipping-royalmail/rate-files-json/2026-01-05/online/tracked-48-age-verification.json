@@ -1,0 +1,46 @@
+{
+  "service": "tracked-48-age-verification",
+  "taxed": true,
+  "packages": {
+    "small-parcel": {
+      "2000": 643
+    },
+    "medium-parcel": {
+      "2000": 823,
+      "10000": 993,
+      "20000": 1418
+    },
+    "tube": {
+      "2000": 823,
+      "10000": 993,
+      "20000": 1418
+    }
+  },
+  "boxes": {
+    "small-parcel": {
+      "length": 450,
+      "width": 350,
+      "height": 160,
+      "weight": 2000
+    },
+    "medium-parcel": {
+      "length": 610,
+      "width": 460,
+      "height": 460,
+      "weight": 20000
+    },
+    "tube": {
+      "length": 900,
+      "width": 70,
+      "height": 70,
+      "weight": 2000
+    }
+  },
+  "addons": {
+    "compensation": {
+      "included": 7500,
+      "max": 7500
+    },
+    "age_verification": true
+  }
+}

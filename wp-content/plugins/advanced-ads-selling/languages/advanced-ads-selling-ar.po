@@ -1,0 +1,487 @@
+# Translation of Selling Ads in Arabic
+# This file is distributed under the same license as the Selling Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-08 11:06:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ar\n"
+"Project-Id-Version: Selling Ads\n"
+
+#. translators: 1: is a link to a support document. 2: closing link
+#: includes/class-autoloader.php:113
+msgid "Your installation of Advanced Ads is incomplete. If you installed Advanced Ads from GitHub, %1$s please refer to this document%2$s to set up your development environment."
+msgstr "تثبيت Advanced Ads لديك غير مكتمل. إذا قمت بتثبيت Advanced Ads من GitHub، %1$s يُرجى الرجوع إلى هذا المستند%2$s لإعداد بيئة التطوير الخاصة بك."
+
+#. translators: %s: WP_ENVIRONMENT_TYPES
+#: includes/class-autoloader.php:157
+msgid "The %s constant is no longer supported."
+msgstr "الثابت %s لم يعد مدعومًا."
+
+#: admin/admin.php:299
+msgid "No static pages found."
+msgstr "لم يتم العثور على صفحات ثابتة."
+
+#. Plugin URI of the plugin
+#: advanced-ads-selling.php
+msgid "https://wpadvancedads.com/add-ons/selling-ads/"
+msgstr "https://wpadvancedads.com/add-ons/selling-ads/"
+
+#: admin/views/setting-setup-page.php:25
+msgid "The default setup page does not work with the default plain permalink setting."
+msgstr "صفحة الإعداد الافتراضية لا تعمل مع إعداد الروابط الثابتة البسيطة الافتراضي."
+
+#: public/views/woocommerce/myaccount/ads.php:22
+msgid "Statistics"
+msgstr "إحصائيات"
+
+#: public/views/woocommerce/myaccount/ads.php:53
+msgid "Link"
+msgstr "رابط"
+
+#. Author of the plugin
+#: advanced-ads-selling.php
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: public/views/woocommerce/myaccount/ads.php:28
+msgid "No orders found"
+msgstr "لم يتم العثور على أية طلبات"
+
+#: public/views/woocommerce/myaccount/ads.php:17
+msgid "Ad Title - Product Name"
+msgstr "عنوان الإعلان - اسم المنتج"
+
+#: admin/views/setting-ads-page.php:4
+msgid "The page contains links to the public stats pages of ads when the Advanced Ads Tracking add-on is enabled."
+msgstr "تحتوي الصفحة على روابط لصفحات الإحصائيات العامة للإعلانات عند تمكين الوظيفة الإضافية لتتبع الإعلانات المتقدمة."
+
+#: admin/views/setting-ads-page.php:3
+msgid "Show an ”Ads” link in the customer account in the frontend with a list of purchased ads and additional information."
+msgstr "اعرض رابط \"الإعلانات\" في حساب العميل في الواجهة الأمامية مع قائمة بالإعلانات المشتراة ومعلومات إضافية."
+
+#: public/public.php:212
+msgid "The ad setup form is only visible through the link in the purchase confirmation email or account."
+msgstr "يظهر نموذج إعداد الإعلان فقط من خلال الرابط الموجود في البريد الإلكتروني أو الحساب الخاص بتأكيد الشراء."
+
+#: admin/admin.php:224
+msgid "List ads in the customer account"
+msgstr "قائمة الإعلانات في حساب العميل"
+
+#: classes/public-ads-page-endpoint.php:109
+#: classes/public-ads-page-endpoint.php:130
+msgid "Ads"
+msgstr "إعلانات"
+
+#: public/includes/order.php:99
+msgid "Price option"
+msgstr "خيار السعر"
+
+#: admin/admin.php:218
+msgid "WooCommerce adjustments"
+msgstr "تعديلات WooCommerce"
+
+#: admin/views/setting-wc-fixes.php:3
+msgid "Applies the following changes to WooCommerce. Especially useful, when you don’t use WooCommerce for anything else than ads."
+msgstr "يطبق التغييرات التالية على WooCommerce. مفيد بشكل خاص ، عندما لا تستخدم WooCommerce لأي شيء آخر غير الإعلانات."
+
+#. Author URI of the plugin
+#: advanced-ads-selling.php
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. Description of the plugin
+#: advanced-ads-selling.php
+msgid "Let users purchase ads directly in the frontend of your site."
+msgstr "اسمح للمستخدمين بشراء الإعلانات مباشرة في الواجهة الأمامية لموقعك."
+
+#. Plugin Name of the plugin
+#: advanced-ads-selling.php
+msgid "Advanced Ads – Selling Ads"
+msgstr "الإعلانات المتقدمة - بيع الإعلانات"
+
+#: public/views/product-template.php:85
+msgid "You will be able to submit the ad content after the purchase."
+msgstr "ستتمكن من إرسال محتوى الإعلان بعد الشراء."
+
+#: public/views/product-template.php:49
+msgid "Select a placement"
+msgstr "حدد موضعًا"
+
+#: public/views/ad-setup-page.php:8
+msgid "Ad Setup"
+msgstr "إعداد الإعلان"
+
+#: public/views/ad-setup-form.php:166
+msgid "The ad was successfully submitted for review."
+msgstr "تم إرسال الإعلان للمراجعة بنجاح."
+
+#: public/views/ad-setup-form.php:163
+msgid "The ad could not be submitted. Please try later or contact the site admin."
+msgstr "لا يمكن تقديم الإعلان. يرجى المحاولة لاحقًا أو الاتصال بمسؤول الموقع."
+
+#: public/views/ad-setup-form.php:160
+msgid "submit this ad"
+msgstr "إرسال هذا الإعلان"
+
+#: public/views/ad-setup-form.php:151
+msgid "Target URL"
+msgstr "الرابط"
+
+#. translators: %s is the max file size in MB
+#: public/views/ad-setup-form.php:144
+msgid "Max File Size : %s MB"
+msgstr "الحجم الأقصى للملف: %s ميغا بايت"
+
+#: public/views/ad-setup-form.php:136
+msgid "Image Upload"
+msgstr "رفع الصور"
+
+#: public/views/ad-setup-form.php:128
+msgid "Please enter the ad code. HTML, JavaScript, CSS and plain text are allowed."
+msgstr "الرجاء إدخال رمز الإعلان. يُسمح بتنسيق HTML و JavaScript و CSS والنص العادي."
+
+#: public/views/ad-setup-form.php:123
+msgid "Ad Code"
+msgstr "كود الإعلان"
+
+#: public/views/ad-setup-form.php:99
+msgid "Ad Type"
+msgstr "نوع الإعلان"
+
+#: public/views/ad-setup-form.php:83
+msgid "Please complete the ad details so that we can process your order."
+msgstr "يرجى استكمال تفاصيل الإعلان حتى نتمكن من معالجة طلبك."
+
+#: public/views/ad-setup-form.php:81
+msgid "This ad is currently in review."
+msgstr "هذا الإعلان قيد المراجعة حاليًا."
+
+#: public/views/ad-setup-form.php:79
+msgid "The content of this ad was already accepted and can no longer be changed."
+msgstr "تم قبول محتوى هذا الإعلان بالفعل ولا يمكن تغييره بعد الآن."
+
+#: public/views/ad-setup-form.php:74
+msgid "Status"
+msgstr "الحالة"
+
+#: public/views/ad-setup-form.php:61
+msgid "Pricing option"
+msgstr "خيار التسعير"
+
+#. translators: %d is an item ID.
+#: public/views/ad-setup-form.php:56
+msgid "Item #%d"
+msgstr "العنصر #%d"
+
+#: public/views/ad-setup-form.php:31
+msgid "purchased by"
+msgstr "تم الشراء بواسطة"
+
+#. translators: %d is the number of items purchased.
+#: public/views/ad-setup-form.php:22
+msgid "%d item(s)"
+msgstr "%d عنصر (عناصر)"
+
+#. translators: %1$d is an order ID, %2$s a string with the number of items
+#. purchased.
+#: public/views/ad-setup-form.php:18
+msgid "Setup page for order #%1$d, %2$s"
+msgstr "صفحة الإعداد للطلب رقم #%1$d, %2$s"
+
+#: public/includes/order.php:258
+msgid "Details"
+msgstr "تفاصيل"
+
+#: public/includes/order.php:172
+msgid "Please enter a positive number of days."
+msgstr "الرجاء إدخال عدد موجب من الأيام."
+
+#: public/includes/ajax.php:34
+msgid "Invalid request."
+msgstr "طلب غير صالح."
+
+#: admin/views/setting-wc-fixes.php:4
+msgid "Remove product images"
+msgstr "إزالة صور المنتج"
+
+#: admin/views/setting-setup-page.php:21
+msgid "Choose the page on which you want to show the ad setup for the client after the purchase. Leave blank for the default layout."
+msgstr "اختر الصفحة التي تريد أن يظهر عليها إعداد الإعلان للعميل بعد الشراء. اتركه فارغًا للتخطيط الافتراضي."
+
+#: admin/views/setting-setup-page.php:16
+msgid "(default)"
+msgstr "(إفتراضي)"
+
+#: admin/views/setting-sender-email.php:2
+msgid "Enter the email used as a sender of ad store specific emails. This works best if the email contains the store domain."
+msgstr "أدخل البريد الإلكتروني المستخدم كمرسل لرسائل البريد الإلكتروني الخاصة بمتجر الإعلانات. يعمل هذا بشكل أفضل إذا كان البريد الإلكتروني يحتوي على مجال المتجر."
+
+#: admin/views/setting-hide-ad-setup.php:3
+msgid "Hide the link to the public ad setup page from the client and don‘t send out emails about the ad setup process."
+msgstr "إخفاء الرابط إلى صفحة إعداد الإعلان العامة من العميل ولا ترسل رسائل بريد إلكتروني حول عملية إعداد الإعلان."
+
+#: admin/views/setting-admin-email.php:2
+msgid "Enter the email used for communication about ads."
+msgstr "أدخل البريد الإلكتروني المستخدم للتواصل حول الإعلانات."
+
+#: admin/views/ad-store-widget.php:20
+msgid "No ad purchases to review"
+msgstr "لا توجد مشتريات إعلانات جديدة للمراجعة"
+
+#: admin/views/ad-store-widget.php:11
+msgid "Pending ad purchases"
+msgstr "مشتريات الإعلانات المعلقة"
+
+#: admin/views/ad-store-widget.php:2
+msgid "New ad purchases"
+msgstr "مشتريات الجديدة للإعلانات"
+
+#: admin/views/ad-order-meta-box.php:31
+msgid "Product"
+msgstr "المنتج"
+
+#: admin/views/ad-order-meta-box.php:25
+msgid "Public Ad Setup URL"
+msgstr "عنوان URL لإعداد الإعلان العام"
+
+#. translators: %d is an order ID.
+#: admin/views/ad-order-meta-box.php:20
+msgid "Order #%d"
+msgstr "الطلب #%d"
+
+#: admin/views/ad-order-data.php:3
+msgid "Setup URL"
+msgstr "رابط الإعداد"
+
+#. translators: %d: expiry days
+#: admin/includes/placements.php:89
+msgid "This ad is going to <strong>expire %d days</strong> after being published."
+msgstr "هذا الإعلان <strong> ستنتهي صلاحيته %d أيام/يوما </strong> بعد نشره."
+
+#. translators: %1$s: item title, %2$s: placement title
+#: admin/includes/placements.php:76
+msgid "When you press “Publish”, this ad will be added to the group <strong>%1$s</strong> in the <strong>%2$s</strong> placement."
+msgstr "عند الضغط على \"نشر\" ، ستتم إضافة هذا الإعلان إلى المجموعة <strong>%1$s </strong> في الموضع <strong>%2$s </strong>."
+
+#. translators: %1$s: item title, %2$s: placement title
+#: admin/includes/placements.php:67
+msgid "When you press “Publish”, this ad will be swapped against the currently assigned ad (<strong>%1$s</strong>) in the <strong>%2$s</strong> placement."
+msgstr "عند الضغط على \"نشر\"، سيتم استبدال هذا الإعلان بالإعلان المعين حاليًا (<strong>%1$s</strong>) في موضع <strong>%2$s</strong>."
+
+#. translators: %s: placement title
+#: admin/includes/placements.php:59
+msgid "When you press “Publish”, this ad will be published in the <strong>%2$s</strong> placement."
+msgstr "عند الضغط على \"نشر\" ، سيتم نشر هذا الإعلان في الموضع <strong>%2$s </strong>."
+
+#: admin/includes/order-page.php:111
+msgid "Ad Types"
+msgstr "أنواع الإعلانات"
+
+#: admin/includes/order-page.php:110 admin/views/ad-order-meta-box.php:39
+#: public/views/ad-setup-form.php:70
+msgid "Placement"
+msgstr "الموضع"
+
+#: admin/includes/order-page.php:109 admin/views/ad-order-meta-box.php:45
+msgid "Sales Type"
+msgstr "نوع المبيعات"
+
+#: admin/includes/order-page.php:108 admin/views/ad-order-meta-box.php:57
+msgid "Pricing Label"
+msgstr "تسمية التسعير"
+
+#: admin/includes/order-page.php:107 admin/views/ad-order-meta-box.php:51
+msgid "Pricing Value"
+msgstr "قيمة التسعير"
+
+#: admin/includes/order-page.php:93
+msgid "Ad"
+msgstr "إعلان"
+
+#: admin/includes/order-page.php:43
+msgid "Ad Data"
+msgstr "بيانات الإعلان"
+
+#: admin/includes/ad-product.php:129
+msgid "Available placements"
+msgstr "المواضع المتاحة"
+
+#: admin/includes/ad-product.php:120 admin/includes/ad-product.php:122
+msgid "define label, value and price separated by |, e.g. 100.000 impressions|100000|20.00"
+msgstr "تحديد التصنيف والقيمة والسعر مفصولاً بعلامة | ، على سبيل المثال 100.000 انطباع | 100000 | 20.00"
+
+#: admin/includes/ad-product.php:119
+msgid "Price options"
+msgstr "خيارات السعر"
+
+#: admin/includes/ad-product.php:112
+msgid "Customer can buy per …"
+msgstr "يمكن للعميل الشراء ب ..."
+
+#: admin/includes/ad-product.php:105 public/views/product-template.php:75
+msgid "Available ad types"
+msgstr "أنواع الإعلانات المتاحة"
+
+#: admin/includes/ad-product.php:96
+msgctxt "ad type"
+msgid "image"
+msgstr "صورة"
+
+#: admin/includes/ad-product.php:95
+msgctxt "ad type"
+msgid "html"
+msgstr "html"
+
+#: admin/includes/ad-product.php:74
+msgid "Ad Options"
+msgstr "خيارات الإعلان"
+
+#: admin/includes/ad-order-meta-box.php:38
+msgid "Order Data"
+msgstr "بيانات الطلبيات"
+
+#: public/includes/ajax.php:58 public/public.php:493
+msgid "Error when submitting the ad. Please contact the site admin."
+msgstr "خطأ عند إرسال الإعلان. يرجى الاتصال بمسؤول الموقع."
+
+#: public/includes/ajax.php:43 public/public.php:478
+msgid "Ad content missing."
+msgstr "محتوى الإعلان مفقود."
+
+#. translators: %s is a file size with one decimal
+#: public/public.php:428
+msgid "The allowed file size is %s MB"
+msgstr "حجم الملف المسموح به هو %s ميغا بايت"
+
+#: public/public.php:421
+msgid "Extension not allowed, please choose a JPEG, PNG or GIF file."
+msgstr "الامتداد غير مسموح به ، يرجى اختيار ملف JPEG أو PNG أو GIF."
+
+#. translators: %s is the link to the ad setup page.
+#: public/public.php:315
+msgid "You can manage the content of your ads on the <a href=\"%s\">ad setup page</a>."
+msgstr "يمكنك إدارة محتوى إعلاناتك على <a href=\"%s\"> صفحة إعداد الإعلان </a>."
+
+#: classes/plugin.php:124
+msgid "Advanced Ad"
+msgstr "الإعلانات المتقدمة"
+
+#: classes/plugin.php:80
+msgctxt "sales type"
+msgid "clicks"
+msgstr "عدد النقرات"
+
+#: classes/plugin.php:79
+msgctxt "sales type"
+msgid "impressions"
+msgstr "مرات ظهور الإعلان"
+
+#: classes/plugin.php:74
+msgctxt "sales type"
+msgid "days"
+msgstr "الأيام"
+
+#: classes/plugin.php:73
+msgctxt "sales type"
+msgid "flat price"
+msgstr "سعر ثابت"
+
+#. translators: %d is the order ID
+#: classes/notifications.php:204
+msgid "An ad for order #%d was published."
+msgstr "تم نشر إعلان للطلب #%d"
+
+#. translators: %d is the order ID
+#: classes/notifications.php:202
+msgid "An ad for order #%d was published"
+msgstr "تم نشر إعلان للطلب #%d"
+
+#. translators: 1: %d is the ad ID, 2: %d is the order ID
+#: classes/notifications.php:156
+msgid "The ad content for ad #%1$d (order #%2$d) was rejected by the ad manager."
+msgstr "تم رفض محتوى الإعلان للإعلان رقم #%1$d (الطلب رقم #%2$d) من قبل مدير الإعلانات."
+
+#. translators: %d is the order ID
+#: classes/notifications.php:154
+msgid "Ad for order #%d was rejected"
+msgstr "تم رفض الإعلان للطلب #%d"
+
+#: classes/notifications.php:111
+msgid "PS: If you want to contact the client directly, just reply to this email."
+msgstr "ملاحظة: إذا كنت تريد الاتصال بالعميل مباشرة ، فما عليك سوى الرد على هذا البريد الإلكتروني."
+
+#. translators: 1: %d is the ad ID, 2: %d is the order ID
+#: classes/notifications.php:107
+msgid "The ad content for ad #%1$d (order #%2$d) was submitted by the client. You can review it now using the following link."
+msgstr "تم تقديم محتوى الإعلان رقم #%1$d (الطلب رقم #%2$d) من قبل العميل. يمكنك مراجعته الآن باستخدام الرابط التالي."
+
+#. translators: %d is the ad ID
+#: classes/notifications.php:104
+msgid "Ad #%d needs approval"
+msgstr "الإعلان #%d يحتاج إلى موافقة"
+
+#: classes/notifications.php:61 classes/notifications.php:159
+#: classes/notifications.php:207
+msgid "PS: If you want to contact the ad manager directly, just reply to this email."
+msgstr "ملاحظة: إذا كنت تريد الاتصال بمدير الإعلانات مباشرةً ، فما عليك سوى الرد على هذا البريد الإلكتروني."
+
+#. translators: %s is the site URL
+#: classes/notifications.php:60 classes/notifications.php:110
+#: classes/notifications.php:158 classes/notifications.php:206
+msgid ""
+"Sincerely,\n"
+"Your ad team\n"
+"%s"
+msgstr ""
+"بإخلاص،\n"
+"فريقك الإعلاني\n"
+"%s"
+
+#: classes/notifications.php:57
+msgid "Thank you for your order. You can already upload the content of your ads following the link below."
+msgstr "شكرا لطلبك. يمكنك بالفعل تحميل محتوى إعلاناتك باتباع الرابط أدناه."
+
+#. translators: %d is the order ID
+#: classes/notifications.php:56
+msgid "Edit your ads for order #%d"
+msgstr "قم بتحرير إعلاناتك للطلب #%d"
+
+#: admin/admin.php:214
+msgid "Hide ad setup"
+msgstr "إخفاء إعداد الإعلان"
+
+#: admin/admin.php:210
+msgid "Setup page"
+msgstr "صفحة الإعداد"
+
+#: admin/admin.php:206
+msgid "Store sender email"
+msgstr "تخزين البريد الإلكتروني للمرسل"
+
+#: admin/admin.php:202
+msgid "Store admin email"
+msgstr "تخزين البريد الإلكتروني للمسؤول"
+
+#: admin/admin.php:197
+msgid "Ad Store"
+msgstr "متجر الإعلانات"
+
+#: admin/admin.php:146
+msgid "<em>Advanced Ads – Selling Ads</em> requires the free <strong>WooCommerce</strong> to be installed and activated on your site."
+msgstr "<em>الإعلانات المتقدمة - بيع الإعلانات</em> يتطلب تثبيت <strong> </strong> WooCommerce المجاني وتنشيطه على موقعك."
+
+#: admin/admin.php:128
+msgid "<em>Advanced Ads – Selling Ads</em> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "<em> الإعلانات المتقدمة - بيع الإعلانات </em> يتطلب تثبيت وتفعيل المكون الإضافي <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> على موقعك."
+
+#: admin/admin.php:124 admin/admin.php:142
+msgid "Install Now"
+msgstr "تثبيت الآن"
+
+#: admin/admin.php:122 admin/admin.php:140
+msgid "Activate Now"
+msgstr "تفعيل الآن"

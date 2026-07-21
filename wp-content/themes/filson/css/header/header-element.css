@@ -1,0 +1,51 @@
+
+.hw-nav-contact-us > li > span::before{
+	font-family: 'fontsite' ;
+	content: '\F008' ;
+ }
+ 
+.hw-nav-call > li > span::before{
+	font-family: 'fontsite' ;
+	content: '\F010' ;
+}
+
+ 
+ 
+.hw-nav-text-html {
+	--hw-nav-fn-wt:400;
+ }
+ .hw-nav-text-html > .hw-middle{
+ min-height: var(--hw-nav-md-ht);
+ }
+.hw-nav-text-header > li > span{
+	line-height:1.5em;
+}
+.hw-nav-date-header > li > span{
+	opacity:0.8;
+}
+
+.hw-nav-account > li > a::before{
+	content:'\F049';
+	font-family:'fontsite';
+}
+ 
+   
+ 
+body li a.hw-username{
+ text-align: center !important;
+font-size: 1.5em !important;
+width: 100% !important;
+ 
+ }
+ body li a.hw-username::before{
+	 float:none !important;
+	 	content:'\F002'!important;
+	font-family:'fontsite'!important;
+	 margin-right: 10px!important;
+	 display:inline-block !important;
+	 font-size: 1.25em;
+ }
+ 
+.hw-nav-banner-header > *{
+	height:auto !important;
+} 

@@ -1,0 +1,90 @@
+/*M!999999\- enable the sandbox mode */ 
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8mb4 */;
+CREATE TABLE `fqsi_litespeed_url` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `url` varchar(500) NOT NULL,
+  `cache_tags` varchar(1000) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `url` (`url`(191)),
+  KEY `cache_tags` (`cache_tags`(191))
+) ENGINE=InnoDB AUTO_INCREMENT=1486 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (3,'https://antiviruspointorgdomainonly.wpcomstaging.com/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (4,'https://antiviruspointorgdomainonly.wpcomstaging.com/product-tag/ios/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (5,'https://antiviruspointorgdomainonly.wpcomstaging.com/product-tag/antivirus/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (6,'https://antiviruspointorgdomainonly.wpcomstaging.com/about-us/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (11,'','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1065,'https://antiviruspoint.org/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1066,'https://antiviruspoint.org/product/watchdog-anti-virus-3-year-3-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1067,'https://antiviruspoint.org/product/norton-360-standard-1-year-1-device-usa-canada/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1069,'https://antiviruspoint.org/cart/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1070,'https://antiviruspoint.org/refund_returns/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1071,'https://antiviruspoint.org/wishlist/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1072,'https://antiviruspoint.org/return-policy/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1073,'https://antiviruspoint.org/yith-compare/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1136,'https://antiviruspoint.org/product/norton-360-premium-1-year-10-device-usa-canada-2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1138,'https://antiviruspoint.org/communication-preferences/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1139,'https://antiviruspoint.org/my-account/contact-us/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1140,'https://antiviruspoint.org/about-us/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1141,'https://antiviruspoint.org/faqs/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1142,'https://antiviruspoint.org/product/norton-secure-vpn-1-year-5-device-usa-canada-2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1143,'https://antiviruspoint.org/product/norton-360-for-gamers-1-year-3-devices-global/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1144,'https://antiviruspoint.org/product/norton-360-deluxe-with-lifelock-select-1-year-5-device-usa/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1323,'https://antiviruspoint.org/product/malwarebytes-premium-1-year-1-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1329,'https://antiviruspoint.org/wishlist-2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1416,'https://antiviruspoint.org/product/mcafee-internet-security-1-year-1-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1418,'https://antiviruspoint.org/product/mcafee-total-protection-1-year-1-device-europe-uk/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1433,'https://antiviruspoint.org/product/norton-360-deluxe-1-year-5-device-usa-canada/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1434,'https://antiviruspoint.org/product/watchdog-anti-virus-3-year-5-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1435,'https://antiviruspoint.org/product/mcafee-internet-security-1-year-3-device-2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1436,'https://antiviruspoint.org/checkout/sing-register/contact-us/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1437,'https://antiviruspoint.org/product/norton-secure-vpn-1-year-5-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1438,'https://antiviruspoint.org/product/malwarebytes-premium-for-mac-1-year-1-mac/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1439,'https://antiviruspoint.org/product/malwarebytes-premium-privacy-vpn-bundle-1-year-2-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1440,'https://antiviruspoint.org/product/mcafee-internet-security-1-year-5-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1441,'https://antiviruspoint.org/product/mcafee-total-protection-1-year-1-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1442,'https://antiviruspoint.org/product/norton-360-standard-1-year-1-device-usa-canada-2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1443,'https://antiviruspoint.org/product/norton-360-deluxe-1-year-3-device-uk-europe-2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1444,'https://antiviruspoint.org/product/norton-360-standard-1-year-1-device-uk-europe/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1445,'https://antiviruspoint.org/product/norton-360-deluxe-with-lifelock-select-1-year-5-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1446,'https://antiviruspoint.org/product/microsoft-office-home-2024-1-pc-mac/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1447,'https://antiviruspoint.org/terms-and-conditions/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1448,'https://antiviruspoint.org/product/mcafee-total-protection-1-year-3-devices-2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1449,'https://antiviruspoint.org/product/mcafee-antivirus-1-year-1-pc-tss/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1450,'https://antiviruspoint.org/product/watchdog-anti-malware-lifetime-of-device-1-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1451,'https://antiviruspoint.org/product/mcafee-internet-security-1-year-10-devices/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1452,'https://antiviruspoint.org/product/watchdog-anti-malware-1-year-1-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1453,'https://antiviruspoint.org/product/mcafee-internet-security-3-year-1-device-tss/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1454,'https://antiviruspoint.org/visualslider/banner_2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1455,'https://antiviruspoint.org/product/watchdog-anti-malware-3-year-1-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1456,'https://antiviruspoint.org/product/malwarebytes-premium-1-year-3-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1457,'https://antiviruspoint.org/product/watchdog-anti-malware-1-year-10-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1458,'https://antiviruspoint.org/product/watchdog-anti-malware-2-year-5-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1459,'https://antiviruspoint.org/product/watchdog-anti-malware-2-year-1-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1460,'https://antiviruspoint.org/product/watchdog-anti-malware-1-year-3-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1461,'https://antiviruspoint.org/product/watchdog-anti-virus-1-year-3-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1462,'https://antiviruspoint.org/product/norton-360-deluxe/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1463,'https://antiviruspoint.org/product/watchdog-anti-virus-1-year-5-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1464,'https://antiviruspoint.org/product/malwarebytes-premium-1-year-5-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1465,'https://antiviruspoint.org/product/mcafee-internet-security-1-year-3-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1466,'https://antiviruspoint.org/product/mcafee-mobile-security-1-year-1-android-2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1467,'https://antiviruspoint.org/product/norton-360-deluxe-1-year-3-device-uk-europe/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1468,'https://antiviruspoint.org/product/malwarebytes-premium-privacy-vpn-bundle-1-year-4-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1469,'https://antiviruspoint.org/product/mcafee-total-protection-1-year-10-devices-europe-uk/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1470,'https://antiviruspoint.org/product/mcafee-total-protection-1-year-3-devices-europe-uk/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1471,'https://antiviruspoint.org/product/watchdog-anti-malware-3-year-3-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1472,'https://antiviruspoint.org/product/mcafee-internet-security-1-year-1-device-2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1473,'https://antiviruspoint.org/product/watchdog-anti-malware-3-year-5-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1474,'https://antiviruspoint.org/product/watchdog-anti-malware-2-year-3-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1475,'https://antiviruspoint.org/product/watchdog-anti-malware-lifetime-of-device-3-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1476,'https://antiviruspoint.org/product/norton-360-deluxe-1-year-3-device-usa-canada-2/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1477,'https://antiviruspoint.org/product/watchdog-anti-malware-1-year-5-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1478,'https://antiviruspoint.org/product/malwarebytes-premium-1-year-10-device/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1479,'https://antiviruspoint.org/product/watchdog-anti-virus-3-year-1-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1480,'https://antiviruspoint.org/product/watchdog-anti-virus-1-year-1-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1481,'https://antiviruspoint.org/product/mcafee-total-protection-1-year-5-devices/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1482,'https://antiviruspoint.org/product/watchdog-anti-virus-2-year-3-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1483,'https://antiviruspoint.org/product/watchdog-anti-virus-2-year-5-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1484,'https://antiviruspoint.org/product/watchdog-anti-virus-2-year-1-pc/','');
+INSERT INTO `fqsi_litespeed_url` (`id`, `url`, `cache_tags`) VALUES (1485,'https://antiviruspoint.org/product/mcafee-antivirus-3-year-1-pc-tss/','');

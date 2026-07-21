@@ -1,0 +1,138 @@
+.wc-block-components-totals-ecm-links {
+	padding: 0 16px;
+}
+
+.wc-block-components-totals-ecm-links .wc-block-components-totals-ecm-link {
+	display: block;
+	text-decoration: none !important;
+	font-size: 20px;
+	line-height: 1.4;
+	margin-bottom: 8px;
+	padding: 4px 0;
+	transition: color 0.2s ease;
+	border: none !important;
+	border-bottom: none !important;
+    text-decoration-style: none !important;
+	text-decoration-color: transparent !important;
+	text-underline-offset: 0 !important;
+	text-underline-position: initial !important;
+	background: none !important;
+	outline: none !important;
+}
+
+.wc-block-components-totals-ecm-links .wc-block-components-totals-ecm-link:hover {
+	text-decoration: none !important;
+	border: none !important;
+	border-bottom: none !important;
+    text-decoration-style: none !important;
+	text-decoration-color: transparent !important;
+	text-underline-offset: 0 !important;
+	text-underline-position: initial !important;
+	background: none !important;
+	outline: none !important;
+}
+
+.wc-block-components-totals-ecm-links .wc-block-components-totals-ecm-link:visited {
+	text-decoration: none !important;
+	border: none !important;
+	border-bottom: none !important;
+	text-underline-offset: 0 !important;
+	text-underline-position: initial !important;
+	background: none !important;
+	outline: none !important;
+}
+
+.wc-block-components-totals-ecm-links .wc-block-components-totals-ecm-link:focus {
+	text-decoration: none !important;
+	border: none !important;
+	border-bottom: none !important;
+	text-underline-offset: 0 !important;
+	text-underline-position: initial !important;
+	background: none !important;
+	outline: none !important;
+}
+
+.wc-block-components-totals-ecm-links .wc-block-components-totals-ecm-link__icon {
+	margin-right: 8px;
+	font-weight: bold;
+	font-size: 24px;
+	display: inline-block;
+	width: 28px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1;
+	margin-bottom: 6px;
+}
+
+.wc-block-components-totals-ecm-links .wc-block-components-totals-ecm-link--upload {
+	/* Let default color inherit */
+}
+
+.wc-block-components-totals-ecm-links .wc-block-components-totals-ecm-link--upload:hover {
+	/* Let default hover color inherit */
+}
+
+.wc-block-components-totals-ecm-links .wc-block-components-totals-ecm-link--manage {
+	/* Let default color inherit */
+}
+
+.wc-block-components-totals-ecm-links .wc-block-components-totals-ecm-link--manage:hover {
+	/* Let default hover color inherit */
+}
+
+/* Guest user UI styling */
+.wc-block-components-totals-ecm-guest-info {
+	padding: 0 16px;
+}
+
+.wc-block-components-totals-ecm-guest-card {
+	background-color: #f5f5f5;
+	border-radius: 8px;
+	padding: 16px;
+	margin: 8px 0;
+	border: 1px solid #e0e0e0;
+}
+
+.wc-block-components-totals-ecm-guest-header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.wc-block-components-totals-ecm-guest-icon {
+	background-color: #666;
+	color: white;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 8px;
+	flex-shrink: 0;
+}
+
+.wc-block-components-totals-ecm-guest-title {
+	font-weight: bold;
+	color: #333;
+	font-size: 0.8em;
+}
+
+.wc-block-components-totals-ecm-guest-text {
+	font-size: 0.8em;
+	line-height: 1.4;
+	margin-left: 28px; /* Align with the text after the icon */
+}
+
+.wc-block-components-totals-ecm-guest-link {
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.wc-block-components-totals-ecm-guest-link:hover {
+	color: #000;
+	text-decoration: underline;
+}

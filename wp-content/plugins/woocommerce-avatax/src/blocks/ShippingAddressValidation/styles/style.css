@@ -1,0 +1,73 @@
+.wc-block-components-totals-ecm-links {
+	padding: 0 16px;
+
+	.wc-block-components-totals-ecm-link {
+		display: block;
+	}
+}
+
+.wc-avatax-validate-address-mandatory-message {
+	display: flex;
+	align-items: center;
+	margin-top: 8px;
+	font-size: 0.875em;
+	color: #666;
+}
+
+.wc-avatax-validate-address-mandatory-icon {
+	width: 18px;
+	height: 18px;
+	margin: -4px !important;
+	flex-shrink: 0;
+	color: #666;
+}
+
+.wc-avatax-validate-address-mandatory-icon svg {
+	margin: -4px !important;
+}
+
+.wc-avatax-validate-address-mandatory-text {
+	line-height: 1.4;
+	margin-left: 6px !important;
+}
+
+.wc-avatax-validate-address-success-message {
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+	padding: 12px 16px;
+	background-color: #d4edda;
+	border-radius: 2px;
+	border: 1px solid #c3e6cb;
+}
+
+.wc-avatax-validate-address-success-icon-wrapper {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	flex-shrink: 0;
+	background-color: #28a745 !important;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wc-avatax-validate-address-success-icon {
+	width: 12px;
+	height: 12px;
+	color: #ffffff !important;
+	fill: #ffffff !important;
+}
+
+.wc-avatax-validate-address-success-icon svg {
+	fill: #ffffff !important;
+	color: #ffffff !important;
+}
+
+.wc-avatax-validate-address-success-text {
+	color: #155724;
+	font-size: 0.875em;
+	font-weight: 500;
+	line-height: 1.4;
+}

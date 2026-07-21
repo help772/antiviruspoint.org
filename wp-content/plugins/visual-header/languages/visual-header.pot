@@ -1,0 +1,241 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Header\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-07 18:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: visual-header"
+
+#: framework/duplicate.php:34
+msgid " Copy"
+msgstr ""
+
+#: visual-header.php:154
+msgid "Add Element"
+msgstr ""
+
+#: visual-header.php:65
+msgid "Add New"
+msgstr ""
+
+#: visual-header.php:66
+msgid "Add New Header Builder"
+msgstr ""
+
+#: visual-header.php:70
+msgid "All Header Builder"
+msgstr ""
+
+#: framework/builder.php:53
+msgid "Back To Editor"
+msgstr ""
+
+#: framework/customize.php:36
+msgid "Background Perview: "
+msgstr ""
+
+#: visual-header.php:152
+msgid "Cancel"
+msgstr ""
+
+#: visual-header.php:147
+msgid "Change the Column"
+msgstr ""
+
+#: visual-header.php:143
+msgid "Choose Image"
+msgstr ""
+
+#: visual-header.php:157
+msgid ""
+"Copy The Code From The Following Text Area And Save It. You Will Be Able To "
+"Import It Later With Our Import Function In The Headers Manager."
+msgstr ""
+
+#: framework/customize.php:39
+msgid "Dark"
+msgstr ""
+
+#: framework/customize.php:37
+msgid "Defualt"
+msgstr ""
+
+#: framework/builder.php:73
+msgid "Desktop"
+msgstr ""
+
+#: visual-header.php:149
+msgid "Do you agree?"
+msgstr ""
+
+#: framework/duplicate.php:13
+msgid "Duplicate"
+msgstr ""
+
+#: visual-header.php:225
+msgid "Duplicated"
+msgstr ""
+
+#: visual-header.php:67
+msgid "Edit Header Builder"
+msgstr ""
+
+#: visual-header.php:150 visual-header.php:224
+msgid "Error"
+msgstr ""
+
+#: framework/builder.php:70
+msgid "Export"
+msgstr ""
+
+#: visual-header.php:156
+msgid "Export Header"
+msgstr ""
+
+#: framework/builder.php:58 framework/builder.php:61
+#: framework/customize.php:106
+msgid "Frontend Editor"
+msgstr ""
+
+#: visual-header.php:151
+msgid "General"
+msgstr ""
+
+#: visual-header.php:140
+msgid "Header"
+msgstr ""
+
+#: visual-header.php:63 visual-header.php:64 visual-header.php:75
+#: framework/metabox.php:21
+msgid "Header Builder"
+msgstr ""
+
+#: visual-header.php:72
+msgid "Header Builder not found"
+msgstr ""
+
+#: visual-header.php:141
+msgid "Header is Defaulted"
+msgstr ""
+
+#: visual-header.php:142
+msgid "Header is Imported"
+msgstr ""
+
+#: visual-header.php:139
+msgid "Header is Saved"
+msgstr ""
+
+#: visual-header.php:158 framework/builder.php:69
+msgid "Import"
+msgstr ""
+
+#: visual-header.php:159
+msgid "Import Header"
+msgstr ""
+
+#: visual-header.php:161
+msgid "Import of the Library"
+msgstr ""
+
+#: framework/builder.php:67 framework/builder.php:71
+msgid "Library"
+msgstr ""
+
+#: framework/customize.php:38
+msgid "Light"
+msgstr ""
+
+#: framework/builder.php:72
+msgid "Make it Default"
+msgstr ""
+
+#: framework/builder.php:74
+msgid "Mobile"
+msgstr ""
+
+#: visual-header.php:148
+msgid "Name already exist!"
+msgstr ""
+
+#: visual-header.php:146
+msgid "Name is empty!"
+msgstr ""
+
+#: framework/customize.php:59
+msgid "New Header"
+msgstr ""
+
+#: visual-header.php:68
+msgid "New Header Builder"
+msgstr ""
+
+#: visual-header.php:155 framework/builder-element.php:32
+#: framework/builder-element.php:32 framework/builder-navbar.php:27
+#: framework/builder-navbar.php:27
+msgid "Options"
+msgstr ""
+
+#: visual-header.php:160
+msgid "Paste Your Json Header Export Data Here And Click \"Import\""
+msgstr ""
+
+#: visual-header.php:144
+msgid "Remove"
+msgstr ""
+
+#: framework/builder.php:52
+msgid "Save All Changes"
+msgstr ""
+
+#: visual-header.php:71
+msgid "Search Header Builder"
+msgstr ""
+
+#: visual-header.php:73
+msgid "The Header Builder was found in the trash"
+msgstr ""
+
+#: framework/default.php:34
+msgid "This Header is Default"
+msgstr ""
+
+#: visual-header.php:153
+msgid "Update"
+msgstr ""
+
+#: visual-header.php:162
+msgid "Upload"
+msgstr ""
+
+#: visual-header.php:145
+msgid "Use This Image"
+msgstr ""
+
+#: visual-header.php:69
+msgid "View Header Builder"
+msgstr ""
+
+#. Name of the plugin
+msgid "Visual Header"
+msgstr ""
+
+#. Author of the plugin
+msgid "visual-header"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"You To Live Build Any Header Layout You Exactly Need. Intuitive And Easy To "
+"Use Drag & Drop Builder."
+msgstr ""

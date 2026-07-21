@@ -1,0 +1,31 @@
+*** License Manager For WooCommerce ***
+
+== Changelog ==
+2025-07-03 - version 1.3.1
+* Freemius SDK Update Improved PHP 8+ Compatibility
+
+2025-06-02 - version 1.3.0
+* Added - Dashboard for analytics and licenses reports.
+* Added - Traceback option, so that I can run API testing and check in logs accordingly.
+* Added - Termination option for the License Key which has been discarded because of refunded, canceled or failed somehow.
+
+2025-04-15 - version 1.2.1
+* Freemius SDK Update
+
+2024-11-12 - version 1.2
+* Minor Bug Fixes & Improvements
+
+2023-12-11 - version 1.1
+* Improved - WooCommerce Subscriptions support. Now you can extend existing license or generate new one upon subscription renewal
+* Added - Application support for plugins, themes or other Applications
+* Added - Application management. Sell Application setup a gallery, support information, FAQs that appear on the product page
+* Added - Application release management. Downloadable Application can be distributed as a releases.
+* Added - Application details REST Endpoint to get information about specific Application.
+* Added - Application download REST Endpoint to download the latest release for specific Application.
+* Added - License Certificates.
+* Added - WooCommerce HPOS support.
+* Fixed - OrderBy query Vulnerability 
+
+2022-08-25 - version 1.0.0
+* Initial release.
+

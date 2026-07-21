@@ -1,0 +1,38 @@
+
+[class*="hw-post-"]{
+	transition:transform 350ms,background 350ms,box-shadow 350ms,border-color 350ms;
+}
+.hw-new-post{
+	transform: scale(0);
+}
+.hw-ajax-tab [class*="hw-post"]:not(.hw-new-post){
+	transform: scale(1) !important;
+}
+.hw-ajax-loading:before {
+	z-index: 2;
+	content: "";
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: 100%
+}
+.hw-ajax-loading .hw-gap-warp{
+	opacity: .5 !important;
+}
+.hw-ajax-loading .hw-gap-warp::before{
+	content: "\F045";
+	-webkit-animation: hexwp_rotate 1.4s infinite linear;
+	animation: hexwp_rotate 1.4s infinite linear;
+	font-family: 'fontsite';
+	font-size: 60px;
+	z-index: 9999999;
+	float: left;
+	color: var(--hw-main-lk);
+	position: absolute;
+	top: calc(50% - 30px) !important;
+	left: calc(50% - 30px) !important;
+}
+.hw-data-json {
+	display: none;
+}

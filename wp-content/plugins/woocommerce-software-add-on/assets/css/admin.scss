@@ -1,0 +1,43 @@
+#woocommerce-product-data ul.product_data_tabs li.software_tab a::before {
+	font-family: Dashicons; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+	content: "\f509";
+}
+
+#woocommerce-order-license-keys .inside,
+#wc_software-activation-data .inside {
+	margin: 0;
+	padding: 0;
+}
+
+#woocommerce-order-license-keys .buttons {
+	float: left;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+
+.order_license_keys .select2-container {
+	width: 400px !important;
+	margin-right: 9px;
+	vertical-align: top;
+	float: left;
+}
+
+#activations-table td {
+	padding: 8px;
+	text-align: left;
+	line-height: 26px;
+	vertical-align: top;
+}
+
+.woocommerce-licence-key-imported {
+	color: #7ad03a;
+}
+
+.woocommerce-licence-key-skipped {
+	color: #a44;
+}
+
+.woocommerce-software-keys-csv-importer .update-nag {
+	display: block;
+}

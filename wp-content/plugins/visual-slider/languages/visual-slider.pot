@@ -1,0 +1,1445 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Slider\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-06 17:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: visual-slider"
+
+#: admin/includes/template.php:26
+msgid "* The Name is Empty, Please Fill it in"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:474
+msgid "Accessibility Icons"
+msgstr ""
+
+#: admin/setting-options.php:386
+msgid "Active Color"
+msgstr ""
+
+#: admin/includes/template.php:192 admin/includes/template.php:227
+msgid "Add"
+msgstr ""
+
+#: admin/includes/slide.php:10
+msgid "Add a Slide From Library"
+msgstr ""
+
+#: admin/includes/template.php:134
+msgid "Add From Library"
+msgstr ""
+
+#: admin/includes/metabox.php:82 admin/includes/template.php:123
+msgid "Add Full Template From Library"
+msgstr ""
+
+#: admin/includes/options-functions.php:64
+msgid "Add Item"
+msgstr ""
+
+#: admin/includes/layer.php:264 admin/includes/slide.php:181
+msgid "Add Layer"
+msgstr ""
+
+#: admin/includes/slide.php:183 admin/includes/template.php:129
+msgid "Add Layer From Library"
+msgstr ""
+
+#: visual-slider.php:54
+msgid "Add New"
+msgstr ""
+
+#: admin/includes/layer.php:261
+msgid "Add New Layer"
+msgstr ""
+
+#: admin/includes/slide.php:8
+msgid "Add New Slide"
+msgstr ""
+
+#: visual-slider.php:55
+msgid "Add New slider"
+msgstr ""
+
+#: admin/includes/metabox.php:84 admin/includes/template.php:188
+msgid "Add Ready-Made Full Template"
+msgstr ""
+
+#: admin/includes/template.php:126
+msgid "Add Slide From Library"
+msgstr ""
+
+#: admin/includes/options-functions.php:59
+msgid "Add Tab"
+msgstr ""
+
+#: layer/icon.php:82 layer/mini/position_size.php:6
+msgid "Align"
+msgstr ""
+
+#: layer/button.php:60 layer/icon.php:64 layer/image.php:36 layer/text.php:86
+msgid "Alignment"
+msgstr ""
+
+#: layer/image.php:95 layer/text.php:144
+msgid "Alignment on Mobile"
+msgstr ""
+
+#: layer/button.php:87 layer/button.php:119 layer/icon.php:90
+#: layer/icon.php:121 layer/image.php:62 layer/text.php:112
+msgid "Alignment on Tablet"
+msgstr ""
+
+#: visual-slider.php:59
+msgid "All Sliders"
+msgstr ""
+
+#: admin/setting-options.php:637
+msgid "Animation Pause Time"
+msgstr ""
+
+#: admin/setting-options.php:623
+msgid "Animation Speed"
+msgstr ""
+
+#: admin/fonts/flaticon.php:14
+msgid "Arrow"
+msgstr ""
+
+#: admin/setting-options.php:447
+msgid "Arrow Color"
+msgstr ""
+
+#: admin/setting-options.php:395 admin/setting-options.php:397
+#: admin/setting-options.php:408 admin/setting-options.php:420
+#: admin/setting-options.php:436 admin/setting-options.php:460
+#: admin/setting-options.php:471 admin/setting-options.php:491
+#: admin/setting-options.php:505 admin/setting-options.php:514
+#: admin/setting-options.php:527 admin/setting-options.php:534
+#: admin/setting-options.php:547
+msgid "Arrows"
+msgstr ""
+
+#: admin/setting-options.php:433
+msgid "Arrows Color"
+msgstr ""
+
+#: admin/setting-options.php:456
+msgid "Arrows Hover Color"
+msgstr ""
+
+#: admin/setting-options.php:417
+msgid "Arrows Position"
+msgstr ""
+
+#: admin/setting-options.php:481
+msgid "Arrows Radius"
+msgstr ""
+
+#: admin/setting-options.php:497
+msgid "Arrows Size"
+msgstr ""
+
+#: admin/setting-options.php:540
+msgid "Arrows Size on Mobile"
+msgstr ""
+
+#: admin/setting-options.php:520
+msgid "Arrows Size on Tablet"
+msgstr ""
+
+#: admin/setting-options.php:405
+msgid "Arrows Visibility"
+msgstr ""
+
+#: admin/setting-options.php:597
+msgid "Auto Play"
+msgstr ""
+
+#: admin/setting-options.php:440 admin/setting-options.php:464
+#: admin/slide-options.php:27 admin/slide-options.php:64
+#: admin/slide-options.php:73 admin/slide-options.php:83
+#: admin/slide-options.php:91 admin/slide-options.php:105
+#: admin/slide-options.php:113 layer/mini/boxed.php:56
+#: layer/mini/button_boxed.php:58
+msgid "Background"
+msgstr ""
+
+#: admin/setting-options.php:651
+msgid "Background Color"
+msgstr ""
+
+#: admin/slide-options.php:25
+msgid "Background color"
+msgstr ""
+
+#: admin/slide-options.php:60
+msgid "Background Image"
+msgstr ""
+
+#: admin/slide-options.php:71
+msgid "Background Image Position"
+msgstr ""
+
+#: admin/slide-options.php:111
+msgid "Background Image Position on Mobile"
+msgstr ""
+
+#: admin/slide-options.php:89
+msgid "Background Image Position on Tablet"
+msgstr ""
+
+#: admin/setting-options.php:254
+msgid "Between on Mobile"
+msgstr ""
+
+#: admin/setting-options.php:161
+msgid "Between on Tablet"
+msgstr ""
+
+#: admin/setting-options.php:69
+msgid "Between Size"
+msgstr ""
+
+#: admin/slider-array.php:306 admin/slider-array.php:438
+#: admin/slider-array.php:487
+msgid "Blur"
+msgstr ""
+
+#: layer/mini/button_typography.php:32 layer/mini/text_typography.php:46
+msgid "Bold"
+msgstr ""
+
+#: admin/setting-options.php:657 layer/mini/boxed.php:91
+#: layer/mini/button_boxed.php:93 layer/mini/button_boxed.php:158
+msgid "Border"
+msgstr ""
+
+#: admin/setting-options.php:365 admin/slider-array.php:98
+#: admin/slider-array.php:175 admin/slider-array.php:220
+#: admin/slider-array.php:261 admin/slider-array.php:343
+#: admin/slider-array.php:390 layer/mini/effect.php:29
+msgid "Bottom"
+msgstr ""
+
+#: admin/slider-array.php:99
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/slider-array.php:539 admin/slider-array.php:548
+#: admin/slider-array.php:576 admin/slider-array.php:582
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/slider-array.php:548 admin/slider-array.php:582
+msgid "Bottom Right"
+msgstr ""
+
+#: layer/box.php:19
+msgid "Box"
+msgstr ""
+
+#: layer/box.php:51
+msgid "Box Background"
+msgstr ""
+
+#: layer/box.php:87
+msgid "Box Border"
+msgstr ""
+
+#: layer/box.php:117
+msgid "Box Hover Background"
+msgstr ""
+
+#: layer/box.php:152
+msgid "Box Hover Border"
+msgstr ""
+
+#: layer/box.php:164
+msgid "Box Hover Shadow"
+msgstr ""
+
+#: layer/box.php:175
+msgid "Box Radius"
+msgstr ""
+
+#: layer/box.php:99 layer/box.php:119
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/composer-visualslider.php:64 layer/box.php:35 layer/box.php:53
+#: layer/box.php:89 layer/box.php:101 layer/box.php:154 layer/box.php:166
+#: layer/box.php:177 layer/mini/button_boxed.php:8
+#: layer/mini/button_boxed.php:21 layer/mini/button_boxed.php:41
+#: layer/mini/button_boxed.php:60 layer/mini/button_boxed.php:95
+#: layer/mini/button_boxed.php:107 layer/mini/button_boxed.php:125
+#: layer/mini/button_boxed.php:160 layer/mini/button_boxed.php:172
+#: layer/mini/button_boxed.php:183
+msgid "Box Style"
+msgstr ""
+
+#: layer/mini/boxed.php:11 layer/mini/button_boxed.php:10
+msgid "Boxed"
+msgstr ""
+
+#: layer/mini/boxed.php:5 layer/mini/boxed.php:8 layer/mini/boxed.php:21
+#: layer/mini/boxed.php:39 layer/mini/boxed.php:58 layer/mini/boxed.php:93
+#: layer/mini/boxed.php:105 layer/mini/boxed.php:123 layer/mini/boxed.php:158
+#: layer/mini/boxed.php:170 layer/mini/boxed.php:181
+#: layer/mini/button_boxed.php:5
+msgid "Boxed Style"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:769
+msgid "Brand Icons"
+msgstr ""
+
+#: admin/fonts/flaticon.php:177
+msgid "Business Seo Elements"
+msgstr ""
+
+#: admin/fonts/flaticon_thin.php:551
+msgid "Business Strategy"
+msgstr ""
+
+#: admin/slider-array.php:539 admin/slider-array.php:576
+msgid "Buttom Right"
+msgstr ""
+
+#: layer/button.php:19 layer/button.php:30
+msgid "Button"
+msgstr ""
+
+#: layer/button.php:221
+msgid "Button Color"
+msgstr ""
+
+#: layer/mini/button_typography.php:3
+msgid "Button Font Family"
+msgstr ""
+
+#: layer/button.php:237
+msgid "Button Hover Color"
+msgstr ""
+
+#: layer/button.php:29
+msgid "Button Text"
+msgstr ""
+
+#: admin/setting-options.php:771
+msgid ""
+"By checking this option, Element default fonts will be disabled and Element "
+"will take its fonts from your skin."
+msgstr ""
+
+#: admin/includes/layer.php:263 admin/includes/slide.php:172
+#: admin/includes/template.php:21 admin/includes/template.php:133
+#: admin/includes/template.php:191 admin/includes/template.php:226
+#: admin/includes/template.php:254
+msgid "Cancel"
+msgstr ""
+
+#: layer/mini/button_typography.php:87 layer/mini/text_typography.php:101
+msgid "Capitalize"
+msgstr ""
+
+#: admin/slider-array.php:52 admin/slider-array.php:87
+msgid "Center"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:604
+msgid "Chart Icons"
+msgstr ""
+
+#: admin/includes/options-functions.php:239
+#: admin/includes/options-functions.php:473
+#: admin/includes/options-functions.php:592
+msgid "Choose Icon"
+msgstr ""
+
+#: admin/includes/perview-global.php:55 admin/includes/perview-slide.php:116
+msgid "Close Full Screen"
+msgstr ""
+
+#: admin/setting-options.php:380 admin/slider-array.php:315
+#: admin/slider-array.php:370 admin/slider-array.php:412
+#: admin/slider-array.php:453 admin/slider-array.php:500
+msgid "Color"
+msgstr ""
+
+#: layer/button.php:33 layer/button.php:46 layer/button.php:53
+#: layer/button.php:64 layer/button.php:79 layer/button.php:91
+#: layer/button.php:111 layer/button.php:123 layer/icon.php:32
+#: layer/icon.php:46 layer/icon.php:53 layer/icon.php:68 layer/icon.php:94
+#: layer/icon.php:114 layer/icon.php:125 layer/icon.php:141 layer/text.php:36
+#: layer/text.php:47 layer/text.php:54 layer/text.php:62 layer/text.php:90
+#: layer/text.php:105 layer/text.php:116 layer/text.php:136 layer/text.php:148
+msgid "Content"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:611
+msgid "Currency Icons"
+msgstr ""
+
+#: admin/slider-array.php:75
+msgid "Dashed"
+msgstr ""
+
+#: admin/slider-array.php:33 admin/slider-array.php:86
+#: inc/widget-visualslider.php:63 layer/text.php:67
+#: admin/fonts/googlefont.php:7 layer/mini/button_typography.php:55
+#: layer/mini/button_typography.php:70 layer/mini/button_typography.php:84
+#: layer/mini/text_typography.php:69 layer/mini/text_typography.php:84
+#: layer/mini/text_typography.php:98
+msgid "Default"
+msgstr ""
+
+#: inc/composer-visualslider.php:66
+msgid "Design Settings"
+msgstr ""
+
+#: admin/setting-options.php:587
+msgid "Diagonal  ↘"
+msgstr ""
+
+#: admin/setting-options.php:588
+msgid "Diagonal Bottom  ↗"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:691
+msgid "Directional Icons"
+msgstr ""
+
+#: admin/includes/options-functions.php:146
+msgid "Disable"
+msgstr ""
+
+#: admin/setting-options.php:768
+msgid "Disable Default Fonts"
+msgstr ""
+
+#: layer/mini/position_size.php:243
+msgid "Display on Mobile"
+msgstr ""
+
+#: admin/setting-options.php:83
+msgid "Display on screens with a minimum size of 1025 pixels"
+msgstr ""
+
+#: layer/mini/position_size.php:121
+msgid "Display on Tablet"
+msgstr ""
+
+#: admin/slider-array.php:74
+msgid "Dotted"
+msgstr ""
+
+#: admin/slider-array.php:76
+msgid "Double"
+msgstr ""
+
+#: admin/includes/perview-slide.php:51
+msgid "Edit on Desktop "
+msgstr ""
+
+#: admin/includes/perview-slide.php:64
+msgid "Edit on Mobile"
+msgstr ""
+
+#: admin/includes/perview-slide.php:57
+msgid "Edit on Tablet"
+msgstr ""
+
+#: visual-slider.php:56
+msgid "Edit Slider"
+msgstr ""
+
+#: admin/setting-options.php:612 layer/mini/effect.php:7
+#: layer/mini/effect.php:9 layer/mini/effect.php:23 layer/mini/effect.php:39
+#: layer/mini/effect.php:64 layer/mini/effect.php:82
+msgid "Effect"
+msgstr ""
+
+#: layer/mini/effect.php:49
+msgid "Effect start time"
+msgstr ""
+
+#: admin/includes/options-functions.php:141
+msgid "Enable"
+msgstr ""
+
+#: layer/mini/effect.php:69
+msgid "End time of the effect"
+msgstr ""
+
+#: admin/fonts/flaticon_thin.php:13
+msgid "Essential Set"
+msgstr ""
+
+#: admin/includes/metabox.php:86
+msgid "Export"
+msgstr ""
+
+#: admin/includes/template.php:223 admin/includes/template.php:251
+msgid "Export Template"
+msgstr ""
+
+#: admin/setting-options.php:619 layer/mini/effect.php:15
+msgid "Fade"
+msgstr ""
+
+#: admin/fonts/flaticon_thin.php:668
+msgid "Fashion"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:550
+msgid "File Type Icons"
+msgstr ""
+
+#: admin/setting-options.php:570
+msgid "First Color"
+msgstr ""
+
+#: admin/setting-options.php:348 admin/setting-options.php:412
+msgid "Fixed "
+msgstr ""
+
+#: layer/mini/button_typography.php:49
+msgid "Font Decoration"
+msgstr ""
+
+#: layer/mini/text_typography.php:3
+msgid "Font family"
+msgstr ""
+
+#: layer/mini/button_typography.php:12 layer/mini/text_typography.php:12
+msgid "Font Size"
+msgstr ""
+
+#: layer/mini/text_typography.php:132
+msgid "Font Size in Tablet"
+msgstr ""
+
+#: layer/mini/button_typography.php:146 layer/mini/text_typography.php:170
+msgid "Font Size on Mobile"
+msgstr ""
+
+#: layer/mini/button_typography.php:118
+msgid "Font Size on Tablet"
+msgstr ""
+
+#: layer/mini/button_typography.php:64 layer/mini/text_typography.php:78
+msgid "Font Style"
+msgstr ""
+
+#: layer/mini/button_typography.php:25 layer/mini/text_typography.php:39
+msgid "Font Weight"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:577
+msgid "Form Control Icons"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:534
+msgid "Gender Icons"
+msgstr ""
+
+#: inc/elementor-visualslider.php:48 admin/includes/layer.php:114
+#: admin/includes/layer.php:192 admin/includes/setting.php:76
+#: admin/includes/setting.php:125 admin/includes/slide.php:218
+#: admin/includes/slide.php:276
+msgid "General"
+msgstr ""
+
+#: admin/setting-options.php:22
+msgid "Glider"
+msgstr ""
+
+#: admin/setting-options.php:29
+msgid "Glider layout"
+msgstr ""
+
+#: admin/setting-options.php:237
+msgid "Glider Layout on Mobile"
+msgstr ""
+
+#: admin/setting-options.php:135
+msgid "Glider Layout on Tablet"
+msgstr ""
+
+#: admin/slider-array.php:77
+msgid "Groove"
+msgstr ""
+
+#: admin/setting-options.php:101 admin/setting-options.php:203
+#: admin/setting-options.php:297 admin/slider-array.php:601
+#: layer/mini/position_size.php:100 layer/mini/position_size.php:221
+#: layer/mini/position_size.php:344
+msgid "Height"
+msgstr ""
+
+#: layer/mini/position_size.php:126 layer/mini/position_size.php:249
+msgid "Hide"
+msgstr ""
+
+#: admin/fonts/flaticon_thin.php:616
+msgid "Hipster"
+msgstr ""
+
+#: admin/slider-array.php:288 admin/slider-array.php:422
+#: admin/slider-array.php:473 layer/mini/position_size.php:57
+#: layer/mini/position_size.php:181 layer/mini/position_size.php:303
+msgid "Horizontal"
+msgstr ""
+
+#: admin/setting-options.php:585
+msgid "Horizontal  →"
+msgstr ""
+
+#: layer/mini/position_size.php:15 layer/mini/position_size.php:143
+#: layer/mini/position_size.php:265
+msgid "Horizontal Position"
+msgstr ""
+
+#: layer/box.php:39 layer/button.php:170 layer/button.php:215
+#: layer/icon.php:145 layer/text.php:197 layer/text.php:244
+#: layer/mini/boxed.php:44 layer/mini/button_boxed.php:46
+msgid "HOVER"
+msgstr ""
+
+#: admin/setting-options.php:347 admin/setting-options.php:411 layer/box.php:33
+#: layer/button.php:161 layer/button.php:209 layer/icon.php:139
+#: layer/text.php:188 layer/text.php:238 layer/mini/boxed.php:37
+#: layer/mini/button_boxed.php:39
+msgid "Hover"
+msgstr ""
+
+#: layer/mini/boxed.php:121 layer/mini/button_boxed.php:123
+msgid "Hover Background"
+msgstr ""
+
+#: layer/mini/boxed.php:156
+msgid "Hover Border"
+msgstr ""
+
+#: layer/mini/boxed.php:168 layer/mini/button_boxed.php:170
+msgid "Hover Shadow"
+msgstr ""
+
+#: layer/button.php:269
+msgid "Hover Text Shadow"
+msgstr ""
+
+#: layer/text.php:60
+msgid "HTML Tag"
+msgstr ""
+
+#: layer/button.php:140 layer/button.php:143 layer/button.php:152
+#: layer/button.php:163 layer/button.php:181 layer/button.php:197
+#: layer/icon.php:19 layer/icon.php:29 layer/text.php:165 layer/text.php:168
+#: layer/text.php:177 layer/text.php:190 layer/text.php:208 layer/text.php:224
+msgid "Icon"
+msgstr ""
+
+#: layer/button.php:146
+msgid "Icon Align"
+msgstr ""
+
+#: layer/text.php:171
+msgid "Icon Alignment"
+msgstr ""
+
+#: layer/button.php:175 layer/icon.php:151 layer/text.php:202
+msgid "Icon Color"
+msgstr ""
+
+#: layer/button.php:191 layer/icon.php:167 layer/text.php:218
+msgid "Icon Hover Color"
+msgstr ""
+
+#: layer/icon.php:196
+msgid "Icon Hover Shadow"
+msgstr ""
+
+#: layer/icon.php:183
+msgid "Icon Shadow"
+msgstr ""
+
+#: layer/icon.php:210
+msgid "Icon Size"
+msgstr ""
+
+#: admin/setting-options.php:269
+msgid ""
+"If you want to change the slider settings in mobile phones, turn on this "
+"option, the screen length is below 768 pixels."
+msgstr ""
+
+#: admin/setting-options.php:176
+msgid ""
+"If you want to change the slider settings on tablets, turn on this option, "
+"screen length below 1025 pixels and above 767 pixels"
+msgstr ""
+
+#: layer/image.php:16 layer/image.php:26 layer/image.php:29 layer/image.php:40
+#: layer/image.php:55 layer/image.php:66 layer/image.php:86 layer/image.php:99
+msgid "Image"
+msgstr ""
+
+#: admin/includes/metabox.php:85
+msgid "Import"
+msgstr ""
+
+#: admin/setting-options.php:423
+msgid "in Side"
+msgstr ""
+
+#: layer/mini/effect.php:21
+msgid "Initial Position"
+msgstr ""
+
+#: admin/slider-array.php:465 admin/slider-array.php:511
+msgid "Inset"
+msgstr ""
+
+#: admin/fonts/flaticon.php:306
+msgid "Interface"
+msgstr ""
+
+#: layer/mini/button_typography.php:72 layer/mini/text_typography.php:86
+msgid "italic"
+msgstr ""
+
+#: admin/includes/layer.php:144 admin/includes/slide.php:236
+msgid "Layer Options"
+msgstr ""
+
+#: admin/slider-array.php:51 admin/slider-array.php:53
+#: admin/slider-array.php:58 admin/slider-array.php:59
+#: admin/slider-array.php:88 admin/slider-array.php:92
+#: admin/slider-array.php:167 admin/slider-array.php:183
+#: admin/slider-array.php:212 admin/slider-array.php:227
+#: admin/slider-array.php:254 admin/slider-array.php:268
+#: admin/slider-array.php:334 admin/slider-array.php:352
+#: admin/slider-array.php:384 admin/slider-array.php:396
+#: layer/mini/effect.php:28 layer/mini/effect.php:30
+msgid "Left"
+msgstr ""
+
+#: admin/slider-array.php:90 admin/slider-array.php:94
+msgid "Left Bottom"
+msgstr ""
+
+#: admin/slider-array.php:91 admin/slider-array.php:95
+msgid "Left Center"
+msgstr ""
+
+#: admin/slider-array.php:89 admin/slider-array.php:93
+msgid "Left Top"
+msgstr ""
+
+#: layer/mini/button_typography.php:94 layer/mini/text_typography.php:108
+msgid "Letter Spacing"
+msgstr ""
+
+#: layer/mini/text_typography.php:182
+msgid "Line Height in Mobile"
+msgstr ""
+
+#: layer/mini/text_typography.php:144
+msgid "Line Height in Tablet"
+msgstr ""
+
+#: layer/mini/button_typography.php:57 layer/mini/text_typography.php:71
+msgid "Line-Through"
+msgstr ""
+
+#: admin/slide-options.php:15 layer/button.php:40 layer/icon.php:39
+#: layer/text.php:41
+msgid "Link"
+msgstr ""
+
+#: layer/mini/text_typography.php:26
+msgid "Linr Height"
+msgstr ""
+
+#: admin/setting-options.php:605
+msgid "Loop"
+msgstr ""
+
+#: layer/text.php:31
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+msgstr ""
+
+#: layer/mini/button_typography.php:86 layer/mini/text_typography.php:100
+msgid "Lowercase"
+msgstr ""
+
+#: admin/setting-options.php:689
+msgid "Margin"
+msgstr ""
+
+#: admin/setting-options.php:746
+msgid "Margin on Mobile"
+msgstr ""
+
+#: admin/setting-options.php:716
+msgid "Margin on Tablet"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:960
+msgid "Medical Icons"
+msgstr ""
+
+#: admin/fonts/metrizeicon.php:14
+msgid "Metrize"
+msgstr ""
+
+#: layer/mini/effect.php:14
+msgid "Move"
+msgstr ""
+
+#: admin/fonts/flaticon.php:122
+msgid "Multi Media"
+msgstr ""
+
+#: admin/includes/template.php:29
+msgid "Name to save"
+msgstr ""
+
+#: admin/fonts/flaticon_thin.php:810
+msgid "Network"
+msgstr ""
+
+#: visual-slider.php:57
+msgid "New Slider"
+msgstr ""
+
+#: layer/mini/boxed.php:10 layer/mini/button_boxed.php:11
+msgid "None Boxed"
+msgstr ""
+
+#: layer/mini/effect.php:13
+msgid "None Effect"
+msgstr ""
+
+#: layer/box.php:38 layer/button.php:169 layer/button.php:214
+#: layer/icon.php:144 layer/text.php:196 layer/text.php:243
+#: layer/mini/boxed.php:43 layer/mini/button_boxed.php:45
+msgid "NORMAL"
+msgstr ""
+
+#: layer/mini/button_typography.php:31 layer/mini/button_typography.php:71
+#: layer/mini/text_typography.php:45 layer/mini/text_typography.php:85
+msgid "Normal"
+msgstr ""
+
+#: layer/mini/button_typography.php:73 layer/mini/text_typography.php:87
+msgid "oblique"
+msgstr ""
+
+#: admin/fonts/flaticon.php:254
+msgid "Office"
+msgstr ""
+
+#: layer/button.php:50 layer/icon.php:50 layer/text.php:51
+msgid "Open in a new window"
+msgstr ""
+
+#: admin/setting-options.php:581
+msgid "Orientation"
+msgstr ""
+
+#: admin/setting-options.php:425
+msgid "out Side"
+msgstr ""
+
+#: admin/slider-array.php:464 admin/slider-array.php:510
+msgid "Outset"
+msgstr ""
+
+#: layer/mini/button_typography.php:56 layer/mini/text_typography.php:70
+msgid "Overline"
+msgstr ""
+
+#: admin/setting-options.php:699 admin/setting-options.php:726
+#: layer/mini/boxed.php:19 layer/mini/button_boxed.php:19
+msgid "Padding"
+msgstr ""
+
+#: admin/setting-options.php:756
+msgid "Padding on Mobile"
+msgstr ""
+
+#: admin/setting-options.php:332 admin/setting-options.php:335
+#: admin/setting-options.php:342 admin/setting-options.php:358
+#: admin/setting-options.php:376
+msgid "Pager"
+msgstr ""
+
+#: admin/setting-options.php:373
+msgid "Pager Color Layout"
+msgstr ""
+
+#: admin/setting-options.php:356
+msgid "Pager Position"
+msgstr ""
+
+#: admin/setting-options.php:340
+msgid "Pager visibility"
+msgstr ""
+
+#: admin/includes/template.php:204
+msgid "Perview"
+msgstr ""
+
+#: admin/slider-array.php:459 admin/slider-array.php:505
+#: layer/mini/position_size.php:48 layer/mini/position_size.php:134
+#: layer/mini/position_size.php:173 layer/mini/position_size.php:257
+#: layer/mini/position_size.php:295
+msgid "Position"
+msgstr ""
+
+#: layer/mini/position_size.php:12 layer/mini/position_size.php:54
+#: layer/mini/position_size.php:90 layer/mini/position_size.php:115
+#: layer/mini/position_size.php:128 layer/mini/position_size.php:140
+#: layer/mini/position_size.php:178 layer/mini/position_size.php:211
+#: layer/mini/position_size.php:238 layer/mini/position_size.php:251
+#: layer/mini/position_size.php:262 layer/mini/position_size.php:300
+#: layer/mini/position_size.php:334
+msgid "Position and Size"
+msgstr ""
+
+#: admin/setting-options.php:589
+msgid "Radial  ○"
+msgstr ""
+
+#: admin/setting-options.php:676 layer/mini/boxed.php:179
+#: layer/mini/button_boxed.php:181
+msgid "Radius"
+msgstr ""
+
+#: admin/setting-options.php:111 admin/setting-options.php:214
+#: admin/setting-options.php:307
+msgid "Ratio"
+msgstr ""
+
+#: admin/includes/template.php:143
+msgid "Remove"
+msgstr ""
+
+#: layer/mini/position_size.php:237
+msgid "Responsive in Mobile"
+msgstr ""
+
+#: layer/mini/position_size.php:114
+msgid "Responsive in Tablet"
+msgstr ""
+
+#: admin/setting-options.php:238 admin/setting-options.php:266
+#: admin/setting-options.php:268 admin/setting-options.php:278
+#: admin/setting-options.php:737 admin/slide-options.php:104
+#: layer/button.php:110 layer/icon.php:254 layer/image.php:85
+#: layer/text.php:135 layer/mini/button_typography.php:138
+#: layer/mini/text_typography.php:163
+msgid "Responsive on Mobile"
+msgstr ""
+
+#: admin/setting-options.php:256
+msgid "Responsive on mobile"
+msgstr ""
+
+#: admin/setting-options.php:163 admin/setting-options.php:173
+#: admin/setting-options.php:183 admin/setting-options.php:513
+#: admin/setting-options.php:533 admin/setting-options.php:709
+#: admin/slide-options.php:82 layer/button.php:78 layer/icon.php:81
+#: layer/icon.php:113 layer/icon.php:226 layer/image.php:54
+#: layer/mini/button_typography.php:111 layer/mini/text_typography.php:125
+msgid "Responsive on Tablet"
+msgstr ""
+
+#: admin/setting-options.php:138 admin/setting-options.php:175
+#: layer/text.php:104
+msgid "Responsive on tablet"
+msgstr ""
+
+#. Description of the plugin
+msgid "Responsive Slider"
+msgstr ""
+
+#: admin/slider-array.php:51 admin/slider-array.php:53
+#: admin/slider-array.php:58 admin/slider-array.php:59
+#: admin/slider-array.php:88 admin/slider-array.php:92
+#: admin/slider-array.php:167 admin/slider-array.php:183
+#: admin/slider-array.php:212 admin/slider-array.php:227
+#: admin/slider-array.php:254 admin/slider-array.php:268
+#: admin/slider-array.php:334 admin/slider-array.php:352
+#: admin/slider-array.php:384 admin/slider-array.php:396
+#: layer/mini/effect.php:28 layer/mini/effect.php:30
+msgid "Right"
+msgstr ""
+
+#: admin/slider-array.php:90 admin/slider-array.php:94
+msgid "Right Bottom"
+msgstr ""
+
+#: admin/slider-array.php:91 admin/slider-array.php:95
+msgid "Right Center"
+msgstr ""
+
+#: admin/slider-array.php:89 admin/slider-array.php:93
+msgid "Right Top"
+msgstr ""
+
+#: admin/includes/slide.php:182
+msgid "Save All Layer in Library"
+msgstr ""
+
+#: admin/includes/slide.php:9
+msgid "Save All Slides in Library"
+msgstr ""
+
+#: admin/includes/slide.php:173
+msgid "Save changes"
+msgstr ""
+
+#: admin/includes/metabox.php:81 admin/includes/template.php:12
+msgid "Save Full Template in Library"
+msgstr ""
+
+#: admin/includes/template.php:22
+msgid "Save in Library"
+msgstr ""
+
+#: admin/includes/template.php:18
+msgid "Save Layer in Library"
+msgstr ""
+
+#: admin/includes/template.php:15
+msgid "Save Slide in Library"
+msgstr ""
+
+#: layer/mini/effect.php:16 layer/mini/effect.php:36
+msgid "Scale"
+msgstr ""
+
+#: admin/includes/options-functions.php:592
+msgid "Search Icon"
+msgstr ""
+
+#: admin/includes/options-functions.php:473
+msgid "Search Icons"
+msgstr ""
+
+#: visual-slider.php:60
+msgid "Search Sliders"
+msgstr ""
+
+#: admin/setting-options.php:575
+msgid "Second Color"
+msgstr ""
+
+#: inc/composer-visualslider.php:57 inc/elementor-visualslider.php:71
+#: inc/sao-visualslider.php:53 inc/widget-visualslider.php:85
+msgid "Select Slider"
+msgstr ""
+
+#: admin/includes/options-functions.php:524
+#: admin/includes/options-functions.php:644
+msgid "Set Icon"
+msgstr ""
+
+#: admin/setting-options.php:665 layer/mini/boxed.php:103
+#: layer/mini/button_boxed.php:105
+msgid "Shadow"
+msgstr ""
+
+#: admin/includes/metabox.php:73
+msgid "Shortcode"
+msgstr ""
+
+#: layer/mini/position_size.php:125 layer/mini/position_size.php:248
+msgid "Show"
+msgstr ""
+
+#: inc/composer-visualslider.php:50
+msgid "Show sliders related to Visual Slider plugin"
+msgstr ""
+
+#: admin/setting-options.php:424
+msgid "Side"
+msgstr ""
+
+#: admin/setting-options.php:21
+msgid "Single Slide"
+msgstr ""
+
+#: layer/mini/position_size.php:85 layer/mini/position_size.php:206
+#: layer/mini/position_size.php:329
+msgid "Size"
+msgstr ""
+
+#: admin/setting-options.php:618
+msgid "Slide"
+msgstr ""
+
+#: admin/includes/slide.php:171 admin/includes/slide.php:180
+msgid "Slide Options"
+msgstr ""
+
+#: admin/slide-options.php:8
+msgid "Slide Title"
+msgstr ""
+
+#: visual-slider.php:52 admin/setting-options.php:20
+#: admin/setting-options.php:599 admin/setting-options.php:607
+#: admin/setting-options.php:614 admin/setting-options.php:632
+#: admin/setting-options.php:639 admin/includes/metabox.php:17
+msgid "Slider"
+msgstr ""
+
+#: admin/setting-options.php:8
+msgid "Slider Full Width"
+msgstr ""
+
+#: admin/setting-options.php:16
+msgid "Slider Layout"
+msgstr ""
+
+#: visual-slider.php:61
+msgid "Slider not found"
+msgstr ""
+
+#: admin/setting-options.php:81
+msgid "Slider Size"
+msgstr ""
+
+#: admin/setting-options.php:276
+msgid "Slider Size in Mobile"
+msgstr ""
+
+#: admin/setting-options.php:182
+msgid "Slider Size on Table"
+msgstr ""
+
+#: visual-slider.php:53
+msgid "Sliders"
+msgstr ""
+
+#: admin/slider-array.php:73
+msgid "Solid"
+msgstr ""
+
+#: admin/setting-options.php:691 admin/setting-options.php:701
+#: admin/setting-options.php:710 admin/setting-options.php:719
+#: admin/setting-options.php:729 admin/setting-options.php:738
+#: admin/setting-options.php:749 admin/setting-options.php:759
+msgid "Spaces"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:570
+msgid "Spinner Icons"
+msgstr ""
+
+#: admin/slider-array.php:445 admin/slider-array.php:493
+msgid "Spread"
+msgstr ""
+
+#: admin/includes/perview-slide.php:47
+msgid "Start Animation"
+msgstr ""
+
+#: admin/includes/perview-slide.php:48
+msgid "Stop Animation"
+msgstr ""
+
+#: admin/setting-options.php:653 admin/setting-options.php:659
+#: admin/setting-options.php:667 admin/setting-options.php:678
+#: admin/slider-array.php:362 admin/slider-array.php:403 layer/button.php:211
+#: layer/button.php:226 layer/button.php:242 layer/button.php:261
+#: layer/button.php:274 layer/icon.php:156 layer/icon.php:172
+#: layer/icon.php:188 layer/icon.php:201 layer/icon.php:212 layer/icon.php:227
+#: layer/icon.php:236 layer/icon.php:255 layer/icon.php:264 layer/text.php:240
+#: layer/text.php:255 layer/text.php:271 layer/text.php:287 layer/text.php:300
+msgid "Style"
+msgstr ""
+
+#: admin/slider-array.php:63
+msgid "Style 1"
+msgstr ""
+
+#: admin/slider-array.php:64
+msgid "Style 2:Top Border inset"
+msgstr ""
+
+#: admin/slider-array.php:65
+msgid "Style 3:Bottom Border inset"
+msgstr ""
+
+#: admin/slider-array.php:66 admin/slider-array.php:67
+msgid "Style 4:Left Border inset"
+msgstr ""
+
+#: admin/slider-array.php:66 admin/slider-array.php:67
+msgid "Style 5:Right Border inset"
+msgstr ""
+
+#: admin/slider-array.php:68
+msgid "Style 6:Icon Background color"
+msgstr ""
+
+#: admin/slider-array.php:69
+msgid "Style 7:none boxed"
+msgstr ""
+
+#: admin/fonts/flaticon_thin.php:395
+msgid "Tech Support"
+msgstr ""
+
+#: admin/fonts/flaticon_thin.php:497
+msgid "Technology"
+msgstr ""
+
+#: layer/text.php:20 layer/text.php:30
+msgid "Text"
+msgstr ""
+
+#: layer/text.php:250
+msgid "Text Color"
+msgstr ""
+
+#: layer/mini/text_typography.php:63
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:640
+msgid "Text Editor Icons"
+msgstr ""
+
+#: layer/text.php:266
+msgid "Text Hover Color"
+msgstr ""
+
+#: layer/text.php:295
+msgid "Text Hover Shadow"
+msgstr ""
+
+#: layer/button.php:256 layer/text.php:282
+msgid "Text Shadow"
+msgstr ""
+
+#: layer/icon.php:262
+msgid "Text Size on Mobile"
+msgstr ""
+
+#: layer/icon.php:234
+msgid "Text Size on Tablet"
+msgstr ""
+
+#: layer/mini/button_typography.php:78 layer/mini/text_typography.php:92
+msgid "Text Transform"
+msgstr ""
+
+#: visual-slider.php:62
+msgid "The slider was found in the trash"
+msgstr ""
+
+#: admin/setting-options.php:555 admin/setting-options.php:558
+#: admin/setting-options.php:566
+msgid "Timer"
+msgstr ""
+
+#: admin/setting-options.php:563
+msgid "Timer Color"
+msgstr ""
+
+#: inc/widget-visualslider.php:80
+msgid "Title"
+msgstr ""
+
+#: admin/setting-options.php:364 admin/slider-array.php:96
+#: admin/slider-array.php:159 admin/slider-array.php:204
+#: admin/slider-array.php:247 admin/slider-array.php:325
+#: admin/slider-array.php:378 layer/mini/effect.php:27
+msgid "Top"
+msgstr ""
+
+#: admin/slider-array.php:97
+msgid "Top Center"
+msgstr ""
+
+#: admin/slider-array.php:521 admin/slider-array.php:530
+#: admin/slider-array.php:564 admin/slider-array.php:570
+msgid "Top Left"
+msgstr ""
+
+#: admin/slider-array.php:521 admin/slider-array.php:530
+#: admin/slider-array.php:564 admin/slider-array.php:570
+msgid "Top Right"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:513
+msgid "Transportation Icons"
+msgstr ""
+
+#: admin/fonts/flaticon_thin.php:772
+msgid "Travel"
+msgstr ""
+
+#: admin/fonts/typcn.php:13
+msgid "Typcn"
+msgstr ""
+
+#: admin/setting-options.php:770 layer/mini/button_typography.php:5
+#: layer/mini/button_typography.php:14 layer/mini/button_typography.php:27
+#: layer/mini/button_typography.php:51 layer/mini/button_typography.php:66
+#: layer/mini/button_typography.php:80 layer/mini/button_typography.php:96
+#: layer/mini/button_typography.php:112 layer/mini/button_typography.php:120
+#: layer/mini/button_typography.php:139 layer/mini/button_typography.php:148
+#: layer/mini/text_typography.php:5 layer/mini/text_typography.php:15
+#: layer/mini/text_typography.php:28 layer/mini/text_typography.php:41
+#: layer/mini/text_typography.php:65 layer/mini/text_typography.php:80
+#: layer/mini/text_typography.php:94 layer/mini/text_typography.php:110
+#: layer/mini/text_typography.php:126 layer/mini/text_typography.php:134
+#: layer/mini/text_typography.php:146 layer/mini/text_typography.php:164
+#: layer/mini/text_typography.php:172 layer/mini/text_typography.php:184
+msgid "Typography"
+msgstr ""
+
+#: admin/slider-array.php:235 admin/slider-array.php:275
+msgid "Uint"
+msgstr ""
+
+#: layer/mini/button_typography.php:58 layer/mini/text_typography.php:72
+msgid "Underline"
+msgstr ""
+
+#: admin/slider-array.php:191
+msgid "Unit"
+msgstr ""
+
+#: admin/includes/options-functions.php:249
+msgid "Upload Image"
+msgstr ""
+
+#: layer/mini/button_typography.php:85 layer/mini/text_typography.php:99
+msgid "Uppercase"
+msgstr ""
+
+#: admin/slider-array.php:297 admin/slider-array.php:430
+#: admin/slider-array.php:480 layer/mini/position_size.php:66
+#: layer/mini/position_size.php:189 layer/mini/position_size.php:311
+msgid "Vertical"
+msgstr ""
+
+#: admin/setting-options.php:586
+msgid "Vertical  ↓"
+msgstr ""
+
+#: layer/mini/position_size.php:27 layer/mini/position_size.php:156
+#: layer/mini/position_size.php:278
+msgid "Vertical Position"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:746
+msgid "Video Player Icons"
+msgstr ""
+
+#: admin/includes/perview-global.php:9
+msgid "View Changes"
+msgstr ""
+
+#: admin/includes/perview-global.php:54
+msgid "View in Full Screen"
+msgstr ""
+
+#: admin/includes/perview-global.php:15 admin/includes/perview-slide.php:72
+msgid "View on Desktop"
+msgstr ""
+
+#: admin/includes/perview-slide.php:115
+msgid "View on Full Screen"
+msgstr ""
+
+#: admin/includes/perview-global.php:42 admin/includes/perview-slide.php:98
+msgid "View on Mobile"
+msgstr ""
+
+#: admin/includes/perview-global.php:30 admin/includes/perview-slide.php:86
+msgid "View on Tablet"
+msgstr ""
+
+#: visual-slider.php:58
+msgid "View Slider"
+msgstr ""
+
+#. Name of the plugin
+#: visual-slider.php:64 inc/composer-visualslider.php:48
+#: inc/composer-visualslider.php:51 inc/elementor-visualslider.php:24
+#: inc/sao-visualslider.php:14 inc/widget-visualslider.php:13
+msgid "Visual Slider"
+msgstr ""
+
+#. Author of the plugin
+msgid "Visual-Slider"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:21
+msgid "Web Application Icons"
+msgstr ""
+
+#: admin/fonts/flaticon_thin.php:720
+msgid "Web Design"
+msgstr ""
+
+#: admin/setting-options.php:92 admin/setting-options.php:194
+#: admin/setting-options.php:288 admin/slider-array.php:594
+#: layer/mini/position_size.php:93 layer/mini/position_size.php:214
+#: layer/mini/position_size.php:337
+msgid "Width"
+msgstr ""
+
+#: admin/fonts/fa-icon.php:590
+msgid "آPayment Icons"
+msgstr ""
+
+#: admin/slide-options.php:46 admin/slider-array.php:148 layer/box.php:72
+#: layer/box.php:137 layer/mini/boxed.php:76 layer/mini/boxed.php:141
+#: layer/mini/button_boxed.php:78 layer/mini/button_boxed.php:144
+msgid "→"
+msgstr ""
+
+#: admin/slide-options.php:47 admin/slider-array.php:149 layer/box.php:73
+#: layer/box.php:138 layer/mini/boxed.php:77 layer/mini/boxed.php:142
+#: layer/mini/button_boxed.php:79 layer/mini/button_boxed.php:145
+msgid "↓"
+msgstr ""
+
+#: admin/slide-options.php:49 admin/slider-array.php:151 layer/box.php:75
+#: layer/box.php:140 layer/mini/boxed.php:79 layer/mini/boxed.php:144
+#: layer/mini/button_boxed.php:81 layer/mini/button_boxed.php:147
+msgid "↗"
+msgstr ""
+
+#: admin/slide-options.php:48 admin/slider-array.php:150 layer/box.php:74
+#: layer/box.php:139 layer/mini/boxed.php:78 layer/mini/boxed.php:143
+#: layer/mini/button_boxed.php:80 layer/mini/button_boxed.php:146
+msgid "↘"
+msgstr ""
+
+#: admin/slide-options.php:50 admin/slider-array.php:152 layer/box.php:76
+#: layer/box.php:141 layer/mini/boxed.php:80 layer/mini/boxed.php:145
+#: layer/mini/button_boxed.php:82 layer/mini/button_boxed.php:148
+msgid "○"
+msgstr ""

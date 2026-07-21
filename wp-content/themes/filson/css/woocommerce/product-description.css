@@ -1,0 +1,71 @@
+.woocommerce-tabs {
+	float: left;
+	width: 100%;
+}
+.hw-el-product-tabs{
+	--hw-el-pd:var(--hw-default-pd);
+}
+.woocommerce-tabs.hw-single-boxed{
+	padding:calc(var(--hw-pd) / 1.5) var(--hw-pd) var(--hw-pd);
+}
+.hw-product-tabs {
+	float: left;
+	width: 100%;
+}
+.hw-product-tabs .tabs {
+	float: left;
+	width: 100%;
+	margin: 0px;
+	box-shadow: 0 -2px 0px var(--hw-main-br-cr) inset;
+	position: relative;
+}
+.hw-product-tabs li {
+	position: relative;
+	float: left;
+	margin: 0 20px 0 0;
+	font-size: 25px !important;
+	list-style: none;
+	color: var(--hw-main-lk) !important;
+}
+.hw-product-tabs li:hover,.hw-product-tabs li.active {
+	border-bottom:solid 3px var(--hw-main-hl);
+	font-weight: 700;
+}
+.hw-product-tabs li a {
+	padding: 0px 0px 5px;
+	font-weight:inherit;
+	float: left;
+	color: inherit !important;
+	line-height: 1.7em;
+}
+.hw-post-tabs-container {
+	padding: 20px 0 0;
+	float: left;
+	width: 100%;
+}
+.woocommerce #reviews #comments ol.commentlist li img.avatar{
+	width: 45px;
+	background:none !important;
+	border-radius: var(--hw-main-rd);
+}
+.woocommerce #reviews #comments ol.commentlist li .meta{
+	color:var(--hw-meta-txt);
+	font-size:.75em
+}
+.woocommerce #reviews #comments h2 {
+	clear: none;
+	font-size: 20px;
+}
+.woocommerce-review__author{
+	color:var(--hw-main-hl);
+}
+.woocommerce-Reviews div.hw-rating {
+	width: auto !important;
+	float: right !important;
+	margin-top: 0px !important;
+	font-size: var(--hw-fn-sm) !important;
+	float: right;
+}
+.woocommerce-Reviews .comment-respond{
+	width:100% !important;
+}
