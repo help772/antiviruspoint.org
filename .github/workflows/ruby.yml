@@ -251,10 +251,9 @@ jobs:
         versions: ${{ steps.versions.outputs.versions }}
         title: Add ${{ steps.versions.outputs.versions }}
         token: ${{ secrets.PR_FROM_RUBY_BUILDER_TOKEN }}
-      matrix:
-        ruby-version: ['2.6', '2.7', '3.3']
+      
 
-    steps:
+    
     - uses: actions/checkout@v4
     - name: Set up Ruby
     # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
