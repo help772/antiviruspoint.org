@@ -19,18 +19,17 @@ permissions:
 jobs:
   test:
 
-    runs-on: ubuntu-latest
-
-  # Build stable releases
-  build:
+     build:
     if: true
-    strategy:
+  strategy:
       fail-fast: false
       matrix:
         os: [ ubuntu-22.04, ubuntu-24.04, ubuntu-26.04, ubuntu-22.04-arm, ubuntu-24.04-arm, ubuntu-26.04-arm, macos-15-intel, macos-14 ]
         ruby: [ruby-3.3.12]
-    runs-on: ${{ matrix.os }}
-    steps:
+      runs-on: ${{ matrix.os }}
+      
+      
+steps:
     - uses: actions/checkout@v6
     - name: Set platform
       id: platform
@@ -137,16 +136,15 @@ jobs:
       run: |
         gh release view "${{ steps.ruby.outputs.tag }}" || gh release create "${{ steps.ruby.outputs.tag }}" --notes "Builds of ${{ steps.ruby.outputs.ruby }}"
         gh release upload "${{ steps.ruby.outputs.tag }}" "${{ steps.ruby.outputs.archive }}"
-
-  buildJRubyWindows:
-    if: false
-    strategy:
+        buildJRubyWindows:
+        if: false
+        strategy:
       fail-fast: false
       matrix:
         os: [ windows-2022, windows-11-arm ]
         jruby-version: [10.0.6.0]
-    runs-on: ${{ matrix.os }}
-    steps:
+        runs-on: ${{ matrix.os }}
+      steps:
     - uses: actions/checkout@v6
     - name: Set platform
       id: platform
@@ -226,14 +224,12 @@ jobs:
       run: |
         gh release view "${{ steps.ruby.outputs.tag }}" || gh release create "${{ steps.ruby.outputs.tag }}" --notes "Builds of ${{ steps.ruby.outputs.ruby }}"
         gh release upload "${{ steps.ruby.outputs.tag }}" "${{ steps.ruby.outputs.archive }}"
-
-
-  createPullRequest:
-    name: Create PR to setup-ruby
-    needs: [build]
-    if: startsWith(github.event.head_commit.message, 'Build ')
-    runs-on: ubuntu-latest
-    steps:
+        createPullRequest:
+        name: Create PR to setup-ruby
+        needs: [build]
+         if: startsWith(github.event.head_commit.message, 'Build ')
+        runs-on: ubuntu-latest
+         steps:
     - name: Set versions
       id: versions
       env:
