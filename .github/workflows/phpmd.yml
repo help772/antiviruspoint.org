@@ -50,10 +50,10 @@ jobs:
         run: |
           phpmd_targets="$(
             find . \
-              \( -path './wp-content/plugins' -o -path './wp-content/plugins/*' -o \
-              -path './wp-content/themes' -o -path './wp-content/themes/*' -o \
-              -path './wp-content/uploads' -o -path './wp-content/uploads/*' -o \
-              -path './wp-content/aiowps_backups' -o -path './wp-content/aiowps_backups/*' \) -prune -o \
+              \( -path './wp-content/plugins' -o \
+              -path './wp-content/themes' -o \
+              -path './wp-content/uploads' -o \
+              -path './wp-content/aiowps_backups' \) -prune -o \
               -name '*.php' -print \
               | paste -sd, -
           )"
