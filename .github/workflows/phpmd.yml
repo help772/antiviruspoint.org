@@ -48,20 +48,21 @@ jobs:
 
       - name: Run PHPMD
         run: |
-          phpmd_targets="$(
-            find . \
-              \( -path './wp-content/plugins*' -o \
-              -path './wp-content/themes*' -o \
-              -path './wp-content/uploads*' -o \
-              -path './wp-content/aiowps_backups*' \) -prune -o \
-              -name '*.php' -print \
-              | paste -sd, -
-          )"
-          if [ -z "$phpmd_targets" ]; then
+          phpmd_targets=()
+          while IFS= read -r -d '' file; do
+            phpmd_targets+=("$file")
+          done < <(find . -maxdepth 1 -name '*.php' -print0)
+          while IFS= read -r -d '' file; do
+            phpmd_targets+=("$file")
+          done < <(find ./wp-content -maxdepth 1 -name '*.php' -print0)
+          if [ -d ./wp-content/mu-plugins ]; then
+            phpmd_targets+=("./wp-content/mu-plugins")
+          fi
+          if [ "${#phpmd_targets[@]}" -eq 0 ]; then
             echo "No PHP files found for PHPMD scan."
             exit 0
           fi
-          phpmd "$phpmd_targets" sarif codesize --reportfile phpmd-results.sarif
+          phpmd "$(IFS=,; echo "${phpmd_targets[*]}")" sarif codesize --reportfile phpmd-results.sarif
         continue-on-error: true
 
       - name: Check PHPMD SARIF output
