@@ -25,7 +25,7 @@ async function run( tag ) {
 		...( process.env.CI ? [] : [ '--tty' ] ),
 		image,
 		'npm', 'run', 'test:playwright', '--',
-		...( tagArgs.length ? [ '--grep', ...tagArgs ] : [] ),
+		...( tagArgs.length ? [ '--grep', tagArgs.join( ',' ) ] : [] ),
 	];
 
 	spawn( 'docker', args, {
