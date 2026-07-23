@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/mdn/content.git"
   },
-  "packageManager": "npm@11.9.0",
+  "packageManager": "npm@12.0.1",
   "engines": {
     "node": ">=24"
   },
@@ -45,7 +45,7 @@
     "lint:typos-words-only": "cspell --no-progress --gitignore --words-only --unique --config .vscode/cspell.json \"**/*.md\"",
     "lint:yml": "prettier -c \"**/*.yml\"",
     "start": "npm run --silent info:fred && npm run up-to-date-check && env-cmd --silent cross-env CONTENT_ROOT=files NODE_ENV=production FRED_PLAYGROUND_LOCAL=true FRED_PLAYGROUND_PORT=5043 FRED_PORT=5042 FRED_WRITER_MODE=true fred server",
-    "test": "node --test",
+    "test": "node --test \"scripts/**/*.test.js\"",
     "up-to-date-check": "node scripts/up-to-date-check.js"
   },
   "devDependencies": {
@@ -75,7 +75,7 @@
     "markdownlint-rule-search-replace": "1.2.0",
     "node-html-parser": "^9.0.0",
     "parse-diff": "^0.12.0",
-    "prettier": "3.9.5",
+    "prettier": "3.9.6",
     "tempy": "^3.2.0",
     "yaml": "^2.9.0",
     "yargs": "^18.0.0"
