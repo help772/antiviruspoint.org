@@ -26,7 +26,13 @@ function areAttributesInOrder(frontMatter, order) {
 
 export async function checkFrontMatter(filePath, options) {
   let content = await fs.readFile(filePath, "utf-8");
-  const document = grayMatter(content);
+  const document = grayMatter(content, {
+    engines: {
+      js: () => {
+        throw new Error("JavaScript front matter is disabled for security reasons");
+      },
+    },
+  });
   const fmObject = document.data;
   const order = options.config["attribute-order"];
 
