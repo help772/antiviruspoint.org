@@ -12,7 +12,6 @@ permissions:
 jobs:
   build:
     name: Build Ruby (${{ matrix.os }}, ${{ matrix.ruby }})
-    if: true
     strategy:
       fail-fast: false
       matrix:
@@ -31,15 +30,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.18.0'
+
       - name: Set platform
         id: platform
         shell: bash
         run: |
-          platform=${{ matrix.os }}
-          platform=${platform/macos-15-intel/darwin-x64}
-          platform=${platform/macos-14/darwin-arm64}
-          platform=${platform/%.04/.04-x64}
-          platform=${platform/%.04-arm/.04-arm64}
+          platform="${{ matrix.os }}"
+          platform="${platform/macos-15-intel/darwin-x64}"
+          platform="${platform/macos-14/darwin-arm64}"
+          # arm mapping must run before generic .04 mapping to avoid incorrect substitution
+          platform="${platform/%.04-arm/.04-arm64}"
+          platform="${platform/%.04/.04-x64}"
           echo "platform=$platform" >> "$GITHUB_OUTPUT"
 
       - name: Set ruby
