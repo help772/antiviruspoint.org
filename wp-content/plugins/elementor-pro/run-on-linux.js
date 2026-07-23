@@ -14,6 +14,7 @@ async function run( tag ) {
 	const workingDir = process.cwd();
 
 	const image = `mcr.microsoft.com/playwright:v${ playwrightVersion.replace( '^', '' ) }-jammy`;
+	const tagArgs = ( Array.isArray( tag ) ? tag : [ tag ] ).filter( Boolean );
 	const args = [
 		'run',
 		'--rm',
@@ -23,7 +24,8 @@ async function run( tag ) {
 		'--interactive',
 		...( process.env.CI ? [] : [ '--tty' ] ),
 		image,
-		'/bin/bash', '-c', `npm run test:playwright -- --grep="${ tag }"`,
+		'npm', 'run', 'test:playwright', '--',
+		...( tagArgs.length ? [ '--grep', ...tagArgs ] : [] ),
 	];
 
 	spawn( 'docker', args, {
