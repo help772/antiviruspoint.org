@@ -13,22 +13,23 @@ async function run( tag ) {
 	const playwrightVersion = packageJson.devDependencies[ '@playwright/test' ];
 	const workingDir = process.cwd();
 
-	const command = 'docker run';
-	const options = [
-		'--rm',
-		'--network host',
-		`--volume ${ workingDir }:/work`,
-		'--workdir /work/',
-		'--interactive',
-		process.env.CI ? '' : '--tty',
-	];
 	const image = `mcr.microsoft.com/playwright:v${ playwrightVersion.replace( '^', '' ) }-jammy`;
-	const commandToRun = `/bin/bash -c "npm run test:playwright -- --grep="${ tag }""`;
+	const args = [
+		'run',
+		'--rm',
+		'--network', 'host',
+		'--volume', `${ workingDir }:/work`,
+		'--workdir', '/work/',
+		'--interactive',
+		...( process.env.CI ? [] : [ '--tty' ] ),
+		image,
+		'/bin/bash', '-c', `npm run test:playwright -- --grep="${ tag }"`,
+	];
 
-	spawn( `${ command } ${ options.join( ' ' ) } ${ image } ${ commandToRun }`, {
+	spawn( 'docker', args, {
 		stdio: 'inherit',
 		stderr: 'inherit',
-		shell: true,
+		shell: false,
 	} );
 }
 
